@@ -7,7 +7,7 @@
 		Light3D is the [i]abstract[/i] base class for light nodes. As it can't be instanced, it shouldn't be used directly. Other types of light nodes inherit from it. Light3D contains the common variables and parameters used for lighting.
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/tutorials/3d/lights_and_shadows.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/lights_and_shadows.html</link>
 	</tutorials>
 	<methods>
 		<method name="get_param" qualifiers="const">
@@ -60,7 +60,7 @@
 			[Texture2D] projected by light. [member shadow_enabled] must be on for the projector to work. Light projectors make the light appear as if it is shining through a colored but transparent object, almost like light shining through stained glass.
 		</member>
 		<member name="light_size" type="float" setter="set_param" getter="get_param" default="0.0">
-			The size of the light in Godot units. Only available for [OmniLight3D]s and [SpotLight3D]s. Increasing this value will make the light fade out slower and shadows appear blurrier. This can be used to simulate area lights to an extent.
+			The size of the light in ValjangEngine units. Only available for [OmniLight3D]s and [SpotLight3D]s. Increasing this value will make the light fade out slower and shadows appear blurrier. This can be used to simulate area lights to an extent.
 		</member>
 		<member name="light_specular" type="float" setter="set_param" getter="get_param" default="0.5">
 			The intensity of the specular blob in objects affected by the light. At [code]0[/code], the light becomes a pure diffuse light. When not baking emission, this can be used to avoid unrealistic reflections when placing lights above an emissive surface.

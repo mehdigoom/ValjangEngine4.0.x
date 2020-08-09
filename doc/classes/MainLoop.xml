@@ -4,8 +4,8 @@
 		Abstract base class for the game's main loop.
 	</brief_description>
 	<description>
-		[MainLoop] is the abstract base class for a Godot project's game loop. It is inherited by [SceneTree], which is the default game loop implementation used in Godot projects, though it is also possible to write and use one's own [MainLoop] subclass instead of the scene tree.
-		Upon the application start, a [MainLoop] implementation must be provided to the OS; otherwise, the application will exit. This happens automatically (and a [SceneTree] is created) unless a main [Script] is provided from the command line (with e.g. [code]godot -s my_loop.gd[/code], which should then be a [MainLoop] implementation.
+		[MainLoop] is the abstract base class for a ValjangEngine project's game loop. It is inherited by [SceneTree], which is the default game loop implementation used in ValjangEngine projects, though it is also possible to write and use one's own [MainLoop] subclass instead of the scene tree.
+		Upon the application start, a [MainLoop] implementation must be provided to the OS; otherwise, the application will exit. This happens automatically (and a [SceneTree] is created) unless a main [Script] is provided from the command line (with e.g. [code]ValjangEngine -s my_loop.gd[/code], which should then be a [MainLoop] implementation.
 		Here is an example script implementing a simple [MainLoop]:
 		[b]FIXME:[/b] No longer valid after DisplayServer split and Input refactoring.
 		[codeblock]
@@ -82,7 +82,7 @@
 			<return type="void">
 			</return>
 			<description>
-				Should not be called manually, override [method _finalize] instead. Will be removed in Godot 4.0.
+				Should not be called manually, override [method _finalize] instead. Will be removed in ValjangEngine 4.0.
 			</description>
 		</method>
 		<method name="idle">
@@ -91,14 +91,14 @@
 			<argument index="0" name="delta" type="float">
 			</argument>
 			<description>
-				Should not be called manually, override [method _idle] instead. Will be removed in Godot 4.0.
+				Should not be called manually, override [method _idle] instead. Will be removed in ValjangEngine 4.0.
 			</description>
 		</method>
 		<method name="init">
 			<return type="void">
 			</return>
 			<description>
-				Should not be called manually, override [method _initialize] instead. Will be removed in Godot 4.0.
+				Should not be called manually, override [method _initialize] instead. Will be removed in ValjangEngine 4.0.
 			</description>
 		</method>
 		<method name="iteration">
@@ -107,7 +107,7 @@
 			<argument index="0" name="delta" type="float">
 			</argument>
 			<description>
-				Should not be called manually, override [method _iteration] instead. Will be removed in Godot 4.0.
+				Should not be called manually, override [method _iteration] instead. Will be removed in ValjangEngine 4.0.
 			</description>
 		</method>
 	</methods>
@@ -135,7 +135,7 @@
 			Specific to the macOS platform.
 		</constant>
 		<constant name="NOTIFICATION_CRASH" value="2012">
-			Notification received from Godot's crash handler when the engine is about to crash.
+			Notification received from ValjangEngine's crash handler when the engine is about to crash.
 			Implemented on desktop platforms if the crash handler is enabled.
 		</constant>
 		<constant name="NOTIFICATION_OS_IME_UPDATE" value="2013">
@@ -151,11 +151,11 @@
 			Specific to the Android platform.
 		</constant>
 		<constant name="NOTIFICATION_APPLICATION_FOCUS_IN" value="2016">
-			Notification received from the OS when the application is focused, i.e. when changing the focus from the OS desktop or a thirdparty application to any open window of the Godot instance.
+			Notification received from the OS when the application is focused, i.e. when changing the focus from the OS desktop or a thirdparty application to any open window of the ValjangEngine instance.
 			Implemented on desktop platforms.
 		</constant>
 		<constant name="NOTIFICATION_APPLICATION_FOCUS_OUT" value="2017">
-			Notification received from the OS when the application is defocused, i.e. when changing the focus from any open window of the Godot instance to the OS desktop or a thirdparty application.
+			Notification received from the OS when the application is defocused, i.e. when changing the focus from any open window of the ValjangEngine instance to the OS desktop or a thirdparty application.
 			Implemented on desktop platforms.
 		</constant>
 	</constants>

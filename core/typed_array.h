@@ -2,11 +2,11 @@
 /*  typed_array.h                                                        */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -147,7 +147,7 @@ struct PtrToArg<const TypedArray<T> &> {
 template <class T>
 struct GetTypeInfo<TypedArray<T>> {
 	static const Variant::Type VARIANT_TYPE = Variant::ARRAY;
-	static const GodotTypeInfo::Metadata METADATA = GodotTypeInfo::METADATA_NONE;
+	static const ValjangEngineTypeInfo::Metadata METADATA = ValjangEngineTypeInfo::METADATA_NONE;
 	static inline PropertyInfo get_class_info() {
 		return PropertyInfo(Variant::ARRAY, String(), PROPERTY_HINT_ARRAY_TYPE, T::get_class_static());
 	}
@@ -156,7 +156,7 @@ struct GetTypeInfo<TypedArray<T>> {
 template <class T>
 struct GetTypeInfo<const TypedArray<T> &> {
 	static const Variant::Type VARIANT_TYPE = Variant::ARRAY;
-	static const GodotTypeInfo::Metadata METADATA = GodotTypeInfo::METADATA_NONE;
+	static const ValjangEngineTypeInfo::Metadata METADATA = ValjangEngineTypeInfo::METADATA_NONE;
 	static inline PropertyInfo get_class_info() {
 		return PropertyInfo(Variant::ARRAY, String(), PROPERTY_HINT_ARRAY_TYPE, T::get_class_static());
 	}
@@ -166,7 +166,7 @@ struct GetTypeInfo<const TypedArray<T> &> {
 	template <>                                                                                                              \
 	struct GetTypeInfo<TypedArray<m_type>> {                                                                                 \
 		static const Variant::Type VARIANT_TYPE = Variant::ARRAY;                                                            \
-		static const GodotTypeInfo::Metadata METADATA = GodotTypeInfo::METADATA_NONE;                                        \
+		static const ValjangEngineTypeInfo::Metadata METADATA = ValjangEngineTypeInfo::METADATA_NONE;                                        \
 		static inline PropertyInfo get_class_info() {                                                                        \
 			return PropertyInfo(Variant::ARRAY, String(), PROPERTY_HINT_ARRAY_TYPE, Variant::get_type_name(m_variant_type)); \
 		}                                                                                                                    \
@@ -174,7 +174,7 @@ struct GetTypeInfo<const TypedArray<T> &> {
 	template <>                                                                                                              \
 	struct GetTypeInfo<const TypedArray<m_type> &> {                                                                         \
 		static const Variant::Type VARIANT_TYPE = Variant::ARRAY;                                                            \
-		static const GodotTypeInfo::Metadata METADATA = GodotTypeInfo::METADATA_NONE;                                        \
+		static const ValjangEngineTypeInfo::Metadata METADATA = ValjangEngineTypeInfo::METADATA_NONE;                                        \
 		static inline PropertyInfo get_class_info() {                                                                        \
 			return PropertyInfo(Variant::ARRAY, String(), PROPERTY_HINT_ARRAY_TYPE, Variant::get_type_name(m_variant_type)); \
 		}                                                                                                                    \

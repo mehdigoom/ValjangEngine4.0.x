@@ -1,4 +1,4 @@
-# Godot auto generated files
+# ValjangEngine auto generated files
 *.gen.*
 .import/
 
@@ -337,10 +337,10 @@ cscope.files
 cscope.out
 cscope.in.out
 cscope.po.out
-godot.creator.*
+ValjangEngine.creator.*
 
 projects/
-platform/windows/godot_res.res
+platform/windows/ValjangEngine_res.res
 
 # Visual Studio 2017 and Visual Studio Code workspace folder
 /.vs
@@ -375,7 +375,7 @@ cppcheck-cppcheck-build-dir/
 *index-sort-l.html
 *index.html
 MachineIndependent/
-godot.info
+ValjangEngine.info
 amber.png
 emerald.png
 glass.png

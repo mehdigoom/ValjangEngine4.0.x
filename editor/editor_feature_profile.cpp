@@ -2,11 +2,11 @@
 /*  editor_feature_profile.cpp                                           */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -893,7 +893,7 @@ EditorFeatureProfileManager::EditorFeatureProfileManager() {
 	import_profiles = memnew(EditorFileDialog);
 	add_child(import_profiles);
 	import_profiles->set_file_mode(EditorFileDialog::FILE_MODE_OPEN_FILES);
-	import_profiles->add_filter("*.profile; " + TTR("Godot Feature Profile"));
+	import_profiles->add_filter("*.profile; " + TTR("ValjangEngine Feature Profile"));
 	import_profiles->connect("files_selected", callable_mp(this, &EditorFeatureProfileManager::_import_profiles));
 	import_profiles->set_title(TTR("Import Profile(s)"));
 	import_profiles->set_access(EditorFileDialog::ACCESS_FILESYSTEM);
@@ -901,7 +901,7 @@ EditorFeatureProfileManager::EditorFeatureProfileManager() {
 	export_profile = memnew(EditorFileDialog);
 	add_child(export_profile);
 	export_profile->set_file_mode(EditorFileDialog::FILE_MODE_SAVE_FILE);
-	export_profile->add_filter("*.profile; " + TTR("Godot Feature Profile"));
+	export_profile->add_filter("*.profile; " + TTR("ValjangEngine Feature Profile"));
 	export_profile->connect("file_selected", callable_mp(this, &EditorFeatureProfileManager::_export_profile));
 	export_profile->set_title(TTR("Export Profile"));
 	export_profile->set_access(EditorFileDialog::ACCESS_FILESYSTEM);

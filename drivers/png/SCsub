@@ -54,7 +54,7 @@ if env["builtin_libpng"]:
         neon_sources.append(env_neon.Object(thirdparty_dir + "/arm/palette_neon_intrinsics.c"))
         env.drivers_sources += neon_sources
 
-# Godot source files
+# ValjangEngine source files
 env_png.add_source_files(env.drivers_sources, "*.cpp")
 
 Export("env")

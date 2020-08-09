@@ -2,11 +2,11 @@
 /*  string_builder.h                                                     */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -40,7 +40,7 @@ class StringBuilder {
 	Vector<String> strings;
 	Vector<const char *> c_strings;
 
-	// -1 means it's a Godot String
+	// -1 means it's a ValjangEngine String
 	// a natural number means C string.
 	Vector<int32_t> appended_strings;
 

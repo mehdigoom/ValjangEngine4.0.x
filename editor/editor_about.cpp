@@ -2,11 +2,11 @@
 /*  editor_about.cpp                                                     */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -107,7 +107,7 @@ ScrollContainer *EditorAbout::_populate_list(const String &p_name, const List<St
 }
 
 EditorAbout::EditorAbout() {
-	set_title(TTR("Thanks from the Godot community!"));
+	set_title(TTR("Thanks from the ValjangEngine community!"));
 	set_hide_on_ok(true);
 
 	VBoxContainer *vbc = memnew(VBoxContainer);
@@ -131,7 +131,7 @@ EditorAbout::EditorAbout() {
 	about_text->set_v_size_flags(Control::SIZE_SHRINK_CENTER);
 	about_text->set_text(VERSION_FULL_NAME + hash +
 						 String::utf8("\n\xc2\xa9 2007-2020 Juan Linietsky, Ariel Manzur.\n\xc2\xa9 2014-2020 ") +
-						 TTR("Godot Engine contributors") + "\n");
+						 TTR("ValjangEngine Engine contributors") + "\n");
 	hbc->add_child(about_text);
 
 	TabContainer *tc = memnew(TabContainer);
@@ -169,7 +169,7 @@ EditorAbout::EditorAbout() {
 	_license_text->set_name(TTR("License"));
 	_license_text->set_h_size_flags(Control::SIZE_EXPAND_FILL);
 	_license_text->set_v_size_flags(Control::SIZE_EXPAND_FILL);
-	_license_text->set_text(String::utf8(GODOT_LICENSE_TEXT));
+	_license_text->set_text(String::utf8(ValjangEngine_LICENSE_TEXT));
 	tc->add_child(_license_text);
 
 	// Thirdparty License
@@ -182,7 +182,7 @@ EditorAbout::EditorAbout() {
 	Label *tpl_label = memnew(Label);
 	tpl_label->set_h_size_flags(Control::SIZE_EXPAND_FILL);
 	tpl_label->set_autowrap(true);
-	tpl_label->set_text(TTR("Godot Engine relies on a number of third-party free and open source libraries, all compatible with the terms of its MIT license. The following is an exhaustive list of all such third-party components with their respective copyright statements and license terms."));
+	tpl_label->set_text(TTR("ValjangEngine Engine relies on a number of third-party free and open source libraries, all compatible with the terms of its MIT license. The following is an exhaustive list of all such third-party components with their respective copyright statements and license terms."));
 	tpl_label->set_size(Size2(630, 1) * EDSCALE);
 	license_thirdparty->add_child(tpl_label);
 

@@ -2,11 +2,11 @@
 /*  file_access_zip.cpp                                                  */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -39,7 +39,7 @@ ZipArchive *ZipArchive::instance = nullptr;
 
 extern "C" {
 
-static void *godot_open(void *data, const char *p_fname, int mode) {
+static void *ValjangEngine_open(void *data, const char *p_fname, int mode) {
 	if (mode & ZLIB_FILEFUNC_MODE_WRITE) {
 		return nullptr;
 	}
@@ -50,22 +50,22 @@ static void *godot_open(void *data, const char *p_fname, int mode) {
 	return f->is_open() ? data : nullptr;
 }
 
-static uLong godot_read(void *data, void *fdata, void *buf, uLong size) {
+static uLong ValjangEngine_read(void *data, void *fdata, void *buf, uLong size) {
 	FileAccess *f = (FileAccess *)data;
 	f->get_buffer((uint8_t *)buf, size);
 	return size;
 }
 
-static uLong godot_write(voidpf opaque, voidpf stream, const void *buf, uLong size) {
+static uLong ValjangEngine_write(voidpf opaque, voidpf stream, const void *buf, uLong size) {
 	return 0;
 }
 
-static long godot_tell(voidpf opaque, voidpf stream) {
+static long ValjangEngine_tell(voidpf opaque, voidpf stream) {
 	FileAccess *f = (FileAccess *)opaque;
 	return f->get_position();
 }
 
-static long godot_seek(voidpf opaque, voidpf stream, uLong offset, int origin) {
+static long ValjangEngine_seek(voidpf opaque, voidpf stream, uLong offset, int origin) {
 	FileAccess *f = (FileAccess *)opaque;
 
 	int pos = offset;
@@ -84,22 +84,22 @@ static long godot_seek(voidpf opaque, voidpf stream, uLong offset, int origin) {
 	return 0;
 }
 
-static int godot_close(voidpf opaque, voidpf stream) {
+static int ValjangEngine_close(voidpf opaque, voidpf stream) {
 	FileAccess *f = (FileAccess *)opaque;
 	f->close();
 	return 0;
 }
 
-static int godot_testerror(voidpf opaque, voidpf stream) {
+static int ValjangEngine_testerror(voidpf opaque, voidpf stream) {
 	FileAccess *f = (FileAccess *)opaque;
 	return f->get_error() != OK ? 1 : 0;
 }
 
-static voidpf godot_alloc(voidpf opaque, uInt items, uInt size) {
+static voidpf ValjangEngine_alloc(voidpf opaque, uInt items, uInt size) {
 	return memalloc(items * size);
 }
 
-static void godot_free(voidpf opaque, voidpf address) {
+static void ValjangEngine_free(voidpf opaque, voidpf address) {
 	memfree(address);
 }
 
@@ -124,17 +124,17 @@ unzFile ZipArchive::get_file_handle(String p_file) const {
 	zeromem(&io, sizeof(io));
 
 	io.opaque = f;
-	io.zopen_file = godot_open;
-	io.zread_file = godot_read;
-	io.zwrite_file = godot_write;
+	io.zopen_file = ValjangEngine_open;
+	io.zread_file = ValjangEngine_read;
+	io.zwrite_file = ValjangEngine_write;
 
-	io.ztell_file = godot_tell;
-	io.zseek_file = godot_seek;
-	io.zclose_file = godot_close;
-	io.zerror_file = godot_testerror;
+	io.ztell_file = ValjangEngine_tell;
+	io.zseek_file = ValjangEngine_seek;
+	io.zclose_file = ValjangEngine_close;
+	io.zerror_file = ValjangEngine_testerror;
 
-	io.alloc_mem = godot_alloc;
-	io.free_mem = godot_free;
+	io.alloc_mem = ValjangEngine_alloc;
+	io.free_mem = ValjangEngine_free;
 
 	unzFile pkg = unzOpen2(packages[file.package].filename.utf8().get_data(), &io);
 	ERR_FAIL_COND_V(!pkg, nullptr);
@@ -160,14 +160,14 @@ bool ZipArchive::try_open_pack(const String &p_path, bool p_replace_files) {
 		return false;
 	}
 	io.opaque = fa;
-	io.zopen_file = godot_open;
-	io.zread_file = godot_read;
-	io.zwrite_file = godot_write;
+	io.zopen_file = ValjangEngine_open;
+	io.zread_file = ValjangEngine_read;
+	io.zwrite_file = ValjangEngine_write;
 
-	io.ztell_file = godot_tell;
-	io.zseek_file = godot_seek;
-	io.zclose_file = godot_close;
-	io.zerror_file = godot_testerror;
+	io.ztell_file = ValjangEngine_tell;
+	io.zseek_file = ValjangEngine_seek;
+	io.zclose_file = ValjangEngine_close;
+	io.zerror_file = ValjangEngine_testerror;
 
 	unzFile zfile = unzOpen2(p_path.utf8().get_data(), &io);
 	ERR_FAIL_COND_V(!zfile, false);

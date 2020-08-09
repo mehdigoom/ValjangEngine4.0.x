@@ -11,8 +11,8 @@
 		- Adjustments
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/tutorials/3d/environment_and_post_processing.html</link>
-		<link>https://docs.godotengine.org/en/latest/tutorials/3d/high_dynamic_range.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/environment_and_post_processing.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/high_dynamic_range.html</link>
 	</tutorials>
 	<methods>
 		<method name="is_glow_level_enabled" qualifiers="const">
@@ -260,7 +260,7 @@
 			The default exposure used for tonemapping.
 		</member>
 		<member name="tonemap_mode" type="int" setter="set_tonemapper" getter="get_tonemapper" enum="Environment.ToneMapper" default="0">
-			The tonemapping mode to use. Tonemapping is the process that "converts" HDR values to be suitable for rendering on a LDR display. (Godot doesn't support rendering on HDR displays yet.)
+			The tonemapping mode to use. Tonemapping is the process that "converts" HDR values to be suitable for rendering on a LDR display. (ValjangEngine doesn't support rendering on HDR displays yet.)
 		</member>
 		<member name="tonemap_white" type="float" setter="set_tonemap_white" getter="get_tonemap_white" default="1.0">
 			The white reference value for tonemapping. Only effective if the [member tonemap_mode] isn't set to [constant TONE_MAPPER_LINEAR].

@@ -69,7 +69,7 @@
 			<argument index="0" name="path" type="String">
 			</argument>
 			<description>
-				Update a file information. Call this if an external program (not Godot) modified the file.
+				Update a file information. Call this if an external program (not ValjangEngine) modified the file.
 			</description>
 		</method>
 		<method name="update_script_classes">

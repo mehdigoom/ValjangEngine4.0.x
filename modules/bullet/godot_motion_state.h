@@ -1,12 +1,12 @@
 /*************************************************************************/
-/*  godot_motion_state.h                                                 */
+/*  ValjangEngine_motion_state.h                                                 */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -28,8 +28,8 @@
 /* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                */
 /*************************************************************************/
 
-#ifndef GODOT_MOTION_STATE_H
-#define GODOT_MOTION_STATE_H
+#ifndef ValjangEngine_MOTION_STATE_H
+#define ValjangEngine_MOTION_STATE_H
 
 #include "rigid_body_bullet.h"
 
@@ -45,7 +45,7 @@ class RigidBodyBullet;
 // and sincronize rendering engine with Bullet
 /// DOC:
 /// http://www.bulletphysics.org/mediawiki-1.5.8/index.php/MotionStates#What.27s_a_MotionState.3F
-class GodotMotionState : public btMotionState {
+class ValjangEngineMotionState : public btMotionState {
 	/// This data is used to store the new world position for kinematic body
 	btTransform bodyKinematicWorldTransf;
 	/// This data is used to store last world position
@@ -54,14 +54,14 @@ class GodotMotionState : public btMotionState {
 	RigidBodyBullet *owner;
 
 public:
-	GodotMotionState(RigidBodyBullet *p_owner) :
+	ValjangEngineMotionState(RigidBodyBullet *p_owner) :
 			bodyKinematicWorldTransf(btMatrix3x3(1., 0., 0., 0., 1., 0., 0., 0., 1.), btVector3(0., 0., 0.)),
 			bodyCurrentWorldTransform(btMatrix3x3(1., 0., 0., 0., 1., 0., 0., 0., 1.), btVector3(0., 0., 0.)),
 			owner(p_owner) {}
 
 	/// IMPORTANT DON'T USE THIS FUNCTION TO KNOW THE CURRENT BODY TRANSFORM
 	/// This class is used internally by Bullet
-	/// Use GodotMotionState::getCurrentWorldTransform to know current position
+	/// Use ValjangEngineMotionState::getCurrentWorldTransform to know current position
 	///
 	/// This function is used by Bullet to get the position of object in the world
 	/// if the body is kinematic Bullet will move the object to this location
@@ -75,9 +75,9 @@ public:
 	///
 	/// This function is called each time by Bullet and set the current position of body
 	/// inside the physics world.
-	/// Don't allow Godot rendering scene takes world transform from this object because
+	/// Don't allow ValjangEngine rendering scene takes world transform from this object because
 	/// the correct transform is set by Bullet only after the last step when there are sub steps
-	/// This function must update Godot transform rendering scene for this object.
+	/// This function must update ValjangEngine transform rendering scene for this object.
 	virtual void setWorldTransform(const btTransform &worldTrans) {
 		bodyCurrentWorldTransform = worldTrans;
 

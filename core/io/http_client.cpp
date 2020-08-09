@@ -2,11 +2,11 @@
 /*  http_client.cpp                                                      */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -138,7 +138,7 @@ Error HTTPClient::request_raw(Method p_method, const String &p_url, const Vector
 		// Should it add utf8 encoding?
 	}
 	if (add_uagent) {
-		request += "User-Agent: GodotEngine/" + String(VERSION_FULL_BUILD) + " (" + OS::get_singleton()->get_name() + ")\r\n";
+		request += "User-Agent: ValjangEngineEngine/" + String(VERSION_FULL_BUILD) + " (" + OS::get_singleton()->get_name() + ")\r\n";
 	}
 	if (add_accept) {
 		request += "Accept: */*\r\n";
@@ -205,7 +205,7 @@ Error HTTPClient::request(Method p_method, const String &p_url, const Vector<Str
 		// Should it add utf8 encoding?
 	}
 	if (add_uagent) {
-		request += "User-Agent: GodotEngine/" + String(VERSION_FULL_BUILD) + " (" + OS::get_singleton()->get_name() + ")\r\n";
+		request += "User-Agent: ValjangEngineEngine/" + String(VERSION_FULL_BUILD) + " (" + OS::get_singleton()->get_name() + ")\r\n";
 	}
 	if (add_accept) {
 		request += "Accept: */*\r\n";

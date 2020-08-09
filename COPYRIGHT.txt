@@ -1,9 +1,9 @@
-# Exhaustive licensing information for files in the Godot Engine repository
+# Exhaustive licensing information for files in the ValjangEngine Engine repository
 # =========================================================================
 #
 # This file aims at documenting the copyright and license for every source
-# file in the Godot Engine repository, and especially outline the files
-# whose license differs from the MIT/Expat license used by Godot Engine.
+# file in the ValjangEngine Engine repository, and especially outline the files
+# whose license differs from the MIT/Expat license used by ValjangEngine Engine.
 #
 # It is written as a machine-readable format following the debian/copyright
 # specification. Globbing patterns (e.g. "Files: *") mean that they affect
@@ -27,31 +27,31 @@
 #   License: Zlib
 # The exact copyright for each file in that library *may* differ, and some
 # files or code snippets might be distributed under other compatible licenses
-# (e.g. a public domain dedication), but as far as Godot Engine is concerned
+# (e.g. a public domain dedication), but as far as ValjangEngine Engine is concerned
 # the library is considered as a whole under the Zlib license.
 #
 # Nota: When linking dynamically against thirdparty libraries instead of
-# building them into the Godot binary, you may remove the corresponding
+# building them into the ValjangEngine binary, you may remove the corresponding
 # license details from this file.
 
 -----------------------------------------------------------------------
 
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Godot Engine
-Upstream-Contact: Rémi Verschelde <contact@godotengine.org>
-Source: https://github.com/godotengine/godot
+Upstream-Name: ValjangEngine Engine
+Upstream-Contact: Rémi Verschelde <contact@ValjangEngineengine.org>
+Source: https://github.com/ValjangEngineengine/ValjangEngine
 
 Files: *
-Comment: Godot Engine
+Comment: ValjangEngine Engine
 Copyright: 2007-2020, Juan Linietsky, Ariel Manzur.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, ValjangEngine Engine contributors.
 License: Expat
 
 Files: ./icon.png
  ./icon.svg
  ./logo.png
  ./logo.svg
-Comment: Godot Engine logo
+Comment: ValjangEngine Engine logo
 Copyright: 2017, Andrea Calabró
 License: CC-BY-3.0
 
@@ -59,8 +59,8 @@ Files: ./platform/android/java/aidl/com/android/vending/billing/IInAppBillingSer
  ./platform/android/java/res/layout/status_bar_ongoing_event_progress_bar.xml
  ./platform/android/java/src/com/google/android/vending/expansion/downloader/*
  ./platform/android/java/src/com/google/android/vending/licensing/*
- ./platform/android/java/src/org/godotengine/godot/input/InputManagerCompat.java
- ./platform/android/java/src/org/godotengine/godot/input/InputManagerV16.java
+ ./platform/android/java/src/org/ValjangEngineengine/ValjangEngine/input/InputManagerCompat.java
+ ./platform/android/java/src/org/ValjangEngineengine/ValjangEngine/input/InputManagerV16.java
 Comment: The Android Open Source Project
 Copyright: 2008-2013, The Android Open Source Project
 License: Apache-2.0
@@ -89,7 +89,7 @@ Files: ./servers/physics/gjk_epa.cpp
 Comment: Bullet Continuous Collision Detection and Physics Library
 Copyright: 2003-2008, Erwin Coumans
  2007-2020, Juan Linietsky, Ariel Manzur.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, ValjangEngine Engine contributors.
 License: Expat and Zlib
 
 Files: ./servers/physics/joints/cone_twist_joint_sw.cpp
@@ -97,7 +97,7 @@ Files: ./servers/physics/joints/cone_twist_joint_sw.cpp
 Comment: Bullet Continuous Collision Detection and Physics Library
 Copyright: 2007, Starbreeze Studios
  2007-2020, Juan Linietsky, Ariel Manzur.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, ValjangEngine Engine contributors.
 License: Expat and Zlib
 
 Files: ./thirdparty/assimp/

@@ -2,11 +2,11 @@
 /*  doc_data.cpp                                                         */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -166,9 +166,9 @@ void DocData::merge_from(const DocData &p_data) {
 		// hardcoded below. At least it's an ad hoc hack... ¯\_(ツ)_/¯
 		// Don't show this to your kids.
 		if (c.name == "@GlobalScope") {
-			// Retrieve GodotSharp singleton.
+			// Retrieve ValjangEngineSharp singleton.
 			for (int j = 0; j < cf.properties.size(); j++) {
-				if (cf.properties[j].name == "GodotSharp") {
+				if (cf.properties[j].name == "ValjangEngineSharp") {
 					c.properties.push_back(cf.properties[j]);
 				}
 			}

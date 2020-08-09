@@ -1,9 +1,9 @@
-# French translation of the Godot Engine class reference.
+# French translation of the ValjangEngine Engine class reference.
 # Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).
+# This file is distributed under the same license as the ValjangEngine source code.
 #
-# Rémi Verschelde <remi@godotengine.org>, 2020.
+# Rémi Verschelde <remi@ValjangEngineengine.org>, 2020.
 # Freyja <aerandil@gmail.com>, 2020.
 # Gol.D.eNI <eniolamy1@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
@@ -11,13 +11,13 @@
 # Fox Lahoki <alexbar@live.fr>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine class reference\n"
-"Report-Msgid-Bugs-To: https://github.com/godotengine/godot\n"
+"Project-Id-Version: ValjangEngine Engine class reference\n"
+"Report-Msgid-Bugs-To: https://github.com/ValjangEngineengine/ValjangEngine\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-05-18 00:28+0000\n"
 "Last-Translator: Fox Lahoki <alexbar@live.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/godot-engine/"
-"godot-class-reference/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ValjangEngine-engine/"
+"ValjangEngine-class-reference/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -893,7 +893,7 @@ msgid ""
 "Be aware that the JSON specification does not define integer or float types, "
 "but only a number type. Therefore, parsing a JSON text will convert all "
 "numerical values to [float] types.\n"
-"Note that JSON objects do not preserve key order like Godot dictionaries, "
+"Note that JSON objects do not preserve key order like ValjangEngine dictionaries, "
 "thus you should not rely on keys being in a certain order if a dictionary is "
 "constructed from JSON. In contrast, JSON arrays retain the order of their "
 "elements:\n"
@@ -1002,7 +1002,7 @@ msgid ""
 "printraw(\"B\")\n"
 "# Prints AB\n"
 "[/codeblock]\n"
-"[b]Note:[/b] Due to limitations with Godot's built-in console, this only "
+"[b]Note:[/b] Due to limitations with ValjangEngine's built-in console, this only "
 "prints to the terminal. If you need to print in the editor, use another "
 "method, such as [method print]."
 msgstr ""
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: modules/gdscript/doc_classes/@GDScript.xml:886
 msgid ""
-"Pushes an error message to Godot's built-in debugger and to the OS "
+"Pushes an error message to ValjangEngine's built-in debugger and to the OS "
 "terminal.\n"
 "[codeblock]\n"
 "push_error(\"test error\") # Prints \"test error\" to debugger and terminal "
@@ -1037,7 +1037,7 @@ msgstr ""
 
 #: modules/gdscript/doc_classes/@GDScript.xml:898
 msgid ""
-"Pushes a warning message to Godot's built-in debugger and to the OS "
+"Pushes a warning message to ValjangEngine's built-in debugger and to the OS "
 "terminal.\n"
 "[codeblock]\n"
 "push_warning(\"test warning\") # Prints \"test warning\" to debugger and "
@@ -1153,7 +1153,7 @@ msgstr ""
 msgid ""
 "Sets seed for the random number generator.\n"
 "[codeblock]\n"
-"my_seed = \"Godot Rocks\"\n"
+"my_seed = \"ValjangEngine Rocks\"\n"
 "seed(my_seed.hash())\n"
 "[/codeblock]"
 msgstr ""
@@ -1524,7 +1524,7 @@ msgid "The [Geometry3D] singleton."
 msgstr ""
 
 #: doc/classes/@GlobalScope.xml:37
-msgid "The [GodotSharp] singleton."
+msgid "The [ValjangEngineSharp] singleton."
 msgstr ""
 
 #: doc/classes/@GlobalScope.xml:40
@@ -3719,7 +3719,7 @@ msgstr ""
 #: doc/classes/Rect2i.xml:11 doc/classes/Transform.xml:10
 #: doc/classes/Vector2.xml:12 doc/classes/Vector2i.xml:12
 #: doc/classes/Vector3.xml:12 doc/classes/Vector3i.xml:12
-msgid "https://docs.godotengine.org/en/latest/tutorials/math/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/math/index.html"
 msgstr ""
 
 #: doc/classes/AABB.xml:21
@@ -4224,7 +4224,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Animation.xml:20 doc/classes/AnimationPlayer.xml:13
-msgid "https://docs.godotengine.org/en/latest/tutorials/animation/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/animation/index.html"
 msgstr ""
 
 #: doc/classes/Animation.xml:31
@@ -4666,7 +4666,7 @@ msgstr ""
 #: doc/classes/AnimationNodeTimeSeek.xml:10
 #: doc/classes/AnimationNodeTransition.xml:10 doc/classes/AnimationTree.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/animation/animation_tree."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/animation/animation_tree."
 "html"
 msgstr ""
 
@@ -5364,7 +5364,7 @@ msgstr ""
 msgid ""
 "Turn on auto advance when this condition is set. The provided name will "
 "become a boolean parameter on the [AnimationTree] that can be controlled "
-"from code (see [url=https://docs.godotengine.org/en/latest/tutorials/"
+"from code (see [url=https://docs.ValjangEngineengine.org/en/latest/tutorials/"
 "animation/animation_tree.html#controlling-from-code][/url]). For example, if "
 "[member AnimationTree.tree_root] is an [AnimationNodeStateMachine] and "
 "[member advance_condition] is set to [code]\"idle\"[/code]:\n"
@@ -5487,7 +5487,7 @@ msgstr ""
 
 #: doc/classes/AnimationPlayer.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "animations.html"
 msgstr ""
 
@@ -5754,7 +5754,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/AnimationTree.xml:11
-msgid "https://github.com/godotengine/tps-demo"
+msgid "https://github.com/ValjangEngineengine/tps-demo"
 msgstr ""
 
 #: doc/classes/AnimationTree.xml:20
@@ -5829,7 +5829,7 @@ msgstr ""
 
 #: doc/classes/Area2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/using_area_2d.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/using_area_2d.html"
 msgstr ""
 
 #: doc/classes/Area2D.xml:19
@@ -6521,14 +6521,14 @@ msgid ""
 "The [MeshInstance3D] is ready to be added to the [SceneTree] to be shown.\n"
 "See also [ImmediateGeometry3D], [MeshDataTool] and [SurfaceTool] for "
 "procedural geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] ValjangEngine uses clockwise [url=https://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
 
 #: doc/classes/ArrayMesh.xml:29
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/content/procedural_geometry/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/content/procedural_geometry/"
 "arraymesh.html"
 msgstr ""
 
@@ -6754,7 +6754,7 @@ msgid ""
 "A* (A star) is a computer algorithm that is widely used in pathfinding and "
 "graph traversal, the process of plotting short paths among vertices "
 "(points), passing through a given set of edges (segments). It enjoys "
-"widespread use due to its performance and accuracy. Godot's A* "
+"widespread use due to its performance and accuracy. ValjangEngine's A* "
 "implementation uses points in three-dimensional space and Euclidean "
 "distances by default.\n"
 "You must add points manually with [method add_point] and create segments "
@@ -7729,7 +7729,7 @@ msgstr ""
 
 #: doc/classes/AudioEffectRecord.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/audio/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/audio/"
 "recording_with_microphone.html"
 msgstr ""
 
@@ -7833,7 +7833,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/AudioServer.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/audio/audio_buses.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/audio/audio_buses.html"
 msgstr ""
 
 #: doc/classes/AudioServer.xml:19
@@ -8062,7 +8062,7 @@ msgstr ""
 #: doc/classes/AudioStreamPlayer2D.xml:10
 #: doc/classes/AudioStreamPlayer3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/audio/audio_streams.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/audio/audio_streams.html"
 msgstr ""
 
 #: doc/classes/AudioStream.xml:17
@@ -8072,7 +8072,7 @@ msgstr ""
 #: doc/classes/AudioStreamGenerator.xml:8
 #: doc/classes/AudioStreamGeneratorPlayback.xml:8
 msgid ""
-"https://github.com/godotengine/godot-demo-projects/tree/master/audio/"
+"https://github.com/ValjangEngineengine/ValjangEngine-demo-projects/tree/master/audio/"
 "generator"
 msgstr ""
 
@@ -8669,7 +8669,7 @@ msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/spatial_material.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/spatial_material.html"
 msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:19
@@ -8884,7 +8884,7 @@ msgstr ""
 #: doc/classes/BaseMaterial3D.xml:161
 msgid ""
 "Texture that specifies the per-pixel normal of the detail overlay.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -9029,7 +9029,7 @@ msgid ""
 "[code]normal_texture[/code] only uses the red and green channels. The normal "
 "read from [code]normal_texture[/code] is oriented around the surface normal "
 "provided by the [Mesh].\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -9763,7 +9763,7 @@ msgstr ""
 
 #: doc/classes/Basis.xml:11 doc/classes/Transform.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/using_transforms.html"
 msgstr ""
 
 #: doc/classes/Basis.xml:20
@@ -9805,7 +9805,7 @@ msgid ""
 "sphere, lying along the vectors (x,y,z) with each component being either -1, "
 "0, or 1, and returns the index of the point best representing the "
 "orientation of the object. It is mainly used by the grid map editor. For "
-"further details, refer to the Godot source code."
+"further details, refer to the ValjangEngine source code."
 msgstr ""
 
 #: doc/classes/Basis.xml:81
@@ -10986,21 +10986,21 @@ msgstr ""
 #: doc/classes/CameraFeed.xml:7
 msgid ""
 "A camera feed gives you access to a single physical camera attached to your "
-"device. When enabled, Godot will start capturing frames from the camera "
+"device. When enabled, ValjangEngine will start capturing frames from the camera "
 "which can then be used. See also [CameraServer].\n"
 "[b]Note:[/b] Many cameras will return YCbCr images which are split into two "
-"textures and need to be combined in a shader. Godot does this automatically "
+"textures and need to be combined in a shader. ValjangEngine does this automatically "
 "for you if you set the environment to show the camera image in the "
 "background."
 msgstr ""
 
 #: doc/classes/CameraServer.xml:4
-msgid "Server keeping track of different cameras accessible in Godot."
+msgid "Server keeping track of different cameras accessible in ValjangEngine."
 msgstr ""
 
 #: doc/classes/CameraServer.xml:7
 msgid ""
-"The [CameraServer] keeps track of different cameras accessible in Godot. "
+"The [CameraServer] keeps track of different cameras accessible in ValjangEngine. "
 "These are external cameras such as webcams or the cameras on your phone.\n"
 "It is notably used to provide AR modules with a video feed from the camera.\n"
 "[b]Note:[/b] This class is currently only implemented on macOS and iOS. On "
@@ -11113,13 +11113,13 @@ msgstr ""
 
 #: doc/classes/CanvasItem.xml:15 doc/classes/CanvasLayer.xml:10
 #: doc/classes/InputEvent.xml:11 doc/classes/Viewport.xml:15
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/2d_transforms.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/2d_transforms.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:16 doc/classes/Control.xml:19
 #: doc/classes/Node2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/custom_drawing_in_2d.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/custom_drawing_in_2d.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:23
@@ -11632,7 +11632,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/canvas_layers.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/canvas_layers.html"
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:18
@@ -11761,13 +11761,13 @@ msgstr ""
 #: doc/classes/CharFXTransform.xml:10 doc/classes/RichTextEffect.xml:16
 #: doc/classes/RichTextLabel.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/gui/bbcode_in_richtextlabel."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/gui/bbcode_in_richtextlabel."
 "html"
 msgstr ""
 
 #: doc/classes/CharFXTransform.xml:11 doc/classes/RichTextEffect.xml:17
 msgid ""
-"https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project"
+"https://github.com/Eoin-ONeill-Yokai/ValjangEngine-Rich-Text-Effect-Test-Project"
 msgstr ""
 
 #: doc/classes/CharFXTransform.xml:17 doc/classes/CharFXTransform.xml:45
@@ -12542,7 +12542,7 @@ msgstr ""
 #: doc/classes/RigidBody3D.xml:13 doc/classes/Shape2D.xml:10
 #: doc/classes/Shape3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/"
 "physics_introduction.html"
 msgstr ""
 
@@ -12799,7 +12799,7 @@ msgstr ""
 #: doc/classes/Color.xml:259
 msgid ""
 "Returns the color's 32-bit integer in RGBA format (each byte represents a "
-"component of the RGBA profile). RGBA is Godot's default format.\n"
+"component of the RGBA profile). RGBA is ValjangEngine's default format.\n"
 "[codeblock]\n"
 "var c = Color(1, 0.5, 0.2)\n"
 "print(c.to_rgba32()) # Prints 4286526463\n"
@@ -12809,7 +12809,7 @@ msgstr ""
 #: doc/classes/Color.xml:270
 msgid ""
 "Returns the color's 64-bit integer in RGBA format (each word represents a "
-"component of the RGBA profile). RGBA is Godot's default format.\n"
+"component of the RGBA profile). RGBA is ValjangEngine's default format.\n"
 "[codeblock]\n"
 "var c = Color(1, 0.5, 0.2)\n"
 "print(c.to_rgba64()) # Prints -140736629309441\n"
@@ -13968,11 +13968,11 @@ msgid ""
 "or the current viewport, and margins that represent an offset to the anchor. "
 "The margins update automatically when the node, any of its parents, or the "
 "screen size change.\n"
-"For more information on Godot's UI system, anchors, margins, and containers, "
+"For more information on ValjangEngine's UI system, anchors, margins, and containers, "
 "see the related tutorials in the manual. To build flexible UIs, you'll need "
 "a mix of UI elements that inherit from [Control] and [Container] nodes.\n"
 "[b]User Interface nodes and input[/b]\n"
-"Godot sends input events to the scene's root node first, by calling [method "
+"ValjangEngine sends input events to the scene's root node first, by calling [method "
 "Node._input]. [method Node._input] forwards the event down the node tree to "
 "the nodes under the mouse cursor, or on keyboard focus. To do so, it calls "
 "[code]MainLoop._input_event[/code].\n"
@@ -13996,7 +13996,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Control.xml:18
-msgid "https://docs.godotengine.org/en/latest/tutorials/gui/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/gui/index.html"
 msgstr ""
 
 #: doc/classes/Control.xml:26
@@ -14121,7 +14121,7 @@ msgstr ""
 
 #: doc/classes/Control.xml:166
 msgid ""
-"Godot calls this method to test if [code]data[/code] from a control's "
+"ValjangEngine calls this method to test if [code]data[/code] from a control's "
 "[method get_drag_data] can be dropped at [code]position[/code]. "
 "[code]position[/code] is local to this control.\n"
 "This method should only be used to test the data. Process the data in "
@@ -14136,8 +14136,8 @@ msgstr ""
 
 #: doc/classes/Control.xml:184
 msgid ""
-"Godot calls this method to pass you the [code]data[/code] from a control's "
-"[method get_drag_data] result. Godot first calls [method can_drop_data] to "
+"ValjangEngine calls this method to pass you the [code]data[/code] from a control's "
+"[method get_drag_data] result. ValjangEngine first calls [method can_drop_data] to "
 "test if [code]data[/code] is allowed to drop at [code]position[/code] where "
 "[code]position[/code] is local to this control.\n"
 "[codeblock]\n"
@@ -14186,7 +14186,7 @@ msgstr ""
 
 #: doc/classes/Control.xml:244
 msgid ""
-"Godot calls this method to get data that can be dragged and dropped onto "
+"ValjangEngine calls this method to get data that can be dragged and dropped onto "
 "controls that expect drop data. Returns [code]null[/code] if there is no "
 "data to drag. Controls that want to receive drop data should implement "
 "[method can_drop_data] and [method drop_data]. [code]position[/code] is "
@@ -14606,55 +14606,55 @@ msgstr ""
 
 #: doc/classes/Control.xml:789
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "the down arrow on the keyboard or down on a gamepad by default. You can "
 "change the key by editing the [code]ui_down[/code] input action. The node "
-"must be a [Control]. If this property is not set, Godot will give focus to "
+"must be a [Control]. If this property is not set, ValjangEngine will give focus to "
 "the closest [Control] to the bottom of this one."
 msgstr ""
 
 #: doc/classes/Control.xml:792
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "the left arrow on the keyboard or left on a gamepad by default. You can "
 "change the key by editing the [code]ui_left[/code] input action. The node "
-"must be a [Control]. If this property is not set, Godot will give focus to "
+"must be a [Control]. If this property is not set, ValjangEngine will give focus to "
 "the closest [Control] to the left of this one."
 msgstr ""
 
 #: doc/classes/Control.xml:795
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "the right arrow on the keyboard or right on a gamepad  by default. You can "
 "change the key by editing the [code]ui_right[/code] input action. The node "
-"must be a [Control]. If this property is not set, Godot will give focus to "
+"must be a [Control]. If this property is not set, ValjangEngine will give focus to "
 "the closest [Control] to the bottom of this one."
 msgstr ""
 
 #: doc/classes/Control.xml:798
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "the top arrow on the keyboard or top on a gamepad by default. You can change "
 "the key by editing the [code]ui_top[/code] input action. The node must be a "
-"[Control]. If this property is not set, Godot will give focus to the closest "
+"[Control]. If this property is not set, ValjangEngine will give focus to the closest "
 "[Control] to the bottom of this one."
 msgstr ""
 
 #: doc/classes/Control.xml:801
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "[kbd]Tab[/kbd] on a keyboard by default. You can change the key by editing "
 "the [code]ui_focus_next[/code] input action.\n"
-"If this property is not set, Godot will select a \"best guess\" based on "
+"If this property is not set, ValjangEngine will select a \"best guess\" based on "
 "surrounding nodes in the scene tree."
 msgstr ""
 
 #: doc/classes/Control.xml:805
 msgid ""
-"Tells Godot which node it should give keyboard focus to if the user presses "
+"Tells ValjangEngine which node it should give keyboard focus to if the user presses "
 "[kbd]Shift + Tab[/kbd] on a keyboard by default. You can change the key by "
 "editing the [code]ui_focus_prev[/code] input action.\n"
-"If this property is not set, Godot will select a \"best guess\" based on "
+"If this property is not set, ValjangEngine will select a \"best guess\" based on "
 "surrounding nodes in the scene tree."
 msgstr ""
 
@@ -14719,7 +14719,7 @@ msgstr ""
 
 #: doc/classes/Control.xml:834
 msgid ""
-"The default cursor shape for this control. Useful for Godot plugins and "
+"The default cursor shape for this control. Useful for ValjangEngine plugins and "
 "applications or games that use the system's mouse cursors.\n"
 "[b]Note:[/b] On Linux, shapes may vary depending on the cursor theme of the "
 "system."
@@ -14891,7 +14891,7 @@ msgstr ""
 
 #: doc/classes/Control.xml:951
 msgid ""
-"Sent when the node's [member theme] changes, right before Godot redraws the "
+"Sent when the node's [member theme] changes, right before ValjangEngine redraws the "
 "control. Happens when you call one of the [code]add_theme_*_override[/code] "
 "methods."
 msgstr ""
@@ -15296,7 +15296,7 @@ msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:11 doc/classes/GPUParticles2D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/particle_systems_2d.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/particle_systems_2d.html"
 msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:20
@@ -15574,7 +15574,7 @@ msgstr ""
 #: doc/classes/CPUParticles2D.xml:242 doc/classes/GPUParticles2D.xml:55
 msgid ""
 "Normal map to be used for the [member texture] property.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -15909,7 +15909,7 @@ msgstr ""
 #: doc/classes/Crypto.xml:7
 msgid ""
 "The Crypto class allows you to access some more advanced cryptographic "
-"functionalities in Godot.\n"
+"functionalities in ValjangEngine.\n"
 "For now, this includes generating cryptographically secure random bytes, RSA "
 "keys and self-signed X509 certificates generation, asymmetric key encryption/"
 "decryption, and signing/verification.\n"
@@ -16282,7 +16282,7 @@ msgstr ""
 #: modules/csg/doc_classes/CSGShape3D.xml:7
 msgid ""
 "This is the CSG base class that provides CSG operation support to the "
-"various CSG nodes in Godot."
+"various CSG nodes in ValjangEngine."
 msgstr ""
 
 #: modules/csg/doc_classes/CSGShape3D.xml:34
@@ -16441,13 +16441,13 @@ msgstr ""
 #: modules/mono/doc_classes/CSharpScript.xml:7
 msgid ""
 "This class represents a C# script. It is the C# equivalent of the [GDScript] "
-"class and is only available in Mono-enabled Godot builds.\n"
-"See also [GodotSharp]."
+"class and is only available in Mono-enabled ValjangEngine builds.\n"
+"See also [ValjangEngineSharp]."
 msgstr ""
 
 #: modules/mono/doc_classes/CSharpScript.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/c_sharp/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/scripting/c_sharp/"
 "index.html"
 msgstr ""
 
@@ -17010,7 +17010,7 @@ msgid ""
 "projected down (i.e. from positive Y to negative Y).\n"
 "The [Texture2D]s associated with the Decal are automatically stored in a "
 "texture atlas which is used for drawing the decals so all decals can be "
-"drawn at once. Godot uses clustered decals, meaning they are stored in "
+"drawn at once. ValjangEngine uses clustered decals, meaning they are stored in "
 "cluster data and drawn when the mesh is drawn, they are not drawn as a "
 "postprocessing effect after."
 msgstr ""
@@ -17256,7 +17256,7 @@ msgstr ""
 
 #: doc/classes/Dictionary.xml:76
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/scripting/gdscript/"
 "gdscript_basics.html#dictionary"
 msgstr ""
 
@@ -17296,7 +17296,7 @@ msgid ""
 "follows:\n"
 "[codeblock]\n"
 "# Will evaluate to `true`.\n"
-"if \"godot\" in {\"godot\": \"engine\"}:\n"
+"if \"ValjangEngine\" in {\"ValjangEngine\": \"engine\"}:\n"
 "    pass\n"
 "[/codeblock]\n"
 "This method (like the [code]in[/code] operator) will evaluate to [code]true[/"
@@ -17354,7 +17354,7 @@ msgstr ""
 #: doc/classes/DirectionalLight3D.xml:10 doc/classes/Light3D.xml:10
 #: doc/classes/OmniLight3D.xml:10 doc/classes/SpotLight3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/lights_and_shadows.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/lights_and_shadows.html"
 msgstr ""
 
 #: doc/classes/DirectionalLight3D.xml:16
@@ -17482,7 +17482,7 @@ msgstr ""
 
 #: doc/classes/Directory.xml:27 doc/classes/File.xml:25
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "filesystem.html"
 msgstr ""
 
@@ -17919,7 +17919,7 @@ msgstr ""
 #: doc/classes/EditorFeatureProfile.xml:7
 msgid ""
 "An editor feature profile can be used to disable specific features of the "
-"Godot editor. When disabled, the features won't appear in the editor, which "
+"ValjangEngine editor. When disabled, the features won't appear in the editor, which "
 "makes the editor less cluttered. This is useful in education settings to "
 "reduce confusion or when working in a team. For example, artists and level "
 "designers could use a feature profile that disables the script editor to "
@@ -18221,7 +18221,7 @@ msgstr ""
 
 #: doc/classes/EditorFileSystem.xml:72
 msgid ""
-"Update a file information. Call this if an external program (not Godot) "
+"Update a file information. Call this if an external program (not ValjangEngine) "
 "modified the file."
 msgstr ""
 
@@ -18369,7 +18369,7 @@ msgstr ""
 
 #: doc/classes/EditorImportPlugin.xml:52
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/editor/"
 "import_plugins.html"
 msgstr ""
 
@@ -18417,7 +18417,7 @@ msgstr ""
 
 #: doc/classes/EditorImportPlugin.xml:122
 msgid ""
-"Gets the Godot resource type associated with this loader. e.g. [code]\"Mesh"
+"Gets the ValjangEngine resource type associated with this loader. e.g. [code]\"Mesh"
 "\"[/code] or [code]\"Animation\"[/code]."
 msgstr ""
 
@@ -18504,12 +18504,12 @@ msgid ""
 msgstr ""
 
 #: doc/classes/EditorInterface.xml:4
-msgid "Godot editor's interface."
+msgid "ValjangEngine editor's interface."
 msgstr ""
 
 #: doc/classes/EditorInterface.xml:7
 msgid ""
-"EditorInterface gives you control over Godot editor's window. It allows "
+"EditorInterface gives you control over ValjangEngine editor's window. It allows "
 "customizing the window, saving and (re-)loading scenes, rendering mesh "
 "previews, inspecting and editing resources and objects, and provides access "
 "to [EditorSettings], [EditorFileSystem], [EditorResourcePreview], "
@@ -18524,7 +18524,7 @@ msgstr ""
 
 #: doc/classes/EditorInterface.xml:26
 msgid ""
-"Returns the main container of Godot editor's window. You can use it, for "
+"Returns the main container of ValjangEngine editor's window. You can use it, for "
 "example, to retrieve the size of the container and place your controls "
 "accordingly."
 msgstr ""
@@ -18711,7 +18711,7 @@ msgstr ""
 
 #: doc/classes/EditorNode3DGizmoPlugin.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/editor/"
 "spatial_gizmos.html"
 msgstr ""
 
@@ -18835,7 +18835,7 @@ msgstr ""
 
 #: doc/classes/EditorPlugin.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/index.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/editor/index.html"
 msgstr ""
 
 #: doc/classes/EditorPlugin.xml:21
@@ -18995,7 +18995,7 @@ msgstr ""
 
 #: doc/classes/EditorPlugin.xml:266
 msgid ""
-"Returns the [EditorInterface] object that gives you control over Godot "
+"Returns the [EditorInterface] object that gives you control over ValjangEngine "
 "editor's window and its functionalities."
 msgstr ""
 
@@ -19020,7 +19020,7 @@ msgstr ""
 #: doc/classes/EditorPlugin.xml:289
 msgid ""
 "Override this method in your plugin to provide the name of the plugin when "
-"displayed in the Godot editor.\n"
+"displayed in the ValjangEngine editor.\n"
 "For main screen plugins, this appears at the top of the screen, to the right "
 "of the \"2D\", \"3D\", \"Script\", and \"AssetLib\" buttons."
 msgstr ""
@@ -19442,7 +19442,7 @@ msgstr ""
 
 #: doc/classes/EditorScenePostImport.xml:29
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/workflow/assets/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/workflow/assets/"
 "importing_scenes.html#custom-script"
 msgstr ""
 
@@ -19471,7 +19471,7 @@ msgid ""
 "Scripts extending this class and implementing its [method _run] method can "
 "be executed from the Script Editor's [b]File > Run[/b] menu option (or by "
 "pressing [kbd]Ctrl + Shift + X[/kbd]) while the editor is running. This is "
-"useful for adding custom in-editor functionality to Godot. For more complex "
+"useful for adding custom in-editor functionality to ValjangEngine. For more complex "
 "additions, consider using [EditorPlugin]s instead.\n"
 "[b]Note:[/b] Extending scripts need to have [code]tool[/code] mode enabled.\n"
 "[b]Example script:[/b]\n"
@@ -19480,11 +19480,11 @@ msgid ""
 "extends EditorScript\n"
 "\n"
 "func _run():\n"
-"    print(\"Hello from the Godot Editor!\")\n"
+"    print(\"Hello from the ValjangEngine Editor!\")\n"
 "[/codeblock]\n"
 "[b]Note:[/b] The script is run in the Editor context, which means the output "
 "is visible in the console window started with the Editor (stdout) instead of "
-"the usual Godot [b]Output[/b] dock."
+"the usual ValjangEngine [b]Output[/b] dock."
 msgstr ""
 
 #: doc/classes/EditorScript.xml:26
@@ -19816,12 +19816,12 @@ msgstr ""
 
 #: doc/classes/Engine.xml:65
 msgid ""
-"Returns Dictionary of licenses used by Godot and included third party "
+"Returns Dictionary of licenses used by ValjangEngine and included third party "
 "components."
 msgstr ""
 
 #: doc/classes/Engine.xml:72
-msgid "Returns Godot license text."
+msgid "Returns ValjangEngine license text."
 msgstr ""
 
 #: doc/classes/Engine.xml:79
@@ -19844,7 +19844,7 @@ msgstr ""
 #: doc/classes/Engine.xml:102
 msgid ""
 "Returns a global singleton with given [code]name[/code]. Often used for "
-"plugins, e.g. GodotPayments."
+"plugins, e.g. ValjangEnginePayments."
 msgstr ""
 
 #: doc/classes/Engine.xml:109
@@ -19901,7 +19901,7 @@ msgstr ""
 msgid ""
 "The number of fixed iterations per second. This controls how often physics "
 "simulation and [method Node._physics_process] methods are run. This value "
-"should generally always be set to [code]60[/code] or above, as Godot doesn't "
+"should generally always be set to [code]60[/code] or above, as ValjangEngine doesn't "
 "interpolate the physics step. As a result, values lower than [code]60[/code] "
 "will look stuttery. This value can be increased to make input more reactive "
 "or work around tunneling issues, but keep in mind doing so will increase CPU "
@@ -19953,13 +19953,13 @@ msgstr ""
 
 #: doc/classes/Environment.xml:14 doc/classes/WorldEnvironment.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/"
 "environment_and_post_processing.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:15
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/high_dynamic_range.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/high_dynamic_range.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:24
@@ -20332,7 +20332,7 @@ msgstr ""
 #: doc/classes/Environment.xml:239
 msgid ""
 "The tonemapping mode to use. Tonemapping is the process that \"converts\" "
-"HDR values to be suitable for rendering on a LDR display. (Godot doesn't "
+"HDR values to be suitable for rendering on a LDR display. (ValjangEngine doesn't "
 "support rendering on HDR displays yet.)"
 msgstr ""
 
@@ -21203,7 +21203,7 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:4
 msgid ""
-"An external library containing functions or script classes to use in Godot."
+"An external library containing functions or script classes to use in ValjangEngine."
 msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:7
@@ -21216,13 +21216,13 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/gdnative/gdnative-c-"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/gdnative/gdnative-c-"
 "example.html"
 msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/gdnative/gdnative-"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/gdnative/gdnative-"
 "cpp-example.html"
 msgstr ""
 
@@ -21246,10 +21246,10 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:34
 msgid ""
-"If [code]true[/code], Godot loads only one copy of the library and each "
+"If [code]true[/code], ValjangEngine loads only one copy of the library and each "
 "script that references the library will share static data like static or "
 "global variables.\n"
-"If [code]false[/code], Godot loads a separate copy of the library into "
+"If [code]false[/code], ValjangEngine loads a separate copy of the library into "
 "memory for each script that references it."
 msgstr ""
 
@@ -21257,7 +21257,7 @@ msgstr ""
 msgid ""
 "If [code]true[/code], the editor will temporarily unload the library "
 "whenever the user switches away from the editor window, allowing the user to "
-"recompile the library without restarting Godot.\n"
+"recompile the library without restarting ValjangEngine.\n"
 "[b]Note:[/b] If the library defines tool scripts that run inside the editor, "
 "[code]reloadable[/code] must be [code]false[/code]. Otherwise, the editor "
 "will attempt to unload the tool scripts while they're in use and crash."
@@ -21265,11 +21265,11 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:42
 msgid ""
-"If [code]true[/code], Godot loads the library at startup rather than the "
+"If [code]true[/code], ValjangEngine loads the library at startup rather than the "
 "first time a script uses the library, calling [code]{prefix}"
 "gdnative_singleton[/code] after initializing the library (where [code]"
 "{prefix}[/code] is the value of [member symbol_prefix]). The library remains "
-"loaded as long as Godot is running.\n"
+"loaded as long as ValjangEngine is running.\n"
 "[b]Note:[/b] A singleton library cannot be [member reloadable]."
 msgstr ""
 
@@ -21277,7 +21277,7 @@ msgstr ""
 msgid ""
 "The prefix this library's entry point functions begin with. For example, a "
 "GDNativeLibrary would declare its [code]gdnative_init[/code] function as "
-"[code]godot_gdnative_init[/code] by default.\n"
+"[code]ValjangEngine_gdnative_init[/code] by default.\n"
 "On platforms that require statically linking libraries (currently only iOS), "
 "each library must have a different [code]symbol_prefix[/code]."
 msgstr ""
@@ -21297,7 +21297,7 @@ msgstr ""
 
 #: modules/gdscript/doc_classes/GDScript.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/scripting/gdscript/"
 "index.html"
 msgstr ""
 
@@ -22251,7 +22251,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/GIProbe.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/3d/gi_probes.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/gi_probes.html"
 msgstr ""
 
 #: doc/classes/GIProbe.xml:22
@@ -22312,27 +22312,27 @@ msgstr ""
 msgid "Represents the size of the [enum Subdiv] enum."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:4
-msgid "Bridge between Godot and the Mono runtime (Mono-enabled builds only)."
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:4
+msgid "Bridge between ValjangEngine and the Mono runtime (Mono-enabled builds only)."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:7
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:7
 msgid ""
-"This class is a bridge between Godot and the Mono runtime. It exposes "
-"several low-level operations and is only available in Mono-enabled Godot "
+"This class is a bridge between ValjangEngine and the Mono runtime. It exposes "
+"several low-level operations and is only available in Mono-enabled ValjangEngine "
 "builds.\n"
 "See also [CSharpScript]."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:17
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:17
 msgid "Attaches the current thread to the Mono runtime."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:24
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:24
 msgid "Detaches the current thread from the Mono runtime."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:31
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:31
 msgid ""
 "Returns the current MonoDomain ID.\n"
 "[b]Note:[/b] The Mono runtime must be initialized for this method to work "
@@ -22340,7 +22340,7 @@ msgid ""
 "initialized at the time this method is called, the engine will crash."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:39
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:39
 msgid ""
 "Returns the scripts MonoDomain's ID. This will be the same MonoDomain ID as "
 "[method get_domain_id], unless the scripts domain isn't loaded.\n"
@@ -22349,7 +22349,7 @@ msgid ""
 "initialized at the time this method is called, the engine will crash."
 msgstr ""
 
-#: modules/mono/doc_classes/GodotSharp.xml:49
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:49
 #, fuzzy
 msgid ""
 "Returns [code]true[/code] if the domain is being finalized, [code]false[/"
@@ -22358,7 +22358,7 @@ msgstr ""
 "Retourne [code]true[/code] (vrai) si la chaîne de caractères commence par la "
 "chaîne de caractères donnée."
 
-#: modules/mono/doc_classes/GodotSharp.xml:56
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:56
 #, fuzzy
 msgid ""
 "Returns [code]true[/code] if the Mono runtime is initialized, [code]false[/"
@@ -22367,7 +22367,7 @@ msgstr ""
 "Renvoie [code]true[/code] (vrai) si [code]s[/code] vaut zéro ou quasiment "
 "zéro."
 
-#: modules/mono/doc_classes/GodotSharp.xml:63
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:63
 #, fuzzy
 msgid ""
 "Returns [code]true[/code] if the Mono runtime is shutting down, [code]false[/"
@@ -22376,7 +22376,7 @@ msgstr ""
 "Renvoie [code]true[/code] (vrai) si [code]s[/code] vaut zéro ou quasiment "
 "zéro."
 
-#: modules/mono/doc_classes/GodotSharp.xml:70
+#: modules/mono/doc_classes/ValjangEngineSharp.xml:70
 #, fuzzy
 msgid ""
 "Returns [code]true[/code] if the scripts domain is loaded, [code]false[/"
@@ -22431,7 +22431,7 @@ msgstr ""
 
 #: doc/classes/GPUParticles3D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/vertex_animation/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/vertex_animation/"
 "controlling_thousands_of_fish.html"
 msgstr ""
 
@@ -23148,7 +23148,7 @@ msgid ""
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:13
-msgid "https://docs.godotengine.org/en/latest/tutorials/3d/using_gridmaps.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/using_gridmaps.html"
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:20
@@ -23639,14 +23639,14 @@ msgstr ""
 
 #: doc/classes/HTTPClient.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/networking/"
 "http_client_class.html"
 msgstr ""
 
 #: doc/classes/HTTPClient.xml:14 doc/classes/HTTPRequest.xml:62
 #: doc/classes/StreamPeerSSL.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/ssl_certificates."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/networking/ssl_certificates."
 "html"
 msgstr ""
 
@@ -24404,7 +24404,7 @@ msgstr ""
 
 #: doc/classes/HTTPRequest.xml:61
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/networking/"
 "http_request_class.html"
 msgstr ""
 
@@ -24721,7 +24721,7 @@ msgstr ""
 #: doc/classes/Image.xml:346
 msgid ""
 "Loads an image from file [code]path[/code]. See [url=https://docs."
-"godotengine.org/en/latest/getting_started/workflow/assets/importing_images."
+"ValjangEngineengine.org/en/latest/getting_started/workflow/assets/importing_images."
 "html#supported-image-formats]Supported image formats[/url] for a list of "
 "supported image formats and limitations."
 msgstr ""
@@ -24775,7 +24775,7 @@ msgid ""
 "Saves the image as an EXR file to [code]path[/code]. If [code]grayscale[/"
 "code] is [code]true[/code] and the image has only one channel, it will be "
 "saved explicitly as monochrome rather than one red channel. This function "
-"will return [constant ERR_UNAVAILABLE] if Godot was compiled without the "
+"will return [constant ERR_UNAVAILABLE] if ValjangEngine was compiled without the "
 "TinyEXR module."
 msgstr ""
 
@@ -25229,7 +25229,7 @@ msgid ""
 "data that change every frame. It will be slow when handling large amounts of "
 "mesh data. If mesh data doesn't change often, use [ArrayMesh], "
 "[MeshDataTool] or [SurfaceTool] instead.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] ValjangEngine uses clockwise [url=https://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -25293,7 +25293,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Input.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/inputs/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/inputs/index.html"
 msgstr ""
 
 #: doc/classes/Input.xml:21
@@ -25716,7 +25716,7 @@ msgstr ""
 #: doc/classes/InputEventMouse.xml:10 doc/classes/InputEventScreenDrag.xml:10
 #: doc/classes/InputEventScreenTouch.xml:11
 #: doc/classes/InputEventWithModifiers.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/inputs/inputevent.html"
 msgstr ""
 
 #: doc/classes/InputEvent.xml:20
@@ -25814,7 +25814,7 @@ msgstr ""
 
 #: doc/classes/InputEventAction.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/inputs/inputevent."
 "html#actions"
 msgstr ""
 
@@ -26003,7 +26003,7 @@ msgstr ""
 #: doc/classes/InputEventMouseButton.xml:10
 #: doc/classes/InputEventMouseMotion.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/inputs/"
 "mouse_and_input_coordinates.html"
 msgstr ""
 
@@ -26164,7 +26164,7 @@ msgstr ""
 
 #: doc/classes/InputMap.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/inputs/inputevent."
 "html#inputmap"
 msgstr ""
 
@@ -26860,7 +26860,7 @@ msgstr ""
 
 #: doc/classes/JavaScript.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/workflow/export/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/workflow/export/"
 "exporting_for_web.html#calling-javascript-from-script"
 msgstr ""
 
@@ -27000,7 +27000,7 @@ msgid ""
 "[b]Note:[/b] The JSON specification does not define integer or float types, "
 "but only a number type. Therefore, parsing a JSON text will convert all "
 "numerical values to float types.\n"
-"[b]Note:[/b] JSON objects do not preserve key order like Godot dictionaries, "
+"[b]Note:[/b] JSON objects do not preserve key order like ValjangEngine dictionaries, "
 "thus, you should not rely on keys being in a certain order if a dictionary "
 "is constructed from JSON. In contrast, JSON arrays retain the order of their "
 "elements:\n"
@@ -27038,13 +27038,13 @@ msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:12 doc/classes/KinematicBody3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/"
 "kinematic_character_2d.html"
 msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/"
 "using_kinematic_body_2d.html"
 msgstr ""
 
@@ -27614,7 +27614,7 @@ msgstr ""
 
 #: doc/classes/Light2D.xml:11 doc/classes/LightOccluder2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/2d_lights_and_shadows."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/2d_lights_and_shadows."
 "html"
 msgstr ""
 
@@ -27822,7 +27822,7 @@ msgstr ""
 
 #: doc/classes/Light3D.xml:63
 msgid ""
-"The size of the light in Godot units. Only available for [OmniLight3D]s and "
+"The size of the light in ValjangEngine units. Only available for [OmniLight3D]s and "
 "[SpotLight3D]s. Increasing this value will make the light fade out slower "
 "and shadows appear blurrier. This can be used to simulate area lights to an "
 "extent."
@@ -28587,14 +28587,14 @@ msgstr ""
 
 #: doc/classes/MainLoop.xml:7
 msgid ""
-"[MainLoop] is the abstract base class for a Godot project's game loop. It is "
+"[MainLoop] is the abstract base class for a ValjangEngine project's game loop. It is "
 "inherited by [SceneTree], which is the default game loop implementation used "
-"in Godot projects, though it is also possible to write and use one's own "
+"in ValjangEngine projects, though it is also possible to write and use one's own "
 "[MainLoop] subclass instead of the scene tree.\n"
 "Upon the application start, a [MainLoop] implementation must be provided to "
 "the OS; otherwise, the application will exit. This happens automatically "
 "(and a [SceneTree] is created) unless a main [Script] is provided from the "
-"command line (with e.g. [code]godot -s my_loop.gd[/code], which should then "
+"command line (with e.g. [code]ValjangEngine -s my_loop.gd[/code], which should then "
 "be a [MainLoop] implementation.\n"
 "Here is an example script implementing a simple [MainLoop]:\n"
 "[b]FIXME:[/b] No longer valid after DisplayServer split and Input "
@@ -28662,25 +28662,25 @@ msgstr ""
 #: doc/classes/MainLoop.xml:85
 msgid ""
 "Should not be called manually, override [method _finalize] instead. Will be "
-"removed in Godot 4.0."
+"removed in ValjangEngine 4.0."
 msgstr ""
 
 #: doc/classes/MainLoop.xml:94
 msgid ""
 "Should not be called manually, override [method _idle] instead. Will be "
-"removed in Godot 4.0."
+"removed in ValjangEngine 4.0."
 msgstr ""
 
 #: doc/classes/MainLoop.xml:101
 msgid ""
 "Should not be called manually, override [method _initialize] instead. Will "
-"be removed in Godot 4.0."
+"be removed in ValjangEngine 4.0."
 msgstr ""
 
 #: doc/classes/MainLoop.xml:110
 msgid ""
 "Should not be called manually, override [method _iteration] instead. Will be "
-"removed in Godot 4.0."
+"removed in ValjangEngine 4.0."
 msgstr ""
 
 #: doc/classes/MainLoop.xml:121
@@ -28711,7 +28711,7 @@ msgstr ""
 
 #: doc/classes/MainLoop.xml:138 doc/classes/Node.xml:959
 msgid ""
-"Notification received from Godot's crash handler when the engine is about to "
+"Notification received from ValjangEngine's crash handler when the engine is about to "
 "crash.\n"
 "Implemented on desktop platforms if the crash handler is enabled."
 msgstr ""
@@ -29186,7 +29186,7 @@ msgid ""
 "[/codeblock]\n"
 "See also [ArrayMesh], [ImmediateGeometry3D] and [SurfaceTool] for procedural "
 "geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] ValjangEngine uses clockwise [url=https://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -29370,7 +29370,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/2d_meshes.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/2d_meshes.html"
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:16
@@ -29380,7 +29380,7 @@ msgstr ""
 #: doc/classes/MeshInstance2D.xml:19 doc/classes/MultiMeshInstance2D.xml:19
 msgid ""
 "The normal map that will be used if using the default [CanvasItemMaterial].\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -29670,13 +29670,13 @@ msgstr ""
 
 #: doc/classes/MultiMesh.xml:13 doc/classes/MultiMeshInstance3D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/vertex_animation/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/vertex_animation/"
 "animating_thousands_of_fish.html"
 msgstr ""
 
 #: doc/classes/MultiMesh.xml:14 doc/classes/MultiMeshInstance3D.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/optimization/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/optimization/"
 "using_multimesh.html"
 msgstr ""
 
@@ -29794,7 +29794,7 @@ msgstr ""
 
 #: doc/classes/MultiMeshInstance3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/"
 "using_multi_mesh_instance.html"
 msgstr ""
 
@@ -30013,7 +30013,7 @@ msgstr ""
 #: doc/classes/Mutex.xml:10 doc/classes/Semaphore.xml:10
 #: doc/classes/Thread.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/threads/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/threads/"
 "using_multiple_threads.html"
 msgstr ""
 
@@ -30034,25 +30034,25 @@ msgstr ""
 #: modules/gdnative/doc_classes/NativeScript.xml:14
 msgid ""
 "Returns the documentation string that was previously set with "
-"[code]godot_nativescript_set_class_documentation[/code]."
+"[code]ValjangEngine_nativescript_set_class_documentation[/code]."
 msgstr ""
 
 #: modules/gdnative/doc_classes/NativeScript.xml:23
 msgid ""
 "Returns the documentation string that was previously set with "
-"[code]godot_nativescript_set_method_documentation[/code]."
+"[code]ValjangEngine_nativescript_set_method_documentation[/code]."
 msgstr ""
 
 #: modules/gdnative/doc_classes/NativeScript.xml:32
 msgid ""
 "Returns the documentation string that was previously set with "
-"[code]godot_nativescript_set_property_documentation[/code]."
+"[code]ValjangEngine_nativescript_set_property_documentation[/code]."
 msgstr ""
 
 #: modules/gdnative/doc_classes/NativeScript.xml:41
 msgid ""
 "Returns the documentation string that was previously set with "
-"[code]godot_nativescript_set_signal_documentation[/code]."
+"[code]ValjangEngine_nativescript_set_signal_documentation[/code]."
 msgstr ""
 
 #: modules/gdnative/doc_classes/NativeScript.xml:48
@@ -30761,7 +30761,7 @@ msgstr ""
 #: modules/enet/doc_classes/NetworkedMultiplayerENet.xml:10
 #: doc/classes/NetworkedMultiplayerPeer.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/networking/"
 "high_level_multiplayer.html"
 msgstr ""
 
@@ -31150,13 +31150,13 @@ msgstr ""
 
 #: doc/classes/Node.xml:7
 msgid ""
-"Nodes are Godot's building blocks. They can be assigned as the child of "
+"Nodes are ValjangEngine's building blocks. They can be assigned as the child of "
 "another node, resulting in a tree arrangement. A given node can contain any "
 "number of nodes as children with the requirement that all siblings (direct "
 "children of a node) should have unique names.\n"
 "A tree of nodes is called a [i]scene[/i]. Scenes can be saved to the disk "
 "and then instanced into other scenes. This allows for very high flexibility "
-"in the architecture and data model of Godot projects.\n"
+"in the architecture and data model of ValjangEngine projects.\n"
 "[b]Scene tree:[/b] The [SceneTree] contains the active tree of nodes. When a "
 "node is added to the scene tree, it receives the [constant "
 "NOTIFICATION_ENTER_TREE] notification and its [method _enter_tree] callback "
@@ -31203,14 +31203,14 @@ msgid ""
 "(remote procedure call) system to communicate over the network. By calling "
 "[method rpc] with a method name, it will be called locally and in all "
 "connected peers (peers = clients and the server that accepts connections). "
-"To identify which node receives the RPC call, Godot will use its [NodePath] "
+"To identify which node receives the RPC call, ValjangEngine will use its [NodePath] "
 "(make sure node names are the same on all peers). Also, take a look at the "
 "high-level networking tutorial and corresponding demos."
 msgstr ""
 
 #: doc/classes/Node.xml:20
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "scenes_and_nodes.html"
 msgstr ""
 
@@ -31361,9 +31361,9 @@ msgid ""
 "children, use [method add_sibling] instead of this method.\n"
 "[b]Note:[/b] If you want a child to be persisted to a [PackedScene], you "
 "must set [member owner] in addition to calling [method add_child]. This is "
-"typically relevant for [url=https://godot.readthedocs.io/en/latest/tutorials/"
+"typically relevant for [url=https://ValjangEngine.readthedocs.io/en/latest/tutorials/"
 "misc/running_code_in_the_editor.html]tool scripts[/url] and [url=https://"
-"godot.readthedocs.io/en/latest/tutorials/plugins/editor/index.html]editor "
+"ValjangEngine.readthedocs.io/en/latest/tutorials/plugins/editor/index.html]editor "
 "plugins[/url]. If [method add_child] is called without setting [member "
 "owner], the newly added [Node] will not be visible in the scene tree, though "
 "it will be visible in the 2D/3D view."
@@ -32314,7 +32314,7 @@ msgstr ""
 
 #: doc/classes/Node3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/introduction_to_3d.html"
 msgstr ""
 
 #: doc/classes/Node3D.xml:26
@@ -33628,17 +33628,17 @@ msgid ""
 "strings. Platform path resolution will take place. The resolved file must "
 "exist and be executable.\n"
 "The arguments are used in the given order and separated by a space, so "
-"[code]OS.execute(\"ping\", [\"-w\", \"3\", \"godotengine.org\"], false)[/"
-"code] will resolve to [code]ping -w 3 godotengine.org[/code] in the system's "
+"[code]OS.execute(\"ping\", [\"-w\", \"3\", \"ValjangEngineengine.org\"], false)[/"
+"code] will resolve to [code]ping -w 3 ValjangEngineengine.org[/code] in the system's "
 "shell.\n"
 "This method has slightly different behavior based on whether the "
 "[code]blocking[/code] mode is enabled.\n"
-"If [code]blocking[/code] is [code]true[/code], the Godot thread will pause "
+"If [code]blocking[/code] is [code]true[/code], the ValjangEngine thread will pause "
 "its execution while waiting for the process to terminate. The shell output "
 "of the process will be written to the [code]output[/code] array as a single "
-"string. When the process terminates, the Godot thread will resume "
+"string. When the process terminates, the ValjangEngine thread will resume "
 "execution.\n"
-"If [code]blocking[/code] is [code]false[/code], the Godot thread will "
+"If [code]blocking[/code] is [code]false[/code], the ValjangEngine thread will "
 "continue while the new process runs. It is not possible to retrieve the "
 "shell output in non-blocking mode, so [code]output[/code] will be empty.\n"
 "The return value also depends on the blocking mode. When blocking, the "
@@ -33837,13 +33837,13 @@ msgstr ""
 msgid ""
 "Returns the absolute directory path where user data is written ([code]user://"
 "[/code]).\n"
-"On Linux, this is [code]~/.local/share/godot/app_userdata/[project_name][/"
+"On Linux, this is [code]~/.local/share/ValjangEngine/app_userdata/[project_name][/"
 "code], or [code]~/.local/share/[custom_name][/code] if "
 "[code]use_custom_user_dir[/code] is set.\n"
-"On macOS, this is [code]~/Library/Application Support/Godot/app_userdata/"
+"On macOS, this is [code]~/Library/Application Support/ValjangEngine/app_userdata/"
 "[project_name][/code], or [code]~/Library/Application Support/[custom_name][/"
 "code] if [code]use_custom_user_dir[/code] is set.\n"
-"On Windows, this is [code]%APPDATA%\\Godot\\app_userdata\\[project_name][/"
+"On Windows, this is [code]%APPDATA%\\ValjangEngine\\app_userdata\\[project_name][/"
 "code], or [code]%APPDATA%\\[custom_name][/code] if "
 "[code]use_custom_user_dir[/code] is set. [code]%APPDATA%[/code] expands to "
 "[code]%USERPROFILE%\\AppData\\Roaming[/code].\n"
@@ -33860,7 +33860,7 @@ msgid ""
 "Returns [code]true[/code] if the feature for the given feature tag is "
 "supported in the currently running instance, depending on platform, build "
 "etc. Can be used to check whether you're currently running a debug build, on "
-"a certain platform or arch, etc. Refer to the [url=https://docs.godotengine."
+"a certain platform or arch, etc. Refer to the [url=https://docs.ValjangEngineengine."
 "org/en/latest/getting_started/workflow/export/feature_tags.html]Feature "
 "Tags[/url] documentation for more details.\n"
 "[b]Note:[/b] Tag names are case-sensitive."
@@ -33868,11 +33868,11 @@ msgstr ""
 
 #: doc/classes/OS.xml:365
 msgid ""
-"Returns [code]true[/code] if the Godot binary used to run the project is a "
+"Returns [code]true[/code] if the ValjangEngine binary used to run the project is a "
 "[i]debug[/i] export template, or when running in the editor.\n"
-"Returns [code]false[/code] if the Godot binary used to run the project is a "
+"Returns [code]false[/code] if the ValjangEngine binary used to run the project is a "
 "[i]release[/i] export template.\n"
-"To check whether the Godot binary used to run the project is an export "
+"To check whether the ValjangEngine binary used to run the project is an export "
 "template (debug or release), use [code]OS.has_feature(\"standalone\")[/code] "
 "instead."
 msgstr ""
@@ -33958,8 +33958,8 @@ msgid ""
 "example:\n"
 "- [code]OS.shell_open(\"C:\\\\Users\\name\\Downloads\")[/code] on Windows "
 "opens the file explorer at the user's Downloads folder.\n"
-"- [code]OS.shell_open(\"https://godotengine.org\")[/code] opens the default "
-"web browser on the official Godot website.\n"
+"- [code]OS.shell_open(\"https://ValjangEngineengine.org\")[/code] opens the default "
+"web browser on the official ValjangEngine website.\n"
 "- [code]OS.shell_open(\"mailto:example@example.com\")[/code] opens the "
 "default email client with the \"To\" field set to [code]example@example.com[/"
 "code]. See [url=https://blog.escapecreative.com/customizing-mailto-"
@@ -34818,7 +34818,7 @@ msgid ""
 "Panorama sky material functions similar to skyboxes in other engines, except "
 "it uses an equirectangular sky map instead of a cube map.\n"
 "Using an HDR panorama is strongly recommended for accurate, high-quality "
-"reflections. Godot supports the Radiance HDR ([code].hdr[/code]) and OpenEXR "
+"reflections. ValjangEngine supports the Radiance HDR ([code].hdr[/code]) and OpenEXR "
 "([code].exr[/code]) image formats for this purpose.\n"
 "You can use [url=https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/"
 "cubemap_to_panorama.html]this tool[/url] to convert a cube map to an "
@@ -35851,7 +35851,7 @@ msgstr ""
 #: doc/classes/RayCast3D.xml:14 doc/classes/World2D.xml:10
 #: doc/classes/World3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/ray-casting.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/ray-casting.html"
 msgstr ""
 
 #: doc/classes/PhysicsDirectBodyState2D.xml:19 doc/classes/RigidBody2D.xml:31
@@ -36199,7 +36199,7 @@ msgid ""
 "will occur. If no collision is detected, the returned array will be [code]"
 "[1, 1][/code].\n"
 "If the shape can not move, the returned array will be [code][0, 0][/code] "
-"under Bullet, and empty under GodotPhysics3D."
+"under Bullet, and empty under ValjangEnginePhysics3D."
 msgstr ""
 
 #: doc/classes/PhysicsDirectSpaceState3D.xml:33
@@ -37998,7 +37998,7 @@ msgstr ""
 #: doc/classes/Polygon2D.xml:105
 msgid ""
 "The normal map gives depth to the Polygon2D.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -38756,7 +38756,7 @@ msgstr ""
 msgid ""
 "Contains global variables accessible from everywhere. Use [method "
 "get_setting], [method set_setting] or [method has_setting] to access them. "
-"Variables stored in [code]project.godot[/code] are also loaded into "
+"Variables stored in [code]project.ValjangEngine[/code] are also loaded into "
 "ProjectSettings, making this object very useful for reading custom game "
 "configuration options.\n"
 "When naming a Project Settings property, use the full path to the setting "
@@ -38847,13 +38847,13 @@ msgid ""
 msgstr ""
 
 #: doc/classes/ProjectSettings.xml:131
-msgid "Saves the configuration to the [code]project.godot[/code] file."
+msgid "Saves the configuration to the [code]project.ValjangEngine[/code] file."
 msgstr ""
 
 #: doc/classes/ProjectSettings.xml:140
 msgid ""
 "Saves the configuration to a custom file. The file extension must be [code]."
-"godot[/code] (to save in text-based [ConfigFile] format) or [code].binary[/"
+"ValjangEngine[/code] (to save in text-based [ConfigFile] format) or [code].binary[/"
 "code] (to save in binary format)."
 msgstr ""
 
@@ -38904,10 +38904,10 @@ msgstr ""
 msgid ""
 "This user directory is used for storing persistent data ([code]user://[/"
 "code] filesystem). If left empty, [code]user://[/code] resolves to a project-"
-"specific folder in Godot's own configuration folder (see [method OS."
+"specific folder in ValjangEngine's own configuration folder (see [method OS."
 "get_user_data_dir]). If a custom directory name is defined, this name will "
 "be used instead and appended to the system-specific user data directory "
-"(same parent folder as the Godot configuration folder documented in [method "
+"(same parent folder as the ValjangEngine configuration folder documented in [method "
 "OS.get_user_data_dir]).\n"
 "The [member application/config/use_custom_user_dir] setting must be enabled "
 "for this to take effect."
@@ -38955,7 +38955,7 @@ msgid ""
 "setting is only effective on desktop platforms. A name must be set in the "
 "[member application/config/custom_user_dir_name] setting for this to take "
 "effect. If [code]false[/code], the project will save user data to [code](OS "
-"user data directory)/Godot/app_userdata/(project name)[/code]."
+"user data directory)/ValjangEngine/app_userdata/(project name)[/code]."
 msgstr ""
 
 #: doc/classes/ProjectSettings.xml:218
@@ -39090,8 +39090,8 @@ msgstr ""
 msgid ""
 "If [code]true[/code], displays getters and setters in autocompletion results "
 "in the script editor. This setting is meant to be used when porting old "
-"projects (Godot 2), as using member variables is the preferred style from "
-"Godot 3 onwards."
+"projects (ValjangEngine 2), as using member variables is the preferred style from "
+"ValjangEngine 3 onwards."
 msgstr ""
 
 #: doc/classes/ProjectSettings.xml:281
@@ -39976,7 +39976,7 @@ msgstr ""
 
 #: doc/classes/ProjectSettings.xml:809
 msgid ""
-"Godot uses a message queue to defer some function calls. If you run out of "
+"ValjangEngine uses a message queue to defer some function calls. If you run out of "
 "space on it (you will see an error), you can increase the size here."
 msgstr ""
 
@@ -40015,7 +40015,7 @@ msgstr ""
 
 #: doc/classes/ProjectSettings.xml:841
 msgid ""
-"Default size of packet peer stream for deserializing Godot data. Over this "
+"Default size of packet peer stream for deserializing ValjangEngine data. Over this "
 "size, data is dropped."
 msgstr ""
 
@@ -40040,8 +40040,8 @@ msgstr ""
 #: doc/classes/ProjectSettings.xml:856
 msgid ""
 "The CA certificates bundle to use for SSL connections. If this is set to a "
-"non-empty value, this will [i]override[/i] Godot's default [url=https://"
-"github.com/godotengine/godot/blob/master/thirdparty/certs/ca-certificates."
+"non-empty value, this will [i]override[/i] ValjangEngine's default [url=https://"
+"github.com/ValjangEngineengine/ValjangEngine/blob/master/thirdparty/certs/ca-certificates."
 "crt]Mozilla certificate bundle[/url]. If left empty, the default certificate "
 "bundle will be used.\n"
 "If in doubt, leave this setting empty."
@@ -40108,7 +40108,7 @@ msgstr ""
 #: doc/classes/ProjectSettings.xml:897
 msgid ""
 "Sets which physics engine to use for 2D physics.\n"
-"\"DEFAULT\" and \"GodotPhysics2D\" are the same, as there is currently no "
+"\"DEFAULT\" and \"ValjangEnginePhysics2D\" are the same, as there is currently no "
 "alternative 2D physics server implemented."
 msgstr ""
 
@@ -40131,7 +40131,7 @@ msgid ""
 "Sets whether physics is run on the main thread or a separate one. Running "
 "the server on a thread increases performance, but restricts API access to "
 "only physics process.\n"
-"[b]Warning:[/b] As of Godot 3.2, there are mixed reports about the use of a "
+"[b]Warning:[/b] As of ValjangEngine 3.2, there are mixed reports about the use of a "
 "Multi-Threaded thread model for physics. Be sure to assess whether it does "
 "give you extra performance and no regressions when using it."
 msgstr ""
@@ -40184,7 +40184,7 @@ msgstr ""
 msgid ""
 "Sets which physics engine to use for 3D physics.\n"
 "\"DEFAULT\" is currently the [url=https://bulletphysics.org]Bullet[/url] "
-"physics engine. The \"GodotPhysics3D\" engine is still supported as an "
+"physics engine. The \"ValjangEnginePhysics3D\" engine is still supported as an "
 "alternative."
 msgstr ""
 
@@ -40238,7 +40238,7 @@ msgstr ""
 msgid ""
 "Some NVIDIA GPU drivers have a bug which produces flickering issues for the "
 "[code]draw_rect[/code] method, especially as used in [TileMap]. Refer to "
-"[url=https://github.com/godotengine/godot/issues/9913]GitHub issue 9913[/"
+"[url=https://github.com/ValjangEngineengine/ValjangEngine/issues/9913]GitHub issue 9913[/"
 "url] for details.\n"
 "If [code]true[/code], this option enables a \"safe\" code path for such "
 "NVIDIA GPUs at the cost of performance. This option only impacts the GLES2 "
@@ -40681,7 +40681,7 @@ msgstr ""
 
 #: doc/classes/Quat.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/using_transforms."
 "html#interpolating-with-quaternions"
 msgstr ""
 
@@ -40809,7 +40809,7 @@ msgid ""
 "currently uses [url=http://www.pcg-random.org/]PCG32[/url].\n"
 "[b]Note:[/b] The underlying algorithm is an implementation detail. As a "
 "result, it should not be depended upon for reproducible random streams "
-"across Godot versions.\n"
+"across ValjangEngine versions.\n"
 "To generate a random float number (within a given range) based on a time-"
 "dependant seed:\n"
 "[codeblock]\n"
@@ -41457,7 +41457,7 @@ msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/reflection_probes.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/reflection_probes.html"
 msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:17
@@ -41610,7 +41610,7 @@ msgid ""
 "    print(result.get_string(\"digit\"))\n"
 "# Would print 01 03 0 3f 42\n"
 "[/codeblock]\n"
-"[b]Note:[/b] Godot's regex implementation is based on the [url=https://www."
+"[b]Note:[/b] ValjangEngine's regex implementation is based on the [url=https://www."
 "pcre.org/]PCRE2[/url] library. You can view the full pattern reference "
 "[url=https://www.pcre.org/current/doc/html/pcre2pattern.html]here[/url].\n"
 "[b]Tip:[/b] You can use [url=https://regexr.com/]Regexr[/url] to test "
@@ -41841,7 +41841,7 @@ msgstr ""
 
 #: doc/classes/RenderingServer.xml:18
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/optimization/using_servers."
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/optimization/using_servers."
 "html"
 msgstr ""
 
@@ -42392,7 +42392,7 @@ msgstr ""
 
 #: doc/classes/RenderingServer.xml:1222 doc/classes/RenderingServer.xml:1250
 #: doc/classes/RenderingServer.xml:1527
-msgid "Not implemented in Godot 3.x."
+msgid "Not implemented in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:1233
@@ -42434,7 +42434,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:1320
-msgid "Function not implemented in Godot 3.x."
+msgid "Function not implemented in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:1331
@@ -42669,7 +42669,7 @@ msgid "Returns a mesh's surface's arrays for blend shapes."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:1782 doc/classes/RenderingServer.xml:1795
-msgid "Function is unused in Godot 3.x."
+msgid "Function is unused in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:1806
@@ -43259,7 +43259,7 @@ msgid "If [code]true[/code], the viewport's canvas is not rendered."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:2893
-msgid "Currently unimplemented in Godot 3.x."
+msgid "Currently unimplemented in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:2904
@@ -43365,7 +43365,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:3046
-msgid "Unused enum in Godot 3.x."
+msgid "Unused enum in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:3067
@@ -44154,12 +44154,12 @@ msgid "The amount of draw calls in frame."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:3814
-msgid "Hardware supports shaders. This enum is currently unused in Godot 3.x."
+msgid "Hardware supports shaders. This enum is currently unused in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/RenderingServer.xml:3817
 msgid ""
-"Hardware supports multithreading. This enum is currently unused in Godot 3.x."
+"Hardware supports multithreading. This enum is currently unused in ValjangEngine 3.x."
 msgstr ""
 
 #: doc/classes/Resource.xml:4
@@ -44168,7 +44168,7 @@ msgstr ""
 
 #: doc/classes/Resource.xml:7
 msgid ""
-"Resource is the base class for all Godot-specific resource types, serving "
+"Resource is the base class for all ValjangEngine-specific resource types, serving "
 "primarily as data containers. They are reference counted and freed when no "
 "longer in use. They are also cached once loaded from disk, so that any "
 "further attempts to load a resource from a given path will return the same "
@@ -44180,7 +44180,7 @@ msgstr ""
 
 #: doc/classes/Resource.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "resources.html"
 msgstr ""
 
@@ -44257,7 +44257,7 @@ msgstr ""
 
 #: doc/classes/ResourceFormatLoader.xml:7
 msgid ""
-"Godot loads resources in the editor or in exported games using "
+"ValjangEngine loads resources in the editor or in exported games using "
 "ResourceFormatLoaders. They are queried automatically via the "
 "[ResourceLoader] singleton, or when a resource with internal dependencies is "
 "loaded. Each file type may load as a different resource type, so multiple "
@@ -44269,7 +44269,7 @@ msgid ""
 "resources of its handled type(s). You may also implement a "
 "[ResourceFormatSaver].\n"
 "[b]Note:[/b] You can also extend [EditorImportPlugin] if the resource type "
-"you need exists but Godot is unable to load its format. Choosing one way "
+"you need exists but ValjangEngine is unable to load its format. Choosing one way "
 "over another depends if the format is suitable or not for the final exported "
 "game. For example, it's better to import [code].png[/code] textures as "
 "[code].stex[/code] ([StreamTexture2D]) first, so they can be loaded with "
@@ -44332,7 +44332,7 @@ msgid ""
 "use the [ResourceSaver] singleton. This is accomplished thanks to multiple "
 "[ResourceFormatSaver]s, each handling its own format and called "
 "automatically by the engine.\n"
-"By default, Godot saves resources as [code].tres[/code] (text-based), [code]."
+"By default, ValjangEngine saves resources as [code].tres[/code] (text-based), [code]."
 "res[/code] (binary) or another built-in format, but you can choose to create "
 "your own format by extending this class. Be sure to respect the documented "
 "return types and values. You should give it a global class name with "
@@ -44517,12 +44517,12 @@ msgid ""
 msgstr ""
 
 #: doc/classes/ResourceSaver.xml:4
-msgid "Singleton for saving Godot-specific resource types."
+msgid "Singleton for saving ValjangEngine-specific resource types."
 msgstr ""
 
 #: doc/classes/ResourceSaver.xml:7
 msgid ""
-"Singleton for saving Godot-specific resource types to the filesystem.\n"
+"Singleton for saving ValjangEngine-specific resource types to the filesystem.\n"
 "It uses the many [ResourceFormatSaver] classes registered in the engine "
 "(either built-in or from a plugin) to save engine-specific resource data to "
 "text-based (e.g. [code].tres[/code] or [code].tscn[/code]) or binary files "
@@ -45654,13 +45654,13 @@ msgstr ""
 
 #: doc/classes/SceneTree.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "scene_tree.html"
 msgstr ""
 
 #: doc/classes/SceneTree.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/viewports/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/viewports/"
 "multiple_resolutions.html"
 msgstr ""
 
@@ -46001,7 +46001,7 @@ msgstr ""
 
 #: doc/classes/Script.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/step_by_step/"
 "scripting.html"
 msgstr ""
 
@@ -46096,7 +46096,7 @@ msgid "Emitted when the user clicks the OK button."
 msgstr ""
 
 #: doc/classes/ScriptEditor.xml:4
-msgid "Godot editor's script editor."
+msgid "ValjangEngine editor's script editor."
 msgstr ""
 
 #: doc/classes/ScriptEditor.xml:7
@@ -46283,12 +46283,12 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Shader.xml:10 doc/classes/ShaderMaterial.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/shading/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/shading/index.html"
 msgstr ""
 
 #: doc/classes/Shader.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/shading/your_first_shader/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/shading/your_first_shader/"
 "what_are_shaders.html"
 msgstr ""
 
@@ -46550,7 +46550,7 @@ msgstr ""
 
 #: doc/classes/Skeleton2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/animation/2d_skeletons.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/animation/2d_skeletons.html"
 msgstr ""
 
 #: doc/classes/Skeleton2D.xml:19
@@ -46927,7 +46927,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/physics/soft_body.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/physics/soft_body.html"
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:83
@@ -47271,7 +47271,7 @@ msgstr ""
 #: doc/classes/Sprite2D.xml:56
 msgid ""
 "The normal map gives depth to the Sprite2D.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -47326,7 +47326,7 @@ msgid ""
 "A node that displays a 2D texture in a 3D environment. The texture displayed "
 "can be a region from a larger atlas texture, or a frame from a sprite sheet "
 "animation.\n"
-"[b]Note:[/b] There are [url=https://github.com/godotengine/godot/"
+"[b]Note:[/b] There are [url=https://github.com/ValjangEngineengine/ValjangEngine/"
 "issues/20855]known performance issues[/url] when using [Sprite3D]. Consider "
 "using a [MeshInstance3D] with a [QuadMesh] as the mesh instead. You can "
 "still have billboarding by enabling billboard properties in the QuadMesh's "
@@ -47877,7 +47877,7 @@ msgstr ""
 
 #: doc/classes/String.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/scripting/gdscript/"
 "gdscript_format_string.html"
 msgstr ""
 
@@ -48225,7 +48225,7 @@ msgid ""
 "Escapes (encodes) a string to URL friendly format. Also referred to as 'URL "
 "encode'.\n"
 "[codeblock]\n"
-"print(\"https://example.org/?escaped=\" + \"Godot Engine:'docs'\"."
+"print(\"https://example.org/?escaped=\" + \"ValjangEngine Engine:'docs'\"."
 "http_escape())\n"
 "[/codeblock]"
 msgstr ""
@@ -48235,7 +48235,7 @@ msgid ""
 "Unescapes (decodes) a string in URL encoded format. Also referred to as 'URL "
 "decode'.\n"
 "[codeblock]\n"
-"print(\"https://example.org/?escaped=\" + \"Godot%20Engine%3A%27docs%27\"."
+"print(\"https://example.org/?escaped=\" + \"ValjangEngine%20Engine%3A%27docs%27\"."
 "http_unescape())\n"
 "[/codeblock]"
 msgstr ""
@@ -49093,7 +49093,7 @@ msgstr ""
 #: doc/classes/StyleBoxTexture.xml:123
 msgid ""
 "The normal map to use when drawing this style box.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -49254,7 +49254,7 @@ msgid ""
 "vertex, you cannot add color to any of the subsequent vertices.\n"
 "See also [ArrayMesh], [ImmediateGeometry3D] and [MeshDataTool] for "
 "procedural geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] ValjangEngine uses clockwise [url=https://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -50305,7 +50305,7 @@ msgstr ""
 #: doc/classes/TextureButton.xml:7
 msgid ""
 "[TextureButton] has the same functionality as [Button], except it uses "
-"sprites instead of Godot's [Theme] resource. It is faster to create, but it "
+"sprites instead of ValjangEngine's [Theme] resource. It is faster to create, but it "
 "doesn't support localization like more complex [Control]s.\n"
 "The \"normal\" state must contain a texture ([member texture_normal]); other "
 "textures are optional."
@@ -50441,7 +50441,7 @@ msgstr ""
 #: doc/classes/TextureProgress.xml:7
 msgid ""
 "TextureProgress works like [ProgressBar], but uses up to 3 textures instead "
-"of Godot's [Theme] resource. It can be used to create horizontal, vertical "
+"of ValjangEngine's [Theme] resource. It can be used to create horizontal, vertical "
 "and radial progress bars."
 msgstr ""
 
@@ -50451,7 +50451,7 @@ msgstr ""
 
 #: doc/classes/TextureProgress.xml:37
 msgid ""
-"If [code]true[/code], Godot treats the bar's textures like in "
+"If [code]true[/code], ValjangEngine treats the bar's textures like in "
 "[NinePatchRect]. Use the [code]stretch_margin_*[/code] properties like "
 "[member stretch_margin_bottom] to set up the nine patch's 3×3 grid. When "
 "using a radial [member fill_mode], this setting will enable stretching."
@@ -50642,7 +50642,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Theme.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/gui/gui_skinning.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/gui/gui_skinning.html"
 msgstr ""
 
 #: doc/classes/Theme.xml:18
@@ -50893,7 +50893,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/TileMap.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/using_tilemaps.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/2d/using_tilemaps.html"
 msgstr ""
 
 #: doc/classes/TileMap.xml:17
@@ -51110,7 +51110,7 @@ msgstr ""
 
 #: doc/classes/TileMap.xml:302
 msgid ""
-"If [code]true[/code], the compatibility with the tilemaps made in Godot 3.1 "
+"If [code]true[/code], the compatibility with the tilemaps made in ValjangEngine 3.1 "
 "or earlier is maintained (textures move when the tile origin changes and "
 "rotate if the texture size is not homogeneous). This mode presents problems "
 "when doing [code]flip_h[/code], [code]flip_v[/code] and [code]transpose[/"
@@ -51458,7 +51458,7 @@ msgstr ""
 #: doc/classes/TileSet.xml:594
 msgid ""
 "Sets the tile's normal map texture.\n"
-"[b]Note:[/b] Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"[b]Note:[/b] ValjangEngine expects the normal map to use X+, Y-, and Z+ coordinates. "
 "See [url=http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details#Common_Swizzle_Coordinates]this page[/url] for "
 "a comparison of normal map coordinates expected by popular engines."
@@ -51904,12 +51904,12 @@ msgstr ""
 
 #: doc/classes/Translation.xml:10 doc/classes/TranslationServer.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/i18n/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/i18n/"
 "internationalizing_games.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:11 doc/classes/TranslationServer.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/i18n/locales.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/i18n/locales.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:22
@@ -52829,7 +52829,7 @@ msgid ""
 "don't know which transition and easing to pick, you can try different [enum "
 "TransitionType] constants with [constant EASE_IN_OUT], and use the one that "
 "looks best.\n"
-"[url=https://raw.githubusercontent.com/godotengine/godot-docs/master/img/"
+"[url=https://raw.githubusercontent.com/ValjangEngineengine/ValjangEngine-docs/master/img/"
 "tween_cheatsheet.png]Tween easing and transition types cheatsheet[/url]"
 msgstr ""
 
@@ -53204,7 +53204,7 @@ msgid ""
 "works by registering methods and property changes inside \"actions\".\n"
 "Common behavior is to create an action, then add do/undo calls to functions "
 "or property changes, then committing the action.\n"
-"Here's an example on how to add an action to the Godot editor's own "
+"Here's an example on how to add an action to the ValjangEngine editor's own "
 "[UndoRedo], from a plugin:\n"
 "[codeblock]\n"
 "var undo_redo = get_undo_redo() # Method of EditorPlugin.\n"
@@ -53694,7 +53694,7 @@ msgid "Memory allocation error."
 msgstr ""
 
 #: doc/classes/Variant.xml:4
-msgid "The most important data type in Godot."
+msgid "The most important data type in ValjangEngine."
 msgstr ""
 
 #: doc/classes/Variant.xml:7
@@ -53711,7 +53711,7 @@ msgid ""
 "var bar: int = 2 # bar is a statically typed integer.\n"
 "# bar = \"Uh oh! I can't make static variables become a different type!\"\n"
 "[/codeblock]\n"
-"Godot tracks all scripting API variables within Variants. Without even "
+"ValjangEngine tracks all scripting API variables within Variants. Without even "
 "realizing it, you use Variants all the time. When a particular language "
 "enforces its own rules for keeping data typed, then that language is "
 "applying its own custom logic over the base Variant scripting API.\n"
@@ -53722,12 +53722,12 @@ msgid ""
 "static typing. The GUI interface enforces that properties have a particular "
 "type that doesn't change over time.\n"
 "- C# is statically typed, but uses the Mono [code]object[/code] type in "
-"place of Godot's Variant class when it needs to represent a dynamic value. "
+"place of ValjangEngine's Variant class when it needs to represent a dynamic value. "
 "[code]object[/code] is the Mono runtime's equivalent of the same concept.\n"
 "- The statically-typed language NativeScript C++ does not define a built-in "
-"Variant-like class. Godot's GDNative bindings provide their own godot::"
+"Variant-like class. ValjangEngine's GDNative bindings provide their own ValjangEngine::"
 "Variant class for users; Any point at which the C++ code starts interacting "
-"with the Godot runtime is a place where you might have to start wrapping "
+"with the ValjangEngine runtime is a place where you might have to start wrapping "
 "data inside Variant objects.\n"
 "The global [method @GDScript.typeof] function returns the enumerated value "
 "of the Variant type stored in the current variable (see [enum Variant."
@@ -53750,22 +53750,22 @@ msgid ""
 "        # To fetch that value, you need to dig deeply into a hidden "
 "ProjectSettings setting: an Array of Dictionaries called "
 "\"_global_script_classes\".\n"
-"        # Open your project.godot file to see it up close.\n"
+"        # Open your project.ValjangEngine file to see it up close.\n"
 "[/codeblock]\n"
 "A Variant takes up only 20 bytes and can store almost any engine datatype "
 "inside of it. Variants are rarely used to hold information for long periods "
 "of time. Instead, they are used mainly for communication, editing, "
 "serialization and moving data around.\n"
-"Godot has specifically invested in making its Variant class as flexible as "
+"ValjangEngine has specifically invested in making its Variant class as flexible as "
 "possible; so much so that it is used for a multitude of operations to "
-"facilitate communication between all of Godot's systems.\n"
+"facilitate communication between all of ValjangEngine's systems.\n"
 "A Variant:\n"
 "- Can store almost any datatype.\n"
 "- Can perform operations between many variants. GDScript uses Variant as its "
 "atomic/native datatype.\n"
 "- Can be hashed, so it can be compared quickly to other variants.\n"
 "- Can be used to convert safely between datatypes.\n"
-"- Can be used to abstract calling methods and their arguments. Godot exports "
+"- Can be used to abstract calling methods and their arguments. ValjangEngine exports "
 "all its functions through variants.\n"
 "- Can be used to defer calls or move data between threads.\n"
 "- Can be serialized as binary and stored to disk, or transferred via "
@@ -53785,7 +53785,7 @@ msgstr ""
 
 #: doc/classes/Variant.xml:53
 msgid ""
-"https://docs.godotengine.org/en/latest/development/cpp/variant_class.html"
+"https://docs.ValjangEngineengine.org/en/latest/development/cpp/variant_class.html"
 msgstr ""
 
 #: doc/classes/VBoxContainer.xml:4
@@ -54391,7 +54391,7 @@ msgstr ""
 
 #: doc/classes/VehicleWheel3D.xml:59
 msgid ""
-"This is the distance the suspension can travel. As Godot units are "
+"This is the distance the suspension can travel. As ValjangEngine units are "
 "equivalent to meters, keep this setting relatively low. Try a value between "
 "0.1 and 0.3 depending on the type of car."
 msgstr ""
@@ -54429,7 +54429,7 @@ msgstr ""
 msgid ""
 "This is the distance in meters the wheel is lowered from its origin point. "
 "Don't set this to 0.0 and move the wheel into position, instead move the "
-"origin point of your wheel (the gizmo in Godot) to the position the wheel "
+"origin point of your wheel (the gizmo in ValjangEngine) to the position the wheel "
 "will take when bottoming out, then use the rest length to move the wheel "
 "down to the position it should be in when the car is in rest."
 msgstr ""
@@ -54548,8 +54548,8 @@ msgstr ""
 #: modules/gdnative/doc_classes/VideoStreamGDNative.xml:7
 msgid ""
 "[VideoStream] resource for for video formats implemented via GDNative.\n"
-"It can be used via [url=https://github.com/KidRigger/godot-"
-"videodecoder]godot-videodecoder[/url] which uses the [url=https://ffmpeg."
+"It can be used via [url=https://github.com/KidRigger/ValjangEngine-"
+"videodecoder]ValjangEngine-videodecoder[/url] which uses the [url=https://ffmpeg."
 "org]FFmpeg[/url] library."
 msgstr ""
 
@@ -54627,7 +54627,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Viewport.xml:16
-msgid "https://docs.godotengine.org/en/latest/tutorials/viewports/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/viewports/index.html"
 msgstr ""
 
 #: doc/classes/Viewport.xml:23
@@ -55280,7 +55280,7 @@ msgstr ""
 
 #: modules/visual_script/doc_classes/VisualScript.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/"
+"https://docs.ValjangEngineengine.org/en/latest/getting_started/scripting/"
 "visual_script/index.html"
 msgstr ""
 
@@ -56508,7 +56508,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:9
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/shading/visual_shaders.html"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/shading/visual_shaders.html"
 msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:16
@@ -56963,7 +56963,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeCustom.xml:16
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/editor/"
 "visual_shader_plugins.html"
 msgstr ""
 
@@ -57113,12 +57113,12 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeExpression.xml:4
 msgid ""
-"A custom visual shader graph expression written in Godot Shading Language."
+"A custom visual shader graph expression written in ValjangEngine Shading Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeExpression.xml:7
 msgid ""
-"Custom Godot Shading Language expression, with a custom amount of input and "
+"Custom ValjangEngine Shading Language expression, with a custom amount of input and "
 "output ports.\n"
 "The provided code is directly injected into the graph's matching shader "
 "function ([code]vertex[/code], [code]fragment[/code], or [code]light[/"
@@ -57129,7 +57129,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeExpression.xml:16
 msgid ""
-"An expression in Godot Shading Language, which will be injected at the start "
+"An expression in ValjangEngine Shading Language, which will be injected at the start "
 "of the graph's matching shader function ([code]vertex[/code], "
 "[code]fragment[/code], or [code]light[/code]), and thus cannot be used to "
 "declare functions, varyings, uniforms, or global constants."
@@ -57184,111 +57184,111 @@ msgstr ""
 #: doc/classes/VisualShaderNodeFloatFunc.xml:20
 msgid ""
 "Returns the sine of the parameter. Translates to [code]sin(x)[/code] in the "
-"Godot Shader Language."
+"ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:23
 msgid ""
 "Returns the cosine of the parameter. Translates to [code]cos(x)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:26
 msgid ""
 "Returns the tangent of the parameter. Translates to [code]tan(x)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:29
 msgid ""
 "Returns the arc-sine of the parameter. Translates to [code]asin(x)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:32
 msgid ""
 "Returns the arc-cosine of the parameter. Translates to [code]acos(x)[/code] "
-"in the Godot Shader Language."
+"in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:35
 msgid ""
 "Returns the arc-tangent of the parameter. Translates to [code]atan(x)[/code] "
-"in the Godot Shader Language."
+"in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:38
 msgid ""
 "Returns the hyperbolic sine of the parameter. Translates to [code]sinh(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:41
 msgid ""
 "Returns the hyperbolic cosine of the parameter. Translates to [code]cosh(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:44
 msgid ""
 "Returns the hyperbolic tangent of the parameter. Translates to [code]tanh(x)"
-"[/code] in the Godot Shader Language."
+"[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:47
 msgid ""
 "Returns the natural logarithm of the parameter. Translates to [code]log(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:50
 msgid ""
 "Returns the natural exponentiation of the parameter. Translates to "
-"[code]exp(x)[/code] in the Godot Shader Language."
+"[code]exp(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:53
 msgid ""
 "Returns the square root of the parameter. Translates to [code]sqrt(x)[/code] "
-"in the Godot Shader Language."
+"in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:56
 #: doc/classes/VisualShaderNodeIntFunc.xml:20
 msgid ""
 "Returns the absolute value of the parameter. Translates to [code]abs(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:59
 #: doc/classes/VisualShaderNodeIntFunc.xml:29
 msgid ""
 "Extracts the sign of the parameter. Translates to [code]sign(x)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:62
 msgid ""
 "Finds the nearest integer less than or equal to the parameter. Translates to "
-"[code]floor(x)[/code] in the Godot Shader Language."
+"[code]floor(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:65
 msgid ""
 "Finds the nearest integer to the parameter. Translates to [code]round(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:68
 msgid ""
 "Finds the nearest integer that is greater than or equal to the parameter. "
-"Translates to [code]ceil(x)[/code] in the Godot Shader Language."
+"Translates to [code]ceil(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:71
 msgid ""
 "Computes the fractional part of the argument. Translates to [code]fract(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:74
@@ -57305,49 +57305,49 @@ msgstr ""
 #: doc/classes/VisualShaderNodeFloatFunc.xml:80
 msgid ""
 "Returns the arc-hyperbolic-cosine of the parameter. Translates to "
-"[code]acosh(x)[/code] in the Godot Shader Language."
+"[code]acosh(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:83
 msgid ""
 "Returns the arc-hyperbolic-sine of the parameter. Translates to "
-"[code]asinh(x)[/code] in the Godot Shader Language."
+"[code]asinh(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:86
 msgid ""
 "Returns the arc-hyperbolic-tangent of the parameter. Translates to "
-"[code]atanh(x)[/code] in the Godot Shader Language."
+"[code]atanh(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:89
 msgid ""
 "Convert a quantity in radians to degrees. Translates to [code]degrees(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:92
 msgid ""
 "Returns 2 raised by the power of the parameter. Translates to [code]exp2(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:95
 msgid ""
 "Returns the inverse of the square root of the parameter. Translates to "
-"[code]inversesqrt(x)[/code] in the Godot Shader Language."
+"[code]inversesqrt(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:98
 msgid ""
 "Returns the base 2 logarithm of the parameter. Translates to [code]log2(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:101
 msgid ""
 "Convert a quantity in degrees to radians. Translates to [code]radians(x)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:104
@@ -57359,14 +57359,14 @@ msgstr ""
 #: doc/classes/VisualShaderNodeFloatFunc.xml:107
 msgid ""
 "Finds the nearest even integer to the parameter. Translates to "
-"[code]roundEven(x)[/code] in the Godot Shader Language."
+"[code]roundEven(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:110
 msgid ""
 "Returns a value equal to the nearest integer to [code]x[/code] whose "
 "absolute value is not larger than the absolute value of [code]x[/code]. "
-"Translates to [code]trunc(x)[/code] in the Godot Shader Language."
+"Translates to [code]trunc(x)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatFunc.xml:113
@@ -57407,39 +57407,39 @@ msgstr ""
 #: doc/classes/VisualShaderNodeFloatOp.xml:32
 msgid ""
 "Calculates the remainder of two numbers. Translates to [code]mod(a, b)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatOp.xml:35
 msgid ""
 "Raises the [code]a[/code] to the power of [code]b[/code]. Translates to "
-"[code]pow(a, b)[/code] in the Godot Shader Language."
+"[code]pow(a, b)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatOp.xml:38
 #: doc/classes/VisualShaderNodeIntOp.xml:35
 msgid ""
 "Returns the greater of two numbers. Translates to [code]max(a, b)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatOp.xml:41
 msgid ""
 "Returns the lesser of two numbers. Translates to [code]min(a, b)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatOp.xml:44
 msgid ""
 "Returns the arc-tangent of the parameters. Translates to [code]atan(a, b)[/"
-"code] in the Godot Shader Language."
+"code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeFloatOp.xml:47
 msgid ""
 "Generates a step function by comparing [code]b[/code](x) to [code]a[/code]"
 "(edge). Returns 0.0 if [code]x[/code] is smaller than [code]edge[/code] and "
-"otherwise 1.0. Translates to [code]step(a, b)[/code] in the Godot Shader "
+"otherwise 1.0. Translates to [code]step(a, b)[/code] in the ValjangEngine Shader "
 "Language."
 msgstr ""
 
@@ -57514,13 +57514,13 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeGlobalExpression.xml:4
 msgid ""
-"A custom global visual shader graph expression written in Godot Shading "
+"A custom global visual shader graph expression written in ValjangEngine Shading "
 "Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeGlobalExpression.xml:7
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom ValjangEngine Shader Language expression, which is placed on top of the "
 "generated shader. You can place various function definitions inside to call "
 "later in [VisualShaderNodeExpression]s (which are injected in the main "
 "shader functions). You can also declare varyings, uniforms and global "
@@ -57675,13 +57675,13 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeInput.xml:10
 msgid ""
-"https://docs.godotengine.org/en/stable/tutorials/shading/shading_reference/"
+"https://docs.ValjangEngineengine.org/en/stable/tutorials/shading/shading_reference/"
 "index.html"
 msgstr ""
 
 #: doc/classes/VisualShaderNodeInput.xml:17
 msgid ""
-"Returns a translated name of the current constant in the Godot Shader "
+"Returns a translated name of the current constant in the ValjangEngine Shader "
 "Language. eg. [code]\"ALBEDO\"[/code] if the [member input_name] equal to "
 "[code]\"albedo\"[/code]."
 msgstr ""
@@ -57721,7 +57721,7 @@ msgstr ""
 #: doc/classes/VisualShaderNodeIntFunc.xml:23
 msgid ""
 "Constrains a parameter between [code]min[/code] and [code]max[/code]. "
-"Translates to [code]clamp(x, min, max)[/code] in the Godot Shader Language."
+"Translates to [code]clamp(x, min, max)[/code] in the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeIntOp.xml:4
@@ -57741,7 +57741,7 @@ msgstr ""
 #: doc/classes/VisualShaderNodeIntOp.xml:38
 msgid ""
 "Returns the lesser of two numbers. Translates to [code]max(a, b)[/code] in "
-"the Godot Shader Language."
+"the ValjangEngine Shader Language."
 msgstr ""
 
 #: doc/classes/VisualShaderNodeIntUniform.xml:4
@@ -58733,13 +58733,13 @@ msgstr ""
 #: modules/webrtc/doc_classes/WebRTCDataChannel.xml:98
 msgid ""
 "Tells the channel to send data over this channel as text. An external peer "
-"(non-Godot) would receive this as a string."
+"(non-ValjangEngine) would receive this as a string."
 msgstr ""
 
 #: modules/webrtc/doc_classes/WebRTCDataChannel.xml:101
 msgid ""
 "Tells the channel to send data over this channel as binary. An external peer "
-"(non-Godot) would receive this as array buffer or blob."
+"(non-ValjangEngine) would receive this as array buffer or blob."
 msgstr ""
 
 #: modules/webrtc/doc_classes/WebRTCDataChannel.xml:104
@@ -59059,7 +59059,7 @@ msgid ""
 "requested.\n"
 "If [code]true[/code] is passed as [code]gd_mp_api[/code], the client will "
 "behave like a network peer for the [MultiplayerAPI], connections to non-"
-"Godot servers will not work, and [signal data_received] will not be "
+"ValjangEngine servers will not work, and [signal data_received] will not be "
 "emitted.\n"
 "If [code]false[/code] is passed instead (default), you must call "
 "[PacketPeer] functions ([code]put_packet[/code], [code]get_packet[/code], "
@@ -59163,7 +59163,7 @@ msgstr ""
 msgid ""
 "Emitted when a packet is received from a peer.\n"
 "[b]Note:[/b] This signal is only emitted when the client or server is "
-"configured to use Godot multiplayer API."
+"configured to use ValjangEngine multiplayer API."
 msgstr ""
 
 #: modules/websocket/doc_classes/WebSocketPeer.xml:4
@@ -59277,7 +59277,7 @@ msgid ""
 "list empty (default), no sub-protocol will be requested.\n"
 "If [code]true[/code] is passed as [code]gd_mp_api[/code], the server will "
 "behave like a network peer for the [MultiplayerAPI], connections from non-"
-"Godot clients will not work, and [signal data_received] will not be "
+"ValjangEngine clients will not work, and [signal data_received] will not be "
 "emitted.\n"
 "If [code]false[/code] is passed instead (default), you must call "
 "[PacketPeer] functions ([code]put_packet[/code], [code]get_packet[/code], "
@@ -59700,7 +59700,7 @@ msgstr ""
 #: doc/classes/XRCamera3D.xml:11 doc/classes/XRController3D.xml:12
 #: doc/classes/XRInterface.xml:11 doc/classes/XROrigin3D.xml:13
 #: doc/classes/XRPositionalTracker.xml:12 doc/classes/XRServer.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/vr/index.html"
+msgid "https://docs.ValjangEngineengine.org/en/latest/tutorials/vr/index.html"
 msgstr ""
 
 #: doc/classes/XRController3D.xml:4
@@ -59751,7 +59751,7 @@ msgstr ""
 msgid ""
 "Returns the ID of the joystick object bound to this. Every controller "
 "tracked by the [XRServer] that has buttons and axis will also be registered "
-"as a joystick within Godot. This means that all the normal joystick tracking "
+"as a joystick within ValjangEngine. This means that all the normal joystick tracking "
 "and input mapping will work for buttons and axis found on the AR/VR "
 "controllers. This ID is purely offered as information so you can link up the "
 "controller with its joystick entry."
@@ -59816,7 +59816,7 @@ msgstr ""
 #: doc/classes/XRInterface.xml:7
 msgid ""
 "This class needs to be implemented to make an AR or VR platform available to "
-"Godot and these should be implemented as C++ modules or GDNative modules "
+"ValjangEngine and these should be implemented as C++ modules or GDNative modules "
 "(note that for GDNative the subclass XRScriptInterface should be used). Part "
 "of the interface is exposed to GDScript so you can detect, enable and "
 "configure an AR or VR platform.\n"
@@ -59863,9 +59863,9 @@ msgid ""
 "After initializing the interface you want to use you then need to enable the "
 "AR/VR mode of a viewport and rendering should commence.\n"
 "[b]Note:[/b] You must enable the AR/VR mode on the main viewport for any "
-"device that uses the main output of Godot, such as for mobile VR.\n"
+"device that uses the main output of ValjangEngine, such as for mobile VR.\n"
 "If you do this for a platform that handles its own output (such as OpenVR) "
-"Godot will show just one eye without distortion on screen. Alternatively, "
+"ValjangEngine will show just one eye without distortion on screen. Alternatively, "
 "you can add a separate viewport node to your scene and enable AR/VR on that "
 "viewport. It will be used to output to the HMD, leaving you free to do "
 "anything you like in the main window, such as using a separate camera as a "

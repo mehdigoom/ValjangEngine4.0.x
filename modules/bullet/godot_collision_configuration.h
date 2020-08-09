@@ -1,12 +1,12 @@
 /*************************************************************************/
-/*  godot_collision_configuration.h                                      */
+/*  ValjangEngine_collision_configuration.h                                      */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -28,8 +28,8 @@
 /* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                */
 /*************************************************************************/
 
-#ifndef GODOT_COLLISION_CONFIGURATION_H
-#define GODOT_COLLISION_CONFIGURATION_H
+#ifndef ValjangEngine_COLLISION_CONFIGURATION_H
+#define ValjangEngine_COLLISION_CONFIGURATION_H
 
 #include <BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h>
 #include <BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h>
@@ -40,25 +40,25 @@
 
 class btDiscreteDynamicsWorld;
 
-class GodotCollisionConfiguration : public btDefaultCollisionConfiguration {
+class ValjangEngineCollisionConfiguration : public btDefaultCollisionConfiguration {
 	btCollisionAlgorithmCreateFunc *m_rayWorldCF;
 	btCollisionAlgorithmCreateFunc *m_swappedRayWorldCF;
 
 public:
-	GodotCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo = btDefaultCollisionConstructionInfo());
-	virtual ~GodotCollisionConfiguration();
+	ValjangEngineCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo = btDefaultCollisionConstructionInfo());
+	virtual ~ValjangEngineCollisionConfiguration();
 
 	virtual btCollisionAlgorithmCreateFunc *getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1);
 	virtual btCollisionAlgorithmCreateFunc *getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1);
 };
 
-class GodotSoftCollisionConfiguration : public btSoftBodyRigidBodyCollisionConfiguration {
+class ValjangEngineSoftCollisionConfiguration : public btSoftBodyRigidBodyCollisionConfiguration {
 	btCollisionAlgorithmCreateFunc *m_rayWorldCF;
 	btCollisionAlgorithmCreateFunc *m_swappedRayWorldCF;
 
 public:
-	GodotSoftCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo = btDefaultCollisionConstructionInfo());
-	virtual ~GodotSoftCollisionConfiguration();
+	ValjangEngineSoftCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo = btDefaultCollisionConstructionInfo());
+	virtual ~ValjangEngineSoftCollisionConfiguration();
 
 	virtual btCollisionAlgorithmCreateFunc *getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1);
 	virtual btCollisionAlgorithmCreateFunc *getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1);

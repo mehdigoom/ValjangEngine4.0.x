@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 # Global Cache Settings
 env:
-  GODOT_BASE_BRANCH: master
+  ValjangEngine_BASE_BRANCH: master
   SCONS_CACHE_LIMIT: 4096
 
 jobs:
@@ -31,8 +31,8 @@ jobs:
         run: |
           echo "::set-env name=PATH::/usr/lib/jvm/java-8-openjdk-amd64/jre/bin:${PATH}"
           java -version
-          echo "::set-env name=ANDROID_HOME::$(pwd)/godot-dev/build-tools/android-sdk"
-          echo "::set-env name=ANDROID_NDK_ROOT::$(pwd)/godot-dev/build-tools/android-ndk"
+          echo "::set-env name=ANDROID_HOME::$(pwd)/ValjangEngine-dev/build-tools/android-sdk"
+          echo "::set-env name=ANDROID_NDK_ROOT::$(pwd)/ValjangEngine-dev/build-tools/android-ndk"
           misc/ci/android-tools-linux.sh
           source ~/.bashrc
 
@@ -42,11 +42,11 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{github.workspace}}/.scons_cache/
-          key: ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+          key: ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
           restore-keys: |
-            ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
-            ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}
-            ${{github.job}}-${{env.GODOT_BASE_BRANCH}}
+            ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+            ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}
+            ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}
 
       # Use python 3.x release (works cross platform)
       - name: Set up Python 3.x

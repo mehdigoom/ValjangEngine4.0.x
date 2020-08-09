@@ -1,9 +1,9 @@
-short_name = "godot"
-name = "Godot Engine"
+short_name = "ValjangEngine"
+name = "ValjangEngine Engine"
 major = 4
 minor = 0
 patch = 0
 status = "dev"
 module_config = ""
 year = 2020
-website = "https://godotengine.org"
+website = "https://ValjangEngineengine.org"

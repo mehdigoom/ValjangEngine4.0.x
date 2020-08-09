@@ -10,8 +10,8 @@
 		For more information, read the "Matrices and transforms" documentation article.
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/tutorials/math/matrices_and_transforms.html</link>
-		<link>https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/math/matrices_and_transforms.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/3d/using_transforms.html</link>
 	</tutorials>
 	<methods>
 		<method name="Basis">
@@ -77,7 +77,7 @@
 			<return type="int">
 			</return>
 			<description>
-				This function considers a discretization of rotations into 24 points on unit sphere, lying along the vectors (x,y,z) with each component being either -1, 0, or 1, and returns the index of the point best representing the orientation of the object. It is mainly used by the [GridMap] editor. For further details, refer to the Godot source code.
+				This function considers a discretization of rotations into 24 points on unit sphere, lying along the vectors (x,y,z) with each component being either -1, 0, or 1, and returns the index of the point best representing the orientation of the object. It is mainly used by the [GridMap] editor. For further details, refer to the ValjangEngine source code.
 			</description>
 		</method>
 		<method name="get_rotation_quat">

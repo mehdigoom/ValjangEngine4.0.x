@@ -20,7 +20,7 @@
 		[b]Note:[/b] Unlike references to a [Reference], references to an Object stored in a variable can become invalid without warning. Therefore, it's recommended to use [Reference] for data classes instead of [Object].
 	</description>
 	<tutorials>
-		<link title="When and how to avoid using nodes for everything">https://docs.godotengine.org/en/latest/getting_started/workflow/best_practices/node_alternatives.html</link>
+		<link title="When and how to avoid using nodes for everything">https://docs.ValjangEngineengine.org/en/latest/getting_started/workflow/best_practices/node_alternatives.html</link>
 	</tutorials>
 	<methods>
 		<method name="_get" qualifiers="virtual">
@@ -99,7 +99,7 @@
 				[codeblock]
 				call("set", "position", Vector2(42.0, 0.0))
 				[/codeblock]
-				[b]Note:[/b] In C#, the method name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined methods where you should use the same convention as in the C# source (typically PascalCase).
+				[b]Note:[/b] In C#, the method name must be specified as snake_case if it is defined by a built-in ValjangEngine node. This doesn't apply to user-defined methods where you should use the same convention as in the C# source (typically PascalCase).
 			</description>
 		</method>
 		<method name="call_deferred" qualifiers="vararg">
@@ -112,7 +112,7 @@
 				[codeblock]
 				call_deferred("set", "position", Vector2(42.0, 0.0))
 				[/codeblock]
-				[b]Note:[/b] In C#, the method name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined methods where you should use the same convention as in the C# source (typically PascalCase).
+				[b]Note:[/b] In C#, the method name must be specified as snake_case if it is defined by a built-in ValjangEngine node. This doesn't apply to user-defined methods where you should use the same convention as in the C# source (typically PascalCase).
 			</description>
 		</method>
 		<method name="callv">
@@ -207,7 +207,7 @@
 			</argument>
 			<description>
 				Returns the [Variant] value of the given [code]property[/code]. If the [code]property[/code] doesn't exist, this will return [code]null[/code].
-				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
+				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in ValjangEngine node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
 			</description>
 		</method>
 		<method name="get_class" qualifiers="const">
@@ -407,7 +407,7 @@
 			</argument>
 			<description>
 				Assigns a new value to the given property. If the [code]property[/code] does not exist, nothing will happen.
-				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
+				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in ValjangEngine node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
 			</description>
 		</method>
 		<method name="set_block_signals">
@@ -428,7 +428,7 @@
 			</argument>
 			<description>
 				Assigns a new value to the given property, after the current frame's physics step. This is equivalent to calling [method set] via [method call_deferred], i.e. [code]call_deferred("set", property, value)[/code].
-				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
+				[b]Note:[/b] In C#, the property name must be specified as snake_case if it is defined by a built-in ValjangEngine node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase).
 			</description>
 		</method>
 		<method name="set_indexed">

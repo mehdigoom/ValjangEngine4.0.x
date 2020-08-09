@@ -2,11 +2,11 @@
 /*  rasterizer_storage_gles2.cpp                                         */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -5087,7 +5087,7 @@ void RasterizerStorageGLES2::render_target_set_external_texture(RID p_render_tar
 			int msaa = msaa_value[rt->msaa - RS::VIEWPORT_MSAA_EXT_2X];
 
 			if (rt->external.depth == 0) {
-				// create a multisample depth buffer, we're not reusing Godots because Godot's didn't get created..
+				// create a multisample depth buffer, we're not reusing ValjangEngines because ValjangEngine's didn't get created..
 				glGenRenderbuffers(1, &rt->external.depth);
 				glBindRenderbuffer(GL_RENDERBUFFER, rt->external.depth);
 				glRenderbufferStorageMultisample(GL_RENDERBUFFER, msaa, config.depth_buffer_internalformat, rt->width, rt->height);

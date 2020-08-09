@@ -2,11 +2,11 @@
 /*  editor_file_system.cpp                                               */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -42,7 +42,7 @@
 #include "editor_settings.h"
 
 EditorFileSystem *EditorFileSystem::singleton = nullptr;
-//the name is the version, to keep compatibility with different versions of Godot
+//the name is the version, to keep compatibility with different versions of ValjangEngine
 #define CACHE_FILE_NAME "filesystem_cache6"
 
 void EditorFileSystemDirectory::sort_files() {
@@ -652,7 +652,7 @@ void EditorFileSystem::_scan_new_dir(EditorFileSystemDirectory *p_dir, DirAccess
 				continue;
 			}
 
-			if (FileAccess::exists(cd.plus_file(f).plus_file("project.godot"))) { // skip if another project inside this
+			if (FileAccess::exists(cd.plus_file(f).plus_file("project.ValjangEngine"))) { // skip if another project inside this
 				continue;
 			}
 			if (FileAccess::exists(cd.plus_file(f).plus_file(".gdignore"))) { // skip if another project inside this
@@ -843,7 +843,7 @@ void EditorFileSystem::_scan_fs_changes(EditorFileSystemDirectory *p_dir, const 
 
 				int idx = p_dir->find_dir_index(f);
 				if (idx == -1) {
-					if (FileAccess::exists(cd.plus_file(f).plus_file("project.godot"))) { // skip if another project inside this
+					if (FileAccess::exists(cd.plus_file(f).plus_file("project.ValjangEngine"))) { // skip if another project inside this
 						continue;
 					}
 					if (FileAccess::exists(cd.plus_file(f).plus_file(".gdignore"))) { // skip if another project inside this

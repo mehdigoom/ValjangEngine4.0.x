@@ -2,11 +2,11 @@
 /*  test_string.h                                                        */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -654,7 +654,7 @@ TEST_CASE("[String] Checking string is empty when it should be") {
 	if (!success) {
 		state = false;
 	}
-	String b = "Godot";
+	String b = "ValjangEngine";
 	success = b[b.size()] == 0;
 	if (!success) {
 		state = false;
@@ -665,7 +665,7 @@ TEST_CASE("[String] Checking string is empty when it should be") {
 		state = false;
 	}
 
-	const String d = "Godot";
+	const String d = "ValjangEngine";
 	success = d[d.size()] == 0;
 	if (!success) {
 		state = false;
@@ -779,7 +779,7 @@ TEST_CASE("[String] Count and countn functionality") {
 	COUNT_TEST(String("Testa").count("Test") == 1);
 	COUNT_TEST(String("TestTestTest").count("Test") == 3);
 	COUNT_TEST(String("TestTestTest").count("TestTest") == 1);
-	COUNT_TEST(String("TestGodotTestGodotTestGodot").count("Test") == 3);
+	COUNT_TEST(String("TestValjangEngineTestValjangEngineTestValjangEngine").count("Test") == 3);
 
 	COUNT_TEST(String("TestTestTestTest").count("Test", 4, 8) == 1);
 	COUNT_TEST(String("TestTestTestTest").count("Test", 4, 12) == 2);

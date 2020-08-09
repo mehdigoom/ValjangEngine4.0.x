@@ -2,11 +2,11 @@
 /*  rasterizer_gles2.cpp                                                 */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -247,7 +247,7 @@ void RasterizerGLES2::initialize() {
 		}
 
 		if (callback) {
-			print_line("godot: ENABLING GL DEBUG");
+			print_line("ValjangEngine: ENABLING GL DEBUG");
 			glEnable(_EXT_DEBUG_OUTPUT_SYNCHRONOUS_ARB);
 			callback(_gl_debug_print, nullptr);
 			glEnable(_EXT_DEBUG_OUTPUT);

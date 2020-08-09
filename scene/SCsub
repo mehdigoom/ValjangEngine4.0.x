@@ -18,7 +18,7 @@ env_thirdparty = env.Clone()
 env_thirdparty.disable_warnings()
 env_thirdparty.add_source_files(env.scene_sources, thirdparty_sources)
 
-# Godot's own sources
+# ValjangEngine's own sources
 env.add_source_files(env.scene_sources, "*.cpp")
 
 

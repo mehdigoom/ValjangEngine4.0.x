@@ -2,11 +2,11 @@
 /*  arkit_interface.h                                                    */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -38,7 +38,7 @@
 /**
 	@author Bastiaan Olij <mux213@gmail.com>
 
-	ARKit interface between iPhone and Godot
+	ARKit interface between iPhone and ValjangEngine
 */
 
 // forward declaration for some needed objects
@@ -69,7 +69,7 @@ private:
 		unsigned char uuid[16];
 	};
 
-	///@TODO should use memory map object from Godot?
+	///@TODO should use memory map object from ValjangEngine?
 	unsigned int num_anchors;
 	unsigned int max_anchors;
 	anchor_map *anchors;
@@ -94,7 +94,7 @@ public:
 	real_t get_ambient_intensity() const;
 	real_t get_ambient_color_temperature() const;
 
-	/* while Godot has its own raycast logic this takes ARKits camera into account and hits on any ARAnchor */
+	/* while ValjangEngine has its own raycast logic this takes ARKits camera into account and hits on any ARAnchor */
 	Array raycast(Vector2 p_screen_coord);
 
 	virtual void notification(int p_what) override;

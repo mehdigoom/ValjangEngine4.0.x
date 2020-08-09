@@ -4,7 +4,7 @@ on: [push, pull_request]
 # Global Cache Settings
 # SCONS_CACHE for windows must be set in the build environment
 env:
-  GODOT_BASE_BRANCH: master
+  ValjangEngine_BASE_BRANCH: master
   SCONS_CACHE_MSVC_CONFIG: true
   SCONS_CACHE_LIMIT: 4096
 
@@ -26,11 +26,11 @@ jobs:
       uses: RevoluPowered/cache@v2.1
       with:
         path: /.scons_cache/
-        key: ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+        key: ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
         restore-keys: |
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}
 
     # Use python 3.x release (works cross platform; best to keep self contained in it's own step)
     - name: Set up Python 3.x
@@ -59,16 +59,16 @@ jobs:
     # Execute unit tests for the editor
     - name: Unit Tests
       run: |
-        ./bin/godot.windows.opt.tools.64.exe --test
+        ./bin/ValjangEngine.windows.opt.tools.64.exe --test
 
 # Build Product Upload (tested and working)
 # sorry this is disabled until github can give us some more space as we would hit our limit very quickly
 # tested this code and it works fine so just enable it to get them back
-#    - name: publishing godot windows-editor
+#    - name: publishing ValjangEngine windows-editor
 #      uses: actions/upload-artifact@v1
 #      with:
 #        name: windows-editor (x64)
-#        path: bin/godot.windows.opt.tools.64.exe
+#        path: bin/ValjangEngine.windows.opt.tools.64.exe
 
   windows-template:
     runs-on: "windows-latest"
@@ -84,11 +84,11 @@ jobs:
       uses: RevoluPowered/cache@v2.1
       with:
         path: /.scons_cache/
-        key: ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+        key: ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
         restore-keys: |
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}-${{github.ref}}
-          ${{github.job}}-${{env.GODOT_BASE_BRANCH}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}-${{github.sha}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}-${{github.ref}}
+          ${{github.job}}-${{env.ValjangEngine_BASE_BRANCH}}
 
     # Use python 3.x release (works cross platform)
     - name: Set up Python 3.x
@@ -116,8 +116,8 @@ jobs:
 # Build Product Upload (tested and working)
 # sorry this is disabled until github can give us some more space as we would hit our limit very quickly
 # tested this code and it works fine so just enable it to get them back
-#    - name: publishing godot windows-template
+#    - name: publishing ValjangEngine windows-template
 #      uses: actions/upload-artifact@v1
 #      with:
 #        name: windows-template (x64)
-#        path: bin/godot.windows.opt.64.exe
+#        path: bin/ValjangEngine.windows.opt.64.exe

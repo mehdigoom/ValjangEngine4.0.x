@@ -1,12 +1,12 @@
 /*************************************************************************/
-/*  godot_collision_dispatcher.cpp                                       */
+/*  ValjangEngine_collision_dispatcher.cpp                                       */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -28,7 +28,7 @@
 /* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                */
 /*************************************************************************/
 
-#include "godot_collision_dispatcher.h"
+#include "ValjangEngine_collision_dispatcher.h"
 
 #include "collision_object_bullet.h"
 
@@ -36,12 +36,12 @@
 	@author AndreaCatania
 */
 
-const int GodotCollisionDispatcher::CASTED_TYPE_AREA = static_cast<int>(CollisionObjectBullet::TYPE_AREA);
+const int ValjangEngineCollisionDispatcher::CASTED_TYPE_AREA = static_cast<int>(CollisionObjectBullet::TYPE_AREA);
 
-GodotCollisionDispatcher::GodotCollisionDispatcher(btCollisionConfiguration *collisionConfiguration) :
+ValjangEngineCollisionDispatcher::ValjangEngineCollisionDispatcher(btCollisionConfiguration *collisionConfiguration) :
 		btCollisionDispatcher(collisionConfiguration) {}
 
-bool GodotCollisionDispatcher::needsCollision(const btCollisionObject *body0, const btCollisionObject *body1) {
+bool ValjangEngineCollisionDispatcher::needsCollision(const btCollisionObject *body0, const btCollisionObject *body1) {
 	if (body0->getUserIndex() == CASTED_TYPE_AREA || body1->getUserIndex() == CASTED_TYPE_AREA) {
 		// Avoide area narrow phase
 		return false;
@@ -49,7 +49,7 @@ bool GodotCollisionDispatcher::needsCollision(const btCollisionObject *body0, co
 	return btCollisionDispatcher::needsCollision(body0, body1);
 }
 
-bool GodotCollisionDispatcher::needsResponse(const btCollisionObject *body0, const btCollisionObject *body1) {
+bool ValjangEngineCollisionDispatcher::needsResponse(const btCollisionObject *body0, const btCollisionObject *body1) {
 	if (body0->getUserIndex() == CASTED_TYPE_AREA || body1->getUserIndex() == CASTED_TYPE_AREA) {
 		// Avoide area narrow phase
 		return false;

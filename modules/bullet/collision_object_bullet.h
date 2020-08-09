@@ -2,11 +2,11 @@
 /*  collision_object_bullet.h                                            */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -53,7 +53,7 @@ class SpaceBullet;
 
 class CollisionObjectBullet : public RIDBullet {
 public:
-	enum GodotObjectFlags {
+	enum ValjangEngineObjectFlags {
 		GOF_IS_MONITORING_AREA = 1 << 0
 		// FLAG2 = 1 << 1,
 		// FLAG3 = 1 << 2,
@@ -216,8 +216,8 @@ public:
 	virtual void on_enter_area(AreaBullet *p_area) = 0;
 	virtual void on_exit_area(AreaBullet *p_area);
 
-	void set_godot_object_flags(int flags);
-	int get_godot_object_flags() const;
+	void set_ValjangEngine_object_flags(int flags);
+	int get_ValjangEngine_object_flags() const;
 
 	void set_transform(const Transform &p_global_transform);
 	Transform get_transform() const;

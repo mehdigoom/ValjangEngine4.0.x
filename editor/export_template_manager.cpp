@@ -2,11 +2,11 @@
 /*  export_template_manager.cpp                                          */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -145,7 +145,7 @@ void ExportTemplateManager::_download_template(const String &p_version) {
 	template_list_state->set_text(TTR("Retrieving mirrors, please wait..."));
 	template_download_progress->set_max(100);
 	template_download_progress->set_value(0);
-	request_mirror->request("https://godotengine.org/mirrorlist/" + p_version + ".json");
+	request_mirror->request("https://ValjangEngineengine.org/mirrorlist/" + p_version + ".json");
 	template_list_state->show();
 	template_download_progress->show();
 }
@@ -548,7 +548,7 @@ Error ExportTemplateManager::install_android_template() {
 	// Make res://android dir (if it does not exist).
 	da->make_dir("android");
 	{
-		// Add version, to ensure building won't work if template and Godot version don't match.
+		// Add version, to ensure building won't work if template and ValjangEngine version don't match.
 		FileAccessRef f = FileAccess::open("res://android/.build_version", FileAccess::WRITE);
 		ERR_FAIL_COND_V(!f, ERR_CANT_CREATE);
 		f->store_line(VERSION_FULL_CONFIG);
@@ -671,7 +671,7 @@ ExportTemplateManager::ExportTemplateManager() {
 
 	template_open = memnew(FileDialog);
 	template_open->set_title(TTR("Select Template File"));
-	template_open->add_filter("*.tpz ; " + TTR("Godot Export Templates"));
+	template_open->add_filter("*.tpz ; " + TTR("ValjangEngine Export Templates"));
 	template_open->set_access(FileDialog::ACCESS_FILESYSTEM);
 	template_open->set_file_mode(FileDialog::FILE_MODE_OPEN_FILE);
 	template_open->connect("file_selected", callable_mp(this, &ExportTemplateManager::_install_from_file), varray(true));

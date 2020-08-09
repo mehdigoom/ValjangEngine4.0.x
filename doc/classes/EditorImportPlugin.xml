@@ -49,7 +49,7 @@
 		[/codeblock]
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/tutorials/plugins/editor/import_plugins.html</link>
+		<link>https://docs.ValjangEngineengine.org/en/latest/tutorials/plugins/editor/import_plugins.html</link>
 	</tutorials>
 	<methods>
 		<method name="get_import_options" qualifiers="virtual">
@@ -129,7 +129,7 @@
 			<return type="String">
 			</return>
 			<description>
-				Gets the Godot resource type associated with this loader. e.g. [code]"Mesh"[/code] or [code]"Animation"[/code].
+				Gets the ValjangEngine resource type associated with this loader. e.g. [code]"Mesh"[/code] or [code]"Animation"[/code].
 			</description>
 		</method>
 		<method name="get_save_extension" qualifiers="virtual">

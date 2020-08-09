@@ -2,11 +2,11 @@
 /*  register_server_types.cpp                                            */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -74,11 +74,11 @@
 
 ShaderTypes *shader_types = nullptr;
 
-PhysicsServer3D *_createGodotPhysics3DCallback() {
+PhysicsServer3D *_createValjangEnginePhysics3DCallback() {
 	return memnew(PhysicsServer3DSW);
 }
 
-PhysicsServer2D *_createGodotPhysics2DCallback() {
+PhysicsServer2D *_createValjangEnginePhysics2DCallback() {
 	return PhysicsServer2DWrapMT::init_server<PhysicsServer2DSW>();
 }
 
@@ -196,15 +196,15 @@ void register_server_types() {
 	GLOBAL_DEF(PhysicsServer2DManager::setting_property_name, "DEFAULT");
 	ProjectSettings::get_singleton()->set_custom_property_info(PhysicsServer2DManager::setting_property_name, PropertyInfo(Variant::STRING, PhysicsServer2DManager::setting_property_name, PROPERTY_HINT_ENUM, "DEFAULT"));
 
-	PhysicsServer2DManager::register_server("GodotPhysics2D", &_createGodotPhysics2DCallback);
-	PhysicsServer2DManager::set_default_server("GodotPhysics2D");
+	PhysicsServer2DManager::register_server("ValjangEnginePhysics2D", &_createValjangEnginePhysics2DCallback);
+	PhysicsServer2DManager::set_default_server("ValjangEnginePhysics2D");
 
 	// Physics 3D
 	GLOBAL_DEF(PhysicsServer3DManager::setting_property_name, "DEFAULT");
 	ProjectSettings::get_singleton()->set_custom_property_info(PhysicsServer3DManager::setting_property_name, PropertyInfo(Variant::STRING, PhysicsServer3DManager::setting_property_name, PROPERTY_HINT_ENUM, "DEFAULT"));
 
-	PhysicsServer3DManager::register_server("GodotPhysics3D", &_createGodotPhysics3DCallback);
-	PhysicsServer3DManager::set_default_server("GodotPhysics3D");
+	PhysicsServer3DManager::register_server("ValjangEnginePhysics3D", &_createValjangEnginePhysics3DCallback);
+	PhysicsServer3DManager::set_default_server("ValjangEnginePhysics3D");
 }
 
 void unregister_server_types() {

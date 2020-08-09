@@ -2,11 +2,11 @@
 /*  method_bind.h                                                        */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -261,7 +261,7 @@ public:
 	void set_argument_names(const Vector<StringName> &p_names); //set by class, db, can't be inferred otherwise
 	Vector<StringName> get_argument_names() const;
 
-	virtual GodotTypeInfo::Metadata get_argument_meta(int p_arg) const = 0;
+	virtual ValjangEngineTypeInfo::Metadata get_argument_meta(int p_arg) const = 0;
 
 #endif
 	void set_hint_flags(uint32_t p_hint) { hint_flags = p_hint; }
@@ -317,8 +317,8 @@ public:
 		return _gen_argument_type_info(p_arg).type;
 	}
 
-	virtual GodotTypeInfo::Metadata get_argument_meta(int) const {
-		return GodotTypeInfo::METADATA_NONE;
+	virtual ValjangEngineTypeInfo::Metadata get_argument_meta(int) const {
+		return ValjangEngineTypeInfo::METADATA_NONE;
 	}
 
 #else

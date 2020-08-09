@@ -12,4 +12,4 @@ env_arkit.Append(CCFLAGS=["-fmodules", "-fcxx-modules"])
 modules_sources = []
 env_arkit.add_source_files(modules_sources, "*.cpp")
 env_arkit.add_source_files(modules_sources, "*.mm")
-mod_lib = env_modules.add_library("#bin/libgodot_arkit_module" + env["LIBSUFFIX"], modules_sources)
+mod_lib = env_modules.add_library("#bin/libValjangEngine_arkit_module" + env["LIBSUFFIX"], modules_sources)

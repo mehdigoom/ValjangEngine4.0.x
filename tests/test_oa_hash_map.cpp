@@ -2,11 +2,11 @@
 /*  test_oa_hash_map.cpp                                                 */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -115,7 +115,7 @@ MainLoop *test() {
 
 		map.set("Hello", 1);
 		map.set("World", 2);
-		map.set("Godot rocks", 42);
+		map.set("ValjangEngine rocks", 42);
 
 		for (OAHashMap<String, int>::Iterator it = map.iter(); it.valid; it = map.next_iter(it)) {
 			OS::get_singleton()->print("map[\"%s\"] = %d\n", it.key->utf8().get_data(), *it.value);

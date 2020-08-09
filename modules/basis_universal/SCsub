@@ -44,5 +44,5 @@ if env["tools"]:
     env_thirdparty.add_source_files(env.modules_sources, tool_sources)
 env_thirdparty.add_source_files(env.modules_sources, transcoder_sources)
 
-# Godot source files
+# ValjangEngine source files
 env_basisu.add_source_files(env.modules_sources, "*.cpp")

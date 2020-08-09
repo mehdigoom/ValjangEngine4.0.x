@@ -1,16 +1,16 @@
 ---
 name: Bug report
-about: Report a bug in Godot
+about: Report a bug in ValjangEngine
 title: ''
 labels: ''
 assignees: ''
 
 ---
 <!-- Please search existing issues for potential duplicates before filing yours:
-https://github.com/godotengine/godot/issues?q=is%3Aissue
+https://github.com/ValjangEngineengine/ValjangEngine/issues?q=is%3Aissue
 -->
 
-**Godot version:**
+**ValjangEngine version:**
 <!-- Specify commit hash if using non-official build. -->
 
 
@@ -26,4 +26,4 @@ https://github.com/godotengine/godot/issues?q=is%3Aissue
 
 
 **Minimal reproduction project:**
-<!-- A small Godot project which reproduces the issue. Drag and drop a zip archive to upload it. -->
+<!-- A small ValjangEngine project which reproduces the issue. Drag and drop a zip archive to upload it. -->

@@ -2,11 +2,11 @@
 /*  collision_object_bullet.cpp                                          */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -100,7 +100,7 @@ CollisionObjectBullet::CollisionObjectBullet(Type p_type) :
 		type(p_type) {}
 
 CollisionObjectBullet::~CollisionObjectBullet() {
-	// Remove all overlapping, notify is not required since godot take care of it
+	// Remove all overlapping, notify is not required since ValjangEngine take care of it
 	for (int i = areasOverlapped.size() - 1; 0 <= i; --i) {
 		areasOverlapped[i]->remove_overlap(this, /*Notify*/ false);
 	}
@@ -202,11 +202,11 @@ void CollisionObjectBullet::on_exit_area(AreaBullet *p_area) {
 	areasOverlapped.erase(p_area);
 }
 
-void CollisionObjectBullet::set_godot_object_flags(int flags) {
+void CollisionObjectBullet::set_ValjangEngine_object_flags(int flags) {
 	bt_collision_object->setUserIndex2(flags);
 }
 
-int CollisionObjectBullet::get_godot_object_flags() const {
+int CollisionObjectBullet::get_ValjangEngine_object_flags() const {
 	return bt_collision_object->getUserIndex2();
 }
 

@@ -2,11 +2,11 @@
 /*  test_main.cpp                                                        */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -65,10 +65,10 @@ int test_main(int argc, char *argv[]) {
 			argument_count++;
 		}
 	}
-	// Convert Godot command line arguments back to standard arguments.
+	// Convert ValjangEngine command line arguments back to standard arguments.
 	char **args = new char *[valid_arguments.size()];
 	for (int x = 0; x < valid_arguments.size(); x++) {
-		// Operation to convert Godot string to non wchar string.
+		// Operation to convert ValjangEngine string to non wchar string.
 		const char *str = valid_arguments[x].utf8().ptr();
 		// Allocate the string copy.
 		args[x] = new char[strlen(str) + 1];

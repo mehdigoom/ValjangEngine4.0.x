@@ -5,7 +5,7 @@
 - [Reporting bugs](#reporting-bugs)
 - [Proposing features or improvements](#proposing-features-or-improvements)
 - [Contributing pull requests](#contributing-pull-requests)
-- [Contributing to Godot's translation](#contributing-to-godots-translation)
+- [Contributing to ValjangEngine's translation](#contributing-to-ValjangEngines-translation)
 - [Communicating with developers](#communicating-with-developers)
 
 **Please read the first section before reporting a bug!**
@@ -22,18 +22,18 @@ fix will come sooner) by following these guidelines:
 ### Search first in the existing database
 
 Issues are often reported several times by various users. It's good practice to
-**search first in the [issue tracker](https://github.com/godotengine/godot/issues)
+**search first in the [issue tracker](https://github.com/ValjangEngineengine/ValjangEngine/issues)
 before reporting your issue**. If you don't find a relevant match or if you're
 unsure, don't hesitate to **open a new issue**. The bugsquad will handle it
 from there if it's a duplicate.
 
 ### Specify the platform
 
-Godot runs on a large variety of platforms and operating systems and devices.
+ValjangEngine runs on a large variety of platforms and operating systems and devices.
 **In your bug reports, please always specify:**
 
 - Operating system and version (e.g. Windows 10, macOS 10.15, Ubuntu 19.10)
-- Godot version (e.g. 3.2, 3.1.2, or the Git commit hash if you're using a development branch)
+- ValjangEngine version (e.g. 3.2, 3.1.2, or the Git commit hash if you're using a development branch)
 
 For bugs that are likely OS-specific and/or graphics-related, please also specify:
 
@@ -79,17 +79,17 @@ it'll be considered too difficult to diagnose.
 Now that you've read the guidelines, click the link below to create a
 bug report:
 
-- **[Report a bug](https://github.com/godotengine/godot/issues/new?assignees=&labels=&template=bug_report.md&title=)**
+- **[Report a bug](https://github.com/ValjangEngineengine/ValjangEngine/issues/new?assignees=&labels=&template=bug_report.md&title=)**
 
 ## Proposing features or improvements
 
 **Since August 2019, the main issue tracker no longer accepts feature proposals.**
-Instead, head to the [Godot Proposals repository](https://github.com/godotengine/godot-proposals)
+Instead, head to the [ValjangEngine Proposals repository](https://github.com/ValjangEngineengine/ValjangEngine-proposals)
 and follow the instructions in the README file. High-quality feature proposals
 are more likely to be well-received by the maintainers and community, so do
 your best :)
 
-See [this article](https://godotengine.org/article/introducing-godot-proposals-repository)
+See [this article](https://ValjangEngineengine.org/article/introducing-ValjangEngine-proposals-repository)
 for detailed rationale on this change.
 
 ## Contributing pull requests
@@ -107,16 +107,16 @@ Similar rules can be applied when contributing bug fixes - it's always best to
 discuss the implementation in the bug report first if you are not 100% about
 what would be the best fix.
 
-[This blog post](https://godotengine.org/article/will-your-contribution-be-merged-heres-how-tell)
+[This blog post](https://ValjangEngineengine.org/article/will-your-contribution-be-merged-heres-how-tell)
 outlines the process used by core developers when assessing PRs. We strongly
 recommend that you have a look at it to know what's important to take into
 account for a PR to be considered for merging.
 
 In addition to the following tips, also take a look at the
-[Engine development guide](https://docs.godotengine.org/en/latest/development/cpp/)
-for an introduction to developing on Godot.
+[Engine development guide](https://docs.ValjangEngineengine.org/en/latest/development/cpp/)
+for an introduction to developing on ValjangEngine.
 
-The [Contributing docs](https://docs.godotengine.org/en/latest/community/contributing/index.html)
+The [Contributing docs](https://docs.ValjangEngineengine.org/en/latest/community/contributing/index.html)
 also have important information on the PR workflow and the code style we use.
 
 ### Document your changes
@@ -126,10 +126,10 @@ scripting APIs, you **must** update the class reference to document those.
 This is to ensure the documentation coverage doesn't decrease as contributions
 are merged.
 
-[Update the documentation template](https://docs.godotengine.org/en/latest/community/contributing/updating_the_class_reference.html#updating-the-documentation-template)
+[Update the documentation template](https://docs.ValjangEngineengine.org/en/latest/community/contributing/updating_the_class_reference.html#updating-the-documentation-template)
 using your compiled binary, then fill in the descriptions.
 Follow the style guide described in the
-[Docs writing guidelines](https://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
+[Docs writing guidelines](https://docs.ValjangEngineengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
 
 If your pull request modifies parts of the code in a non-obvious way, make sure
 to add comments in the code as well. This helps other people understand the
@@ -154,7 +154,7 @@ Internet).
 This [Git style guide](https://github.com/agis-/git-style-guide) has some
 good practices to have in mind.
 
-See our [PR workflow](https://docs.godotengine.org/en/latest/community/contributing/pr_workflow.html)
+See our [PR workflow](https://docs.ValjangEngineengine.org/en/latest/community/contributing/pr_workflow.html)
 documentation for tips on using Git, amending commits and rebasing branches.
 
 ### Format your commit messages with readability in mind
@@ -178,12 +178,12 @@ description is also manually wrapped at 80 chars for readability):
 ```text
 Prevent French fries carbonization by fixing heat regulation
 
-When using the French fries frying module, Godot would not regulate the heat
+When using the French fries frying module, ValjangEngine would not regulate the heat
 and thus bring the oil bath to supercritical liquid conditions, thus causing
 unwanted side effects in the physics engine.
 
 By fixing the regulation system via an added binding to the internal feature,
-this commit now ensures that Godot will not go past the ebullition temperature
+this commit now ensures that ValjangEngine will not go past the ebullition temperature
 of cooking oil under normal atmospheric conditions.
 
 Fixes #1789, long live the Realm!
@@ -193,46 +193,46 @@ Fixes #1789, long live the Realm!
 feature, *please* edit the commit title to something meaningful. Commits named
 "Update my_file.cpp" won't be accepted.
 
-## Contributing to Godot's translation
+## Contributing to ValjangEngine's translation
 
-You can contribute to Godot's translation from the [Hosted
-Weblate](https://hosted.weblate.org/projects/godot-engine/godot), an open
+You can contribute to ValjangEngine's translation from the [Hosted
+Weblate](https://hosted.weblate.org/projects/ValjangEngine-engine/ValjangEngine), an open
 source and web-based translation platform. Please refer to the [translation
 readme](editor/translations/README.md) for more information.
 
-You can also help translate [Godot's
-documentation](https://hosted.weblate.org/projects/godot-engine/godot-docs/)
+You can also help translate [ValjangEngine's
+documentation](https://hosted.weblate.org/projects/ValjangEngine-engine/ValjangEngine-docs/)
 on Weblate.
 
 ## Communicating with developers
 
-The Godot Engine community has [many communication
-channels](https://godotengine.org/community), some used more for user-level
+The ValjangEngine Engine community has [many communication
+channels](https://ValjangEngineengine.org/community), some used more for user-level
 discussions and support, others more for development discussions.
 
 To communicate with developers (e.g. to discuss a feature you want to implement
 or a bug you want to fix), the following channels can be used:
 
-- [GitHub issues](https://github.com/godotengine/godot/issues): If there is an
+- [GitHub issues](https://github.com/ValjangEngineengine/ValjangEngine/issues): If there is an
   existing issue about a topic you want to discuss, just add a comment to it -
   all developers watch the repository and will get an email notification. You
   can also create a new issue - please keep in mind to create issues only to
   discuss quite specific points about the development, and not general user
   feedback or support requests.
-- [#godotengine-devel IRC channel on
-  Freenode](https://webchat.freenode.net/?channels=godotengine-devel): You will
+- [#ValjangEngineengine-devel IRC channel on
+  Freenode](https://webchat.freenode.net/?channels=ValjangEngineengine-devel): You will
   find most core developers there, so it's the go-to channel for direct chat
-  about Godot Engine development. Feel free to start discussing something there
+  about ValjangEngine Engine development. Feel free to start discussing something there
   to get some early feedback before writing up a detailed proposal in a GitHub
   issue.
-- [devel@godotengine.org mailing
-  list](https://listengine.tuxfamily.org/godotengine.org/devel/): Mailing list
-  for Godot developers, used primarily to announce developer meetings on IRC
+- [devel@ValjangEngineengine.org mailing
+  list](https://listengine.tuxfamily.org/ValjangEngineengine.org/devel/): Mailing list
+  for ValjangEngine developers, used primarily to announce developer meetings on IRC
   and other important discussions that need to reach people directly in their
   mailbox. See the [index
-  page](https://listengine.tuxfamily.org/godotengine.org/devel/) for
+  page](https://listengine.tuxfamily.org/ValjangEngineengine.org/devel/) for
   subscription instructions.
 
 Thanks for your interest in contributing!
 
-—The Godot development team
+—The ValjangEngine development team

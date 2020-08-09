@@ -115,7 +115,7 @@ opts.Add("platform", "Target platform (%s)" % ("|".join(platform_list),), "")
 opts.Add(EnumVariable("target", "Compilation target", "debug", ("debug", "release_debug", "release")))
 opts.Add(EnumVariable("optimize", "Optimization type", "speed", ("speed", "size")))
 
-opts.Add(BoolVariable("tools", "Build the tools (a.k.a. the Godot editor)", True))
+opts.Add(BoolVariable("tools", "Build the tools (a.k.a. the ValjangEngine editor)", True))
 opts.Add(BoolVariable("tests", "Build the unit tests", False))
 opts.Add(BoolVariable("use_lto", "Use link-time optimization", False))
 opts.Add(BoolVariable("use_precise_math_checks", "Math checks use very precise epsilon (debug option)", False))
@@ -291,7 +291,7 @@ else:
 if selected_platform in ["linux", "bsd", "x11"]:
     if selected_platform == "x11":
         # Deprecated alias kept for compatibility.
-        print('Platform "x11" has been renamed to "linuxbsd" in Godot 4.0. Building for platform "linuxbsd".')
+        print('Platform "x11" has been renamed to "linuxbsd" in ValjangEngine 4.0. Building for platform "linuxbsd".')
     # Alias for convenience.
     selected_platform = "linuxbsd"
     env_base["platform"] = selected_platform

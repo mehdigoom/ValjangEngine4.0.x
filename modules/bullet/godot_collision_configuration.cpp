@@ -1,12 +1,12 @@
 /*************************************************************************/
-/*  godot_collision_configuration.cpp                                    */
+/*  ValjangEngine_collision_configuration.cpp                                    */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -28,9 +28,9 @@
 /* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                */
 /*************************************************************************/
 
-#include "godot_collision_configuration.h"
+#include "ValjangEngine_collision_configuration.h"
 
-#include "godot_ray_world_algorithm.h"
+#include "ValjangEngine_ray_world_algorithm.h"
 
 #include <BulletCollision/BroadphaseCollision/btBroadphaseProxy.h>
 #include <BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h>
@@ -39,18 +39,18 @@
 	@author AndreaCatania
 */
 
-GodotCollisionConfiguration::GodotCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo) :
+ValjangEngineCollisionConfiguration::ValjangEngineCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo) :
 		btDefaultCollisionConfiguration(constructionInfo) {
 	void *mem = nullptr;
 
-	mem = btAlignedAlloc(sizeof(GodotRayWorldAlgorithm::CreateFunc), 16);
-	m_rayWorldCF = new (mem) GodotRayWorldAlgorithm::CreateFunc(world);
+	mem = btAlignedAlloc(sizeof(ValjangEngineRayWorldAlgorithm::CreateFunc), 16);
+	m_rayWorldCF = new (mem) ValjangEngineRayWorldAlgorithm::CreateFunc(world);
 
-	mem = btAlignedAlloc(sizeof(GodotRayWorldAlgorithm::SwappedCreateFunc), 16);
-	m_swappedRayWorldCF = new (mem) GodotRayWorldAlgorithm::SwappedCreateFunc(world);
+	mem = btAlignedAlloc(sizeof(ValjangEngineRayWorldAlgorithm::SwappedCreateFunc), 16);
+	m_swappedRayWorldCF = new (mem) ValjangEngineRayWorldAlgorithm::SwappedCreateFunc(world);
 }
 
-GodotCollisionConfiguration::~GodotCollisionConfiguration() {
+ValjangEngineCollisionConfiguration::~ValjangEngineCollisionConfiguration() {
 	m_rayWorldCF->~btCollisionAlgorithmCreateFunc();
 	btAlignedFree(m_rayWorldCF);
 
@@ -58,7 +58,7 @@ GodotCollisionConfiguration::~GodotCollisionConfiguration() {
 	btAlignedFree(m_swappedRayWorldCF);
 }
 
-btCollisionAlgorithmCreateFunc *GodotCollisionConfiguration::getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1) {
+btCollisionAlgorithmCreateFunc *ValjangEngineCollisionConfiguration::getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1) {
 	if (CUSTOM_CONVEX_SHAPE_TYPE == proxyType0 && CUSTOM_CONVEX_SHAPE_TYPE == proxyType1) {
 		// This collision is not supported
 		return m_emptyCreateFunc;
@@ -71,7 +71,7 @@ btCollisionAlgorithmCreateFunc *GodotCollisionConfiguration::getCollisionAlgorit
 	}
 }
 
-btCollisionAlgorithmCreateFunc *GodotCollisionConfiguration::getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1) {
+btCollisionAlgorithmCreateFunc *ValjangEngineCollisionConfiguration::getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1) {
 	if (CUSTOM_CONVEX_SHAPE_TYPE == proxyType0 && CUSTOM_CONVEX_SHAPE_TYPE == proxyType1) {
 		// This collision is not supported
 		return m_emptyCreateFunc;
@@ -84,18 +84,18 @@ btCollisionAlgorithmCreateFunc *GodotCollisionConfiguration::getClosestPointsAlg
 	}
 }
 
-GodotSoftCollisionConfiguration::GodotSoftCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo) :
+ValjangEngineSoftCollisionConfiguration::ValjangEngineSoftCollisionConfiguration(const btDiscreteDynamicsWorld *world, const btDefaultCollisionConstructionInfo &constructionInfo) :
 		btSoftBodyRigidBodyCollisionConfiguration(constructionInfo) {
 	void *mem = nullptr;
 
-	mem = btAlignedAlloc(sizeof(GodotRayWorldAlgorithm::CreateFunc), 16);
-	m_rayWorldCF = new (mem) GodotRayWorldAlgorithm::CreateFunc(world);
+	mem = btAlignedAlloc(sizeof(ValjangEngineRayWorldAlgorithm::CreateFunc), 16);
+	m_rayWorldCF = new (mem) ValjangEngineRayWorldAlgorithm::CreateFunc(world);
 
-	mem = btAlignedAlloc(sizeof(GodotRayWorldAlgorithm::SwappedCreateFunc), 16);
-	m_swappedRayWorldCF = new (mem) GodotRayWorldAlgorithm::SwappedCreateFunc(world);
+	mem = btAlignedAlloc(sizeof(ValjangEngineRayWorldAlgorithm::SwappedCreateFunc), 16);
+	m_swappedRayWorldCF = new (mem) ValjangEngineRayWorldAlgorithm::SwappedCreateFunc(world);
 }
 
-GodotSoftCollisionConfiguration::~GodotSoftCollisionConfiguration() {
+ValjangEngineSoftCollisionConfiguration::~ValjangEngineSoftCollisionConfiguration() {
 	m_rayWorldCF->~btCollisionAlgorithmCreateFunc();
 	btAlignedFree(m_rayWorldCF);
 
@@ -103,7 +103,7 @@ GodotSoftCollisionConfiguration::~GodotSoftCollisionConfiguration() {
 	btAlignedFree(m_swappedRayWorldCF);
 }
 
-btCollisionAlgorithmCreateFunc *GodotSoftCollisionConfiguration::getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1) {
+btCollisionAlgorithmCreateFunc *ValjangEngineSoftCollisionConfiguration::getCollisionAlgorithmCreateFunc(int proxyType0, int proxyType1) {
 	if (CUSTOM_CONVEX_SHAPE_TYPE == proxyType0 && CUSTOM_CONVEX_SHAPE_TYPE == proxyType1) {
 		// This collision is not supported
 		return m_emptyCreateFunc;
@@ -116,7 +116,7 @@ btCollisionAlgorithmCreateFunc *GodotSoftCollisionConfiguration::getCollisionAlg
 	}
 }
 
-btCollisionAlgorithmCreateFunc *GodotSoftCollisionConfiguration::getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1) {
+btCollisionAlgorithmCreateFunc *ValjangEngineSoftCollisionConfiguration::getClosestPointsAlgorithmCreateFunc(int proxyType0, int proxyType1) {
 	if (CUSTOM_CONVEX_SHAPE_TYPE == proxyType0 && CUSTOM_CONVEX_SHAPE_TYPE == proxyType1) {
 		// This collision is not supported
 		return m_emptyCreateFunc;

@@ -2,11 +2,11 @@
 /*  project_settings_editor.cpp                                          */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -344,7 +344,7 @@ void ProjectSettingsEditor::_bind_methods() {
 
 ProjectSettingsEditor::ProjectSettingsEditor(EditorData *p_data) {
 	singleton = this;
-	set_title(TTR("Project Settings (project.godot)"));
+	set_title(TTR("Project Settings (project.ValjangEngine)"));
 
 	undo_redo = &p_data->get_undo_redo();
 	data = p_data;

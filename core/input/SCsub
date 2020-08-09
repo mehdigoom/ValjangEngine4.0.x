@@ -9,7 +9,7 @@ import input_builders
 # Order matters here. Higher index controller database files write on top of lower index database files.
 controller_databases = [
     "#core/input/gamecontrollerdb.txt",
-    "#core/input/godotcontrollerdb.txt",
+    "#core/input/ValjangEnginecontrollerdb.txt",
 ]
 
 env.Depends("#core/input/default_controller_mappings.gen.cpp", controller_databases)

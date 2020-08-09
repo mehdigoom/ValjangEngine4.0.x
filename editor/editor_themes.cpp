@@ -2,11 +2,11 @@
 /*  editor_themes.cpp                                                    */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                           ValjangEngine ENGINE                                */
+/*                      https://ValjangEngineengine.org                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 ValjangEngine Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -184,7 +184,7 @@ void editor_register_and_generate_icons(Ref<Theme> p_theme, bool p_dark_theme = 
 		exceptions.insert("EditorPivot");
 		exceptions.insert("EditorHandle");
 		exceptions.insert("Editor3DHandle");
-		exceptions.insert("Godot");
+		exceptions.insert("ValjangEngine");
 		exceptions.insert("Sky");
 		exceptions.insert("EditorControlAnchor");
 		exceptions.insert("DefaultProjectIcon");
@@ -292,7 +292,7 @@ Ref<Theme> create_editor_theme(const Ref<Theme> p_theme) {
 		preset_accent_color = Color(0.32, 0.58, 0.89);
 		preset_base_color = Color(0.22, 0.24, 0.29);
 		preset_contrast = 0.25;
-	} else if (preset == "Godot 2") {
+	} else if (preset == "ValjangEngine 2") {
 		preset_accent_color = Color(0.53, 0.67, 0.89);
 		preset_base_color = Color(0.24, 0.23, 0.27);
 		preset_contrast = 0.25;
