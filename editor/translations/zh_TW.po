@@ -1,5 +1,5 @@
 # Chinese (Taiwan) translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Allen H <w84miracle@gmail.com>, 2017.
@@ -11840,10 +11840,10 @@ msgstr "建構 Android 專案（Gradle）"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "建構 Android 專案失敗，請檢查輸出以確認錯誤。\n"
-"也可以瀏覽 docs.godotengine.org 以瀏覽 Android 建構說明文件。"
+"也可以瀏覽 docs.valjang.fr 以瀏覽 Android 建構說明文件。"
 
 #: platform/android/export/export.cpp
 msgid "No build apk generated at: "

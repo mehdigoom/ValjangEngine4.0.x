@@ -1,5 +1,5 @@
 # Arabic translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Adel <dragonhunter250@gmail.com>, 2018.
@@ -12168,10 +12168,10 @@ msgstr "بناء مشروع الأندرويد (gradle)"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "أخفق بناء مشروع الأندرويد، تفقد المُخرجات للإطلاع على الخطأ.\n"
-"بصورة بديلة يمكنك زيارة docs.godotengine.org لأجل مستندات البناء للأندرويد."
+"بصورة بديلة يمكنك زيارة docs.valjang.fr لأجل مستندات البناء للأندرويد."
 
 #: platform/android/export/export.cpp
 msgid "No build apk generated at: "

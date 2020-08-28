@@ -1,5 +1,5 @@
 # Ukrainian translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Aleksandr <XpycT.TOP@gmail.com>, 2017.
@@ -12086,11 +12086,11 @@ msgstr "Збирання проєкту Android (gradle)"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "Не вдалося виконати збирання проєкту Android. Ознайомтеся із виведеними "
 "даними, щоб визначити причину помилки.\n"
-"Крім того, можете відвідати docs.godotengine.org і ознайомитися із "
+"Крім того, можете відвідати docs.valjang.fr і ознайомитися із "
 "документацією щодо збирання для Android."
 
 #: platform/android/export/export.cpp

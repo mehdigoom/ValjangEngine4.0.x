@@ -1,5 +1,5 @@
 # French translation of the Godot Engine class reference.
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #
@@ -3719,7 +3719,7 @@ msgstr ""
 #: doc/classes/Rect2i.xml:11 doc/classes/Transform.xml:10
 #: doc/classes/Vector2.xml:12 doc/classes/Vector2i.xml:12
 #: doc/classes/Vector3.xml:12 doc/classes/Vector3i.xml:12
-msgid "https://docs.godotengine.org/en/latest/tutorials/math/index.html"
+msgid "https://docs.valjang.fr/tutorials/math/index.html"
 msgstr ""
 
 #: doc/classes/AABB.xml:21
@@ -4224,7 +4224,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Animation.xml:20 doc/classes/AnimationPlayer.xml:13
-msgid "https://docs.godotengine.org/en/latest/tutorials/animation/index.html"
+msgid "https://docs.valjang.fr/tutorials/animation/index.html"
 msgstr ""
 
 #: doc/classes/Animation.xml:31
@@ -4666,7 +4666,7 @@ msgstr ""
 #: doc/classes/AnimationNodeTimeSeek.xml:10
 #: doc/classes/AnimationNodeTransition.xml:10 doc/classes/AnimationTree.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/animation/animation_tree."
+"https://docs.valjang.fr/tutorials/animation/animation_tree."
 "html"
 msgstr ""
 
@@ -5364,7 +5364,7 @@ msgstr ""
 msgid ""
 "Turn on auto advance when this condition is set. The provided name will "
 "become a boolean parameter on the [AnimationTree] that can be controlled "
-"from code (see [url=https://docs.godotengine.org/en/latest/tutorials/"
+"from code (see [url=https://docs.valjang.fr/tutorials/"
 "animation/animation_tree.html#controlling-from-code][/url]). For example, if "
 "[member AnimationTree.tree_root] is an [AnimationNodeStateMachine] and "
 "[member advance_condition] is set to [code]\"idle\"[/code]:\n"
@@ -5487,7 +5487,7 @@ msgstr ""
 
 #: doc/classes/AnimationPlayer.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "animations.html"
 msgstr ""
 
@@ -5829,7 +5829,7 @@ msgstr ""
 
 #: doc/classes/Area2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/using_area_2d.html"
+"https://docs.valjang.fr/tutorials/physics/using_area_2d.html"
 msgstr ""
 
 #: doc/classes/Area2D.xml:19
@@ -6528,7 +6528,7 @@ msgstr ""
 
 #: doc/classes/ArrayMesh.xml:29
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/content/procedural_geometry/"
+"https://docs.valjang.fr/tutorials/content/procedural_geometry/"
 "arraymesh.html"
 msgstr ""
 
@@ -7729,7 +7729,7 @@ msgstr ""
 
 #: doc/classes/AudioEffectRecord.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/audio/"
+"https://docs.valjang.fr/tutorials/audio/"
 "recording_with_microphone.html"
 msgstr ""
 
@@ -7833,7 +7833,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/AudioServer.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/audio/audio_buses.html"
+msgid "https://docs.valjang.fr/tutorials/audio/audio_buses.html"
 msgstr ""
 
 #: doc/classes/AudioServer.xml:19
@@ -8062,7 +8062,7 @@ msgstr ""
 #: doc/classes/AudioStreamPlayer2D.xml:10
 #: doc/classes/AudioStreamPlayer3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/audio/audio_streams.html"
+"https://docs.valjang.fr/tutorials/audio/audio_streams.html"
 msgstr ""
 
 #: doc/classes/AudioStream.xml:17
@@ -8669,7 +8669,7 @@ msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/spatial_material.html"
+"https://docs.valjang.fr/tutorials/3d/spatial_material.html"
 msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:19
@@ -9763,7 +9763,7 @@ msgstr ""
 
 #: doc/classes/Basis.xml:11 doc/classes/Transform.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html"
+"https://docs.valjang.fr/tutorials/3d/using_transforms.html"
 msgstr ""
 
 #: doc/classes/Basis.xml:20
@@ -11113,13 +11113,13 @@ msgstr ""
 
 #: doc/classes/CanvasItem.xml:15 doc/classes/CanvasLayer.xml:10
 #: doc/classes/InputEvent.xml:11 doc/classes/Viewport.xml:15
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/2d_transforms.html"
+msgid "https://docs.valjang.fr/tutorials/2d/2d_transforms.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:16 doc/classes/Control.xml:19
 #: doc/classes/Node2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/custom_drawing_in_2d.html"
+"https://docs.valjang.fr/tutorials/2d/custom_drawing_in_2d.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:23
@@ -11632,7 +11632,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/canvas_layers.html"
+msgid "https://docs.valjang.fr/tutorials/2d/canvas_layers.html"
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:18
@@ -11761,7 +11761,7 @@ msgstr ""
 #: doc/classes/CharFXTransform.xml:10 doc/classes/RichTextEffect.xml:16
 #: doc/classes/RichTextLabel.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/gui/bbcode_in_richtextlabel."
+"https://docs.valjang.fr/tutorials/gui/bbcode_in_richtextlabel."
 "html"
 msgstr ""
 
@@ -12542,7 +12542,7 @@ msgstr ""
 #: doc/classes/RigidBody3D.xml:13 doc/classes/Shape2D.xml:10
 #: doc/classes/Shape3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.valjang.fr/tutorials/physics/"
 "physics_introduction.html"
 msgstr ""
 
@@ -13996,7 +13996,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Control.xml:18
-msgid "https://docs.godotengine.org/en/latest/tutorials/gui/index.html"
+msgid "https://docs.valjang.fr/tutorials/gui/index.html"
 msgstr ""
 
 #: doc/classes/Control.xml:26
@@ -15296,7 +15296,7 @@ msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:11 doc/classes/GPUParticles2D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/particle_systems_2d.html"
+"https://docs.valjang.fr/tutorials/2d/particle_systems_2d.html"
 msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:20
@@ -16447,7 +16447,7 @@ msgstr ""
 
 #: modules/mono/doc_classes/CSharpScript.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/c_sharp/"
+"https://docs.valjang.fr/getting_started/scripting/c_sharp/"
 "index.html"
 msgstr ""
 
@@ -17256,7 +17256,7 @@ msgstr ""
 
 #: doc/classes/Dictionary.xml:76
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.valjang.fr/getting_started/scripting/gdscript/"
 "gdscript_basics.html#dictionary"
 msgstr ""
 
@@ -17354,7 +17354,7 @@ msgstr ""
 #: doc/classes/DirectionalLight3D.xml:10 doc/classes/Light3D.xml:10
 #: doc/classes/OmniLight3D.xml:10 doc/classes/SpotLight3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/lights_and_shadows.html"
+"https://docs.valjang.fr/tutorials/3d/lights_and_shadows.html"
 msgstr ""
 
 #: doc/classes/DirectionalLight3D.xml:16
@@ -17482,7 +17482,7 @@ msgstr ""
 
 #: doc/classes/Directory.xml:27 doc/classes/File.xml:25
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "filesystem.html"
 msgstr ""
 
@@ -18369,7 +18369,7 @@ msgstr ""
 
 #: doc/classes/EditorImportPlugin.xml:52
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.valjang.fr/tutorials/plugins/editor/"
 "import_plugins.html"
 msgstr ""
 
@@ -18711,7 +18711,7 @@ msgstr ""
 
 #: doc/classes/EditorNode3DGizmoPlugin.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.valjang.fr/tutorials/plugins/editor/"
 "spatial_gizmos.html"
 msgstr ""
 
@@ -18835,7 +18835,7 @@ msgstr ""
 
 #: doc/classes/EditorPlugin.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/index.html"
+"https://docs.valjang.fr/tutorials/plugins/editor/index.html"
 msgstr ""
 
 #: doc/classes/EditorPlugin.xml:21
@@ -19442,7 +19442,7 @@ msgstr ""
 
 #: doc/classes/EditorScenePostImport.xml:29
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/workflow/assets/"
+"https://docs.valjang.fr/getting_started/workflow/assets/"
 "importing_scenes.html#custom-script"
 msgstr ""
 
@@ -19953,13 +19953,13 @@ msgstr ""
 
 #: doc/classes/Environment.xml:14 doc/classes/WorldEnvironment.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/"
+"https://docs.valjang.fr/tutorials/3d/"
 "environment_and_post_processing.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:15
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/high_dynamic_range.html"
+"https://docs.valjang.fr/tutorials/3d/high_dynamic_range.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:24
@@ -21216,13 +21216,13 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/gdnative/gdnative-c-"
+"https://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-c-"
 "example.html"
 msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/gdnative/gdnative-"
+"https://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-"
 "cpp-example.html"
 msgstr ""
 
@@ -21297,7 +21297,7 @@ msgstr ""
 
 #: modules/gdscript/doc_classes/GDScript.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.valjang.fr/getting_started/scripting/gdscript/"
 "index.html"
 msgstr ""
 
@@ -22251,7 +22251,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/GIProbe.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/3d/gi_probes.html"
+msgid "https://docs.valjang.fr/tutorials/3d/gi_probes.html"
 msgstr ""
 
 #: doc/classes/GIProbe.xml:22
@@ -22431,7 +22431,7 @@ msgstr ""
 
 #: doc/classes/GPUParticles3D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/vertex_animation/"
+"https://docs.valjang.fr/tutorials/3d/vertex_animation/"
 "controlling_thousands_of_fish.html"
 msgstr ""
 
@@ -23148,7 +23148,7 @@ msgid ""
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:13
-msgid "https://docs.godotengine.org/en/latest/tutorials/3d/using_gridmaps.html"
+msgid "https://docs.valjang.fr/tutorials/3d/using_gridmaps.html"
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:20
@@ -23639,14 +23639,14 @@ msgstr ""
 
 #: doc/classes/HTTPClient.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.valjang.fr/tutorials/networking/"
 "http_client_class.html"
 msgstr ""
 
 #: doc/classes/HTTPClient.xml:14 doc/classes/HTTPRequest.xml:62
 #: doc/classes/StreamPeerSSL.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/ssl_certificates."
+"https://docs.valjang.fr/tutorials/networking/ssl_certificates."
 "html"
 msgstr ""
 
@@ -24404,7 +24404,7 @@ msgstr ""
 
 #: doc/classes/HTTPRequest.xml:61
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.valjang.fr/tutorials/networking/"
 "http_request_class.html"
 msgstr ""
 
@@ -25293,7 +25293,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Input.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/inputs/index.html"
+msgid "https://docs.valjang.fr/tutorials/inputs/index.html"
 msgstr ""
 
 #: doc/classes/Input.xml:21
@@ -25716,7 +25716,7 @@ msgstr ""
 #: doc/classes/InputEventMouse.xml:10 doc/classes/InputEventScreenDrag.xml:10
 #: doc/classes/InputEventScreenTouch.xml:11
 #: doc/classes/InputEventWithModifiers.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent.html"
+msgid "https://docs.valjang.fr/tutorials/inputs/inputevent.html"
 msgstr ""
 
 #: doc/classes/InputEvent.xml:20
@@ -25814,7 +25814,7 @@ msgstr ""
 
 #: doc/classes/InputEventAction.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent."
+"https://docs.valjang.fr/tutorials/inputs/inputevent."
 "html#actions"
 msgstr ""
 
@@ -26003,7 +26003,7 @@ msgstr ""
 #: doc/classes/InputEventMouseButton.xml:10
 #: doc/classes/InputEventMouseMotion.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/"
+"https://docs.valjang.fr/tutorials/inputs/"
 "mouse_and_input_coordinates.html"
 msgstr ""
 
@@ -26164,7 +26164,7 @@ msgstr ""
 
 #: doc/classes/InputMap.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent."
+"https://docs.valjang.fr/tutorials/inputs/inputevent."
 "html#inputmap"
 msgstr ""
 
@@ -26860,7 +26860,7 @@ msgstr ""
 
 #: doc/classes/JavaScript.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/workflow/export/"
+"https://docs.valjang.fr/getting_started/workflow/export/"
 "exporting_for_web.html#calling-javascript-from-script"
 msgstr ""
 
@@ -27038,13 +27038,13 @@ msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:12 doc/classes/KinematicBody3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.valjang.fr/tutorials/physics/"
 "kinematic_character_2d.html"
 msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/"
+"https://docs.valjang.fr/tutorials/physics/"
 "using_kinematic_body_2d.html"
 msgstr ""
 
@@ -27614,7 +27614,7 @@ msgstr ""
 
 #: doc/classes/Light2D.xml:11 doc/classes/LightOccluder2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/2d/2d_lights_and_shadows."
+"https://docs.valjang.fr/tutorials/2d/2d_lights_and_shadows."
 "html"
 msgstr ""
 
@@ -29370,7 +29370,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/2d_meshes.html"
+msgid "https://docs.valjang.fr/tutorials/2d/2d_meshes.html"
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:16
@@ -29670,13 +29670,13 @@ msgstr ""
 
 #: doc/classes/MultiMesh.xml:13 doc/classes/MultiMeshInstance3D.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/vertex_animation/"
+"https://docs.valjang.fr/tutorials/3d/vertex_animation/"
 "animating_thousands_of_fish.html"
 msgstr ""
 
 #: doc/classes/MultiMesh.xml:14 doc/classes/MultiMeshInstance3D.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/optimization/"
+"https://docs.valjang.fr/tutorials/optimization/"
 "using_multimesh.html"
 msgstr ""
 
@@ -29794,7 +29794,7 @@ msgstr ""
 
 #: doc/classes/MultiMeshInstance3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/"
+"https://docs.valjang.fr/tutorials/3d/"
 "using_multi_mesh_instance.html"
 msgstr ""
 
@@ -30013,7 +30013,7 @@ msgstr ""
 #: doc/classes/Mutex.xml:10 doc/classes/Semaphore.xml:10
 #: doc/classes/Thread.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/threads/"
+"https://docs.valjang.fr/tutorials/threads/"
 "using_multiple_threads.html"
 msgstr ""
 
@@ -30761,7 +30761,7 @@ msgstr ""
 #: modules/enet/doc_classes/NetworkedMultiplayerENet.xml:10
 #: doc/classes/NetworkedMultiplayerPeer.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/networking/"
+"https://docs.valjang.fr/tutorials/networking/"
 "high_level_multiplayer.html"
 msgstr ""
 
@@ -31210,7 +31210,7 @@ msgstr ""
 
 #: doc/classes/Node.xml:20
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "scenes_and_nodes.html"
 msgstr ""
 
@@ -32314,7 +32314,7 @@ msgstr ""
 
 #: doc/classes/Node3D.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html"
+"https://docs.valjang.fr/tutorials/3d/introduction_to_3d.html"
 msgstr ""
 
 #: doc/classes/Node3D.xml:26
@@ -35851,7 +35851,7 @@ msgstr ""
 #: doc/classes/RayCast3D.xml:14 doc/classes/World2D.xml:10
 #: doc/classes/World3D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/physics/ray-casting.html"
+"https://docs.valjang.fr/tutorials/physics/ray-casting.html"
 msgstr ""
 
 #: doc/classes/PhysicsDirectBodyState2D.xml:19 doc/classes/RigidBody2D.xml:31
@@ -40681,7 +40681,7 @@ msgstr ""
 
 #: doc/classes/Quat.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms."
+"https://docs.valjang.fr/tutorials/3d/using_transforms."
 "html#interpolating-with-quaternions"
 msgstr ""
 
@@ -41457,7 +41457,7 @@ msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/3d/reflection_probes.html"
+"https://docs.valjang.fr/tutorials/3d/reflection_probes.html"
 msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:17
@@ -41841,7 +41841,7 @@ msgstr ""
 
 #: doc/classes/RenderingServer.xml:18
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/optimization/using_servers."
+"https://docs.valjang.fr/tutorials/optimization/using_servers."
 "html"
 msgstr ""
 
@@ -44180,7 +44180,7 @@ msgstr ""
 
 #: doc/classes/Resource.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "resources.html"
 msgstr ""
 
@@ -45654,13 +45654,13 @@ msgstr ""
 
 #: doc/classes/SceneTree.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "scene_tree.html"
 msgstr ""
 
 #: doc/classes/SceneTree.xml:13
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/viewports/"
+"https://docs.valjang.fr/tutorials/viewports/"
 "multiple_resolutions.html"
 msgstr ""
 
@@ -46001,7 +46001,7 @@ msgstr ""
 
 #: doc/classes/Script.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/step_by_step/"
+"https://docs.valjang.fr/getting_started/step_by_step/"
 "scripting.html"
 msgstr ""
 
@@ -46283,12 +46283,12 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Shader.xml:10 doc/classes/ShaderMaterial.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/shading/index.html"
+msgid "https://docs.valjang.fr/tutorials/shading/index.html"
 msgstr ""
 
 #: doc/classes/Shader.xml:11
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/shading/your_first_shader/"
+"https://docs.valjang.fr/tutorials/shading/your_first_shader/"
 "what_are_shaders.html"
 msgstr ""
 
@@ -46550,7 +46550,7 @@ msgstr ""
 
 #: doc/classes/Skeleton2D.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/animation/2d_skeletons.html"
+"https://docs.valjang.fr/tutorials/animation/2d_skeletons.html"
 msgstr ""
 
 #: doc/classes/Skeleton2D.xml:19
@@ -46927,7 +46927,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/physics/soft_body.html"
+msgid "https://docs.valjang.fr/tutorials/physics/soft_body.html"
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:83
@@ -47877,7 +47877,7 @@ msgstr ""
 
 #: doc/classes/String.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/"
+"https://docs.valjang.fr/getting_started/scripting/gdscript/"
 "gdscript_format_string.html"
 msgstr ""
 
@@ -50642,7 +50642,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Theme.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/gui/gui_skinning.html"
+msgid "https://docs.valjang.fr/tutorials/gui/gui_skinning.html"
 msgstr ""
 
 #: doc/classes/Theme.xml:18
@@ -50893,7 +50893,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/TileMap.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/2d/using_tilemaps.html"
+msgid "https://docs.valjang.fr/tutorials/2d/using_tilemaps.html"
 msgstr ""
 
 #: doc/classes/TileMap.xml:17
@@ -51904,12 +51904,12 @@ msgstr ""
 
 #: doc/classes/Translation.xml:10 doc/classes/TranslationServer.xml:10
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/i18n/"
+"https://docs.valjang.fr/tutorials/i18n/"
 "internationalizing_games.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:11 doc/classes/TranslationServer.xml:11
-msgid "https://docs.godotengine.org/en/latest/tutorials/i18n/locales.html"
+msgid "https://docs.valjang.fr/tutorials/i18n/locales.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:22
@@ -53785,7 +53785,7 @@ msgstr ""
 
 #: doc/classes/Variant.xml:53
 msgid ""
-"https://docs.godotengine.org/en/latest/development/cpp/variant_class.html"
+"https://docs.valjang.fr/development/cpp/variant_class.html"
 msgstr ""
 
 #: doc/classes/VBoxContainer.xml:4
@@ -54627,7 +54627,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Viewport.xml:16
-msgid "https://docs.godotengine.org/en/latest/tutorials/viewports/index.html"
+msgid "https://docs.valjang.fr/tutorials/viewports/index.html"
 msgstr ""
 
 #: doc/classes/Viewport.xml:23
@@ -55280,7 +55280,7 @@ msgstr ""
 
 #: modules/visual_script/doc_classes/VisualScript.xml:12
 msgid ""
-"https://docs.godotengine.org/en/latest/getting_started/scripting/"
+"https://docs.valjang.fr/getting_started/scripting/"
 "visual_script/index.html"
 msgstr ""
 
@@ -56508,7 +56508,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:9
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/shading/visual_shaders.html"
+"https://docs.valjang.fr/tutorials/shading/visual_shaders.html"
 msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:16
@@ -56963,7 +56963,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeCustom.xml:16
 msgid ""
-"https://docs.godotengine.org/en/latest/tutorials/plugins/editor/"
+"https://docs.valjang.fr/tutorials/plugins/editor/"
 "visual_shader_plugins.html"
 msgstr ""
 
@@ -57675,7 +57675,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeInput.xml:10
 msgid ""
-"https://docs.godotengine.org/en/stable/tutorials/shading/shading_reference/"
+"https://docs.valjang.fr/en/stable/tutorials/shading/shading_reference/"
 "index.html"
 msgstr ""
 
@@ -59700,7 +59700,7 @@ msgstr ""
 #: doc/classes/XRCamera3D.xml:11 doc/classes/XRController3D.xml:12
 #: doc/classes/XRInterface.xml:11 doc/classes/XROrigin3D.xml:13
 #: doc/classes/XRPositionalTracker.xml:12 doc/classes/XRServer.xml:10
-msgid "https://docs.godotengine.org/en/latest/tutorials/vr/index.html"
+msgid "https://docs.valjang.fr/tutorials/vr/index.html"
 msgstr ""
 
 #: doc/classes/XRController3D.xml:4

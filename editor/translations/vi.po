@@ -1,5 +1,5 @@
 # Vietnamese translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # 01lifeleft <01lifeleft@gmail.com>, 2018.
@@ -12066,10 +12066,10 @@ msgstr "Đang dựng dự án Android (gradle)"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "Xây dựng dự án Android không thành công, kiểm tra lỗi đầu ra.\n"
-"Hoặc truy cập 'docs.godotengine.org' xem tài liệu xây dựng Android."
+"Hoặc truy cập 'docs.valjang.fr' xem tài liệu xây dựng Android."
 
 #: platform/android/export/export.cpp
 msgid "No build apk generated at: "

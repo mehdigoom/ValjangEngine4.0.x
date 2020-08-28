@@ -9,8 +9,8 @@
 		Updating the target properties of animations occurs at process time.
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/getting_started/step_by_step/animations.html</link>
-		<link>https://docs.godotengine.org/en/latest/tutorials/animation/index.html</link>
+		<link>https://docs.valjang.fr/getting_started/step_by_step/animations.html</link>
+		<link>https://docs.valjang.fr/tutorials/animation/index.html</link>
 	</tutorials>
 	<methods>
 		<method name="add_animation">

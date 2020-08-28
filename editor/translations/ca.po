@@ -1,5 +1,5 @@
 # Catalan translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # BennyBeat <bennybeat@gmail.com>, 2017.
@@ -12397,11 +12397,11 @@ msgstr "Construint Projecte Android (gradle)"
 #, fuzzy
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "La construcció del projecte Android ha fallat, comproveu la sortida per "
 "l'error.\n"
-"Alternativament visiteu docs.godotengine.org per a la documentació de "
+"Alternativament visiteu docs.valjang.fr per a la documentació de "
 "compilació d'Android."
 
 #: platform/android/export/export.cpp

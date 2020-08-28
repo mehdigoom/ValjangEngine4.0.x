@@ -1,5 +1,5 @@
 # Greek translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # George Tsiamasiotis <gtsiam@windowslive.com>, 2017-2018, 2019, 2020.
@@ -12104,10 +12104,10 @@ msgstr "Δόμηση Έργου Android (gradle)"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "Αποτυχία δόμησης έργου Android, ελέγξτε την έξοδο για το σφάλμα.\n"
-"Εναλλακτικά, επισκεφτείτε τη σελίδα docs.godotengine.org για τεκμηρίωση "
+"Εναλλακτικά, επισκεφτείτε τη σελίδα docs.valjang.fr για τεκμηρίωση "
 "δόμησης Android."
 
 #: platform/android/export/export.cpp

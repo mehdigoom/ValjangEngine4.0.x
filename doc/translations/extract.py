@@ -9,7 +9,7 @@ from collections import OrderedDict
 EXTRACT_TAGS = ["description", "brief_description", "member", "constant", "theme_item", "link"]
 HEADER = """\
 # LANGUAGE translation of the Godot Engine class reference.
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #

@@ -2,7 +2,7 @@
 # To use it, install this file in `~/.config/fish/completions` then restart your shell.
 # You can also `source` this file directly in your shell startup file.
 #
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy

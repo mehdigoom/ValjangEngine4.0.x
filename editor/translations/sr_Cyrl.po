@@ -1,5 +1,5 @@
 # Serbian (cyrillic) translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #
@@ -13575,10 +13575,10 @@ msgstr "Изградња Android Пројекта (gradle)"
 #, fuzzy
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "Изградња Android пројекта неуспешна, провери излаз за грешке.\n"
-"Алтернативно посети docs.godotengine.org за Android документацију изградње."
+"Алтернативно посети docs.valjang.fr за Android документацију изградње."
 
 #: platform/android/export/export.cpp
 #, fuzzy

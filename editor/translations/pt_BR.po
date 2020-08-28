@@ -1,5 +1,5 @@
 # Portuguese (Brazil) translation of the Godot Engine editor
-# Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur.
+# Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Allyson Souza <allyson_as@outlook.com>, 2017.
@@ -12148,10 +12148,10 @@ msgstr "Construindo Projeto Android (gradle)"
 #: platform/android/export/export.cpp
 msgid ""
 "Building of Android project failed, check output for the error.\n"
-"Alternatively visit docs.godotengine.org for Android build documentation."
+"Alternatively visit docs.valjang.fr for Android build documentation."
 msgstr ""
 "A construção do projeto Android falhou, verifique a saída para detalhes.\n"
-"Alternativamente, visite docs.godotengine.org para ver a documentação de "
+"Alternativamente, visite docs.valjang.fr para ver a documentação de "
 "compilação do Android."
 
 #: platform/android/export/export.cpp

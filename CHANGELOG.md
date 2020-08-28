@@ -331,7 +331,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Reimplemented support for embedding project data in the PCK file.
 - Ability to take editor screenshots by pressing <kbd>Ctrl + F12</kbd>.
 - Editor plugins can now set the current active editor as well as toggle the distraction-free mode.
-- **Android:** [Support for adaptive icons.](https://docs.godotengine.org/en/latest/getting_started/workflow/export/exporting_for_android.html#providing-launcher-icons)
+- **Android:** [Support for adaptive icons.](https://docs.valjang.fr/getting_started/workflow/export/exporting_for_android.html#providing-launcher-icons)
   - All icon densities are now generated automatically by the exporter.
   - Only 3 images now need to be supplied to support all icon formats and densities (legacy icon, adaptive foreground, adaptive background).
 - **Android:** Support for the Oculus Mobile SDK.
@@ -783,7 +783,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
     - unreachable code after a `return` statement,
     - …
   - Warnings can be disabled in the Project Settings or by writing special comments.
-- [GDScript keyword `class_name` to register scripts as classes.](https://docs.godotengine.org/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes)
+- [GDScript keyword `class_name` to register scripts as classes.](https://docs.valjang.fr/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes)
 - Simple expression language independent from GDScript, used by inspector boxes that accept numeric values.
   - Can also be used in projects.
 - C# projects can now be exported for Windows, Linux, and macOS targets.
@@ -1030,7 +1030,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Setters and getters for node properties.
   - Underscores in number literals are now allowed for improved readability (for example,`1_000_000`).
   - Improved performance (+20% to +40%, based on various benchmarks).
-- [Feature tags](https://docs.godotengine.org/en/latest/getting_started/workflow/export/feature_tags.html) in the Project Settings, for custom per-platform settings.
+- [Feature tags](https://docs.valjang.fr/getting_started/workflow/export/feature_tags.html) in the Project Settings, for custom per-platform settings.
 - Full support for the [glTF 2.0](https://www.khronos.org/gltf/) 3D interchange format.
 - Freelook and fly navigation to the 3D editor.
 - Built-in editor logging (logging standard output to a file), disabled by default.

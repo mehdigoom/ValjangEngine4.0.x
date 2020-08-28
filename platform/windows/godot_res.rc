@@ -21,7 +21,7 @@ BEGIN
             VALUE "FileVersion",            VERSION_NUMBER
             VALUE "ProductName",            VERSION_NAME
             VALUE "Licence",                "MIT"
-            VALUE "LegalCopyright",         "Copyright (c) 2007-" _MKSTR(VERSION_YEAR) " Juan Linietsky, Ariel Manzur and contributors"
+            VALUE "LegalCopyright",         "Copyright (c) 2007-" _MKSTR(VERSION_YEAR) " Valjang and contributors"
             VALUE "Info",                   "https://godotengine.org"
             VALUE "ProductVersion",         VERSION_FULL_BUILD
         END

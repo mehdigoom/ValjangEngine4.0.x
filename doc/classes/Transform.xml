@@ -8,9 +8,9 @@
 		For more information, read the "Matrices and transforms" documentation article.
 	</description>
 	<tutorials>
-		<link>https://docs.godotengine.org/en/latest/tutorials/math/index.html</link>
-		<link>https://docs.godotengine.org/en/latest/tutorials/math/matrices_and_transforms.html</link>
-		<link>https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html</link>
+		<link>https://docs.valjang.fr/tutorials/math/index.html</link>
+		<link>https://docs.valjang.fr/tutorials/math/matrices_and_transforms.html</link>
+		<link>https://docs.valjang.fr/tutorials/3d/using_transforms.html</link>
 	</tutorials>
 	<methods>
 		<method name="Transform">
