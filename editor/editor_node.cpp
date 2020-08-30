@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -2649,16 +2649,16 @@ void EditorNode::_menu_option_confirm(int p_option, bool p_confirmed) {
 			OS::get_singleton()->shell_open("https://docs.valjang.fr/");
 		} break;
 		case HELP_QA: {
-			OS::get_singleton()->shell_open("https://godotengine.org/qa/");
+			OS::get_singleton()->shell_open("http://Valjang.fr/qa/");
 		} break;
 		case HELP_REPORT_A_BUG: {
-			OS::get_singleton()->shell_open("https://github.com/godotengine/godot/issues");
+			OS::get_singleton()->shell_open("https://github.com/mehdigoom/ValjangEngine4.0.x/issues");
 		} break;
 		case HELP_SEND_DOCS_FEEDBACK: {
-			OS::get_singleton()->shell_open("https://github.com/godotengine/godot-docs/issues");
+			OS::get_singleton()->shell_open("https://github.com/mehdigoom/ValjangEngine4.0.x-docs/issues");
 		} break;
 		case HELP_COMMUNITY: {
-			OS::get_singleton()->shell_open("https://godotengine.org/community");
+			OS::get_singleton()->shell_open("http://Valjang.fr/community");
 		} break;
 		case HELP_ABOUT: {
 			about->popup_centered(Size2(780, 500) * EDSCALE);

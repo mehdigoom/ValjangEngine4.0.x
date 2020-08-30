@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -440,7 +440,7 @@ Error Main::setup(const char *execpath, int argc, char *argv[], bool p_second_ph
 	engine->add_singleton(Engine::Singleton("Performance", performance));
 
 	GLOBAL_DEF("debug/settings/crash_handler/message",
-			String("Please include this when reporting the bug on https://github.com/godotengine/godot/issues"));
+			String("Please include this when reporting the bug on https://github.com/mehdigoom/ValjangEngine4.0.x/issues"));
 
 	MAIN_PRINT("Main: Parse CMDLine");
 

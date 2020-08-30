@@ -98,7 +98,7 @@ env_thirdparty.add_source_files(env.core_sources, thirdparty_minizip_sources)
 
 # Zstd library, can be unbundled in theory
 # though we currently use some private symbols
-# https://github.com/godotengine/godot/issues/17374
+# https://github.com/mehdigoom/ValjangEngine4.0.x/issues/17374
 if env["builtin_zstd"]:
     thirdparty_zstd_dir = "#thirdparty/zstd/"
     thirdparty_zstd_sources = [

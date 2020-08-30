@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -1192,7 +1192,7 @@ void DisplayServerX11::_set_wm_maximized(WindowID p_window, bool p_enabled) {
 	if (p_enabled && window_is_maximize_allowed(p_window)) {
 		// Wait for effective resizing (so the GLX context is too).
 		// Give up after 0.5s, it's not going to happen on this WM.
-		// https://github.com/godotengine/godot/issues/19978
+		// https://github.com/mehdigoom/ValjangEngine4.0.x/issues/19978
 		for (int attempt = 0; window_get_mode(p_window) != WINDOW_MODE_MAXIMIZED && attempt < 50; attempt++) {
 			usleep(10000);
 		}

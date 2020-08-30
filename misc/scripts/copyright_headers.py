@@ -9,7 +9,7 @@ header = """\
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */

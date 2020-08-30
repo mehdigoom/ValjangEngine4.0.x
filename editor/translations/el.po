@@ -14596,9 +14596,9 @@ msgstr "Οι σταθερές δεν μπορούν να τροποποιηθο�
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "Ειδοποίηση όταν ένας εξωτερικός πόρος έχει αλλάξει."
 
-#~ msgid "Open https://godotengine.org at tutorials section."
+#~ msgid "Open http://Valjang.fr at tutorials section."
 #~ msgstr ""
-#~ "Άνοιγμα της ιστοσελίδας https://godotengine.org στην περιοχή tutorials."
+#~ "Άνοιγμα της ιστοσελίδας http://Valjang.fr στην περιοχή tutorials."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "Δεν έχει επιλεγεί σκηνή για τη δημιουργία στιγμιοτύπου!"

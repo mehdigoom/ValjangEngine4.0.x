@@ -14336,8 +14336,8 @@ msgstr "Sabit değerler değiştirilemez."
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "Dış kaynaklar değişince uyarır."
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "https://godotengine.org bağlantısını öğreticiler bölümünde aç."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "http://Valjang.fr bağlantısını öğreticiler bölümünde aç."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "Örnek vermek için hiçbir sahne seçilmedi!"

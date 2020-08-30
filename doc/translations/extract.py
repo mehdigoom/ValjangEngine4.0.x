@@ -19,7 +19,7 @@ HEADER = """\
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine class reference\\n"
-"Report-Msgid-Bugs-To: https://github.com/godotengine/godot\\n"
+"Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"
 "Content-Transfer-Encoding: 8-bit\\n"

@@ -22,7 +22,7 @@ fix will come sooner) by following these guidelines:
 ### Search first in the existing database
 
 Issues are often reported several times by various users. It's good practice to
-**search first in the [issue tracker](https://github.com/godotengine/godot/issues)
+**search first in the [issue tracker](https://github.com/mehdigoom/ValjangEngine4.0.x/issues)
 before reporting your issue**. If you don't find a relevant match or if you're
 unsure, don't hesitate to **open a new issue**. The bugsquad will handle it
 from there if it's a duplicate.
@@ -79,17 +79,17 @@ it'll be considered too difficult to diagnose.
 Now that you've read the guidelines, click the link below to create a
 bug report:
 
-- **[Report a bug](https://github.com/godotengine/godot/issues/new?assignees=&labels=&template=bug_report.md&title=)**
+- **[Report a bug](https://github.com/mehdigoom/ValjangEngine4.0.x/issues/new?assignees=&labels=&template=bug_report.md&title=)**
 
 ## Proposing features or improvements
 
 **Since August 2019, the main issue tracker no longer accepts feature proposals.**
-Instead, head to the [Godot Proposals repository](https://github.com/godotengine/godot-proposals)
+Instead, head to the [Godot Proposals repository](https://github.com/mehdigoom/ValjangEngine4.0.x-proposals)
 and follow the instructions in the README file. High-quality feature proposals
 are more likely to be well-received by the maintainers and community, so do
 your best :)
 
-See [this article](https://godotengine.org/article/introducing-godot-proposals-repository)
+See [this article](http://Valjang.fr/article/introducing-godot-proposals-repository)
 for detailed rationale on this change.
 
 ## Contributing pull requests
@@ -107,7 +107,7 @@ Similar rules can be applied when contributing bug fixes - it's always best to
 discuss the implementation in the bug report first if you are not 100% about
 what would be the best fix.
 
-[This blog post](https://godotengine.org/article/will-your-contribution-be-merged-heres-how-tell)
+[This blog post](http://Valjang.fr/article/will-your-contribution-be-merged-heres-how-tell)
 outlines the process used by core developers when assessing PRs. We strongly
 recommend that you have a look at it to know what's important to take into
 account for a PR to be considered for merging.
@@ -207,13 +207,13 @@ on Weblate.
 ## Communicating with developers
 
 The Godot Engine community has [many communication
-channels](https://godotengine.org/community), some used more for user-level
+channels](http://Valjang.fr/community), some used more for user-level
 discussions and support, others more for development discussions.
 
 To communicate with developers (e.g. to discuss a feature you want to implement
 or a bug you want to fix), the following channels can be used:
 
-- [GitHub issues](https://github.com/godotengine/godot/issues): If there is an
+- [GitHub issues](https://github.com/mehdigoom/ValjangEngine4.0.x/issues): If there is an
   existing issue about a topic you want to discuss, just add a comment to it -
   all developers watch the repository and will get an email notification. You
   can also create a new issue - please keep in mind to create issues only to

@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -145,7 +145,7 @@ void ExportTemplateManager::_download_template(const String &p_version) {
 	template_list_state->set_text(TTR("Retrieving mirrors, please wait..."));
 	template_download_progress->set_max(100);
 	template_download_progress->set_value(0);
-	request_mirror->request("https://godotengine.org/mirrorlist/" + p_version + ".json");
+	request_mirror->request("http://Valjang.fr/mirrorlist/" + p_version + ".json");
 	template_list_state->show();
 	template_download_progress->show();
 }

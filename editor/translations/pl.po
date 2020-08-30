@@ -14344,8 +14344,8 @@ msgstr "Stałe nie mogą być modyfikowane."
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "Powiadomienie o zmianie stanu zasobu zewnętrznego."
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "Otwórz https://godotengine.org na sekcji poradników."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "Otwórz http://Valjang.fr na sekcji poradników."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "Nie wybrano sceny do instancjonowania!"

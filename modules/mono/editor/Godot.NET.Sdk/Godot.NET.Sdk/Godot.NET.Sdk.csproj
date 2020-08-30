@@ -8,7 +8,7 @@
     <PackageId>Godot.NET.Sdk</PackageId>
     <Version>4.0.0</Version>
     <PackageVersion>4.0.0-dev2</PackageVersion>
-    <PackageProjectUrl>https://github.com/godotengine/godot/tree/master/modules/mono/editor/Godot.NET.Sdk</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mehdigoom/ValjangEngine4.0.x/tree/master/modules/mono/editor/Godot.NET.Sdk</PackageProjectUrl>
     <PackageType>MSBuildSdk</PackageType>
     <PackageTags>MSBuildSdk</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

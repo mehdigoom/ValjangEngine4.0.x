@@ -14102,8 +14102,8 @@ msgstr "不允许修改常量。"
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "外部资源改变后弹出提示。"
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "打开 https://godotengine.org 中的教程."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "打开 http://Valjang.fr 中的教程."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "没有选用要实例化的场景！"

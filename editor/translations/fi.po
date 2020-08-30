@@ -14165,8 +14165,8 @@ msgstr "Vakioita ei voi muokata."
 #~ msgstr "Vie projekti usealle alustalle."
 
 #, fuzzy
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "Avaa https://godotengine.org \"tutorials\"-alueelle."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "Avaa http://Valjang.fr \"tutorials\"-alueelle."
 
 #~ msgid "Use Default Light"
 #~ msgstr "Käytä oletusvaloa"

@@ -15090,8 +15090,8 @@ msgstr ""
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "বহি:স্থ রিসোর্সের পরিবর্তনে সতর্ক করে।"
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "টিউটোরিয়ালের স্থানে https://godotengine.org খুলুন।"
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "টিউটোরিয়ালের স্থানে http://Valjang.fr খুলুন।"
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "ইন্সট্যান্স করার জন্য কোনো দৃশ্য নির্বাচন করা হয়নি!"

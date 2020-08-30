@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -194,7 +194,7 @@ Node *SceneState::instance(GenEditState p_edit_state) const {
 
 					if (snames[nprops[j].name] == CoreStringNames::get_singleton()->_script) {
 						//work around to avoid old script variables from disappearing, should be the proper fix to:
-						//https://github.com/godotengine/godot/issues/2958
+						//https://github.com/mehdigoom/ValjangEngine4.0.x/issues/2958
 
 						//store old state
 						List<Pair<StringName, Variant>> old_state;

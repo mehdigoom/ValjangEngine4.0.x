@@ -3,7 +3,7 @@
 /*************************************************************************/
 /*                       This file is part of:                           */
 /*                           GODOT ENGINE                                */
-/*                      https://godotengine.org                          */
+/*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
 /* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
@@ -1351,8 +1351,8 @@ EditorAssetLibrary::EditorAssetLibrary(bool p_templates_only) {
 	search_hb2->add_child(memnew(Label(TTR("Site:") + " ")));
 	repository = memnew(OptionButton);
 
-	repository->add_item("godotengine.org");
-	repository->set_item_metadata(0, "https://godotengine.org/asset-library/api");
+	repository->add_item("Valjang.fr");
+	repository->set_item_metadata(0, "http://Valjang.fr/asset-library/api");
 	repository->add_item("localhost");
 	repository->set_item_metadata(1, "http://127.0.0.1/asset-library/api");
 

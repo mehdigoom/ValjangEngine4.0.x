@@ -14707,8 +14707,8 @@ msgstr "Las constantes no pueden modificarse."
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "Alerta cuando un recurso externo haya cambiado."
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "Abre https://godotengine.org en la sección de tutoriales."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "Abre http://Valjang.fr en la sección de tutoriales."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "¡No se ha elegido ninguna escena a instanciar!"

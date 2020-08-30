@@ -14183,8 +14183,8 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "เตือนเมื่อมีการแก้ไขรีซอร์สภายนอก"
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "เปิดคู่มือจาก https://godotengine.org"
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "เปิดคู่มือจาก http://Valjang.fr"
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "ไม่ได้เลือกฉากที่จะอินสแตนซ์!"

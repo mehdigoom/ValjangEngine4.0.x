@@ -14381,8 +14381,8 @@ msgstr "상수는 수정할 수 없습니다."
 #~ msgid "Alerts when an external resource has changed."
 #~ msgstr "외부 리소스가 변경되었을 때 알림."
 
-#~ msgid "Open https://godotengine.org at tutorials section."
-#~ msgstr "https://godotengine.org의 튜토리얼 부분을 엽니다."
+#~ msgid "Open http://Valjang.fr at tutorials section."
+#~ msgstr "http://Valjang.fr의 튜토리얼 부분을 엽니다."
 
 #~ msgid "No scene selected to instance!"
 #~ msgstr "인스턴스할 씬이 선택되지 않았습니다!"
