@@ -44,7 +44,6 @@ void EditorAbout::_theme_changed() {
 	_tpl_text->add_theme_constant_override("line_separation", 6 * EDSCALE);
 	_license_text->add_theme_font_override("normal_font", font);
 	_license_text->add_theme_constant_override("line_separation", 6 * EDSCALE);
-	_logo->set_texture(base->get_theme_icon("Logo", "EditorIcons"));
 }
 
 void EditorAbout::_notification(int p_what) {
@@ -64,9 +63,7 @@ void EditorAbout::_license_tree_selected() {
 void EditorAbout::_bind_methods() {
 }
 
-TextureRect *EditorAbout::get_logo() const {
-	return _logo;
-}
+
 
 ScrollContainer *EditorAbout::_populate_list(const String &p_name, const List<String> &p_sections, const char *const *const p_src[], const int p_flag_single_column) {
 	ScrollContainer *sc = memnew(ScrollContainer);
@@ -119,8 +116,7 @@ EditorAbout::EditorAbout() {
 	add_child(vbc);
 	vbc->add_child(hbc);
 
-	_logo = memnew(TextureRect);
-	hbc->add_child(_logo);
+
 
 	String hash = String(VERSION_HASH);
 	if (hash.length() != 0) {

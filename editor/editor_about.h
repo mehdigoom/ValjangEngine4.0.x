@@ -54,7 +54,7 @@ private:
 	Tree *_tpl_tree;
 	RichTextLabel *_license_text;
 	RichTextLabel *_tpl_text;
-	TextureRect *_logo;
+	
 
 	void _theme_changed();
 
@@ -63,7 +63,7 @@ protected:
 	static void _bind_methods();
 
 public:
-	TextureRect *get_logo() const;
+	
 
 	EditorAbout();
 	~EditorAbout();
