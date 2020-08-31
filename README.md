@@ -1,12 +1,12 @@
-[![Godot Engine logo](/logo.png)](http://Valjang.fr)
+[![Valjang Engine logo](/logo.png)](http://Valjang.fr)
 
-## Godot Engine
+## Valjang Engine
 
 Homepage: http://Valjang.fr
 
 #### 2D and 3D cross-platform game engine
 
-Godot Engine is a feature-packed, cross-platform game engine to create 2D and
+Valjang Engine is a feature-packed, cross-platform game engine to create 2D and
 3D games from a unified interface. It provides a comprehensive set of common
 tools, so that users can focus on making games without having to reinvent the
 wheel. Games can be exported in one click to a number of platforms, including
@@ -26,7 +26,7 @@ Before being open sourced in February 2014, Godot had been developed by Juan
 Linietsky and Ariel Manzur (both still maintaining the project) for several
 years as an in-house engine, used to publish several work-for-hire titles.
 
-![Screenshot of a 3D scene in Godot Engine](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
+![Screenshot of a 3D scene in Valjang Engine](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
 
 ### Getting the engine
 

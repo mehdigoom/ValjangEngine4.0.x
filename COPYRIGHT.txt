@@ -1,9 +1,9 @@
-# Exhaustive licensing information for files in the Godot Engine repository
+# Exhaustive licensing information for files in the Valjang Engine repository
 # =========================================================================
 #
 # This file aims at documenting the copyright and license for every source
-# file in the Godot Engine repository, and especially outline the files
-# whose license differs from the MIT/Expat license used by Godot Engine.
+# file in the Valjang Engine repository, and especially outline the files
+# whose license differs from the MIT/Expat license used by Valjang Engine.
 #
 # It is written as a machine-readable format following the debian/copyright
 # specification. Globbing patterns (e.g. "Files: *") mean that they affect
@@ -27,7 +27,7 @@
 #   License: Zlib
 # The exact copyright for each file in that library *may* differ, and some
 # files or code snippets might be distributed under other compatible licenses
-# (e.g. a public domain dedication), but as far as Godot Engine is concerned
+# (e.g. a public domain dedication), but as far as Valjang Engine is concerned
 # the library is considered as a whole under the Zlib license.
 #
 # Nota: When linking dynamically against thirdparty libraries instead of
@@ -37,21 +37,21 @@
 -----------------------------------------------------------------------
 
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Godot Engine
+Upstream-Name: Valjang Engine
 Upstream-Contact: Rémi Verschelde <contact@godotengine.org>
 Source: https://github.com/mehdigoom/ValjangEngine4.0.x
 
 Files: *
-Comment: Godot Engine
+Comment: Valjang Engine
 Copyright: 2007-2020, Valjang.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, Valjang Engine contributors.
 License: Expat
 
 Files: ./icon.png
  ./icon.svg
  ./logo.png
  ./logo.svg
-Comment: Godot Engine logo
+Comment: Valjang Engine logo
 Copyright: 2017, Andrea Calabró
 License: CC-BY-3.0
 
@@ -89,7 +89,7 @@ Files: ./servers/physics/gjk_epa.cpp
 Comment: Bullet Continuous Collision Detection and Physics Library
 Copyright: 2003-2008, Erwin Coumans
  2007-2020, Valjang.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, Valjang Engine contributors.
 License: Expat and Zlib
 
 Files: ./servers/physics/joints/cone_twist_joint_sw.cpp
@@ -97,7 +97,7 @@ Files: ./servers/physics/joints/cone_twist_joint_sw.cpp
 Comment: Bullet Continuous Collision Detection and Physics Library
 Copyright: 2007, Starbreeze Studios
  2007-2020, Valjang.
- 2014-2020, Godot Engine contributors.
+ 2014-2020, Valjang Engine contributors.
 License: Expat and Zlib
 
 Files: ./thirdparty/assimp/

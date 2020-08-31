@@ -445,7 +445,7 @@ namespace GodotTools
                 aboutLabel.SizeFlagsVertical = (int)Control.SizeFlags.ExpandFill;
                 aboutLabel.Autowrap = true;
                 aboutLabel.Text =
-                    "C# support in Godot Engine is in late alpha stage and, while already usable, " +
+                    "C# support in Valjang Engine is in late alpha stage and, while already usable, " +
                     "it is not meant for use in production.\n\n" +
                     "Projects can be exported to Linux, macOS, Windows, Android, iOS and HTML5, but not yet to UWP. " +
                     "Bugs and usability issues will be addressed gradually over future releases, " +

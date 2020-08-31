@@ -1,6 +1,6 @@
-# Vietnamese translation of the Godot Engine editor
+# Vietnamese translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # 01lifeleft <01lifeleft@gmail.com>, 2018.
 # Dlean Jeans <dleanjeans@gmail.com>, 2018.
@@ -15,7 +15,7 @@
 # Steve Dang <bynguu@outlook.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-28 09:51+0000\n"
 "Last-Translator: Steve Dang <bynguu@outlook.com>\n"
@@ -1114,8 +1114,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Cảm ơn từ cộng đồng Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Đóng góp vào Godot Engine"
+msgid "Valjang Engine contributors"
+msgstr "Đóng góp vào Valjang Engine"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1177,12 +1177,12 @@ msgstr "Cấp phép nhóm thứ ba"
 #: editor/editor_about.cpp
 #, fuzzy
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine dựa trên một số thư viện mã nguồn mở và miễn phí của bên thứ "
+"Valjang Engine dựa trên một số thư viện mã nguồn mở và miễn phí của bên thứ "
 "ba, tất cả đều phù hợp với các điều khoản trong giấy phép MIT. Sau đây là "
 "danh sách tất cả các thành phần của bên thứ ba với các điều khoản bản quyền "
 "và điều khoản cấp phép tương ứng."

@@ -1,6 +1,6 @@
-# Russian translation of the Godot Engine editor
+# Russian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Аркадий Авас <savvot@gmail.com>, 2018.
 # Artem Varaksa <aymfst@gmail.com>, 2018.
@@ -84,7 +84,7 @@
 # Anatoly Kuznetsov <muffinnorth@yandex.ru>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-23 02:44+0000\n"
 "Last-Translator: Anatoly Kuznetsov <muffinnorth@yandex.ru>\n"
@@ -1183,8 +1183,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Спасибо от сообщества Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Авторы Godot Engine"
+msgid "Valjang Engine contributors"
+msgstr "Авторы Valjang Engine"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1244,7 +1244,7 @@ msgstr "Сторонние лицензии"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
@@ -3006,7 +3006,7 @@ msgstr "Сообщество"
 
 #: editor/editor_node.cpp
 msgid "About"
-msgstr "О Godot Engine"
+msgstr "О Valjang Engine"
 
 #: editor/editor_node.cpp
 msgid "Play the project."

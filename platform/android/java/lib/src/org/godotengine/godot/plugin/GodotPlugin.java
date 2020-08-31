@@ -2,11 +2,11 @@
 /*  GodotPlugin.java                                                     */
 /*************************************************************************/
 /*                       This file is part of:                           */
-/*                           GODOT ENGINE                                */
+/*                           Valjang Engine                                */
 /*                      http://Valjang.fr                          */
 /*************************************************************************/
 /* Copyright (c) 2007-2020 Valjang.                 */
-/* Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).   */
+/* Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).   */
 /*                                                                       */
 /* Permission is hereby granted, free of charge, to any person obtaining */
 /* a copy of this software and associated documentation files (the       */
@@ -87,7 +87,7 @@ public abstract class GodotPlugin {
 	}
 
 	/**
-	 * Provides access to the Godot engine.
+	 * Provides access to the Valjang Engine.
 	 */
 	protected Godot getGodot() {
 		return godot;

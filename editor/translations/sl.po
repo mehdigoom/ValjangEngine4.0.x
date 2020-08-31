@@ -1,6 +1,6 @@
-# Slovenian translation of the Godot Engine editor
+# Slovenian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # matevž lapajne <sivar.lapajne@gmail.com>, 2016-2018.
 # Matjaž Vitas <matjaz.vitas@gmail.com>, 2017-2018.
@@ -14,7 +14,7 @@
 # Andrew Poženel <andrej.pozenel@outlook.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-15 02:42+0000\n"
 "Last-Translator: Andrew Poženel <andrej.pozenel@outlook.com>\n"
@@ -1161,8 +1161,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Zahvaljujemo se vam iz skupnosti Godota!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine sodelovci"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine sodelovci"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1224,12 +1224,12 @@ msgstr "Licenca Tretjih Oseb"
 #: editor/editor_about.cpp
 #, fuzzy
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine se nanaša na številne brezplačne in odprokodne knjižnice tretih "
+"Valjang Engine se nanaša na številne brezplačne in odprokodne knjižnice tretih "
 "oseb, ki so združljive z določili MIT licence. Sledeči obširen seznam "
 "predstavi komponente tretjih oseb s pripadajočimi izjavami o avtorskih "
 "pravicah in licenčnimi pogoji."

@@ -1,6 +1,6 @@
-# Latvian translation of the Godot Engine editor
+# Latvian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Gustavs Porietis (pg829-) <porietisgustavs@gmail.com>, 2018.
 # Martch Zagorski <martchzagorski@gmail.com>, 2018, 2020.
@@ -9,7 +9,7 @@
 # StiLins <aigars.skilins@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-04 18:34+0000\n"
 "Last-Translator: StiLins <aigars.skilins@gmail.com>\n"
@@ -1108,7 +1108,7 @@ msgid "Thanks from the Godot community!"
 msgstr "Paldies no Godot sabiedrības!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "Godot Dzinēja ieguldītāji"
 
 #: editor/editor_about.cpp
@@ -1169,7 +1169,7 @@ msgstr "Trešās partijas Licences"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."

@@ -1,6 +1,6 @@
-# Git hooks for Godot Engine
+# Git hooks for Valjang Engine
 
-This folder contains Git hooks meant to be installed locally by Godot Engine
+This folder contains Git hooks meant to be installed locally by Valjang Engine
 contributors to make sure they comply with our requirements.
 
 ## List of hooks

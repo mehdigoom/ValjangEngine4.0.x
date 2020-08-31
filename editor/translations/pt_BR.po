@@ -1,6 +1,6 @@
-# Portuguese (Brazil) translation of the Godot Engine editor
+# Portuguese (Brazil) translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Allyson Souza <allyson_as@outlook.com>, 2017.
 # Anderson Araujo <anderson.araujoprog@gmail.com>, 2018.
@@ -99,7 +99,7 @@
 # GUILHERME SOUZA REIS DE MELO LOPES <guilhermesrml@unipam.edu.br>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: 2016-05-30\n"
 "PO-Revision-Date: 2020-07-26 15:41+0000\n"
 "Last-Translator: GUILHERME SOUZA REIS DE MELO LOPES <guilhermesrml@unipam."
@@ -1197,8 +1197,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Agradecimentos da comunidade Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Contribuidores da Godot Engine"
+msgid "Valjang Engine contributors"
+msgstr "Contribuidores da Valjang Engine"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1258,12 +1258,12 @@ msgstr "Licenças de Terceiros"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine depende de várias bibliotecas de código aberto e gratuitas de "
+"Valjang Engine depende de várias bibliotecas de código aberto e gratuitas de "
 "terceiros, todas compatíveis com os termos de sua licença MIT. A lista "
 "seguinte é uma lista completa de todos esses componentes de terceiros com "
 "suas respectivas declarações de direitos autorais e termos de licença."

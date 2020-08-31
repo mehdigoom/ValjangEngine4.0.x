@@ -1,6 +1,6 @@
-# Catalan translation of the Godot Engine editor
+# Catalan translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # BennyBeat <bennybeat@gmail.com>, 2017.
 # Javier Ocampos <xavier.ocampos@gmail.com>, 2018.
@@ -14,7 +14,7 @@
 # Alex Mancha <codingstain@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-15 01:48+0000\n"
 "Last-Translator: roger <616steam@gmail.com>\n"
@@ -1116,8 +1116,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Gràcies de la part de la Comunitat del Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Col·laboradors de Godot Engine"
+msgid "Valjang Engine contributors"
+msgstr "Col·laboradors de Valjang Engine"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1177,12 +1177,12 @@ msgstr "Llicències de Tercers"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine compta amb diverses biblioteques gratuïtes i de codi obert de "
+"Valjang Engine compta amb diverses biblioteques gratuïtes i de codi obert de "
 "tercers, totes compatibles amb els termes de la seva llicència MIT. A "
 "continuació, es mostra una llista exhaustiva de tots aquests components de "
 "tercers amb les seves respectives declaracions de copyright i termes de "

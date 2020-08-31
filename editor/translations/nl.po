@@ -1,6 +1,6 @@
-# Dutch translation of the Godot Engine editor
+# Dutch translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # aelspire <aelspire@gmail.com>, 2017.
 # Aram Nap <xyphex.aram@gmail.com>, 2017.
@@ -45,7 +45,7 @@
 # marnicq van loon <marnicqvanloon@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-04 08:58+0000\n"
 "Last-Translator: marnicq van loon <marnicqvanloon@gmail.com>\n"
@@ -1149,8 +1149,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Bedankt van de Godot gemeenschap!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine medewerkers"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine medewerkers"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1210,12 +1210,12 @@ msgstr "Licentie van derden"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine maakt gebruik van een aantal gratis en open-source "
+"Valjang Engine maakt gebruik van een aantal gratis en open-source "
 "bibliotheken, ontwikkeld door derden, die compatibel zijn met de MIT "
 "licentie. Wat volgt is een uitputtende lijst van alle componenten van derde "
 "partijen met hun respectievelijke copyrightberichten en licentietermen."
@@ -9839,7 +9839,7 @@ msgstr ""
 "Als je doorgaat met het openen van dit bestand, zal het worden omgezet naar "
 "Godot's huidige formaat voor project-configuratiebestanden.\n"
 "Waarschuwing: Hierna kan het project niet meer worden geopend door oudere "
-"versies van Godot Engine."
+"versies van Valjang Engine."
 
 #: editor/project_manager.cpp
 msgid ""
@@ -9853,13 +9853,13 @@ msgid ""
 "engine anymore."
 msgstr ""
 "Het volgende project-configuratiebestand was gegenereerd door een oudere "
-"versie van Godot Engine, en moet worden geconverteerd voor deze versie:\n"
+"versie van Valjang Engine, en moet worden geconverteerd voor deze versie:\n"
 "\n"
 "%s\n"
 "\n"
 "Wil je dit project-configuratiebestand converteren?\n"
 "Waarschuwing: Hierna kan het project niet meer worden geopend door oudere "
-"versies van Godot Engine."
+"versies van Valjang Engine."
 
 #: editor/project_manager.cpp
 msgid ""
@@ -9867,7 +9867,7 @@ msgid ""
 "are not compatible with this version."
 msgstr ""
 "Het project-configuratiebestand is gemaakt door een nieuwere versie van "
-"Godot Engine, en is incompatibel met de huidige versie."
+"Valjang Engine, en is incompatibel met de huidige versie."
 
 #: editor/project_manager.cpp
 msgid ""

@@ -1,6 +1,6 @@
-# Arabic translation of the Godot Engine editor
+# Arabic translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Adel <dragonhunter250@gmail.com>, 2018.
 # athomield <athomield@hotmail.com>, 2017.
@@ -45,7 +45,7 @@
 # ChemicalInk <aladdinalkhafaji@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-21 13:41+0000\n"
 "Last-Translator: ChemicalInk <aladdinalkhafaji@gmail.com>\n"
@@ -1134,7 +1134,7 @@ msgid "Thanks from the Godot community!"
 msgstr "شكراً من مجتمع Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "المسهامين في محرك Godot"
 
 #: editor/editor_about.cpp
@@ -1195,7 +1195,7 @@ msgstr "تراخيص الجهات الخارجية"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."

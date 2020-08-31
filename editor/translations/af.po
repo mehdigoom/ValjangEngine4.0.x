@@ -1,13 +1,13 @@
-# Afrikaans translation of the Godot Engine editor
+# Afrikaans translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Ray West <the.raxar@gmail.com>, 2017.
 # Julius Stopforth <jjstopforth@gmail.com>, 2018.
 # Isa Tippens <isatippens2@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2019-03-28 09:36+0000\n"
 "Last-Translator: Isa Tippens <isatippens2@gmail.com>\n"
@@ -1153,7 +1153,7 @@ msgid "Thanks from the Godot community!"
 msgstr "Dankie van die Godot gemeenskap!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "Godot Enjin bydraers"
 
 #: editor/editor_about.cpp
@@ -1217,7 +1217,7 @@ msgstr "Derdeparty-lisensie"
 #: editor/editor_about.cpp
 #, fuzzy
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."

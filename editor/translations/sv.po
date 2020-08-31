@@ -1,6 +1,6 @@
-# Swedish translation of the Godot Engine editor
+# Swedish translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # bergmarklund <davemcgroin@gmail.com>, 2017, 2018.
 # Christoffer Sundbom <christoffer_karlsson@live.se>, 2017.
@@ -19,7 +19,7 @@
 # André Andersson <andre.eric.andersson@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-15 02:42+0000\n"
 "Last-Translator: Jonas Robertsson <jonas.robertsson@posteo.net>\n"
@@ -1118,8 +1118,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Tack från Godot-gemenskapen!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine bidragare"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine bidragare"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1179,12 +1179,12 @@ msgstr "Tredje parts Licens"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine förlitar sig på ett antal av tredje parts gratis och öppen "
+"Valjang Engine förlitar sig på ett antal av tredje parts gratis och öppen "
 "källkods-bibliotek, alla kompatibla med MIT-licensen. Följande är en "
 "fullständig lista av alla sådana tredje parts komponenter med deras "
 "respektive upphovsrätts uttalanden och licensvillkor."

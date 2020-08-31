@@ -1,6 +1,6 @@
-# Hindi translation of the Godot Engine editor
+# Hindi translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Abhas Kumar Sinha <abhaskumarsinha@gmail.com>, 2017.
 # Suryansh5545 <suryanshpathak5545@gmail.com>, 2018, 2020.
@@ -13,7 +13,7 @@
 # Abhay Patel <Traumaticbean@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-04-24 06:48+0000\n"
 "Last-Translator: Shirious <sad3119823@gmail.com>\n"
@@ -1104,7 +1104,7 @@ msgid "Thanks from the Godot community!"
 msgstr "गोडोट समुदाय से आपको धन्यवाद!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "गॉडोट इंजन योगदानकर्ता"
 
 #: editor/editor_about.cpp
@@ -1165,7 +1165,7 @@ msgstr "थर्ड पार्टी लाइसेंस"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."

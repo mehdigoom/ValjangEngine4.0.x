@@ -1,6 +1,6 @@
-# Slovak translation of the Godot Engine editor
+# Slovak translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # J08nY <johnenter@gmail.com>, 2016.
 # MineGame 159 <minegame459@gmail.com>, 2018.
@@ -12,7 +12,7 @@
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-15 01:48+0000\n"
 "Last-Translator: Richard Urban <redasuio1@gmail.com>\n"
@@ -1104,8 +1104,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Vďaka z Godot komunity!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine prispievatelia"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine prispievatelia"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1165,12 +1165,12 @@ msgstr "Thirdparty Licencie"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine sa spolieha na množstvo bezplatných a otvorených knižníc "
+"Valjang Engine sa spolieha na množstvo bezplatných a otvorených knižníc "
 "tretích strán, ktoré sú kompatibilné s podmienkami licencie MIT. Nasleduje "
 "vyčerpávajúci zoznam všetkých takýchto komponentov tretích strán s ich "
 "príslušnými prehláseniami o autorských právach a licenčnými podmienkami."

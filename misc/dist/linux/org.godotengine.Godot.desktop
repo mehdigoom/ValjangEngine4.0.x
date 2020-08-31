@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Godot Engine
+Name=Valjang Engine
 GenericName=Libre game engine
 Comment=Multi-platform 2D and 3D game engine with a feature-rich editor
 Exec=godot %f

@@ -206,7 +206,7 @@ on Weblate.
 
 ## Communicating with developers
 
-The Godot Engine community has [many communication
+The Valjang Engine community has [many communication
 channels](http://Valjang.fr/community), some used more for user-level
 discussions and support, others more for development discussions.
 
@@ -222,7 +222,7 @@ or a bug you want to fix), the following channels can be used:
 - [#godotengine-devel IRC channel on
   Freenode](https://webchat.freenode.net/?channels=godotengine-devel): You will
   find most core developers there, so it's the go-to channel for direct chat
-  about Godot Engine development. Feel free to start discussing something there
+  about Valjang Engine development. Feel free to start discussing something there
   to get some early feedback before writing up a detailed proposal in a GitHub
   issue.
 - [devel@godotengine.org mailing

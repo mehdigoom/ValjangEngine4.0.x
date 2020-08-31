@@ -6,13 +6,13 @@
     <PackageId>GodotTools.IdeMessaging</PackageId>
     <Version>1.1.1</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
-    <Authors>Godot Engine contributors</Authors>
+    <Authors>Valjang Engine contributors</Authors>
     <Company />
     <PackageTags>godot</PackageTags>
     <RepositoryUrl>https://github.com/mehdigoom/ValjangEngine4.0.x/tree/master/modules/mono/editor/GodotTools/GodotTools.IdeMessaging</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>
-This library enables communication with the Godot Engine editor (the version with .NET support).
+This library enables communication with the Valjang Engine editor (the version with .NET support).
 It's intended for use in IDEs/editors plugins for a better experience working with Godot C# projects.
 
 A client using this library is only compatible with servers of the same major version and of a lower or equal minor version.

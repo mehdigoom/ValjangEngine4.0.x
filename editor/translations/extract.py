@@ -34,9 +34,9 @@ matches.sort()
 unique_str = []
 unique_loc = {}
 main_po = """
-# LANGUAGE translation of the Godot Engine editor.
+# LANGUAGE translation of the Valjang Engine editor.
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -44,7 +44,7 @@ main_po = """
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\\n"
+"Project-Id-Version: Valjang Engine editor\\n"
 "Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"

@@ -1,6 +1,6 @@
-# Polish translation of the Godot Engine editor
+# Polish translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # 8-bit Pixel <dawdejw@gmail.com>, 2016.
 # Adam Wolanski <adam.wolanski94@gmail.com>, 2017.
@@ -43,7 +43,7 @@
 # Filip Glura <mcmr.slendy@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-21 13:41+0000\n"
 "Last-Translator: Filip Glura <mcmr.slendy@gmail.com>\n"
@@ -1140,8 +1140,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Podziękowania od społeczności Godota!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Współtwórcy Godot Engine"
+msgid "Valjang Engine contributors"
+msgstr "Współtwórcy Valjang Engine"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1201,12 +1201,12 @@ msgstr "Licencje zewnętrzne"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine opiera się na wielu niezależnych i otwartych bibliotekach, "
+"Valjang Engine opiera się na wielu niezależnych i otwartych bibliotekach, "
 "wszystkie zgodne z warunkami licencji MIT. Poniżej znajduje się kompletna "
 "lista wszystkich takich zewnętrznych komponentów wraz z ich oświadczeniami o "
 "prawach autorskich i postanowieniami licencyjnymi."

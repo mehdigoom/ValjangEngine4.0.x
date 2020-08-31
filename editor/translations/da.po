@@ -1,6 +1,6 @@
-# Danish translation of the Godot Engine editor
+# Danish translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Dankse Memes <purplelops@gmail.com>, 2018.
 # David Lamhauge <davidlamhauge@gmail.com>, 2016, 2018.
@@ -19,7 +19,7 @@
 # Mikkel Mouridsen <mikkelmouridsen@me.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-22 06:40+0000\n"
 "Last-Translator: Mikkel Mouridsen <mikkelmouridsen@me.com>\n"
@@ -1157,8 +1157,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Tak fra Godot fællesskabet!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine bidragsydere"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine bidragsydere"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1220,12 +1220,12 @@ msgstr "Tredjeparts Licens"
 #: editor/editor_about.cpp
 #, fuzzy
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine er afhængig af en række tredjeparts biblioteker som er gratis  "
+"Valjang Engine er afhængig af en række tredjeparts biblioteker som er gratis  "
 "og open source. Alle bibliotekerne er kompatible med vilkårene i MIT-"
 "licensen. Følgende er en udtømmende liste over alle sådanne tredjeparts "
 "komponenter med deres respektive ophavsretlige udsagn og licensbetingelser."

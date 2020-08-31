@@ -8,9 +8,9 @@ from collections import OrderedDict
 
 EXTRACT_TAGS = ["description", "brief_description", "member", "constant", "theme_item", "link"]
 HEADER = """\
-# LANGUAGE translation of the Godot Engine class reference.
+# LANGUAGE translation of the Valjang Engine class reference.
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -18,7 +18,7 @@ HEADER = """\
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine class reference\\n"
+"Project-Id-Version: Valjang Engine class reference\\n"
 "Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"

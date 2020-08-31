@@ -1,6 +1,6 @@
-# Chinese (Taiwan) translation of the Godot Engine editor
+# Chinese (Taiwan) translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Allen H <w84miracle@gmail.com>, 2017.
 # Billy SU <g4691821@gmail.com>, 2018.
@@ -26,7 +26,7 @@
 # BinotaLIU <me@binota.org>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-07 15:56+0000\n"
 "Last-Translator: BinotaLIU <me@binota.org>\n"
@@ -1112,8 +1112,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Godot 社群感謝你！"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine 貢獻者"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine 貢獻者"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1173,12 +1173,12 @@ msgstr "第三方授權條款"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine 依賴數個自由且開放原始碼的第三方函式庫，所有函式庫皆相容於 MIT "
+"Valjang Engine 依賴數個自由且開放原始碼的第三方函式庫，所有函式庫皆相容於 MIT "
 "授權條款。以下為這些第三方元件的完整列表與其著作權宣告及授權條款。"
 
 #: editor/editor_about.cpp

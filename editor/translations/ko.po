@@ -1,6 +1,6 @@
-# Korean translation of the Godot Engine editor
+# Korean translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Ch <ccwpc@hanmail.net>, 2017.
 # paijai 송 (fivejobi) <xotjq237@gmail.com>, 2018.
@@ -20,7 +20,7 @@
 # Doyun Kwon <caen4516@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-29 15:26+0000\n"
 "Last-Translator: Ch. <ccwpc@hanmail.net>\n"
@@ -1117,8 +1117,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Godot 커뮤니티에서 감사드립니다!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine 기여자"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine 기여자"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1178,12 +1178,12 @@ msgstr "제 3자 라이선스"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine은 MIT 라이선스와 호환되는 수많은 제 3자 자유 오픈소스 라이브러리"
+"Valjang Engine은 MIT 라이선스와 호환되는 수많은 제 3자 자유 오픈소스 라이브러리"
 "에 의존합니다. 다음은 그러한 제 3자 구성 요소의 전체 목록과 이에 대응하는 저"
 "작권 선언문 및 라이선스입니다."
 

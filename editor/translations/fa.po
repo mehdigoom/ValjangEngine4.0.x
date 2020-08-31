@@ -1,6 +1,6 @@
-# Persian translation of the Godot Engine editor
+# Persian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # alabd14313 <alabd14313@yahoo.com>, 2016.
 # Dante Marshal <Marshal.Devilhunter@gmail.com>, 2018.
@@ -16,7 +16,7 @@
 # Tetra Homer <tetrahomer@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-21 13:41+0000\n"
 "Last-Translator: Tetra Homer <tetrahomer@gmail.com>\n"
@@ -1109,7 +1109,7 @@ msgid "Thanks from the Godot community!"
 msgstr "با تشکر از سوی جامعه‌ی Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "شرکت‌کنندگان در ساخت موتور Godot"
 
 #: editor/editor_about.cpp
@@ -1170,12 +1170,12 @@ msgstr "مجوز های شخص-ثالث"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot Engine به تعدادی از کتابخانه های منبع باز و شخص-ثالث رایگان متکی است "
+"Valjang Engine به تعدادی از کتابخانه های منبع باز و شخص-ثالث رایگان متکی است "
 "که همگی با شرایط مجوز MIT سازگار هستند. در زیر لیستی جامع از کلیه مؤلفه های "
 "شخص ثالث با بیانیه های حق کپی برداری مربوطه و شرایط مجوز آنها قرار دارد."
 

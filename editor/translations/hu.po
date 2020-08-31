@@ -1,6 +1,6 @@
-# Hungarian translation of the Godot Engine editor
+# Hungarian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Árpád Horváth <horvatha4@googlemail.com>, 2018.
 # Nagy Lajos <neutron9707@gmail.com>, 2017.
@@ -12,7 +12,7 @@
 # sztrovacsek <magadeve@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine editor\n"
+"Project-Id-Version: Valjang Engine editor\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-01-30 03:56+0000\n"
 "Last-Translator: Deleted User <noreply+18797@weblate.org>\n"
@@ -1157,8 +1157,8 @@ msgid "Thanks from the Godot community!"
 msgstr "Köszönet a Godot közösségétől!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
-msgstr "Godot Engine közreműködők"
+msgid "Valjang Engine contributors"
+msgstr "Valjang Engine közreműködők"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1220,12 +1220,12 @@ msgstr "Harmadik Fél Engedély"
 #: editor/editor_about.cpp
 #, fuzzy
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"A Godot Engine több harmadik fél ingyenes és nyílt forráskódú könyvtáraira "
+"A Valjang Engine több harmadik fél ingyenes és nyílt forráskódú könyvtáraira "
 "támaszkodik, amelyek mindegyike kompatibilis az MIT licenc feltételeivel. Az "
 "alábbiakban felsoroljuk az összes ilyen harmadik fél összetevőjét, a "
 "vonatkozó szerzői jogi nyilatkozatokkal és licencfeltételekkel együtt."

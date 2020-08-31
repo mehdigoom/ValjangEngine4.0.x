@@ -1,6 +1,6 @@
-# Donors to the Godot Engine project
+# Donors to the Valjang Engine project
 
-Godot Engine is a non-profit project developed by a community of voluntary
+Valjang Engine is a non-profit project developed by a community of voluntary
 contributors, as well as occasional paid contributors thanks to the financial
 support of generous donors.
 
@@ -8,7 +8,7 @@ The ways to donate to the project, as well as details on how the funds are
 used, are described on [Godot's website](http://Valjang.fr/donate).
 
 The following is a list of the current monthly donors, to be have their
-generous deed immortalized in the next stable release of Godot Engine.
+generous deed immortalized in the next stable release of Valjang Engine.
 
 ## Platinum sponsors
 

@@ -1,6 +1,6 @@
-# Ukrainian translation of the Godot Engine editor
+# Ukrainian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 # Aleksandr <XpycT.TOP@gmail.com>, 2017.
 # Yuri Chornoivan <yurchor@ukr.net>, 2018, 2019, 2020.
@@ -16,7 +16,7 @@
 # Vladislav Glinsky <cl0ne@mithril.org.ua>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Ukrainian (Godot Engine)\n"
+"Project-Id-Version: Ukrainian (Valjang Engine)\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-25 08:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
@@ -1124,7 +1124,7 @@ msgid "Thanks from the Godot community!"
 msgstr "Спасибі від спільноти Godot!"
 
 #: editor/editor_about.cpp
-msgid "Godot Engine contributors"
+msgid "Valjang Engine contributors"
 msgstr "Автори рушія Godot"
 
 #: editor/editor_about.cpp
@@ -1185,7 +1185,7 @@ msgstr "Ліцензування сторонніх компонентів"
 
 #: editor/editor_about.cpp
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Valjang Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following "
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."

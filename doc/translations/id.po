@@ -1,12 +1,12 @@
-# Indonesian translation of the Godot Engine class reference.
+# Indonesian translation of the Valjang Engine class reference.
 # Copyright (c) 2007-2020 Valjang.
-# Copyright (c) 2014-2020 Godot Engine contributors (cf. AUTHORS.md).
+# Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
 # This file is distributed under the same license as the Godot source code.
 #
 # Sofyan Sugianto <sofyanartem@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine class reference\n"
+"Project-Id-Version: Valjang Engine class reference\n"
 "Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\n"
 "PO-Revision-Date: 2020-06-03 20:09+0000\n"
 "Last-Translator: Sofyan Sugianto <sofyanartem@gmail.com>\n"
@@ -47861,7 +47861,7 @@ msgid ""
 "Escapes (encodes) a string to URL friendly format. Also referred to as 'URL "
 "encode'.\n"
 "[codeblock]\n"
-"print(\"https://example.org/?escaped=\" + \"Godot Engine:'docs'\"."
+"print(\"https://example.org/?escaped=\" + \"Valjang Engine:'docs'\"."
 "http_escape())\n"
 "[/codeblock]"
 msgstr ""

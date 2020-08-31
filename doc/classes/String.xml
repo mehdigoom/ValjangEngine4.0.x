@@ -495,7 +495,7 @@
 			<description>
 				Escapes (encodes) a string to URL friendly format. Also referred to as 'URL encode'.
 				[codeblock]
-				print("https://example.org/?escaped=" + "Godot Engine:'docs'".http_escape())
+				print("https://example.org/?escaped=" + "Valjang Engine:'docs'".http_escape())
 				[/codeblock]
 			</description>
 		</method>
