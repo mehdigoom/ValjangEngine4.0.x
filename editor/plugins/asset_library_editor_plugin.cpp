@@ -878,7 +878,7 @@ void EditorAssetLibrary::_search(int p_page) {
 	args += String() + "sort=" + sort_key[sort->get_selected()];
 
 	// We use the "branch" version, i.e. major.minor, as patch releases should be compatible
-	args += "&godot_version=" + String(VERSION_BRANCH);
+	args += "3.2" + String(VERSION_BRANCH);
 
 	String support_list;
 	for (int i = 0; i < SUPPORT_MAX; i++) {
@@ -1348,11 +1348,11 @@ EditorAssetLibrary::EditorAssetLibrary(bool p_templates_only) {
 
 	search_hb2->add_child(memnew(VSeparator));
 
-	search_hb2->add_child(memnew(Label(TTR("Site:") + " ")));
+	search_hb2->add_child(memnew(Label(TTR("server:") + " ")));
 	repository = memnew(OptionButton);
 
 	repository->add_item("Valjang.fr");
-	repository->set_item_metadata(0, "http://Valjang.fr/asset-library/api");
+	repository->set_item_metadata(0, "http://godotengine.org/asset-library/api");
 	repository->add_item("localhost");
 	repository->set_item_metadata(1, "http://127.0.0.1/asset-library/api");
 
