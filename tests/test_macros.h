@@ -32,7 +32,7 @@
 #define TEST_MACROS_H
 
 // See documentation for doctest at:
-// https://github.com/onqtam/doctest/blob/master/doc/markdown/readme.md#reference
+// http://github.com/onqtam/doctest/blob/master/doc/markdown/readme.md#reference
 #include "thirdparty/doctest/doctest.h"
 
 // The test is skipped with this, run pending tests with `--test --no-skip`.

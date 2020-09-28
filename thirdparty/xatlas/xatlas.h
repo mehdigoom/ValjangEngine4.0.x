@@ -24,7 +24,7 @@ SOFTWARE.
 /*
 thekla_atlas
 MIT License
-https://github.com/Thekla/thekla_atlas
+http://github.com/Thekla/thekla_atlas
 Copyright (c) 2013 Thekla, Inc
 Copyright NVIDIA Corporation 2006 -- Ignacio Castano <icastano@nvidia.com>
 */

@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 /*
  *  The PKCS #12 Personal Information Exchange Syntax Standard v1.1

@@ -390,7 +390,7 @@
       /* simplistic and might get some things wrong.  For a full-featured */
       /* algorithm you might have a look at the whitepaper given at       */
       /*                                                                  */
-      /*   https://blogs.msdn.com/text/archive/2007/04/23/wpf-font-selection-model.aspx */
+      /*   http://blogs.msdn.com/text/archive/2007/04/23/wpf-font-selection-model.aspx */
 
       /* get style name -- be careful, some broken fonts only */
       /* have a `/FontName' dictionary entry!                 */

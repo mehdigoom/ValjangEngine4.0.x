@@ -514,7 +514,7 @@ PhysicalSkyMaterial::PhysicalSkyMaterial() {
 	code += "\treturn k * (1.0 - g * g) / (pow(1.0 + g * g - 2.0 * g * cos_theta, 1.5));\n";
 	code += "}\n\n";
 
-	code += "// From: https://www.shadertoy.com/view/4sfGzS credit to iq\n";
+	code += "// From: http://www.shadertoy.com/view/4sfGzS credit to iq\n";
 	code += "float hash(vec3 p) {\n";
 	code += "\tp  = fract( p * 0.3183099 + 0.1 );\n";
 	code += "\tp *= 17.0;\n";
@@ -551,7 +551,7 @@ PhysicalSkyMaterial::PhysicalSkyMaterial() {
 	code += "\tvec3 betaMTheta = mie_beta * mie_phase;\n\n";
 
 	code += "\tvec3 Lin = pow(sun_energy * ((betaRTheta + betaMTheta) / (rayleigh_beta + mie_beta)) * (1.0 - extinction), vec3(1.5));\n";
-	code += "\t// Hack from https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js\n";
+	code += "\t// Hack from http://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js\n";
 	code += "\tLin *= mix(vec3(1.0), pow(sun_energy * ((betaRTheta + betaMTheta) / (rayleigh_beta + mie_beta)) * extinction, vec3(0.5)), clamp(pow(1.0 - zenith_angle, 5.0), 0.0, 1.0));\n\n";
 
 	code += "\t// Hack in the ground color\n";

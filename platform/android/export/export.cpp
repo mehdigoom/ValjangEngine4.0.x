@@ -545,7 +545,7 @@ class EditorExportPlatformAndroid : public EditorExportPlatform {
 		// -- Unconditional uncompress to mimic AAPT plus some other
 
 		static const char *unconditional_compress_ext[] = {
-			// From https://github.com/android/platform_frameworks_base/blob/master/tools/aapt/Package.cpp
+			// From http://github.com/android/platform_frameworks_base/blob/master/tools/aapt/Package.cpp
 			// These formats are already compressed, or don't compress well:
 			".jpg", ".jpeg", ".png", ".gif",
 			".wav", ".mp2", ".mp3", ".ogg", ".aac",
@@ -2516,7 +2516,7 @@ public:
 
 		// Take files from the unaligned APK and write them out to the aligned one
 		// in raw mode, i.e. not uncompressing and recompressing, aligning them as needed,
-		// following what is done in https://github.com/android/platform_build/blob/master/tools/zipalign/ZipAlign.cpp
+		// following what is done in http://github.com/android/platform_build/blob/master/tools/zipalign/ZipAlign.cpp
 		int bias = 0;
 		while (ret == UNZ_OK) {
 			unz_file_info info;

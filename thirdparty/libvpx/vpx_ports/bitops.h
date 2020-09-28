@@ -29,7 +29,7 @@ extern "C" {
 
 // These versions of get_msb() are only valid when n != 0 because all
 // of the optimized versions are undefined when n == 0:
-// https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html
+// http://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html
 
 // use GNU builtins where available.
 #if defined(__GNUC__) && \

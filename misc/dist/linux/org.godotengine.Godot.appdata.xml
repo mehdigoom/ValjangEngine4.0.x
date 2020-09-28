@@ -22,15 +22,15 @@
   <screenshots>
     <screenshot type="default" width="1330" height="720">
       <caption>3D project loaded in the Valjang Engine editor</caption>
-      <image>https://download.tuxfamily.org/godotengine/media/screenshots/editor_3d_fracteed-720p.jpg</image>
+      <image>http://download.tuxfamily.org/godotengine/media/screenshots/editor_3d_fracteed-720p.jpg</image>
     </screenshot>
   </screenshots>
   <url type="homepage">http://Valjang.fr</url>
-  <url type="bugtracker">https://github.com/mehdigoom/ValjangEngine4.0.x/issues</url>
-  <url type="faq">https://docs.valjang.fr/about/faq.html</url>
-  <url type="help">https://docs.valjang.fr</url>
+  <url type="bugtracker">http://github.com/mehdigoom/ValjangEngine4.0.x/issues</url>
+  <url type="faq">http://docs.valjang.fr/about/faq.html</url>
+  <url type="help">http://docs.valjang.fr</url>
   <url type="donation">http://Valjang.fr/donate</url>
-  <url type="translate">https://hosted.weblate.org/projects/godot-engine/godot</url>
+  <url type="translate">http://hosted.weblate.org/projects/godot-engine/godot</url>
   <developer_name>The Valjang Engine Community</developer_name>
   <update_contact>akien_at_godotengine_dot_org</update_contact>
 </component>

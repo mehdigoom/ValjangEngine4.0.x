@@ -2126,7 +2126,7 @@ void CSharpInstance::notification(int p_notification) {
 			// that's not a problem. The refcount wouldn't have reached 0 otherwise, since the
 			// managed side references it and Dispose() needs to be called to release it.
 			// However, this means C# Reference scripts can't receive NOTIFICATION_PREDELETE, but
-			// this is likely the case with GDScript as well: https://github.com/mehdigoom/ValjangEngine4.0.x/issues/6784
+			// this is likely the case with GDScript as well: http://github.com/mehdigoom/ValjangEngine4.0.x/issues/6784
 			return;
 		}
 

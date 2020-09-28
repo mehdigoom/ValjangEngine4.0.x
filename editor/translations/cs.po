@@ -1,7 +1,7 @@
 # Czech translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Fadex <vitekpaulik@gmail.com>, 2017.
 # Jan 'spl!te' Kondelík <j.kondelik@centrum.cz>, 2016, 2018.
 # Jiri Hysek <contact@jirihysek.com>, 2017.
@@ -26,7 +26,7 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-28 09:51+0000\n"
 "Last-Translator: Zbyněk <zbynek.fiala@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/godot-engine/godot/"
+"Language-Team: Czech <http://hosted.weblate.org/projects/Valjang-engine/Valjang/"
 "cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -1117,12 +1117,12 @@ msgid "Change Dictionary Value"
 msgstr "Změnit hodnotu slovníku"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Děkujeme za komunitu Godotu!"
+msgid "Thanks from the Valjang community!"
+msgstr "Děkujeme za komunitu Valjangu!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
-msgstr "Přispěvatelé do Godot Enginu"
+msgstr "Přispěvatelé do Valjang Enginu"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1744,7 +1744,7 @@ msgstr "Smazat profil"
 
 #: editor/editor_feature_profile.cpp
 #, fuzzy
-msgid "Godot Feature Profile"
+msgid "Valjang Feature Profile"
 msgstr "Spravovat exportní šablony"
 
 #: editor/editor_feature_profile.cpp
@@ -3563,8 +3563,8 @@ msgid "Select Template File"
 msgstr "Vybrat soubor šablony"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "Exportní šablony Godotu"
+msgid "Valjang Export Templates"
+msgstr "Exportní šablony Valjangu"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6829,8 +6829,8 @@ msgid "Debug with External Editor"
 msgstr "Debugovat v externím editoru"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
-msgstr "Otevřít online dokumentaci Godotu."
+msgid "Open Valjang online documentation."
+msgstr "Otevřít online dokumentaci Valjangu."
 
 #: editor/plugins/script_editor_plugin.cpp
 msgid "Search the reference documentation."
@@ -9323,7 +9323,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9336,7 +9336,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -9580,7 +9580,7 @@ msgid "ZIP File"
 msgstr "Soubor ZIP"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
+msgid "Valjang Game Pack"
 msgstr ""
 
 #: editor/project_export.cpp
@@ -9608,8 +9608,8 @@ msgstr "Nepodařilo se otevřít balíček, není ve formátu ZIP."
 #: editor/project_manager.cpp
 #, fuzzy
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
-msgstr "Neplatný projektový '.zip' soubor; neobsahuje soubor 'project.godot'."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
+msgstr "Neplatný projektový '.zip' soubor; neobsahuje soubor 'project.Valjang'."
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
@@ -9617,13 +9617,13 @@ msgstr "Zvolte prosím prázdnou složku."
 
 #: editor/project_manager.cpp
 #, fuzzy
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "Zvolte prosím soubor 'project.godot' nebo '.zip'."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "Zvolte prosím soubor 'project.Valjang' nebo '.zip'."
 
 #: editor/project_manager.cpp
 #, fuzzy
-msgid "This directory already contains a Godot project."
-msgstr "Složka již obsahuje projekt Godotu."
+msgid "This directory already contains a Valjang project."
+msgstr "Složka již obsahuje projekt Valjangu."
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9655,19 +9655,19 @@ msgstr "Neplatná cesta k projektu (něco se změnilo?)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"Nelze načíst project.godot v umístění projektu (chyba %d). Může chybět nebo "
+"Nelze načíst project.Valjang v umístění projektu (chyba %d). Může chybět nebo "
 "být poškozený."
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "Nelze upravit project.godot v umístění projektu."
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "Nelze upravit project.Valjang v umístění projektu."
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "Nelze vytvořit project.godot v umístění projektu."
+msgid "Couldn't create project.Valjang in project path."
+msgstr "Nelze vytvořit project.Valjang v umístění projektu."
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9771,23 +9771,23 @@ msgstr "Jste si jisti, že chcete otevřit více než jeden projekt?"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"Konfigurační soubor projektu nespecifikuje verzi Godotu ve které byl "
+"Konfigurační soubor projektu nespecifikuje verzi Valjangu ve které byl "
 "vytvořen.\n"
 "\n"
 "%s\n"
 "\n"
 "Pokud se rozhodnete ho otevřít, tak bude převeden do aktuálního formátu "
-"konfiguračního souboru Godotu.\n"
+"konfiguračního souboru Valjangu.\n"
 "Varování: Nebude možné otevřít projekt v dřívějších verzích enginu."
 
 #: editor/project_manager.cpp
@@ -9868,7 +9868,7 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
 
@@ -10160,8 +10160,8 @@ msgid "Changed Locale Filter Mode"
 msgstr ""
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "Nastavení projektu (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "Nastavení projektu (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -11998,8 +11998,8 @@ msgstr "Neplatné jméno třídy"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -12032,7 +12032,7 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 

@@ -2,7 +2,7 @@
 /* vim: tabstop=4 shiftwidth=4 noexpandtab
  * Project : miniupnp
  * Author : Thomas BERNARD
- * website : https://miniupnp.tuxfamily.org/
+ * website : http://miniupnp.tuxfamily.org/
  * copyright (c) 2007-2019 Thomas Bernard
  * This software is subjet to the conditions detailed in the
  * provided LICENCE file. */

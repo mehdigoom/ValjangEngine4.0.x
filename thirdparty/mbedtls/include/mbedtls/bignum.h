@@ -46,7 +46,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 #ifndef MBEDTLS_BIGNUM_H
 #define MBEDTLS_BIGNUM_H

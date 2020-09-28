@@ -1,7 +1,7 @@
 # Vietnamese translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # 01lifeleft <01lifeleft@gmail.com>, 2018.
 # Dlean Jeans <dleanjeans@gmail.com>, 2018.
 # Hai Le <dark.hades.1102@gmail.com>, 2017.
@@ -19,8 +19,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-28 09:51+0000\n"
 "Last-Translator: Steve Dang <bynguu@outlook.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/godot-engine/"
-"godot/vi/>\n"
+"Language-Team: Vietnamese <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1110,8 +1110,8 @@ msgid "Change Dictionary Value"
 msgstr "Đổi giá trị từ điển"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Cảm ơn từ cộng đồng Godot!"
+msgid "Thanks from the Valjang community!"
+msgstr "Cảm ơn từ cộng đồng Valjang!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
@@ -1745,7 +1745,7 @@ msgstr "Xoá hồ sơ"
 
 #: editor/editor_feature_profile.cpp
 #, fuzzy
-msgid "Godot Feature Profile"
+msgid "Valjang Feature Profile"
 msgstr "Quản lý trình tính năng"
 
 #: editor/editor_feature_profile.cpp
@@ -3576,8 +3576,8 @@ msgid "Select Template File"
 msgstr "Chọn file template"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "Các mẫu xuất bản Godot"
+msgid "Valjang Export Templates"
+msgstr "Các mẫu xuất bản Valjang"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6869,7 +6869,7 @@ msgid "Debug with External Editor"
 msgstr ""
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
+msgid "Open Valjang online documentation."
 msgstr ""
 
 #: editor/plugins/script_editor_plugin.cpp
@@ -9328,7 +9328,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9341,7 +9341,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -9592,7 +9592,7 @@ msgid "ZIP File"
 msgstr " Tệp tin"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
+msgid "Valjang Game Pack"
 msgstr ""
 
 #: editor/project_export.cpp
@@ -9619,21 +9619,21 @@ msgstr "Lỗi không thể mở gói, không phải dạng nén."
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
 msgstr ""
-"Tệp dự án \".zip\" không hợp lệ; trong nó không chứa tệp \"project.godot\"."
+"Tệp dự án \".zip\" không hợp lệ; trong nó không chứa tệp \"project.Valjang\"."
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
 msgstr ""
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "Chọn tệp \"project.godot\" hoặc tệp \".zip\"."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "Chọn tệp \"project.Valjang\" hoặc tệp \".zip\"."
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "Thư mục này đã chứa một dự án Godot."
+msgid "This directory already contains a Valjang project."
+msgstr "Thư mục này đã chứa một dự án Valjang."
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9665,19 +9665,19 @@ msgstr "Đường dẫn dự án không hợp lệ (bạn có thay đổi điề
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"Không thể nạp 'project.godot' trong đường dẫn dự án (lỗi %d). Nó có thể bị "
+"Không thể nạp 'project.Valjang' trong đường dẫn dự án (lỗi %d). Nó có thể bị "
 "thiếu hoặc đã hỏng."
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "Không thể chỉnh sửa 'project.godot' trong đường dẫn dự án."
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "Không thể chỉnh sửa 'project.Valjang' trong đường dẫn dự án."
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "Không thể tạo 'project.godot' trong đường dẫn dự án."
+msgid "Couldn't create project.Valjang in project path."
+msgstr "Không thể tạo 'project.Valjang' trong đường dẫn dự án."
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9773,23 +9773,23 @@ msgstr "Bạn chắc chắn mở nhiều hơn một dự án?"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"Tệp dự án không chỉ định phiên bản Godot mà nó được tạo.\n"
+"Tệp dự án không chỉ định phiên bản Valjang mà nó được tạo.\n"
 "\n"
 "%s\n"
 "\n"
 "Nếu bạn vẫn tiến hành mở dự án, tệp dự án sẽ được chuyển đổi sang cấu hình "
-"Godot hiện tại.\n"
-"Cảnh báo: Bạn sẽ không thể mở dự án với các phiên bản cũ của Godot nữa."
+"Valjang hiện tại.\n"
+"Cảnh báo: Bạn sẽ không thể mở dự án với các phiên bản cũ của Valjang nữa."
 
 #: editor/project_manager.cpp
 msgid ""
@@ -9802,20 +9802,20 @@ msgid ""
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"Tệp dự án được tạo bởi phiên bản Godot cũ và cần được chuyển đổi cho phiên "
+"Tệp dự án được tạo bởi phiên bản Valjang cũ và cần được chuyển đổi cho phiên "
 "bản này:\n"
 "\n"
 "%s\n"
 "\n"
 "Bạn có muốn chuyển đổi nó?\n"
-"Cảnh báo: Bạn sẽ không thể mở dự án với các phiên bản Godot cũ nữa."
+"Cảnh báo: Bạn sẽ không thể mở dự án với các phiên bản Valjang cũ nữa."
 
 #: editor/project_manager.cpp
 msgid ""
 "The project settings were created by a newer engine version, whose settings "
 "are not compatible with this version."
 msgstr ""
-"Các cài đặt dự án đã được tạo bởi phiên bản Godot mới, có các cài đặt không "
+"Các cài đặt dự án đã được tạo bởi phiên bản Valjang mới, có các cài đặt không "
 "tương thích với phiên bản này."
 
 #: editor/project_manager.cpp
@@ -9874,10 +9874,10 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"Bạn có chắc chắn quét các thư mục %s để tìm các dự án Godot có sẵn?\n"
+"Bạn có chắc chắn quét các thư mục %s để tìm các dự án Valjang có sẵn?\n"
 "Điều này sẽ mất chút thời gian."
 
 #: editor/project_manager.cpp
@@ -10162,8 +10162,8 @@ msgid "Changed Locale Filter Mode"
 msgstr ""
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "Cài đặt Dự án (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "Cài đặt Dự án (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -12015,8 +12015,8 @@ msgstr "Kích thước font không hợp lệ."
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -12051,12 +12051,12 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "Phiên bản xây dựng Android không khớp:\n"
 "   Mẫu xuất bản được cài đặt: %s\n"
-"   Phiên bản Godot sử dụng: %s\n"
+"   Phiên bản Valjang sử dụng: %s\n"
 "Vui lòng cài đặt lại mẫu xuất bản Android từ menu 'Dự Án'."
 
 #: platform/android/export/export.cpp

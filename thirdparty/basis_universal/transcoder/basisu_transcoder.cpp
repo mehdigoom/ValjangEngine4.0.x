@@ -5334,7 +5334,7 @@ namespace basist
 	};
 		
 	// Table encodes 5 trits to 8 output bits. 3^5 entries.
-	// Inverse of the trit bit manipulation process in https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-integer-sequence-encoding
+	// Inverse of the trit bit manipulation process in http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-integer-sequence-encoding
 	static const uint8_t g_astc_trit_encode[243] = { 0, 1, 2, 4, 5, 6, 8, 9, 10, 16, 17, 18, 20, 21, 22, 24, 25, 26, 3, 7, 11, 19, 23, 27, 12, 13, 14, 32, 33, 34, 36, 37, 38, 40, 41, 42, 48, 49, 50, 52, 53, 54, 56, 57, 58, 35, 39, 
 		43, 51, 55, 59, 44, 45, 46, 64, 65, 66, 68, 69, 70, 72, 73, 74, 80, 81, 82, 84, 85, 86, 88, 89, 90, 67, 71, 75, 83, 87, 91, 76, 77, 78, 128, 129, 130, 132, 133, 134, 136, 137, 138, 144, 145, 146, 148, 149, 150, 152, 153, 154, 
 		131, 135, 139, 147, 151, 155, 140, 141, 142, 160, 161, 162, 164, 165, 166, 168, 169, 170, 176, 177, 178, 180, 181, 182, 184, 185, 186, 163, 167, 171, 179, 183, 187, 172, 173, 174, 192, 193, 194, 196, 197, 198, 200, 201, 202, 
@@ -5382,7 +5382,7 @@ namespace basist
 		}
 
 		// Encode the trits, by inverting the bit manipulations done by the decoder, converting 5 trits into 8-bits.
-		// See https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-integer-sequence-encoding
+		// See http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-integer-sequence-encoding
 
 		assert(trits < 243);
 		const int T = g_astc_trit_encode[trits];
@@ -5399,14 +5399,14 @@ namespace basist
 	// Each block always has 4x4 weights, uses range 13 BISE encoding on the endpoints (0-47), and each weight ranges from 0-3. This encoding should be roughly equal in quality vs. BC1 for color.
 	// 8 total endpoints, stored as RGBA LH LH LH LH order, each ranging from 0-47. 
 	// Note the input [0,47] endpoint values are not linear - they are encoded as outlined in the ASTC spec:
-	// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-endpoint-unquantization
+	// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-endpoint-unquantization
 	// 32 total weights, stored as 16 CA CA, each ranging from 0-3.
 	static void astc_pack_block_cem_12_weight_range2(uint32_t *pOutput, const astc_block_params* pBlock)
 	{
 		uint8_t* pBytes = reinterpret_cast<uint8_t*>(pOutput);
 
 		// Write constant block mode, color component selector, number of partitions, color endpoint mode
-		// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
+		// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
 		pBytes[0] = 0x42; pBytes[1] = 0x84; pBytes[2] = 0x01; pBytes[3] = 0x00;
 		pBytes[4] = 0x00; pBytes[5] = 0x00; pBytes[6] = 0x00; pBytes[7] = 0xc0;
 
@@ -5435,7 +5435,7 @@ namespace basist
 		uint8_t* pBytes = reinterpret_cast<uint8_t*>(pOutput);
 
 		// Write constant block mode, color component selector, number of partitions, color endpoint mode
-		// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
+		// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
 		pBytes[0] = 0x41; pBytes[1] = 0x84; pBytes[2] = 0x01; pBytes[3] = 0x00;
 		pOutput[1] = 0;
 		pBytes[8] = 0x00; pBytes[9] = 0x00; pBytes[10] = 0x00; pBytes[11] = 0xc0;
@@ -5463,7 +5463,7 @@ namespace basist
 		uint8_t* pBytes = reinterpret_cast<uint8_t*>(pOutput);
 
 		// Write constant block mode, color component selector, number of partitions, color endpoint mode
-		// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
+		// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
 		pBytes[0] = 0x42; pBytes[1] = 0x84; pBytes[2] = 0x00; pBytes[3] = 0x00;
 		pBytes[4] = 0x00; pBytes[5] = 0x00; pBytes[6] = 0x00; pBytes[7] = 0xc0;
 		
@@ -5490,7 +5490,7 @@ namespace basist
 		uint8_t* pBytes = reinterpret_cast<uint8_t*>(pOutput);
 
 		// Write constant block mode, color component selector, number of partitions, color endpoint mode
-		// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
+		// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_block_mode
 		pBytes[0] = 0x42; pBytes[1] = 0x00; pBytes[2] = 0x01; pBytes[3] = 0x00;
 		
 		pOutput[1] = 0;
@@ -5581,7 +5581,7 @@ namespace basist
 		}
 
 		// Endpoint dequantization, see:
-		// https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-endpoint-unquantization
+		// http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-endpoint-unquantization
 		for (uint32_t trit = 0; trit < 3; trit++)
 		{
 			for (uint32_t bit = 0; bit < 16; bit++)
@@ -5693,7 +5693,7 @@ namespace basist
 		if ((pSelector->m_num_unique_selectors == 1) && (num_unique_alpha_selectors == 1))
 		{
 			// Both color and alpha are constant, write a solid color block and exit.
-			// See https://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-void-extent-blocks
+			// See http://www.khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#astc-void-extent-blocks
 			uint32_t r, g, b;
 			decoder_etc_block::get_block_color5(base_color, inten_table, low_selector, r, g, b);
 						

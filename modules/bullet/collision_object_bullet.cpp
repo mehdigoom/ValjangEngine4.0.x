@@ -65,7 +65,7 @@ btTransform CollisionObjectBullet::ShapeWrapper::get_adjusted_transform() const 
 		btTransform adjusted_transform;
 
 		// Bullet centers our heightmap:
-		// https://github.com/bulletphysics/bullet3/blob/master/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h#L33
+		// http://github.com/bulletphysics/bullet3/blob/master/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h#L33
 		// This is really counter intuitive so we're adjusting for it
 
 		adjusted_transform.setIdentity();

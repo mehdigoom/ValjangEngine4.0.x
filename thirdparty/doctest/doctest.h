@@ -8,18 +8,18 @@
 //
 // Distributed under the MIT Software License
 // See accompanying file LICENSE.txt or copy at
-// https://opensource.org/licenses/MIT
+// http://opensource.org/licenses/MIT
 //
 // The documentation can be found at the library's page:
-// https://github.com/onqtam/doctest/blob/master/doc/markdown/readme.md
+// http://github.com/onqtam/doctest/blob/master/doc/markdown/readme.md
 //
 // =================================================================================================
 // =================================================================================================
 // =================================================================================================
 //
-// The library is heavily influenced by Catch - https://github.com/catchorg/Catch2
+// The library is heavily influenced by Catch - http://github.com/catchorg/Catch2
 // which uses the Boost Software License - Version 1.0
-// see here - https://github.com/catchorg/Catch2/blob/master/LICENSE.txt
+// see here - http://github.com/catchorg/Catch2/blob/master/LICENSE.txt
 //
 // The concept of subcases (sections in Catch) and expression decomposition are from there.
 // Some parts of the code are taken directly:
@@ -31,9 +31,9 @@
 // - timer
 // - XmlWriter class - thanks to Phil Nash for allowing the direct reuse (AKA copy/paste)
 //
-// The expression decomposing templates are taken from lest - https://github.com/martinmoene/lest
+// The expression decomposing templates are taken from lest - http://github.com/martinmoene/lest
 // which uses the Boost Software License - Version 1.0
-// see here - https://github.com/martinmoene/lest/blob/master/LICENSE.txt
+// see here - http://github.com/martinmoene/lest/blob/master/LICENSE.txt
 //
 // =================================================================================================
 // =================================================================================================
@@ -58,7 +58,7 @@
 // == COMPILER VERSION =============================================================================
 // =================================================================================================
 
-// ideas for the version stuff are taken from here: https://github.com/cxxstuff/cxx_detect
+// ideas for the version stuff are taken from here: http://github.com/cxxstuff/cxx_detect
 
 #define DOCTEST_COMPILER(MAJOR, MINOR, PATCH) ((MAJOR)*10000000 + (MINOR)*100000 + (PATCH))
 
@@ -223,11 +223,11 @@ DOCTEST_MSVC_SUPPRESS_WARNING(26812) // Prefer 'enum class' over 'enum'
 // == FEATURE DETECTION ============================================================================
 // =================================================================================================
 
-// general compiler feature support table: https://en.cppreference.com/w/cpp/compiler_support
-// MSVC C++11 feature support table: https://msdn.microsoft.com/en-us/library/hh567368.aspx
-// GCC C++11 feature support table: https://gcc.gnu.org/projects/cxx-status.html
+// general compiler feature support table: http://en.cppreference.com/w/cpp/compiler_support
+// MSVC C++11 feature support table: http://msdn.microsoft.com/en-us/library/hh567368.aspx
+// GCC C++11 feature support table: http://gcc.gnu.org/projects/cxx-status.html
 // MSVC version table:
-// https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B#Internal_version_numbering
+// http://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B#Internal_version_numbering
 // MSVC++ 14.2 (16) _MSC_VER == 1920 (Visual Studio 2019)
 // MSVC++ 14.1 (15) _MSC_VER == 1910 (Visual Studio 2017)
 // MSVC++ 14.0      _MSC_VER == 1900 (Visual Studio 2015)
@@ -354,7 +354,7 @@ DOCTEST_MSVC_SUPPRESS_WARNING(26812) // Prefer 'enum class' over 'enum'
 #define DOCTEST_GLOBAL_NO_WARNINGS_END() DOCTEST_CLANG_SUPPRESS_WARNING_POP
 
 #ifndef DOCTEST_BREAK_INTO_DEBUGGER
-// should probably take a look at https://github.com/scottt/debugbreak
+// should probably take a look at http://github.com/scottt/debugbreak
 #ifdef DOCTEST_PLATFORM_MAC
 // -- GODOT start --
 #if defined(__x86_64) || defined(__x86_64__) || defined(__amd64__)
@@ -414,7 +414,7 @@ typedef basic_ostream<char, char_traits<char>> ostream;
 template <class... Types>
 class tuple;
 #if DOCTEST_MSVC >= DOCTEST_COMPILER(19, 20, 0)
-// see this issue on why this is needed: https://github.com/onqtam/doctest/issues/183
+// see this issue on why this is needed: http://github.com/onqtam/doctest/issues/183
 template <class _Ty>
 class allocator;
 template <class _Elem, class _Traits, class _Alloc>
@@ -443,7 +443,7 @@ DOCTEST_INTERFACE extern bool is_running_in_test;
 // - if small - acts as a null terminator if strlen() is 23 (24 including the null terminator)
 //              and the "is small" bit remains "0" ("as well as the capacity left") so its OK
 // Idea taken from this lecture about the string implementation of facebook/folly - fbstring
-// https://www.youtube.com/watch?v=kPR8h4-qZdk
+// http://www.youtube.com/watch?v=kPR8h4-qZdk
 // TODO:
 // - optimizations - like not deleting memory unnecessarily in operator= and etc.
 // - resize/reserve/clear
@@ -879,7 +879,7 @@ DOCTEST_INTERFACE String toString(int long long unsigned in);
 DOCTEST_INTERFACE String toString(std::nullptr_t in);
 
 #if DOCTEST_MSVC >= DOCTEST_COMPILER(19, 20, 0)
-// see this issue on why this is needed: https://github.com/onqtam/doctest/issues/183
+// see this issue on why this is needed: http://github.com/onqtam/doctest/issues/183
 DOCTEST_INTERFACE String toString(const std::string& in);
 #endif // VS 2019
 
@@ -1025,8 +1025,8 @@ namespace detail {
     }
 
     // more checks could be added - like in Catch:
-    // https://github.com/catchorg/Catch2/pull/1480/files
-    // https://github.com/catchorg/Catch2/pull/1481/files
+    // http://github.com/catchorg/Catch2/pull/1480/files
+    // http://github.com/catchorg/Catch2/pull/1481/files
 #define DOCTEST_FORBIT_EXPRESSION(rt, op)                                                          \
     template <typename R>                                                                          \
     rt& operator op(const R&) {                                                                    \
@@ -1042,7 +1042,7 @@ namespace detail {
 
         Result(bool passed, const String& decomposition = String());
 
-        // forbidding some expressions based on this table: https://en.cppreference.com/w/cpp/language/operator_precedence
+        // forbidding some expressions based on this table: http://en.cppreference.com/w/cpp/language/operator_precedence
         DOCTEST_FORBIT_EXPRESSION(Result, &)
         DOCTEST_FORBIT_EXPRESSION(Result, ^)
         DOCTEST_FORBIT_EXPRESSION(Result, |)
@@ -1084,7 +1084,7 @@ namespace detail {
     //DOCTEST_GCC_SUPPRESS_WARNING("-Wfloat-equal")
 
     DOCTEST_MSVC_SUPPRESS_WARNING_PUSH
-    // https://stackoverflow.com/questions/39479163 what's the difference between 4018 and 4389
+    // http://stackoverflow.com/questions/39479163 what's the difference between 4018 and 4389
     DOCTEST_MSVC_SUPPRESS_WARNING(4388) // signed/unsigned mismatch
     DOCTEST_MSVC_SUPPRESS_WARNING(4389) // 'operator' : signed/unsigned mismatch
     DOCTEST_MSVC_SUPPRESS_WARNING(4018) // 'expression' : signed/unsigned mismatch
@@ -1166,7 +1166,7 @@ namespace detail {
         DOCTEST_DO_BINARY_EXPRESSION_COMPARISON(<=, " <= ", DOCTEST_CMP_LE) //!OCLINT bitwise operator in conditional
         // clang-format on
 
-        // forbidding some expressions based on this table: https://en.cppreference.com/w/cpp/language/operator_precedence
+        // forbidding some expressions based on this table: http://en.cppreference.com/w/cpp/language/operator_precedence
         DOCTEST_FORBIT_EXPRESSION(Expression_lhs, &)
         DOCTEST_FORBIT_EXPRESSION(Expression_lhs, ^)
         DOCTEST_FORBIT_EXPRESSION(Expression_lhs, |)
@@ -1205,8 +1205,8 @@ namespace detail {
 
         // The right operator for capturing expressions is "<=" instead of "<<" (based on the operator precedence table)
         // but then there will be warnings from GCC about "-Wparentheses" and since "_Pragma()" is problematic this will stay for now...
-        // https://github.com/catchorg/Catch2/issues/870
-        // https://github.com/catchorg/Catch2/issues/565
+        // http://github.com/catchorg/Catch2/issues/870
+        // http://github.com/catchorg/Catch2/issues/565
         template <typename L>
         Expression_lhs<const DOCTEST_REF_WRAP(L)> operator<<(const DOCTEST_REF_WRAP(L) operand) {
             return Expression_lhs<const DOCTEST_REF_WRAP(L)>(operand, m_at);
@@ -2707,7 +2707,7 @@ DOCTEST_MAKE_STD_HEADERS_CLEAN_FROM_WARNINGS_ON_WALL_BEGIN
 #include <ctime>
 #include <cmath>
 #include <climits>
-// borland (Embarcadero) compiler requires math.h and not cmath - https://github.com/onqtam/doctest/pull/37
+// borland (Embarcadero) compiler requires math.h and not cmath - http://github.com/onqtam/doctest/pull/37
 #ifdef __BORLANDC__
 #include <math.h>
 #endif // __BORLANDC__
@@ -2771,8 +2771,8 @@ DOCTEST_MAKE_STD_HEADERS_CLEAN_FROM_WARNINGS_ON_WALL_BEGIN
 
 #endif // DOCTEST_PLATFORM_WINDOWS
 
-// this is a fix for https://github.com/onqtam/doctest/issues/348
-// https://mail.gnome.org/archives/xml/2012-January/msg00000.html
+// this is a fix for http://github.com/onqtam/doctest/issues/348
+// http://mail.gnome.org/archives/xml/2012-January/msg00000.html
 #if !defined(HAVE_UNISTD_H) && !defined(STDOUT_FILENO)
 #define STDOUT_FILENO fileno(stdout)
 #endif // HAVE_UNISTD_H
@@ -2874,12 +2874,12 @@ namespace detail {
     std::ostream* getTlsOss() {
         g_oss.clear(); // there shouldn't be anything worth clearing in the flags
         g_oss.str(""); // the slow way of resetting a string stream
-        //g_oss.seekp(0); // optimal reset - as seen here: https://stackoverflow.com/a/624291/3162383
+        //g_oss.seekp(0); // optimal reset - as seen here: http://stackoverflow.com/a/624291/3162383
         return &g_oss;
     }
 
     String getTlsOssResult() {
-        //g_oss << std::ends; // needed - as shown here: https://stackoverflow.com/a/624291/3162383
+        //g_oss << std::ends; // needed - as shown here: http://stackoverflow.com/a/624291/3162383
         return g_oss.str().c_str();
     }
 
@@ -3338,7 +3338,7 @@ DOCTEST_TO_STRING_OVERLOAD(int long long unsigned, "%llu")
 String toString(std::nullptr_t) { return "NULL"; }
 
 #if DOCTEST_MSVC >= DOCTEST_COMPILER(19, 20, 0)
-// see this issue on why this is needed: https://github.com/onqtam/doctest/issues/183
+// see this issue on why this is needed: http://github.com/onqtam/doctest/issues/183
 String toString(const std::string& in) { return in.c_str(); }
 #endif // VS 2019
 
@@ -3477,7 +3477,7 @@ namespace detail {
 namespace {
     using namespace detail;
     // matching of a string against a wildcard mask (case sensitivity configurable) taken from
-    // https://www.codeproject.com/Articles/1088/Wildcard-string-compare-globbing
+    // http://www.codeproject.com/Articles/1088/Wildcard-string-compare-globbing
     int wildcmp(const char* str, const char* wild, bool caseSensitive) {
         const char* cp = str;
         const char* mp = wild;
@@ -3851,7 +3851,7 @@ namespace detail {
 #else // DOCTEST_IS_DEBUGGER_ACTIVE
 #ifdef DOCTEST_PLATFORM_MAC
     // The following function is taken directly from the following technical note:
-    // https://developer.apple.com/library/archive/qa/qa1361/_index.html
+    // http://developer.apple.com/library/archive/qa/qa1361/_index.html
     // Returns true if the current process is being debugged (either
     // running under the debugger or has a debugger attached post facto).
     bool isDebuggerActive() {
@@ -4411,7 +4411,7 @@ namespace {
 
     void XmlEncode::encodeTo( std::ostream& os ) const {
         // Apostrophe escaping not necessary if we always use " to write attributes
-        // (see: https://www.w3.org/TR/xml/#syntax)
+        // (see: http://www.w3.org/TR/xml/#syntax)
 
         for( std::size_t idx = 0; idx < m_str.size(); ++ idx ) {
             uchar c = m_str[idx];
@@ -4420,7 +4420,7 @@ namespace {
             case '&':   os << "&amp;"; break;
 
             case '>':
-                // See: https://www.w3.org/TR/xml/#syntax
+                // See: http://www.w3.org/TR/xml/#syntax
                 if (idx > 2 && m_str[idx - 1] == ']' && m_str[idx - 2] == ']')
                     os << "&gt;";
                 else
@@ -4438,7 +4438,7 @@ namespace {
                 // Check for control characters and invalid utf-8
 
                 // Escape control characters in standard ascii
-                // see https://stackoverflow.com/questions/404107/why-are-control-characters-illegal-in-xml-1-0
+                // see http://stackoverflow.com/questions/404107/why-are-control-characters-illegal-in-xml-1-0
                 if (c < 0x09 || (c > 0x0D && c < 0x20) || c == 0x7F) {
                     hexEscapeChar(os, c);
                     break;
@@ -6163,8 +6163,8 @@ int Context::run() {
     }
 
     // see these issues on the reasoning for this:
-    // - https://github.com/onqtam/doctest/issues/143#issuecomment-414418903
-    // - https://github.com/onqtam/doctest/issues/126
+    // - http://github.com/onqtam/doctest/issues/143#issuecomment-414418903
+    // - http://github.com/onqtam/doctest/issues/126
     auto DOCTEST_FIX_FOR_MACOS_LIBCPP_IOSFWD_STRING_LINK_ERRORS = []() DOCTEST_NOINLINE
         { std::cout << std::string(); };
     DOCTEST_FIX_FOR_MACOS_LIBCPP_IOSFWD_STRING_LINK_ERRORS();

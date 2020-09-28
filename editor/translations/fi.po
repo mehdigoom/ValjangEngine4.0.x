@@ -1,7 +1,7 @@
 # Finnish translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # basse <basse@roiske.org>, 2017.
 # Bastian Salmela <bastian.salmela@gmail.com>, 2017, 2018.
 # ekeimaja <ekeimaja@gmail.com>, 2017-2018.
@@ -17,8 +17,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-06-26 06:11+0000\n"
 "Last-Translator: Tapani Niemi <tapani.niemi@kapsi.fi>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/godot-engine/"
-"godot/fi/>\n"
+"Language-Team: Finnish <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1102,12 +1102,12 @@ msgid "Change Dictionary Value"
 msgstr "Vaihda hakurakenteen arvoa"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Kiitos Godot-yhteisöltä!"
+msgid "Thanks from the Valjang community!"
+msgstr "Kiitos Valjang-yhteisöltä!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
-msgstr "Godot moottorin kehittäjät"
+msgstr "Valjang moottorin kehittäjät"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1172,7 +1172,7 @@ msgid ""
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot-pelimoottori käyttää useita kolmannen osapuolen ilmaisia ja avoimia "
+"Valjang-pelimoottori käyttää useita kolmannen osapuolen ilmaisia ja avoimia "
 "kirjastoja, jotka kaikki ovat yhteensopivia sen MIT lisenssin kanssa. "
 "Seuraava tyhjentävä listaus sisältää kaikki tällaiset kolmannen osapuolen "
 "komponentit ja niiden vastaavat tekijänoikeustiedot ja käyttöoikeusehdot."
@@ -1733,8 +1733,8 @@ msgid "Erase Profile"
 msgstr "Tyhjennä profiili"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
-msgstr "Godotin ominaisuusprofiili"
+msgid "Valjang Feature Profile"
+msgstr "Valjangin ominaisuusprofiili"
 
 #: editor/editor_feature_profile.cpp
 msgid "Import Profile(s)"
@@ -3568,8 +3568,8 @@ msgid "Select Template File"
 msgstr "Valitse mallitiedosto"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "Godotin vientimallit"
+msgid "Valjang Export Templates"
+msgstr "Valjangin vientimallit"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6839,8 +6839,8 @@ msgid "Debug with External Editor"
 msgstr "Debuggaa ulkoisella editorilla"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
-msgstr "Avaa Godotin online-dokumentaatio."
+msgid "Open Valjang online documentation."
+msgstr "Avaa Valjangin online-dokumentaatio."
 
 #: editor/plugins/script_editor_plugin.cpp
 msgid "Search the reference documentation."
@@ -9280,11 +9280,11 @@ msgstr "Vektoriuniformi."
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
-"Mukautettu Godot Shader Language lauseke, jolla on haluttu määrä tulo- ja "
+"Mukautettu Valjang Shader Language lauseke, jolla on haluttu määrä tulo- ja "
 "lähtöportteja. Tämä tarkoittaa koodin lisäämistä suoraan vertex/fragment/"
 "light funktioiden sisään, älä käytä sitä kirjoittaaksesi funktioesittelyitä."
 
@@ -9298,12 +9298,12 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
 msgstr ""
-"Mukautettu Godotin sävytinkielen lauseke, joka sijoitetaan syntyvän "
+"Mukautettu Valjangin sävytinkielen lauseke, joka sijoitetaan syntyvän "
 "sävyttimen alkuun. Voit lisätä siihen erilaisia funktiomäärityksiä ja kutsua "
 "niitä myöhemmin Expressions-osuudessa. Voit myös esitellä siinä varyingejä, "
 "uniformeja ja vakioita."
@@ -9564,8 +9564,8 @@ msgid "ZIP File"
 msgstr "ZIP-tiedosto"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
-msgstr "Godot-pelipaketti"
+msgid "Valjang Game Pack"
+msgstr "Valjang-pelipaketti"
 
 #: editor/project_export.cpp
 msgid "Export templates for this platform are missing:"
@@ -9589,9 +9589,9 @@ msgstr "Virhe avattaessa pakettitiedostoa (se ei ole ZIP-muodossa)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
 msgstr ""
-"Virheellinen \".zip\" projektitiedosto; se ei sisällä \"project.godot\" "
+"Virheellinen \".zip\" projektitiedosto; se ei sisällä \"project.Valjang\" "
 "tiedostoa."
 
 #: editor/project_manager.cpp
@@ -9599,12 +9599,12 @@ msgid "Please choose an empty folder."
 msgstr "Ole hyvä ja valitse tyhjä kansio."
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "Ole hyvä ja valitse \"project.godot\"- tai \".zip\"-tiedosto."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "Ole hyvä ja valitse \"project.Valjang\"- tai \".zip\"-tiedosto."
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "Tämä hakemisto sisältää jo Godot-projektin."
+msgid "This directory already contains a Valjang project."
+msgstr "Tämä hakemisto sisältää jo Valjang-projektin."
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9636,19 +9636,19 @@ msgstr "Virheellinen projektin polku (muuttuiko mikään?)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"Tiedoston project.godot lataus projektin polusta epäonnistui (virhe %d). Se "
+"Tiedoston project.Valjang lataus projektin polusta epäonnistui (virhe %d). Se "
 "saattaa puuttua tai olla vioittunut."
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "Ei voitu muokata project.godot tiedostoa projektin polussa."
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "Ei voitu muokata project.Valjang tiedostoa projektin polussa."
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "Tiedoston project.godot luonti projektin polkuun epäonnistui."
+msgid "Couldn't create project.Valjang in project path."
+msgstr "Tiedoston project.Valjang luonti projektin polkuun epäonnistui."
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9753,22 +9753,22 @@ msgstr "Haluatko varmasti avata useamman kuin yhden projektin?"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"Seuraava projektin asetustiedosto ei määrittele Godotin versiota, jolla se "
+"Seuraava projektin asetustiedosto ei määrittele Valjangin versiota, jolla se "
 "on luotu.\n"
 "\n"
 "%s\n"
 "\n"
-"Jos jatkat sen avaamista, se muunnetaan nykyiseen Godotin "
+"Jos jatkat sen avaamista, se muunnetaan nykyiseen Valjangin "
 "asetustiedostomuotoon.\n"
 "Varoitus: et voi avata projektia tämän jälkeen enää vanhemmilla versioilla."
 
@@ -9856,10 +9856,10 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"Haluatko varmasti etsiä %s kansiosta olemassa olevia Godot-projekteja?\n"
+"Haluatko varmasti etsiä %s kansiosta olemassa olevia Valjang-projekteja?\n"
 "Tämä saattaa kestää hetken."
 
 #: editor/project_manager.cpp
@@ -10145,8 +10145,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "Vaihdettu kielisuodattimen tila"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "Projektin asetukset (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "Projektin asetukset (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -11983,11 +11983,11 @@ msgstr "Virheellinen paketin nimi:"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 "\"android/modules\" projektiasetukseen on liitetty virheellinen "
-"\"GodotPaymentV3\" moduuli (muuttunut Godotin versiossa 3.2.2).\n"
+"\"ValjangPaymentV3\" moduuli (muuttunut Valjangin versiossa 3.2.2).\n"
 
 #: platform/android/export/export.cpp
 msgid "\"Use Custom Build\" must be enabled to use the plugins."
@@ -12029,12 +12029,12 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "Androidin käännösversion epäyhteensopivuus:\n"
 "   Malli asennettu: %s\n"
-"   Godotin versio: %s\n"
+"   Valjangin versio: %s\n"
 "Ole hyvä ja uudelleenasenna Androidin käännösmalli 'Projekti'-valikosta."
 
 #: platform/android/export/export.cpp
@@ -12828,8 +12828,8 @@ msgstr "Vakioita ei voi muokata."
 #~ msgid "Request Docs"
 #~ msgstr "Pyydä dokumentaatiota"
 
-#~ msgid "Help improve the Godot documentation by giving feedback."
-#~ msgstr "Auta parantamaan Godotin dokumentaatiota antamalla palautetta."
+#~ msgid "Help improve the Valjang documentation by giving feedback."
+#~ msgstr "Auta parantamaan Valjangin dokumentaatiota antamalla palautetta."
 
 #~ msgid "Replaced %d occurrence(s)."
 #~ msgstr "Korvattu %d osuvuutta."
@@ -13737,12 +13737,12 @@ msgstr "Vakioita ei voi muokata."
 #~ msgstr "Ei voitu kirjoittaa tiedostoa:\n"
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in project path."
-#~ msgstr "Ei voitu luoda godot.cfg -tiedostoa projektin polkuun."
+#~ msgid "Couldn't get project.Valjang in project path."
+#~ msgstr "Ei voitu luoda Valjang.cfg -tiedostoa projektin polkuun."
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in the project path."
-#~ msgstr "Ei voitu luoda godot.cfg -tiedostoa projektin polkuun."
+#~ msgid "Couldn't get project.Valjang in the project path."
+#~ msgstr "Ei voitu luoda Valjang.cfg -tiedostoa projektin polkuun."
 
 #~ msgid "Not found!"
 #~ msgstr "Ei löytynyt!"
@@ -13908,10 +13908,10 @@ msgstr "Vakioita ei voi muokata."
 #~ msgstr "Fontin tuonti"
 
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
 #~ msgstr ""
-#~ "Tämä tiedosto on jo Godotin fonttitiedosto, ole hyvä ja syötä BMFont -"
+#~ "Tämä tiedosto on jo Valjangin fonttitiedosto, ole hyvä ja syötä BMFont -"
 #~ "tiedosto."
 
 #~ msgid "Failed opening as BMFont file."
@@ -14081,8 +14081,8 @@ msgstr "Vakioita ei voi muokata."
 #~ msgstr "Sivuuta ensimmäinen rivi"
 
 #, fuzzy
-#~ msgid "Add to Project (project.godot)"
-#~ msgstr "Lisää projektiin (godot.cfg)"
+#~ msgid "Add to Project (project.Valjang)"
+#~ msgstr "Lisää projektiin (Valjang.cfg)"
 
 #~ msgid "Import Languages:"
 #~ msgstr "Tuo kielet:"
@@ -14124,13 +14124,13 @@ msgstr "Vakioita ei voi muokata."
 #~ msgstr "Virheellinen projektin polku, polku täytyy olla olemassa!"
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must not exist."
-#~ msgstr "Virheellinen projektin polku, godot.cfg -tiedostoa ei saa olla."
+#~ msgid "Invalid project path, project.Valjang must not exist."
+#~ msgstr "Virheellinen projektin polku, Valjang.cfg -tiedostoa ei saa olla."
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must exist."
+#~ msgid "Invalid project path, project.Valjang must exist."
 #~ msgstr ""
-#~ "Virheellinen projektin polku, godot.cfg -tiedosto täytyy olla olemassa."
+#~ "Virheellinen projektin polku, Valjang.cfg -tiedosto täytyy olla olemassa."
 
 #~ msgid "Project Path (Must Exist):"
 #~ msgstr "Projektin polku (täytyy olla olemassa):"

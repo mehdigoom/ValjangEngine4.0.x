@@ -676,7 +676,7 @@ def get_compiler_version(env):
     """
     if not env.msvc:
         # Not using -dumpversion as some GCC distros only return major, and
-        # Clang used to return hardcoded 4.2.1: # https://reviews.llvm.org/D56803
+        # Clang used to return hardcoded 4.2.1: # http://reviews.llvm.org/D56803
         try:
             version = subprocess.check_output([env.subst(env["CXX"]), "--version"]).strip().decode("utf-8")
         except (subprocess.CalledProcessError, OSError):

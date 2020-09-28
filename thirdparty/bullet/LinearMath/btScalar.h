@@ -51,7 +51,7 @@ inline int btIsDoublePrecision()
 // has no externally visible symbols which may be dependant on configuration
 // #defines and options.
 //
-// see more https://stackoverflow.com/questions/1822887/what-is-the-best-way-to-eliminate-ms-visual-c-linker-warning-warning-lnk422
+// see more http://stackoverflow.com/questions/1822887/what-is-the-best-way-to-eliminate-ms-visual-c-linker-warning-warning-lnk422
 
 #if defined(_MSC_VER)
 #define BT_NOT_EMPTY_FILE_CAT_II(p, res) res

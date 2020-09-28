@@ -102,7 +102,7 @@ Error AudioDriverALSA::init_device() {
 	CHECK_FAIL(status < 0);
 
 	// In ALSA the period size seems to be the one that will determine the actual latency
-	// Ref: https://www.alsa-project.org/main/index.php/FramesPeriods
+	// Ref: http://www.alsa-project.org/main/index.php/FramesPeriods
 	unsigned int periods = 2;
 	int latency = GLOBAL_GET("audio/output_latency");
 	buffer_frames = closest_power_of_2(latency * mix_rate / 1000);

@@ -2106,7 +2106,7 @@ ZSTD_compressSequences_internal(seqStore_t* seqStorePtr,
         assert(op <= oend);
         /* zstd versions <= 1.3.4 mistakenly report corruption when
          * FSE_readNCount() receives a buffer < 4 bytes.
-         * Fixed by https://github.com/facebook/zstd/pull/1146.
+         * Fixed by http://github.com/facebook/zstd/pull/1146.
          * This can happen when the last set_compressed table present is 2
          * bytes and the bitstream is only one byte.
          * In this exceedingly rare case, we will simply emit an uncompressed
@@ -2766,7 +2766,7 @@ static size_t ZSTD_checkDictNCount(short* normalizedCounter, unsigned dictMaxSym
 
 /* Dictionary format :
  * See :
- * https://github.com/facebook/zstd/blob/master/doc/zstd_compression_format.md#dictionary-format
+ * http://github.com/facebook/zstd/blob/master/doc/zstd_compression_format.md#dictionary-format
  */
 /*! ZSTD_loadZstdDictionary() :
  * @return : dictID, or an error code

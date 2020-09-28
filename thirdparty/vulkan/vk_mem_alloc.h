@@ -100,8 +100,8 @@ Documentation of all members: vk_mem_alloc.h
 
 \section main_see_also See also
 
-- [Product page on GPUOpen](https://gpuopen.com/gaming-product/vulkan-memory-allocator/)
-- [Source repository on GitHub](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator)
+- [Product page on GPUOpen](http://gpuopen.com/gaming-product/vulkan-memory-allocator/)
+- [Source repository on GitHub](http://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator)
 
 
 
@@ -422,7 +422,7 @@ There are some exceptions though, when you should consider mapping memory only f
   block is migrated by WDDM to system RAM, which degrades performance. It doesn't
   matter if that particular memory block is actually used by the command buffer
   being submitted.
-- On Mac/MoltenVK there is a known bug - [Issue #175](https://github.com/KhronosGroup/MoltenVK/issues/175)
+- On Mac/MoltenVK there is a known bug - [Issue #175](http://github.com/KhronosGroup/MoltenVK/issues/175)
   which requires unmapping before GPU can see updated texture.
 - Keeping many large memory blocks mapped may impact performance or stability of some debugging tools.
 
@@ -792,7 +792,7 @@ The advantage of buddy allocation algorithm over default algorithm is faster
 allocation and deallocation, as well as smaller external fragmentation. The
 disadvantage is more wasted space (internal fragmentation).
 
-For more information, please read ["Buddy memory allocation" on Wikipedia](https://en.wikipedia.org/wiki/Buddy_memory_allocation)
+For more information, please read ["Buddy memory allocation" on Wikipedia](http://en.wikipedia.org/wiki/Buddy_memory_allocation)
 or other sources that describe this concept in general.
 
 To use buddy allocation algorithm with a custom pool, add flag
@@ -1421,7 +1421,7 @@ It's a human-readable, text file in CSV format (Comma Separated Values).
 \page usage_patterns Recommended usage patterns
 
 See also slides from talk:
-[Sawicki, Adam. Advanced Graphics Techniques Tutorial: Memory management in Vulkan and DX12. Game Developers Conference, 2018](https://www.gdcvault.com/play/1025458/Advanced-Graphics-Techniques-Tutorial-New)
+[Sawicki, Adam. Advanced Graphics Techniques Tutorial: Memory management in Vulkan and DX12. Game Developers Conference, 2018](http://www.gdcvault.com/play/1025458/Advanced-Graphics-Techniques-Tutorial-New)
 
 
 \section usage_patterns_common_mistakes Common mistakes
@@ -1670,7 +1670,7 @@ unaware of it.
 
 To learn more about this extension, see:
 
-- [VK_KHR_dedicated_allocation in Vulkan specification](https://www.khronos.org/registry/vulkan/specs/1.0-extensions/html/vkspec.html#VK_KHR_dedicated_allocation)
+- [VK_KHR_dedicated_allocation in Vulkan specification](http://www.khronos.org/registry/vulkan/specs/1.0-extensions/html/vkspec.html#VK_KHR_dedicated_allocation)
 - [VK_KHR_dedicated_allocation unofficial manual](http://asawicki.info/articles/VK_KHR_dedicated_allocation.php5)
 
 
@@ -3511,7 +3511,7 @@ the containers.
         #define VMA_USE_STL_SHARED_MUTEX 1
     // Visual studio defines __cplusplus properly only when passed additional parameter: /Zc:__cplusplus
     // Otherwise it's always 199711L, despite shared_mutex works since Visual Studio 2015 Update 2.
-    // See: https://blogs.msdn.microsoft.com/vcblog/2018/04/09/msvc-now-correctly-reports-__cplusplus/
+    // See: http://blogs.msdn.microsoft.com/vcblog/2018/04/09/msvc-now-correctly-reports-__cplusplus/
     #elif defined(_MSC_FULL_VER) && _MSC_FULL_VER >= 190023918 && __cplusplus == 199711L && _MSVC_LANG >= 201703L
         #define VMA_USE_STL_SHARED_MUTEX 1
     #else

@@ -59,7 +59,7 @@ public final class PermissionsUtil {
 	}
 
 	/**
-	 * Request a dangerous permission. name must be specified in <a href="https://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml">this</a>
+	 * Request a dangerous permission. name must be specified in <a href="http://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml">this</a>
 	 * @param name the name of the requested permission.
 	 * @param activity the caller activity for this method.
 	 * @return true/false. "true" if permission was granted otherwise returns "false".

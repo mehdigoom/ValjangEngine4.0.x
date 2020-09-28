@@ -121,7 +121,7 @@ size_t DefaultIOStream::FileSize() const
         // That's why we use the safer variant fstat here.
         //
         // See here for details:
-        // https://www.securecoding.cert.org/confluence/display/seccode/FIO19-C.+Do+not+use+fseek()+and+ftell()+to+compute+the+size+of+a+regular+file
+        // http://www.securecoding.cert.org/confluence/display/seccode/FIO19-C.+Do+not+use+fseek()+and+ftell()+to+compute+the+size+of+a+regular+file
 #if defined _WIN32 && (!defined __GNUC__ || __MSVCRT_VERSION__ >= 0x0601)
         struct __stat64 fileStat;
         //using fileno + fstat avoids having to handle the filename

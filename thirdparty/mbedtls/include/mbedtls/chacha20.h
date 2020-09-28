@@ -5,7 +5,7 @@
  *
  *          ChaCha20 is a stream cipher that can encrypt and decrypt
  *          information. ChaCha was created by Daniel Bernstein as a variant of
- *          its Salsa cipher https://cr.yp.to/chacha/chacha-20080128.pdf
+ *          its Salsa cipher http://cr.yp.to/chacha/chacha-20080128.pdf
  *          ChaCha20 is the variant with 20 rounds, that was also standardized
  *          in RFC 7539.
  *
@@ -55,7 +55,7 @@
  *
  *  **********
  *
- *  This file is part of Mbed TLS (https://tls.mbed.org)
+ *  This file is part of Mbed TLS (http://tls.mbed.org)
  */
 
 #ifndef MBEDTLS_CHACHA20_H

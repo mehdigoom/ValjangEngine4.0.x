@@ -2,11 +2,11 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Godot proposals
-    url: https://github.com/mehdigoom/ValjangEngine4.0.x-proposals
+    url: http://github.com/mehdigoom/ValjangEngine4.0.x-proposals
     about: Please submit feature proposals on the Godot proposals repository, not here.
 
   - name: Godot documentation repository
-    url: https://github.com/mehdigoom/ValjangEngine4.0.x-docs
+    url: http://github.com/mehdigoom/ValjangEngine4.0.x-docs
     about: Please report issues with documentation on the Godot documentation repository, not here.
 
   - name: Godot community channels

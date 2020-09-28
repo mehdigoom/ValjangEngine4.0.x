@@ -587,7 +587,7 @@ String OS_Windows::get_locale() const {
 }
 
 // We need this because GetSystemInfo() is unreliable on WOW64
-// see https://msdn.microsoft.com/en-us/library/windows/desktop/ms724381(v=vs.85).aspx
+// see http://msdn.microsoft.com/en-us/library/windows/desktop/ms724381(v=vs.85).aspx
 // Taken from MSDN
 typedef BOOL(WINAPI *LPFN_ISWOW64PROCESS)(HANDLE, PBOOL);
 LPFN_ISWOW64PROCESS fnIsWow64Process;

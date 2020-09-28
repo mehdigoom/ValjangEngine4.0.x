@@ -39,8 +39,8 @@
 // of locale_names.
 //
 // References:
-// - https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-// - https://lh.2xlibre.net/locales/
+// - http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+// - http://lh.2xlibre.net/locales/
 
 static const char *locale_list[] = {
 	"aa", //  Afar
@@ -783,7 +783,7 @@ static const char *locale_names[] = {
 // identifiers, we override them.
 //
 // Reference:
-// - https://msdn.microsoft.com/en-us/library/windows/desktop/ms693062(v=vs.85).aspx
+// - http://msdn.microsoft.com/en-us/library/windows/desktop/ms693062(v=vs.85).aspx
 
 static const char *locale_renames[][2] = {
 	{ "in", "id" }, //  Indonesian

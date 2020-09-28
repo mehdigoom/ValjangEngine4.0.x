@@ -878,7 +878,7 @@ void EditorAssetLibrary::_search(int p_page) {
 	args += String() + "sort=" + sort_key[sort->get_selected()];
 
 	// We use the "branch" version, i.e. major.minor, as patch releases should be compatible
-	args += "3.2" + String(VERSION_BRANCH);
+	args += "4.0" + String(VERSION_BRANCH);
 
 	String support_list;
 	for (int i = 0; i < SUPPORT_MAX; i++) {

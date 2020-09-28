@@ -67,7 +67,7 @@ void tie_managed_to_unmanaged(MonoObject *managed, Object *unmanaged) {
 		// script binding instead. One of the advantages of this is that if a script is attached
 		// later and it's not a C# script, then the managed object won't have to be disposed.
 		// Another reason for doing this is that this instance could outlive CSharpLanguage, which would
-		// be problematic when using a script. See: https://github.com/mehdigoom/ValjangEngine4.0.x/issues/25621
+		// be problematic when using a script. See: http://github.com/mehdigoom/ValjangEngine4.0.x/issues/25621
 
 		CSharpScriptBinding script_binding;
 

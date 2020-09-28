@@ -266,7 +266,7 @@ Error ResourceImporterWAV::import(const String &p_source_file, const String &p_s
 
 			// only read 0x00 (loop forward), 0x01 (loop ping-pong) and 0x02 (loop backward)
 			// Skip anything else because it's not supported, reserved for future uses or sampler specific
-			// from https://sites.google.com/site/musicgapi/technical-documents/wav-file-format#smpl (loop type values table)
+			// from http://sites.google.com/site/musicgapi/technical-documents/wav-file-format#smpl (loop type values table)
 			int loop_type = file->get_32();
 			if (loop_type == 0x00 || loop_type == 0x01 || loop_type == 0x02) {
 				if (loop_type == 0x00) {

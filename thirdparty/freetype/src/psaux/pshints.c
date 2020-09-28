@@ -1207,7 +1207,7 @@
      * second segment.
      * Let `w 'be the zero-based vector from `u1' to `v1'.
      * `perp' is the `perpendicular dot product'; see
-     * https://mathworld.wolfram.com/PerpDotProduct.html.
+     * http://mathworld.wolfram.com/PerpDotProduct.html.
      * `s' is the parameter for the parametric line for the first segment
      * (`u').
      *

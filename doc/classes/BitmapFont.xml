@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <class name="BitmapFont" inherits="Font" version="4.0">
 	<brief_description>
-		Renders text using fonts under the [url=https://www.angelcode.com/products/bmfont/]BMFont[/url] format.
+		Renders text using fonts under the [url=http://www.angelcode.com/products/bmfont/]BMFont[/url] format.
 		Handles files with the [code].fnt[/code] extension.
 	</brief_description>
 	<description>

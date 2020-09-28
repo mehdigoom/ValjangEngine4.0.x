@@ -7,7 +7,7 @@
 		A PacketPeer implementation that should be passed to [member SceneTree.network_peer] after being initialized as either a client or server. Events can then be handled by connecting to [SceneTree] signals.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/tutorials/networking/high_level_multiplayer.html</link>
+		<link>http://docs.valjang.fr/tutorials/networking/high_level_multiplayer.html</link>
 		<link>http://enet.bespin.org/usergroup0.html</link>
 	</tutorials>
 	<methods>
@@ -160,10 +160,10 @@
 			[url=http://fastlz.org/]FastLZ[/url] compression. This option uses less CPU resources compared to [constant COMPRESS_ZLIB], at the expense of using more bandwidth.
 		</constant>
 		<constant name="COMPRESS_ZLIB" value="3" enum="CompressionMode">
-			[url=https://www.zlib.net/]Zlib[/url] compression. This option uses less bandwidth compared to [constant COMPRESS_FASTLZ], at the expense of using more CPU resources.
+			[url=http://www.zlib.net/]Zlib[/url] compression. This option uses less bandwidth compared to [constant COMPRESS_FASTLZ], at the expense of using more CPU resources.
 		</constant>
 		<constant name="COMPRESS_ZSTD" value="4" enum="CompressionMode">
-			[url=https://facebook.github.io/zstd/]Zstandard[/url] compression.
+			[url=http://facebook.github.io/zstd/]Zstandard[/url] compression.
 		</constant>
 	</constants>
 </class>

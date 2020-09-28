@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 /*
  *  The SSL 3.0 specification was drafted by Netscape in 1996,
@@ -5658,7 +5658,7 @@ static int ssl_parse_certificate_chain( mbedtls_ssl_context *ssl )
 
     /*
      * On client, make sure the server cert doesn't change during renego to
-     * avoid "triple handshake" attack: https://secure-resumption.com/
+     * avoid "triple handshake" attack: http://secure-resumption.com/
      */
 #if defined(MBEDTLS_SSL_RENEGOTIATION) && defined(MBEDTLS_SSL_CLI_C)
     if( ssl->conf->endpoint == MBEDTLS_SSL_IS_CLIENT &&

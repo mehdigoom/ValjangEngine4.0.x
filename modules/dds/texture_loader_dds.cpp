@@ -34,7 +34,7 @@
 
 #define PF_FOURCC(s) ((uint32_t)(((s)[3] << 24U) | ((s)[2] << 16U) | ((s)[1] << 8U) | ((s)[0])))
 
-// Reference: https://docs.microsoft.com/en-us/windows/win32/direct3ddds/dds-header
+// Reference: http://docs.microsoft.com/en-us/windows/win32/direct3ddds/dds-header
 
 enum {
 	DDS_MAGIC = 0x20534444,

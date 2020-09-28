@@ -50,7 +50,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  *
  */
 #ifndef MBEDTLS_MD4_H

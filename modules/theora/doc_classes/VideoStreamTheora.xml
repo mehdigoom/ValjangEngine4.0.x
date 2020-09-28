@@ -4,7 +4,7 @@
 		[VideoStream] resource for Ogg Theora videos.
 	</brief_description>
 	<description>
-		[VideoStream] resource handling the [url=https://www.theora.org/]Ogg Theora[/url] video format with [code].ogv[/code] extension.
+		[VideoStream] resource handling the [url=http://www.theora.org/]Ogg Theora[/url] video format with [code].ogv[/code] extension.
 	</description>
 	<tutorials>
 	</tutorials>

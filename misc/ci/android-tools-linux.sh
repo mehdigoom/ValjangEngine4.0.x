@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # SDK
-# https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
+# http://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
 # SHA-256 444e22ce8ca0f67353bda4b85175ed3731cae3ffa695ca18119cbacef1c1bea0
-# latest version available here: https://developer.android.com/studio/index.html
+# latest version available here: http://developer.android.com/studio/index.html
 
 # NDK
-# https://dl.google.com/android/repository/android-ndk-r15c-linux-x86_64.zip
+# http://dl.google.com/android/repository/android-ndk-r15c-linux-x86_64.zip
 # SHA-1 0bf02d4e8b85fd770fd7b9b2cdec57f9441f27a2
-# latest version available here: https://developer.android.com/ndk/downloads/index.html
+# latest version available here: http://developer.android.com/ndk/downloads/index.html
 
 BASH_RC=~/.bashrc
 GODOT_BUILD_TOOLS_PATH=./godot-dev/build-tools

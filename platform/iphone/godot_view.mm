@@ -431,7 +431,7 @@ static const int max_touches = 8;
 	// Just using polling approach for now, we can set this up so it sends
 	// data to us in intervals, might be better. See Apple reference pages
 	// for more details:
-	// https://developer.apple.com/reference/coremotion/cmmotionmanager?language=objc
+	// http://developer.apple.com/reference/coremotion/cmmotionmanager?language=objc
 
 	// Apple splits our accelerometer date into a gravity and user movement
 	// component. We add them back together

@@ -432,7 +432,7 @@ float GTR1(float NdotH, float a) {
 vec3 F0(float metallic, float specular, vec3 albedo) {
 	float dielectric = 0.16 * specular * specular;
 	// use albedo * metallic as colored specular reflectance at 0 angle for metallic materials;
-	// see https://google.github.io/filament/Filament.md.html
+	// see http://google.github.io/filament/Filament.md.html
 	return mix(vec3(dielectric), albedo, vec3(metallic));
 }
 
@@ -1474,7 +1474,7 @@ vec2 octahedron_wrap(vec2 v) {
 }
 
 vec2 octahedron_encode(vec3 n) {
-	// https://twitter.com/Stubbesaurus/status/937994790553227264
+	// http://twitter.com/Stubbesaurus/status/937994790553227264
 	n /= (abs(n.x) + abs(n.y) + abs(n.z));
 	n.xy = n.z >= 0.0 ? n.xy : octahedron_wrap(n.xy);
 	n.xy = n.xy * 0.5 + 0.5;
@@ -2119,7 +2119,7 @@ FRAGMENT_SHADER_CODE
 		// scales the specular reflections, needs to be be computed before lighting happens,
 		// but after environment, GI, and reflection probes are added
 		// Environment brdf approximation (Lazarov 2013)
-		// see https://www.unrealengine.com/en-US/blog/physically-based-shading-on-mobile
+		// see http://www.unrealengine.com/en-US/blog/physically-based-shading-on-mobile
 		const vec4 c0 = vec4(-1.0, -0.0275, -0.572, 0.022);
 		const vec4 c1 = vec4(1.0, 0.0425, 1.04, -0.04);
 		vec4 r = roughness * c0 + c1;

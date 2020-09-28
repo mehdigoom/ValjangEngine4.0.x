@@ -89,7 +89,7 @@ void MIDIDriver::receive_input_packet(uint64_t timestamp, uint8_t *data, uint32_
 				event->set_velocity(data[param_position + 1]);
 
 				if (event->get_message() == MIDI_MESSAGE_NOTE_ON && event->get_velocity() == 0) {
-					// https://www.midi.org/forum/228-writing-midi-software-send-note-off,-or-zero-velocity-note-on
+					// http://www.midi.org/forum/228-writing-midi-software-send-note-off,-or-zero-velocity-note-on
 					event->set_message(MIDI_MESSAGE_NOTE_OFF);
 				}
 			}

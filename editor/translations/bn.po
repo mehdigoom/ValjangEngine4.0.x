@@ -1,7 +1,7 @@
 # Bengali translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Abu Md. Maruf Sarker <maruf.webdev@gmail.com>, 2016-2017.
 # Abdullah Zubair <abdullahzubair109@gmail.com>, 2017.
 # Tahmid Karim <tahmidk15@gmail.com>, 2016.
@@ -14,8 +14,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-05-04 15:11+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Bengali <https://hosted.weblate.org/projects/godot-engine/"
-"godot/bn/>\n"
+"Language-Team: Bengali <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1178,8 +1178,8 @@ msgid "Change Dictionary Value"
 msgstr "ডিকশনারি ভ্যালু  পরিবর্তন করুন"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Godot কমিউনিটি হতে আপনাকে ধন্যবাদ!"
+msgid "Thanks from the Valjang community!"
+msgstr "Valjang কমিউনিটি হতে আপনাকে ধন্যবাদ!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
@@ -1251,7 +1251,7 @@ msgid ""
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot ইঞ্জিন বিভিন্ন থার্ড পার্টি ফ্রি এবং ওপেন সোর্স লাইব্রেরি ব্যাবহার করে থাকে। "
+"Valjang ইঞ্জিন বিভিন্ন থার্ড পার্টি ফ্রি এবং ওপেন সোর্স লাইব্রেরি ব্যাবহার করে থাকে। "
 "এই লাইব্রেরিগুলি এমআইটি লাইসেন্সের শর্তসমূহ মেনে চলে। এখানে এই সকল থার্ড পার্টি "
 "কম্পনেন্টের কপিরাইট বিবৃতি এবং লাইসেন্স সংক্রান্ত একটি তালিকা প্রদান করা হল।"
 
@@ -1847,7 +1847,7 @@ msgstr "TileMap মুছে ফেলুন"
 
 #: editor/editor_feature_profile.cpp
 #, fuzzy
-msgid "Godot Feature Profile"
+msgid "Valjang Feature Profile"
 msgstr "এক্সপোর্ট টেমপ্লেটসমূহ লোড হচ্ছে"
 
 #: editor/editor_feature_profile.cpp
@@ -3821,7 +3821,7 @@ msgstr "নির্বাচিত ফাইলসমূহ অপসারণ 
 
 #: editor/export_template_manager.cpp
 #, fuzzy
-msgid "Godot Export Templates"
+msgid "Valjang Export Templates"
 msgstr "এক্সপোর্ট টেমপ্লেটসমূহ লোড হচ্ছে"
 
 #: editor/export_template_manager.cpp
@@ -7356,7 +7356,7 @@ msgstr "এডিটরে খুলুন"
 
 #: editor/plugins/script_editor_plugin.cpp
 #, fuzzy
-msgid "Open Godot online documentation."
+msgid "Open Valjang online documentation."
 msgstr "রেফারেন্সের ডকুমেন্টেশনে খুঁজুন।"
 
 #: editor/plugins/script_editor_plugin.cpp
@@ -9948,7 +9948,7 @@ msgstr "ভেক্টর ইউনিফর্ম পরিবর্তন ক
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9961,7 +9961,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -10231,7 +10231,7 @@ msgid "ZIP File"
 msgstr "ফাইল"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
+msgid "Valjang Game Pack"
 msgstr ""
 
 #: editor/project_export.cpp
@@ -10261,8 +10261,8 @@ msgstr "জিপ ফরম্যাট খুঁজে পেতে ব্য�
 #: editor/project_manager.cpp
 #, fuzzy
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
-msgstr "এমন একটি ফোল্ডার বাছাই করুন যেখানে 'project.godot' নামে কোন ফাইল নেই।"
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
+msgstr "এমন একটি ফোল্ডার বাছাই করুন যেখানে 'project.Valjang' নামে কোন ফাইল নেই।"
 
 #: editor/project_manager.cpp
 #, fuzzy
@@ -10271,11 +10271,11 @@ msgstr "অনুগ্রহ করে প্রকল্পের ফোল্
 
 #: editor/project_manager.cpp
 #, fuzzy
-msgid "Please choose a \"project.godot\" or \".zip\" file."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
 msgstr "অনুগ্রহ করে প্রকল্পের ফোল্ডারের বাইরে এক্সপোর্ট করুন!"
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
+msgid "This directory already contains a Valjang project."
 msgstr ""
 
 #: editor/project_manager.cpp
@@ -10311,18 +10311,18 @@ msgstr "অকার্যকর প্রকল্পের পথ (কোন�
 #: editor/project_manager.cpp
 #, fuzzy
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr "প্রকল্পের পথে engine.cfg তৈরি করা সম্ভব হয়নি।"
 
 #: editor/project_manager.cpp
 #, fuzzy
-msgid "Couldn't edit project.godot in project path."
+msgid "Couldn't edit project.Valjang in project path."
 msgstr "প্রকল্পের পথে engine.cfg তৈরি করা সম্ভব হয়নি।"
 
 #: editor/project_manager.cpp
 #, fuzzy
-msgid "Couldn't create project.godot in project path."
+msgid "Couldn't create project.Valjang in project path."
 msgstr "প্রকল্পের পথে engine.cfg তৈরি করা সম্ভব হয়নি।"
 
 #: editor/project_manager.cpp
@@ -10426,12 +10426,12 @@ msgstr "একধিক প্রকল্প খোলায় আপনি স�
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
@@ -10512,10 +10512,10 @@ msgstr ""
 #: editor/project_manager.cpp
 #, fuzzy
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"বিদ্যমান Godot প্রজেক্টের খোঁজে আপনি %s ফোল্ডারসমূহ স্ক্যান করতে যাচ্ছেন। আপনি কি "
+"বিদ্যমান Valjang প্রজেক্টের খোঁজে আপনি %s ফোল্ডারসমূহ স্ক্যান করতে যাচ্ছেন। আপনি কি "
 "সুনিশ্চিত?"
 
 #: editor/project_manager.cpp
@@ -10814,7 +10814,7 @@ msgstr "লোকাল ফিল্টার মোড পরিবর্তি
 
 #: editor/project_settings_editor.cpp
 #, fuzzy
-msgid "Project Settings (project.godot)"
+msgid "Project Settings (project.Valjang)"
 msgstr "প্রকল্পের সেটিংস (engine.cfg)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
@@ -12804,8 +12804,8 @@ msgstr "অগ্রহণযোগ্য ক্লাস নাম"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -12838,7 +12838,7 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 
@@ -14439,11 +14439,11 @@ msgstr ""
 #~ msgstr "টাইলটি খুঁজে পাওয়া যায়নি:"
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in project path."
+#~ msgid "Couldn't get project.Valjang in project path."
 #~ msgstr "প্রকল্পের পথে engine.cfg তৈরি করা সম্ভব হয়নি।"
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in the project path."
+#~ msgid "Couldn't get project.Valjang in the project path."
 #~ msgstr "প্রকল্পের পথে engine.cfg তৈরি করা সম্ভব হয়নি।"
 
 #~ msgid "Not found!"
@@ -14678,10 +14678,10 @@ msgstr ""
 #~ msgstr "ফন্ট ইম্পোর্ট করুন"
 
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
 #~ msgstr ""
-#~ "এই ফাইলটি ইতিমধ্যেই একটি Godot ফন্ট ফাইল, পরিবর্তে অনুগ্রহ করে BMFont ধরণের "
+#~ "এই ফাইলটি ইতিমধ্যেই একটি Valjang ফন্ট ফাইল, পরিবর্তে অনুগ্রহ করে BMFont ধরণের "
 #~ "ফাইল প্রদান করুন।"
 
 #~ msgid "Failed opening as BMFont file."
@@ -14935,7 +14935,7 @@ msgstr ""
 #~ msgstr "সঙ্কোচন করুন"
 
 #, fuzzy
-#~ msgid "Add to Project (project.godot)"
+#~ msgid "Add to Project (project.Valjang)"
 #~ msgstr "প্রকল্পে সংযুক্ত করুন (engine.cfg)"
 
 #~ msgid "Import Languages:"
@@ -15015,11 +15015,11 @@ msgstr ""
 #~ msgstr "অকার্যকর প্রকল্পের পথ, পথটি অবশ্যই বিদ্যমান হতে হবে!"
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must not exist."
+#~ msgid "Invalid project path, project.Valjang must not exist."
 #~ msgstr "অকার্যকর প্রকল্পের পথ, engine.cfg অবশ্যই অনুপস্থিত হতে হবে।"
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must exist."
+#~ msgid "Invalid project path, project.Valjang must exist."
 #~ msgstr "অকার্যকর প্রকল্পের পথ, engine.cfg অবশ্যই উপস্থিত হতে হবে।"
 
 #~ msgid "Project Path (Must Exist):"

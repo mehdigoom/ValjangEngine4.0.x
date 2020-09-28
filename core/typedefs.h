@@ -45,7 +45,7 @@
 #include "core/int_types.h"
 
 // Turn argument to string constant:
-// https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html#Stringizing
+// http://gcc.gnu.org/onlinedocs/cpp/Stringizing.html#Stringizing
 #ifndef _STR
 #define _STR(m_x) #m_x
 #define _MKSTR(m_x) _STR(m_x)
@@ -253,7 +253,7 @@ struct _GlobalLock {
 #define CAST_INT_TO_UCHAR_PTR(ptr) ((uint8_t *)(uintptr_t)(ptr))
 
 // Home-made index sequence trick, so it can be used everywhere without the costly include of std::tuple.
-// https://stackoverflow.com/questions/15014096/c-index-of-type-during-variadic-template-expansion
+// http://stackoverflow.com/questions/15014096/c-index-of-type-during-variadic-template-expansion
 template <size_t... Is>
 struct IndexSequence {};
 

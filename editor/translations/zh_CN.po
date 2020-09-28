@@ -1,7 +1,7 @@
 # Chinese (Simplified) translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # 360119124 <360119124@qq.com>, 2018.
 # 柠檬杀手 <lemonkiller@gmail.com>, 2018, 2020.
 # 纯洁的坏蛋 <tqj.zyy@gmail.com>, 2016.
@@ -74,8 +74,8 @@ msgstr ""
 "POT-Creation-Date: 2018-01-20 12:15+0200\n"
 "PO-Revision-Date: 2020-07-26 15:41+0000\n"
 "Last-Translator: yzt <834950797@qq.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"godot-engine/godot/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://hosted.weblate.org/projects/"
+"Valjang-engine/Valjang/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1151,12 +1151,12 @@ msgid "Change Dictionary Value"
 msgstr "改变字典的值"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Godot社区致谢！"
+msgid "Thanks from the Valjang community!"
+msgstr "Valjang社区致谢！"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
-msgstr "Godot引擎贡献者"
+msgstr "Valjang引擎贡献者"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1221,7 +1221,7 @@ msgid ""
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"Godot引擎依赖多个第三方免费开源代码库，这些库全部兼容MIT许可证的条款。以下是"
+"Valjang引擎依赖多个第三方免费开源代码库，这些库全部兼容MIT许可证的条款。以下是"
 "所有此类第三方组件及其各自版权声明和许可条款的详尽列表。"
 
 #: editor/editor_about.cpp
@@ -1767,8 +1767,8 @@ msgid "Erase Profile"
 msgstr "删除配置文件"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
-msgstr "Godot功能配置文件"
+msgid "Valjang Feature Profile"
+msgstr "Valjang功能配置文件"
 
 #: editor/editor_feature_profile.cpp
 msgid "Import Profile(s)"
@@ -3558,8 +3558,8 @@ msgid "Select Template File"
 msgstr "选择模板文件"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "Godot 导出模板"
+msgid "Valjang Export Templates"
+msgstr "Valjang 导出模板"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6782,8 +6782,8 @@ msgid "Debug with External Editor"
 msgstr "使用外部编辑器进行调试"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
-msgstr "打开Godot在线文档。"
+msgid "Open Valjang online documentation."
+msgstr "打开Valjang在线文档。"
 
 #: editor/plugins/script_editor_plugin.cpp
 msgid "Search the reference documentation."
@@ -9194,11 +9194,11 @@ msgstr "向量一致。"
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
-"自定义Godot着色器语言表达式，可以有任意数量的输入和输出端口。它会往顶点/片段/"
+"自定义Valjang着色器语言表达式，可以有任意数量的输入和输出端口。它会往顶点/片段/"
 "灯光函数中直接注入代码，请勿在其中声明函数。"
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
@@ -9209,12 +9209,12 @@ msgstr "根据表面法线和相机视图方向的点积返回衰减（将相关
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
 msgstr ""
-"自定义的 Godot 着色器语言表达式，会被放到最终的着色器开头。您可以在其中放置各"
+"自定义的 Valjang 着色器语言表达式，会被放到最终的着色器开头。您可以在其中放置各"
 "种函数定义，然后在表达式中调用。您还可以声明 varying、uniform 和常量。"
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
@@ -9459,8 +9459,8 @@ msgid "ZIP File"
 msgstr "ZIP 文件"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
-msgstr "Godot游戏包"
+msgid "Valjang Game Pack"
+msgstr "Valjang游戏包"
 
 #: editor/project_export.cpp
 msgid "Export templates for this platform are missing:"
@@ -9484,20 +9484,20 @@ msgstr "打开包文件时出错（非ZIP格式）。"
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
-msgstr "无效的“.zip”项目文件；没有包含“project.godot”文件。"
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
+msgstr "无效的“.zip”项目文件；没有包含“project.Valjang”文件。"
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
 msgstr "请选择空文件夹。"
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "请选择“project.godot”或“.zip”文件。"
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "请选择“project.Valjang”或“.zip”文件。"
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "该目录已经包含Godot项目。"
+msgid "This directory already contains a Valjang project."
+msgstr "该目录已经包含Valjang项目。"
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9529,18 +9529,18 @@ msgstr "项目路径非法（被外部修改？）。"
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"无法在项目路径中加载 project.godot 文件（错误 %d）。该文件可能缺失或已损坏。"
+"无法在项目路径中加载 project.Valjang 文件（错误 %d）。该文件可能缺失或已损坏。"
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "无法在项目路径下编辑project.godot文件。"
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "无法在项目路径下编辑project.Valjang文件。"
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "无法在项目路径下创建project.godot文件。"
+msgid "Couldn't create project.Valjang in project path."
+msgstr "无法在项目路径下创建project.Valjang文件。"
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9644,21 +9644,21 @@ msgstr "您确定要打开多个项目吗？"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"以下项目设置文件未指定创建它的Godot版本。\n"
+"以下项目设置文件未指定创建它的Valjang版本。\n"
 "\n"
 "%s\n"
 "\n"
-"如果继续打开，它将转换为Godot的当前配置文件格式。\n"
+"如果继续打开，它将转换为Valjang的当前配置文件格式。\n"
 "警告：你将无法再使用以前版本的引擎打开项目。"
 
 #: editor/project_manager.cpp
@@ -9740,10 +9740,10 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"您确定要扫描%s文件夹中的现有Godot项目吗？ \n"
+"您确定要扫描%s文件夹中的现有Valjang项目吗？ \n"
 "这可能需要一段时间。"
 
 #: editor/project_manager.cpp
@@ -10025,8 +10025,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "更改了区域设置筛选模式"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "项目设置（project.godot）"
+msgid "Project Settings (project.Valjang)"
+msgstr "项目设置（project.Valjang）"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -11820,11 +11820,11 @@ msgstr "无效的包名称："
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
-"“android/modules”项目设置（变更于Godot 3.2.2）中包含了无效模"
-"组“GodotPaymentV3”.\n"
+"“android/modules”项目设置（变更于Valjang 3.2.2）中包含了无效模"
+"组“ValjangPaymentV3”.\n"
 
 #: platform/android/export/export.cpp
 msgid "\"Use Custom Build\" must be enabled to use the plugins."
@@ -11857,12 +11857,12 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "Android 构建版本不匹配：\n"
 "   安装的模板：%s\n"
-"   Godot 版本：%s\n"
+"   Valjang 版本：%s\n"
 "请从“项目”菜单中重新安装 Android 构建模板。"
 
 #: platform/android/export/export.cpp
@@ -12591,8 +12591,8 @@ msgstr "不允许修改常量。"
 #~ msgid "Request Docs"
 #~ msgstr "请求文档"
 
-#~ msgid "Help improve the Godot documentation by giving feedback."
-#~ msgstr "通过提供反馈帮助改进godot文档。"
+#~ msgid "Help improve the Valjang documentation by giving feedback."
+#~ msgstr "通过提供反馈帮助改进Valjang文档。"
 
 #~ msgid "Replaced %d occurrence(s)."
 #~ msgstr "替换了%d项。"
@@ -13437,11 +13437,11 @@ msgstr "不允许修改常量。"
 #~ msgid "Can't write file."
 #~ msgstr "无法写入文件。"
 
-#~ msgid "Couldn't get project.godot in project path."
-#~ msgstr "无法在项目目录下找到project.godot文件。"
+#~ msgid "Couldn't get project.Valjang in project path."
+#~ msgstr "无法在项目目录下找到project.Valjang文件。"
 
-#~ msgid "Couldn't get project.godot in the project path."
-#~ msgstr "无法在项目目录下找到project.godot文件。"
+#~ msgid "Couldn't get project.Valjang in the project path."
+#~ msgstr "无法在项目目录下找到project.Valjang文件。"
 
 #~ msgid "Not found!"
 #~ msgstr "未找到！"
@@ -13690,9 +13690,9 @@ msgstr "不允许修改常量。"
 #~ msgstr "导入字体"
 
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
-#~ msgstr "此文件已经是一个Godot的字体文件，请提供一个位图字体（BMFont）文件。"
+#~ msgstr "此文件已经是一个Valjang的字体文件，请提供一个位图字体（BMFont）文件。"
 
 #~ msgid "Failed opening as BMFont file."
 #~ msgstr "打开位图字体失败。"
@@ -13943,8 +13943,8 @@ msgstr "不允许修改常量。"
 #~ msgid "Compress"
 #~ msgstr "压缩"
 
-#~ msgid "Add to Project (project.godot)"
-#~ msgstr "添加到项目 (project.godot)"
+#~ msgid "Add to Project (project.Valjang)"
+#~ msgstr "添加到项目 (project.Valjang)"
 
 #~ msgid "Import Languages:"
 #~ msgstr "导入语言:"
@@ -14021,11 +14021,11 @@ msgstr "不允许修改常量。"
 #~ msgid "Invalid project path, the path must exist!"
 #~ msgstr "项目目录不存在！"
 
-#~ msgid "Invalid project path, project.godot must not exist."
-#~ msgstr "项目目录下不能包含project.godot文件。"
+#~ msgid "Invalid project path, project.Valjang must not exist."
+#~ msgstr "项目目录下不能包含project.Valjang文件。"
 
-#~ msgid "Invalid project path, project.godot must exist."
-#~ msgstr "项目目录下必须包含project.godot文件。"
+#~ msgid "Invalid project path, project.Valjang must exist."
+#~ msgstr "项目目录下必须包含project.Valjang文件。"
 
 #~ msgid "Project Path (Must Exist):"
 #~ msgstr "项目目录（必须存在）:"

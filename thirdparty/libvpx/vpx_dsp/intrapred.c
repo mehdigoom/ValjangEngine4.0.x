@@ -161,7 +161,7 @@ static INLINE void d135_predictor(uint8_t *dst, ptrdiff_t stride, int bs,
   int i;
 #if defined(__GNUC__) && __GNUC__ == 4 && __GNUC_MINOR__ > 7
   // silence a spurious -Warray-bounds warning, possibly related to:
-  // https://gcc.gnu.org/bugzilla/show_bug.cgi?id=56273
+  // http://gcc.gnu.org/bugzilla/show_bug.cgi?id=56273
   uint8_t border[69];
 #else
   uint8_t border[32 + 32 - 1];  // outer border from bottom-left to top-right

@@ -20,7 +20,7 @@
    *
    * Apple documents the `fvar', `gvar', `cvar', and `avar' tables at
    *
-   *   https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6[fgca]var.html
+   *   http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6[fgca]var.html
    *
    * The documentation for `gvar' is not intelligible; `cvar' refers you
    * to `gvar' and is thus also incomprehensible.

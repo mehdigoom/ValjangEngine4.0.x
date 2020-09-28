@@ -50,7 +50,7 @@
  * removing this definition of OF(args) for no practical reason
  * worth breaking compatibility with all projects that embed minizip
  * while trying not to diverge too much from upstream zlib.
- * Cf. https://github.com/mehdigoom/ValjangEngine4.0.x/issues/10539
+ * Cf. http://github.com/mehdigoom/ValjangEngine4.0.x/issues/10539
  *
  *   "By and large, this is good open source behaviour, and fits with
  *    the gentoo _don't fuck with upstream's releases_ philosophy"

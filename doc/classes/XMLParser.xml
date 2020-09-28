@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <class name="XMLParser" inherits="Reference" version="4.0">
 	<brief_description>
-		Low-level class for creating parsers for [url=https://en.wikipedia.org/wiki/XML]XML[/url] files.
+		Low-level class for creating parsers for [url=http://en.wikipedia.org/wiki/XML]XML[/url] files.
 	</brief_description>
 	<description>
 		This class can serve as base to make custom XML parsers. Since XML is a very flexible standard, this interface is low-level so it can be applied to any possible schema.

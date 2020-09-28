@@ -4,7 +4,7 @@
 		[VideoStream] resource for WebM videos.
 	</brief_description>
 	<description>
-		[VideoStream] resource handling the [url=https://www.webmproject.org/]WebM[/url] video format with [code].webm[/code] extension.
+		[VideoStream] resource handling the [url=http://www.webmproject.org/]WebM[/url] video format with [code].webm[/code] extension.
 	</description>
 	<tutorials>
 	</tutorials>

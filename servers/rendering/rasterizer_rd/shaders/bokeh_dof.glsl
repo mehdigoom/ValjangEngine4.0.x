@@ -23,7 +23,7 @@ layout(rgba16f, set = 0, binding = 0) uniform restrict image2D color_image;
 layout(set = 1, binding = 0) uniform sampler2D source_bokeh;
 #endif
 
-// based on https://www.shadertoy.com/view/Xd3GDl
+// based on http://www.shadertoy.com/view/Xd3GDl
 
 layout(push_constant, binding = 1, std430) uniform Params {
 	ivec2 size;

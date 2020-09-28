@@ -1,7 +1,7 @@
 # Arabic translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Adel <dragonhunter250@gmail.com>, 2018.
 # athomield <athomield@hotmail.com>, 2017.
 # Basil Al-Khateeb <basil.y.alkhateeb@gmail.com>, 2017.
@@ -49,8 +49,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-21 13:41+0000\n"
 "Last-Translator: ChemicalInk <aladdinalkhafaji@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/godot-engine/"
-"godot/ar/>\n"
+"Language-Team: Arabic <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1130,12 +1130,12 @@ msgid "Change Dictionary Value"
 msgstr "تغيير قيمة في القاموس"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "شكراً من مجتمع Godot!"
+msgid "Thanks from the Valjang community!"
+msgstr "شكراً من مجتمع Valjang!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
-msgstr "المسهامين في محرك Godot"
+msgstr "المسهامين في محرك Valjang"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1200,7 +1200,7 @@ msgid ""
 "is an exhaustive list of all such third-party components with their "
 "respective copyright statements and license terms."
 msgstr ""
-"محرك \"Godot\" يعتمد على عدد من المكتبات و المكونات البرمجية لملاك اخرين و "
+"محرك \"Valjang\" يعتمد على عدد من المكتبات و المكونات البرمجية لملاك اخرين و "
 "لكنها مجانية و مفتوحة المصدر، و كلها متفقة مع شروط الاستخدام لرخصة \"MIT\". "
 "في ما يلي قائمة تحوي جميع هذه المكونات اضافة الى حقوق النشر و شروط الاستخدام "
 "الخاصة بها."
@@ -1754,7 +1754,7 @@ msgid "Erase Profile"
 msgstr "مسح الملف"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
+msgid "Valjang Feature Profile"
 msgstr "ملفات غودوت المُرشّحة"
 
 #: editor/editor_feature_profile.cpp
@@ -3582,8 +3582,8 @@ msgid "Select Template File"
 msgstr "حدد ملف القالب"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "إدارة قوالب التصدير Godot"
+msgid "Valjang Export Templates"
+msgstr "إدارة قوالب التصدير Valjang"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6840,7 +6840,7 @@ msgid "Debug with External Editor"
 msgstr "تنقيح الأخطاء في محرر خارجي"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
+msgid "Open Valjang online documentation."
 msgstr "افتح مستندات غودوت على الشبكة."
 
 #: editor/plugins/script_editor_plugin.cpp
@@ -9348,7 +9348,7 @@ msgstr "التعين للإنتظام."
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9367,7 +9367,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -9633,7 +9633,7 @@ msgid "ZIP File"
 msgstr "الملف المضغوط ZIP File"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
+msgid "Valjang Game Pack"
 msgstr "رُزمة لعبة غودوت"
 
 #: editor/project_export.cpp
@@ -9658,19 +9658,19 @@ msgstr "حدث خطأ عندفتح ملف الحزمة بسبب أن الملف 
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
-msgstr "ملف المشروع \".zip\" غير صالح؛ لا يحوي ملف \"project.godot\"."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
+msgstr "ملف المشروع \".zip\" غير صالح؛ لا يحوي ملف \"project.Valjang\"."
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
 msgstr "من فضلك اختر مُجلداً فارغاً."
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "من فضلك اختر ملف \"project.godot\" أو \".zip\"."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "من فضلك اختر ملف \"project.Valjang\" أو \".zip\"."
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
+msgid "This directory already contains a Valjang project."
 msgstr "الدليل المُختار يتضمن بالفعل مشروعاً لغودوت."
 
 #: editor/project_manager.cpp
@@ -9703,18 +9703,18 @@ msgstr "مسار مشروع غير صالح (أعدلت شيء؟)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"لم يتم تحميل project.godot من مسار المشروع (خطأ %d). قد يكون مفقوداً أو تالفاً."
+"لم يتم تحميل project.Valjang من مسار المشروع (خطأ %d). قد يكون مفقوداً أو تالفاً."
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "لا قدرة على تحرير project.godot في مسار المشروع."
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "لا قدرة على تحرير project.Valjang في مسار المشروع."
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "لا قدرة على إنشاء project.godot في مسار المشروع."
+msgid "Couldn't create project.Valjang in project path."
+msgstr "لا قدرة على إنشاء project.Valjang في مسار المشروع."
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9818,12 +9818,12 @@ msgstr "هل أنت واثق من فتح أكثر من مشروع؟"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
@@ -9919,7 +9919,7 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
 "هل أنت متأكد من فحص %s من المجلدات بحثاً عن مشاريع غودوت متوافرة؟\n"
@@ -10209,8 +10209,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "وضع المُرشح (المُغربل) المحلي المُعدّل"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "إعدادات المشروع (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "إعدادات المشروع (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -12117,8 +12117,8 @@ msgstr "اسم رُزمة غير صالح:"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -12153,7 +12153,7 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "نسخ بناء Android  غير متوافقة:\n"

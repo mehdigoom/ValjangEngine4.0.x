@@ -44,11 +44,11 @@
  *
  *  **********
  *
- *  This file is part of Mbed TLS (https://tls.mbed.org)
+ *  This file is part of Mbed TLS (http://tls.mbed.org)
  */
 /*
  * Definition of Key Wrapping:
- * https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38F.pdf
+ * http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38F.pdf
  * RFC 3394 "Advanced Encryption Standard (AES) Key Wrap Algorithm"
  * RFC 5649 "Advanced Encryption Standard (AES) Key Wrap with Padding Algorithm"
  *
@@ -567,7 +567,7 @@ cleanup:
 
 /*
  * Test vectors taken from NIST
- * https://csrc.nist.gov/Projects/Cryptographic-Algorithm-Validation-Program/CAVP-TESTING-BLOCK-CIPHER-MODES#KW
+ * http://csrc.nist.gov/Projects/Cryptographic-Algorithm-Validation-Program/CAVP-TESTING-BLOCK-CIPHER-MODES#KW
  */
 static const unsigned int key_len[KW_TESTS] = { 16, 24, 32 };
 

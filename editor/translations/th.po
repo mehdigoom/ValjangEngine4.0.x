@@ -1,7 +1,7 @@
 # Thai translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Kaveeta Vivatchai <goodytong@gmail.com>, 2017.
 # Poommetee Ketson (Noshyaar) <poommetee@protonmail.com>, 2017-2018.
 # Thanachart Monpassorn <nunf_2539@hotmail.com>, 2020.
@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-05-26 13:41+0000\n"
 "Last-Translator: Thanachart Monpassorn <nunf_2539@hotmail.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/godot-engine/godot/"
+"Language-Team: Thai <http://hosted.weblate.org/projects/Valjang-engine/Valjang/"
 "th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -1086,8 +1086,8 @@ msgid "Change Dictionary Value"
 msgstr "แก้ไขค่าดิกชันนารี"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "ขอขอบคุณจากชุมชนผู้ใช้ Godot!"
+msgid "Thanks from the Valjang community!"
+msgstr "ขอขอบคุณจากชุมชนผู้ใช้ Valjang!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
@@ -1711,8 +1711,8 @@ msgid "Erase Profile"
 msgstr "ลบโปรไฟล์"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
-msgstr "รายละเอียดคุณสมบัติ Godot"
+msgid "Valjang Feature Profile"
+msgstr "รายละเอียดคุณสมบัติ Valjang"
 
 #: editor/editor_feature_profile.cpp
 msgid "Import Profile(s)"
@@ -3490,8 +3490,8 @@ msgid "Select Template File"
 msgstr "เลือกไฟล์แม่แบบ"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "แม่แบบการส่งออก Godot"
+msgid "Valjang Export Templates"
+msgstr "แม่แบบการส่งออก Valjang"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6813,7 +6813,7 @@ msgid "Debug with External Editor"
 msgstr "ดีบักด้วยเอดิเตอร์อื่น"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
+msgid "Open Valjang online documentation."
 msgstr "เปิดคู่มือออนไลน์"
 
 #: editor/plugins/script_editor_plugin.cpp
@@ -9316,7 +9316,7 @@ msgstr "ยูนิฟอร์มเวกเตอร์"
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9329,7 +9329,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -9570,8 +9570,8 @@ msgid "ZIP File"
 msgstr "ไฟล์ ZIP"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
-msgstr "Godot เกมแพ็ค"
+msgid "Valjang Game Pack"
+msgstr "Valjang เกมแพ็ค"
 
 #: editor/project_export.cpp
 msgid "Export templates for this platform are missing:"
@@ -9595,20 +9595,20 @@ msgstr "ผิดพลาดขณะเปิดไฟล์แพคเกจ
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
-msgstr "ไฟล์โปรเจกต์ \".zip\" ผิดพลาด เนื่องจากไม่มีไฟล์ \"project.godot\""
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
+msgstr "ไฟล์โปรเจกต์ \".zip\" ผิดพลาด เนื่องจากไม่มีไฟล์ \"project.Valjang\""
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
 msgstr "กรุณาเลือกโฟลเดอร์ว่างเปล่า"
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "กรุณาเลือกไฟล์ \"project.godot\" หรือไฟล์ \".zip\""
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "กรุณาเลือกไฟล์ \"project.Valjang\" หรือไฟล์ \".zip\""
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "ไดเรกทอรีนี้มีโปรเจกต์ Godot อยู่แล้ว"
+msgid "This directory already contains a Valjang project."
+msgstr "ไดเรกทอรีนี้มีโปรเจกต์ Valjang อยู่แล้ว"
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9640,18 +9640,18 @@ msgstr "ตำแหน่งโปรเจกต์ผิดพลาด (ไ�
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"โหลดไฟล์ project.godot ในโฟลเดอร์โปรเจกต์ไม่ได้ (ข้อผิดพลาด %d) ไฟล์อาจสูญหายหรือเสียหาย"
+"โหลดไฟล์ project.Valjang ในโฟลเดอร์โปรเจกต์ไม่ได้ (ข้อผิดพลาด %d) ไฟล์อาจสูญหายหรือเสียหาย"
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "แก้ไขไฟล์ project.godot ไม่ได้"
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "แก้ไขไฟล์ project.Valjang ไม่ได้"
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "สร้างไฟล์ project.godot ไม่ได้"
+msgid "Couldn't create project.Valjang in project path."
+msgstr "สร้างไฟล์ project.Valjang ไม่ได้"
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9755,12 +9755,12 @@ msgstr "ยืนยันการเปิดโปรเจกต์มาก
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
@@ -9839,7 +9839,7 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
 "ทำการสแกนหาโปรเจกต์ ในโฟลเดอร์ %s หรือไม่?\n"
@@ -10127,8 +10127,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "แก้ไขโหมดการกรองภูมิภาค"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "ตัวเลือกโปรเจกต์ (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "ตัวเลือกโปรเจกต์ (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -11950,8 +11950,8 @@ msgstr "ชื่อแพ็คเกจผิดพลาด:"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -11984,7 +11984,7 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 
@@ -12720,7 +12720,7 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgid "Request Docs"
 #~ msgstr "ร้องขอคู่มือ"
 
-#~ msgid "Help improve the Godot documentation by giving feedback."
+#~ msgid "Help improve the Valjang documentation by giving feedback."
 #~ msgstr "ช่วยพัฒนาคู่มือโดยการให้ข้อเสนอแนะ"
 
 #~ msgid "Replaced %d occurrence(s)."
@@ -13548,11 +13548,11 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgid "Can't write file."
 #~ msgstr "เขียนไฟล์ไม่ได้"
 
-#~ msgid "Couldn't get project.godot in project path."
-#~ msgstr "ไม่พบไฟล์ project.godot"
+#~ msgid "Couldn't get project.Valjang in project path."
+#~ msgstr "ไม่พบไฟล์ project.Valjang"
 
-#~ msgid "Couldn't get project.godot in the project path."
-#~ msgstr "ไม่พบไฟล์ project.godot"
+#~ msgid "Couldn't get project.Valjang in the project path."
+#~ msgstr "ไม่พบไฟล์ project.Valjang"
 
 #~ msgid "Not found!"
 #~ msgstr "ไม่พบ!"
@@ -13786,9 +13786,9 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgstr "นำเข้าฟอนต์"
 
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
-#~ msgstr "ไฟล์นี้เป็นฟอนต์ของ Godot อยู่แล้ว กรุณาเลือกฟอนต์ที่มาจาก BMFont"
+#~ msgstr "ไฟล์นี้เป็นฟอนต์ของ Valjang อยู่แล้ว กรุณาเลือกฟอนต์ที่มาจาก BMFont"
 
 #~ msgid "Failed opening as BMFont file."
 #~ msgstr "ผิดพลาดขณะเปิดไฟล์เป็น BMFont"
@@ -14030,8 +14030,8 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgid "Compress"
 #~ msgstr "บีบอัด"
 
-#~ msgid "Add to Project (project.godot)"
-#~ msgstr "เพิ่มเข้าโปรเจกต์ (project.godot)"
+#~ msgid "Add to Project (project.Valjang)"
+#~ msgstr "เพิ่มเข้าโปรเจกต์ (project.Valjang)"
 
 #~ msgid "Import Languages:"
 #~ msgstr "นำเข้าภาษา:"
@@ -14108,11 +14108,11 @@ msgstr "ค่าคงที่ไม่สามารถแก้ไขได
 #~ msgid "Invalid project path, the path must exist!"
 #~ msgstr "ที่อยู่โปรเจกต์ผิดพลาด ต้องมีอยู่จริง!"
 
-#~ msgid "Invalid project path, project.godot must not exist."
-#~ msgstr "ที่อยู่โปรเจกต์ผิดพลาด ต้องไม่มี project.godot"
+#~ msgid "Invalid project path, project.Valjang must not exist."
+#~ msgstr "ที่อยู่โปรเจกต์ผิดพลาด ต้องไม่มี project.Valjang"
 
-#~ msgid "Invalid project path, project.godot must exist."
-#~ msgstr "ที่อยู่โปรเจกต์ผิดพลาด ต้องมี project.godot"
+#~ msgid "Invalid project path, project.Valjang must exist."
+#~ msgstr "ที่อยู่โปรเจกต์ผิดพลาด ต้องมี project.Valjang"
 
 #~ msgid "Project Path (Must Exist):"
 #~ msgstr "ที่อยู่โปรเจกต์ (ต้องมีอยู่จริง):"

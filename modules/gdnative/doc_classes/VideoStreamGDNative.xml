@@ -5,7 +5,7 @@
 	</brief_description>
 	<description>
 		[VideoStream] resource for for video formats implemented via GDNative.
-		It can be used via [url=https://github.com/KidRigger/godot-videodecoder]godot-videodecoder[/url] which uses the [url=https://ffmpeg.org]FFmpeg[/url] library.
+		It can be used via [url=http://github.com/KidRigger/godot-videodecoder]godot-videodecoder[/url] which uses the [url=http://ffmpeg.org]FFmpeg[/url] library.
 	</description>
 	<tutorials>
 	</tutorials>

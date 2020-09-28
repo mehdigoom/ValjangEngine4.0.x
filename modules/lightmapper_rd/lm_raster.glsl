@@ -139,7 +139,7 @@ void main() {
 
 	{
 		// unocclusion technique based on:
-		// https://ndotl.wordpress.com/2018/08/29/baking-artifact-free-lightmaps/
+		// http://ndotl.wordpress.com/2018/08/29/baking-artifact-free-lightmaps/
 
 		/* compute texel size */
 		vec3 delta_uv = max(abs(dFdx(vertex_interp)), abs(dFdy(vertex_interp)));

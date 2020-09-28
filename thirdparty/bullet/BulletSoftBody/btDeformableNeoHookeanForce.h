@@ -19,7 +19,7 @@ subject to the following restrictions:
 #include "btDeformableLagrangianForce.h"
 #include "LinearMath/btQuickprof.h"
 #include "LinearMath/btImplicitQRSVD.h"
-// This energy is as described in https://graphics.pixar.com/library/StableElasticity/paper.pdf
+// This energy is as described in http://graphics.pixar.com/library/StableElasticity/paper.pdf
 class btDeformableNeoHookeanForce : public btDeformableLagrangianForce
 {
 public:
@@ -45,7 +45,7 @@ public:
 	void updateYoungsModulusAndPoissonRatio()
 	{
 		// conversion from Lame Parameters to Young's modulus and Poisson ratio
-		// https://en.wikipedia.org/wiki/Lam%C3%A9_parameters
+		// http://en.wikipedia.org/wiki/Lam%C3%A9_parameters
 		m_E  = m_mu * (3*m_lambda + 2*m_mu)/(m_lambda + m_mu);
 		m_nu = m_lambda * 0.5 / (m_mu + m_lambda);
 	}
@@ -53,7 +53,7 @@ public:
 	void updateLameParameters()
 	{
 		// conversion from Young's modulus and Poisson ratio to Lame Parameters
-		// https://en.wikipedia.org/wiki/Lam%C3%A9_parameters
+		// http://en.wikipedia.org/wiki/Lam%C3%A9_parameters
 		m_mu = m_E * 0.5 / (1 + m_nu);
 		m_lambda = m_E * m_nu / ((1 + m_nu) * (1- 2*m_nu));
 	}
@@ -94,7 +94,7 @@ public:
         addScaledElasticForce(scale, force);
     }
     
-    // The damping matrix is calculated using the time n state as described in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping matrix is calculated using the time n state as described in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual void addScaledDampingForce(btScalar scale, TVStack& force)
     {
         if (m_mu_damp == 0 && m_lambda_damp == 0)
@@ -158,7 +158,7 @@ public:
         return energy;
     }
     
-    // The damping energy is formulated as in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping energy is formulated as in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual double totalDampingEnergy(btScalar dt)
     {
         double energy = 0;
@@ -268,7 +268,7 @@ public:
         }
     }
     
-    // The damping matrix is calculated using the time n state as described in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping matrix is calculated using the time n state as described in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual void addScaledDampingForceDifferential(btScalar scale, const TVStack& dv, TVStack& df)
     {
         if (m_mu_damp == 0 && m_lambda_damp == 0)

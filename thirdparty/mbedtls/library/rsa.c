@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 /*
@@ -60,7 +60,7 @@
  *  [3] Malware Guard Extension: Using SGX to Conceal Cache Attacks
  *      Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice and
  *      Stefan Mangard
- *      https://arxiv.org/abs/1702.08719v2
+ *      http://arxiv.org/abs/1702.08719v2
  *
  */
 

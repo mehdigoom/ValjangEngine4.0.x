@@ -20,10 +20,10 @@
 		    file.close()
 		    return content
 		[/codeblock]
-		In the example above, the file will be saved in the user data folder as specified in the [url=https://docs.valjang.fr/tutorials/io/data_paths.html]Data paths[/url] documentation.
+		In the example above, the file will be saved in the user data folder as specified in the [url=http://docs.valjang.fr/tutorials/io/data_paths.html]Data paths[/url] documentation.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/getting_started/step_by_step/filesystem.html</link>
+		<link>http://docs.valjang.fr/getting_started/step_by_step/filesystem.html</link>
 	</tutorials>
 	<methods>
 		<method name="close">
@@ -466,13 +466,13 @@
 			Uses the [url=http://fastlz.org/]FastLZ[/url] compression method.
 		</constant>
 		<constant name="COMPRESSION_DEFLATE" value="1" enum="CompressionMode">
-			Uses the [url=https://en.wikipedia.org/wiki/DEFLATE]DEFLATE[/url] compression method.
+			Uses the [url=http://en.wikipedia.org/wiki/DEFLATE]DEFLATE[/url] compression method.
 		</constant>
 		<constant name="COMPRESSION_ZSTD" value="2" enum="CompressionMode">
-			Uses the [url=https://facebook.github.io/zstd/]Zstandard[/url] compression method.
+			Uses the [url=http://facebook.github.io/zstd/]Zstandard[/url] compression method.
 		</constant>
 		<constant name="COMPRESSION_GZIP" value="3" enum="CompressionMode">
-			Uses the [url=https://www.gzip.org/]gzip[/url] compression method.
+			Uses the [url=http://www.gzip.org/]gzip[/url] compression method.
 		</constant>
 	</constants>
 </class>

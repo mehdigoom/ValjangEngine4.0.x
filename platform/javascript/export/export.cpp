@@ -40,7 +40,7 @@
 #define EXPORT_TEMPLATE_WEBASSEMBLY_RELEASE "webassembly_release.zip"
 #define EXPORT_TEMPLATE_WEBASSEMBLY_DEBUG "webassembly_debug.zip"
 
-class EditorHTTPServer : public Reference {
+class Editorhttperver : public Reference {
 private:
 	Ref<TCP_Server> server;
 	Ref<StreamPeerTCP> connection;
@@ -56,7 +56,7 @@ private:
 	}
 
 public:
-	EditorHTTPServer() {
+	Editorhttperver() {
 		server.instance();
 		stop();
 	}
@@ -202,7 +202,7 @@ class EditorExportPlatformJavaScript : public EditorExportPlatform {
 	void _fix_html(Vector<uint8_t> &p_html, const Ref<EditorExportPreset> &p_preset, const String &p_name, bool p_debug, int p_flags);
 
 private:
-	Ref<EditorHTTPServer> server;
+	Ref<Editorhttperver> server;
 	bool server_quit;
 	Mutex server_lock;
 	Thread *server_thread;

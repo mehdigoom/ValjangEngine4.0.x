@@ -335,7 +335,7 @@ Error AudioDriverWASAPI::init_render_device(bool reinit) {
 	// Due to WASAPI Shared Mode we have no control of the buffer size
 	buffer_frames = max_frames;
 
-	// Sample rate is independent of channels (ref: https://stackoverflow.com/questions/11048825/audio-sample-frequency-rely-on-channels)
+	// Sample rate is independent of channels (ref: http://stackoverflow.com/questions/11048825/audio-sample-frequency-rely-on-channels)
 	samples_in.resize(buffer_frames * channels);
 
 	input_position = 0;

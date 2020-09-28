@@ -46,7 +46,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 /*
  *      Multiply source vector [s] with b, add result

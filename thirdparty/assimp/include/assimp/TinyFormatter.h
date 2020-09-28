@@ -90,7 +90,7 @@ public:
 
 
     // The problem described here:
-    // https://sourceforge.net/tracker/?func=detail&atid=1067632&aid=3358562&group_id=226462
+    // http://sourceforge.net/tracker/?func=detail&atid=1067632&aid=3358562&group_id=226462
     // can also cause trouble here. Apparently, older gcc versions sometimes copy temporaries
     // being bound to const ref& function parameters. Copying streams is not permitted, though.
     // This workaround avoids this by manually specifying a copy ctor.
@@ -135,7 +135,7 @@ public:
     }
 
     // Fix for MSVC8
-    // See https://sourceforge.net/projects/assimp/forums/forum/817654/topic/4372824
+    // See http://sourceforge.net/projects/assimp/forums/forum/817654/topic/4372824
     template <typename TToken>
     basic_formatter& operator, (TToken& s) {
         underlying << s;

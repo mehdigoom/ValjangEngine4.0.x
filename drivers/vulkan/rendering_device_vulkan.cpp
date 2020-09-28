@@ -898,7 +898,7 @@ uint32_t RenderingDeviceVulkan::get_image_format_pixel_size(DataFormat p_format)
 	return 1;
 }
 
-// https://www.khronos.org/registry/DataFormat/specs/1.1/dataformat.1.1.pdf
+// http://www.khronos.org/registry/DataFormat/specs/1.1/dataformat.1.1.pdf
 
 void RenderingDeviceVulkan::get_compressed_image_format_block_dimensions(DataFormat p_format, uint32_t &r_w, uint32_t &r_h) {
 	switch (p_format) {

@@ -42,7 +42,7 @@
 
   /*
    * referred `just' table format specification:
-   * https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6just.html
+   * http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6just.html
    * last updated 2000.
    * ----------------------------------------------
    * [JUST HEADER]: GXV_JUST_HEADER_SIZE

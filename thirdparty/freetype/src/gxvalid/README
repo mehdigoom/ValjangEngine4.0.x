@@ -289,7 +289,7 @@ gxvalid: TrueType GX validator
 
     The GX/AAT  extension can  include 255 different  layout features,
     but    popular    layout     features    are    predefined    (see
-    https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html).
+    http://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html).
     Some fonts include feature numbers which are incompatible with the
     predefined feature registry.
 

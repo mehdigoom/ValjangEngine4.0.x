@@ -615,7 +615,7 @@ GD_PINVOKE_EXPORT int32_t _monodroid_get_dns_servers(void **r_dns_servers_array)
 
 	if (_monodroid_get_android_api_level() < 26) {
 		// The 'net.dns*' system properties are no longer available in Android 8.0 (API level 26) and greater:
-		// https://developer.android.com/about/versions/oreo/android-8.0-changes.html#o-pri
+		// http://developer.android.com/about/versions/oreo/android-8.0-changes.html#o-pri
 
 		char prop_name[] = "net.dns*";
 

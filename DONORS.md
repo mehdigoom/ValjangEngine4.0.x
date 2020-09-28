@@ -12,7 +12,7 @@ generous deed immortalized in the next stable release of Valjang Engine.
 
 ## Platinum sponsors
 
-    Heroic Labs <https://heroiclabs.com>
+    Heroic Labs <http://heroiclabs.com>
     Interblock <http://interblockgaming.com>
 
 ## Gold sponsors

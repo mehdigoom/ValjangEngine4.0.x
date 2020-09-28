@@ -36,10 +36,10 @@
 
 -----------------------------------------------------------------------
 
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Valjang Engine
 Upstream-Contact: Rémi Verschelde <contact@godotengine.org>
-Source: https://github.com/mehdigoom/ValjangEngine4.0.x
+Source: http://github.com/mehdigoom/ValjangEngine4.0.x
 
 Files: *
 Comment: Valjang Engine

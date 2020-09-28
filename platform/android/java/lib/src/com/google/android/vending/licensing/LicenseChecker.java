@@ -204,7 +204,7 @@ public class LicenseChecker implements ServiceConnection {
     public void followLastLicensingUrl(Context context) {
         String licensingUrl = mPolicy.getLicensingUrl();
         if (licensingUrl == null) {
-            licensingUrl = "https://play.google.com/store/apps/details?id=" + context.getPackageName();
+            licensingUrl = "http://play.google.com/store/apps/details?id=" + context.getPackageName();
         }
         Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(licensingUrl));
         context.startActivity(marketIntent);

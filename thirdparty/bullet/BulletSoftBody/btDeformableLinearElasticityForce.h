@@ -48,7 +48,7 @@ public:
         addScaledElasticForce(scale, force);
     }
     
-    // The damping matrix is calculated using the time n state as described in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping matrix is calculated using the time n state as described in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual void addScaledDampingForce(btScalar scale, TVStack& force)
     {
         if (m_mu_damp == 0 && m_lambda_damp == 0)
@@ -112,7 +112,7 @@ public:
         return energy;
     }
     
-    // The damping energy is formulated as in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping energy is formulated as in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual double totalDampingEnergy(btScalar dt)
     {
         double energy = 0;
@@ -223,7 +223,7 @@ public:
         }
     }
     
-    // The damping matrix is calculated using the time n state as described in https://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
+    // The damping matrix is calculated using the time n state as described in http://www.math.ucla.edu/~jteran/papers/GSSJT15.pdf to allow line search
     virtual void addScaledDampingForceDifferential(btScalar scale, const TVStack& dv, TVStack& df)
     {
         if (m_mu_damp == 0 && m_lambda_damp == 0)

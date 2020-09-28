@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 /*
  *  The SHA-512 Secure Hash Standard was published by NIST in 2002.

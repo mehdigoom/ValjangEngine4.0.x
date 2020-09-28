@@ -7,7 +7,7 @@
  * in the COPYING file in the root directory of this source tree).
  *
  * You can contact the author at:
- * - zstdmt source repository: https://github.com/mcmilk/zstdmt
+ * - zstdmt source repository: http://github.com/mcmilk/zstdmt
  */
 
 /**

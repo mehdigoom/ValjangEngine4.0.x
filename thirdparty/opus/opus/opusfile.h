@@ -26,9 +26,9 @@
     decoding and basic manipulation of all Ogg Opus audio streams.
    <tt>libopusfile</tt> is implemented as a layer on top of Xiph.Org's
     reference
-    <tt><a href="https://www.xiph.org/ogg/doc/libogg/reference.html">libogg</a></tt>
+    <tt><a href="http://www.xiph.org/ogg/doc/libogg/reference.html">libogg</a></tt>
     and
-    <tt><a href="https://mf4.xiph.org/jenkins/view/opus/job/opus/ws/doc/html/index.html">libopus</a></tt>
+    <tt><a href="http://mf4.xiph.org/jenkins/view/opus/job/opus/ws/doc/html/index.html">libopus</a></tt>
     libraries.
 
    <tt>libopusfile</tt> provides several sets of built-in routines for
@@ -36,7 +36,7 @@
     the embedded environment.
    There are built-in I/O routines provided for ANSI-compliant
     <code>stdio</code> (<code>FILE *</code>), memory buffers, and URLs
-    (including <file:> URLs, plus optionally <http:> and <https:> URLs).
+    (including <file:> URLs, plus optionally <http:> and <http:> URLs).
 
    \section Organization
 
@@ -741,8 +741,8 @@ struct OpusServerInfo{
      This is <code>-1</code> if there was no <code>icy-pub</code> or
       <code>ice-public</code> header.*/
   int          is_public;
-  /**Flag indicating whether the server is using HTTPS instead of HTTP.
-     This is <code>0</code> unless HTTPS is being used.
+  /**Flag indicating whether the server is using http instead of HTTP.
+     This is <code>0</code> unless http is being used.
      This may not match the protocol used in the original URL if there were
       redirections.*/
   int          is_ssl;
@@ -762,7 +762,7 @@ void opus_server_info_init(OpusServerInfo *_info) OP_ARG_NONNULL(1);
    \note If you use this function, you must link against <tt>libopusurl</tt>.*/
 void opus_server_info_clear(OpusServerInfo *_info) OP_ARG_NONNULL(1);
 
-/**Skip the certificate check when connecting via TLS/SSL (https).
+/**Skip the certificate check when connecting via TLS/SSL (http).
    \param _b <code>opus_int32</code>: Whether or not to skip the certificate
               check.
              The check will be skipped if \a _b is non-zero, and will not be
@@ -774,7 +774,7 @@ void opus_server_info_clear(OpusServerInfo *_info) OP_ARG_NONNULL(1);
 /**Proxy connections through the given host.
    If no port is specified via #OP_HTTP_PROXY_PORT, the port number defaults
     to 8080 (http-alt).
-   All proxy parameters are ignored for non-http and non-https URLs.
+   All proxy parameters are ignored for non-http and non-http URLs.
    \param _host <code>const char *</code>: The proxy server hostname.
                 This may be <code>NULL</code> to disable the use of a proxy
                  server.
@@ -787,7 +787,7 @@ void opus_server_info_clear(OpusServerInfo *_info) OP_ARG_NONNULL(1);
     non-<code>NULL</code> \a _host.
    If this option is not provided, the proxy port number defaults to 8080
     (http-alt).
-   All proxy parameters are ignored for non-http and non-https URLs.
+   All proxy parameters are ignored for non-http and non-http URLs.
    \param _port <code>opus_int32</code>: The proxy server port.
                 This must be in the range 0...65535 (inclusive), or the
                  URL function this is passed to will fail.
@@ -796,7 +796,7 @@ void opus_server_info_clear(OpusServerInfo *_info) OP_ARG_NONNULL(1);
  OP_URL_OPT(OP_HTTP_PROXY_PORT_REQUEST),OP_CHECK_INT(_port)
 
 /**Use the given user name for authentication when proxying connections.
-   All proxy parameters are ignored for non-http and non-https URLs.
+   All proxy parameters are ignored for non-http and non-http URLs.
    \param _user const char *: The proxy server user name.
                               This may be <code>NULL</code> to disable proxy
                                authentication.
@@ -809,7 +809,7 @@ void opus_server_info_clear(OpusServerInfo *_info) OP_ARG_NONNULL(1);
  OP_URL_OPT(OP_HTTP_PROXY_USER_REQUEST),OP_CHECK_CONST_CHAR_PTR(_user)
 
 /**Use the given password for authentication when proxying connections.
-   All proxy parameters are ignored for non-http and non-https URLs.
+   All proxy parameters are ignored for non-http and non-http URLs.
    \param _pass const char *: The proxy server password.
                               This may be <code>NULL</code> to disable proxy
                                authentication.
@@ -995,9 +995,9 @@ OP_WARN_UNUSED_RESULT void *op_mem_stream_create(OpusFileCallbacks *_cb,
                        If there is an error creating the stream, nothing will
                         be filled in here.
    \param         _url The URL to read from.
-                       Currently only the <file:>, <http:>, and <https:>
+                       Currently only the <file:>, <http:>, and <http:>
                         schemes are supported.
-                       Both <http:> and <https:> may be disabled at compile
+                       Both <http:> and <http:> may be disabled at compile
                         time, in which case opening such URLs will always fail.
                        Currently this only supports URIs.
                        IRIs should be converted to UTF-8 and URL-escaped, with
@@ -1017,9 +1017,9 @@ OP_WARN_UNUSED_RESULT void *op_url_stream_vcreate(OpusFileCallbacks *_cb,
                     If there is an error creating the stream, nothing will be
                      filled in here.
    \param      _url The URL to read from.
-                    Currently only the <file:>, <http:>, and <https:> schemes
+                    Currently only the <file:>, <http:>, and <http:> schemes
                      are supported.
-                    Both <http:> and <https:> may be disabled at compile time,
+                    Both <http:> and <http:> may be disabled at compile time,
                      in which case opening such URLs will always fail.
                     Currently this only supports URIs.
                     IRIs should be converted to UTF-8 and URL-escaped, with
@@ -1109,9 +1109,9 @@ OP_WARN_UNUSED_RESULT OggOpusFile *op_open_memory(const unsigned char *_data,
     <code>va_arg</code> macro, the value of \a _ap is undefined after the call.
    \note If you use this function, you must link against <tt>libopusurl</tt>.
    \param         _url   The URL to open.
-                         Currently only the <file:>, <http:>, and <https:>
+                         Currently only the <file:>, <http:>, and <http:>
                           schemes are supported.
-                         Both <http:> and <https:> may be disabled at compile
+                         Both <http:> and <http:> may be disabled at compile
                           time, in which case opening such URLs will always
                           fail.
                          Currently this only supports URIs.
@@ -1134,9 +1134,9 @@ OP_WARN_UNUSED_RESULT OggOpusFile *op_vopen_url(const char *_url,
 /**Open a stream from a URL.
    \note If you use this function, you must link against <tt>libopusurl</tt>.
    \param      _url   The URL to open.
-                      Currently only the <file:>, <http:>, and <https:> schemes
+                      Currently only the <file:>, <http:>, and <http:> schemes
                        are supported.
-                      Both <http:> and <https:> may be disabled at compile
+                      Both <http:> and <http:> may be disabled at compile
                        time, in which case opening such URLs will always fail.
                       Currently this only supports URIs.
                       IRIs should be converted to UTF-8 and URL-escaped, with
@@ -1268,9 +1268,9 @@ OP_WARN_UNUSED_RESULT OggOpusFile *op_test_memory(const unsigned char *_data,
    \see op_test_url
    \see op_test_callbacks
    \param         _url    The URL to open.
-                          Currently only the <file:>, <http:>, and <https:>
+                          Currently only the <file:>, <http:>, and <http:>
                            schemes are supported.
-                          Both <http:> and <https:> may be disabled at compile
+                          Both <http:> and <http:> may be disabled at compile
                            time, in which case opening such URLs will always
                            fail.
                           Currently this only supports URIs.
@@ -1294,9 +1294,9 @@ OP_WARN_UNUSED_RESULT OggOpusFile *op_vtest_url(const char *_url,
    \note If you use this function, you must link against <tt>libopusurl</tt>.
    \see op_test_callbacks
    \param      _url    The URL to open.
-                       Currently only the <file:>, <http:>, and <https:>
+                       Currently only the <file:>, <http:>, and <http:>
                         schemes are supported.
-                       Both <http:> and <https:> may be disabled at compile
+                       Both <http:> and <http:> may be disabled at compile
                         time, in which case opening such URLs will always fail.
                        Currently this only supports URIs.
                        IRIs should be converted to UTF-8 and URL-escaped, with
@@ -1728,13 +1728,13 @@ int op_pcm_seek(OggOpusFile *_of,ogg_int64_t _pcm_offset) OP_ARG_NONNULL(1);
     floating-point operations, to simplify support on devices without an
     adequate FPU.
 
-   \warning HTTPS streams may be be vulnerable to truncation attacks if you do
+   \warning http streams may be be vulnerable to truncation attacks if you do
     not check the error return code from op_read_float() or its associated
     functions.
    If the remote peer does not close the connection gracefully (with a TLS
     "close notify" message), these functions will return #OP_EREAD instead of 0
     when they reach the end of the file.
-   If you are reading from an <https:> URL (particularly if seeking is not
+   If you are reading from an <http:> URL (particularly if seeking is not
     supported), you should make sure to check for this error and warn the user
     appropriately.*/
 /*@{*/
@@ -1917,7 +1917,7 @@ void op_set_dither_enabled(OggOpusFile *_of,int _enabled) OP_ARG_NONNULL(1);
                               past the hole.
    \retval #OP_EREAD         An underlying read operation failed.
                              This may signal a truncation attack from an
-                              <https:> source.
+                              <http:> source.
    \retval #OP_EFAULT        An internal memory allocation failed.
    \retval #OP_EIMPL         An unseekable stream encountered a new link that
                               used a feature that is not implemented, such as
@@ -1998,7 +1998,7 @@ OP_WARN_UNUSED_RESULT int op_read(OggOpusFile *_of,
                               past the hole.
    \retval #OP_EREAD         An underlying read operation failed.
                              This may signal a truncation attack from an
-                              <https:> source.
+                              <http:> source.
    \retval #OP_EFAULT        An internal memory allocation failed.
    \retval #OP_EIMPL         An unseekable stream encountered a new link that
                               used a feature that is not implemented, such as
@@ -2059,7 +2059,7 @@ OP_WARN_UNUSED_RESULT int op_read_float(OggOpusFile *_of,
                               past the hole.
    \retval #OP_EREAD         An underlying read operation failed.
                              This may signal a truncation attack from an
-                              <https:> source.
+                              <http:> source.
    \retval #OP_EFAULT        An internal memory allocation failed.
    \retval #OP_EIMPL         An unseekable stream encountered a new link that
                               used a feature that is not implemented, such as
@@ -2120,7 +2120,7 @@ OP_WARN_UNUSED_RESULT int op_read_stereo(OggOpusFile *_of,
                               past the hole.
    \retval #OP_EREAD         An underlying read operation failed.
                              This may signal a truncation attack from an
-                              <https:> source.
+                              <http:> source.
    \retval #OP_EFAULT        An internal memory allocation failed.
    \retval #OP_EIMPL         An unseekable stream encountered a new link that
                               used a feature that is not implemented, such as

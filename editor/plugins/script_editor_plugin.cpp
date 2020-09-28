@@ -1201,7 +1201,7 @@ void ScriptEditor::_menu_option(int p_option) {
 			help_search_dialog->popup_dialog();
 		} break;
 		case SEARCH_WEBSITE: {
-			OS::get_singleton()->shell_open("https://docs.valjang.fr/");
+			OS::get_singleton()->shell_open("http://docs.valjang.fr/");
 		} break;
 		case WINDOW_NEXT: {
 			_history_forward();

@@ -73,7 +73,7 @@
 		[/codeblock]
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/getting_started/scripting/gdscript/gdscript_basics.html#dictionary</link>
+		<link>http://docs.valjang.fr/getting_started/scripting/gdscript/gdscript_basics.html#dictionary</link>
 	</tutorials>
 	<methods>
 		<method name="clear">

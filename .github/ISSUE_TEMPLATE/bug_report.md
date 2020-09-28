@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 <!-- Please search existing issues for potential duplicates before filing yours:
-https://github.com/mehdigoom/ValjangEngine4.0.x/issues?q=is%3Aissue
+http://github.com/mehdigoom/ValjangEngine4.0.x/issues?q=is%3Aissue
 -->
 
 **Godot version:**

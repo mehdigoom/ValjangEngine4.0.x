@@ -29,7 +29,7 @@
 *
 *  You can contact the author at :
 *  - xxHash homepage: http://www.xxhash.com
-*  - xxHash source repository : https://github.com/Cyan4973/xxHash
+*  - xxHash source repository : http://github.com/Cyan4973/xxHash
 */
 
 

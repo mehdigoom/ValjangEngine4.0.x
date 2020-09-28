@@ -165,7 +165,7 @@ Error DirAccessWindows::make_dir(String p_dir) {
 	int err;
 
 	p_dir = "\\\\?\\" + p_dir; //done according to
-	// https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855(v=vs.85).aspx
+	// http://msdn.microsoft.com/en-us/library/windows/desktop/aa363855(v=vs.85).aspx
 
 	success = CreateDirectoryW(p_dir.c_str(), nullptr);
 	err = GetLastError();

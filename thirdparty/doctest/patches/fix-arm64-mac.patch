@@ -4,7 +4,7 @@ index 9444698286..e4fed12767 100644
 +++ b/thirdparty/doctest/doctest.h
 @@ -356,7 +356,13 @@ DOCTEST_MSVC_SUPPRESS_WARNING(26812) // Prefer 'enum class' over 'enum'
  #ifndef DOCTEST_BREAK_INTO_DEBUGGER
- // should probably take a look at https://github.com/scottt/debugbreak
+ // should probably take a look at http://github.com/scottt/debugbreak
  #ifdef DOCTEST_PLATFORM_MAC
 +// -- GODOT start --
 +#if defined(__x86_64) || defined(__x86_64__) || defined(__amd64__)

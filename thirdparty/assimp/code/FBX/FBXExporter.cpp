@@ -70,8 +70,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <numeric>
 
 // RESOURCES:
-// https://code.blender.org/2013/08/fbx-binary-file-format-specification/
-// https://wiki.blender.org/index.php/User:Mont29/Foundation/FBX_File_Structure
+// http://code.blender.org/2013/08/fbx-binary-file-format-specification/
+// http://wiki.blender.org/index.php/User:Mont29/Foundation/FBX_File_Structure
 
 const ai_real DEG = ai_real( 57.29577951308232087679815481 ); // degrees per radian
 

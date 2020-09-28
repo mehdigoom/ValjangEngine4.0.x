@@ -645,7 +645,7 @@ void DisplayServerAndroid::process_touch(int p_what, int p_pointer, const Vector
 }
 
 void DisplayServerAndroid::process_hover(int p_type, Point2 p_pos) {
-	// https://developer.android.com/reference/android/view/MotionEvent.html#ACTION_HOVER_ENTER
+	// http://developer.android.com/reference/android/view/MotionEvent.html#ACTION_HOVER_ENTER
 	switch (p_type) {
 		case 7: // hover move
 		case 9: // hover enter

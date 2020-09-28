@@ -40,7 +40,7 @@ struct Transform2D {
 	// This is such that the columns, which can be interpreted as basis vectors of the coordinate system "painted" on the object, can be accessed as elements[i].
 	// Note that this is the opposite of the indices in mathematical texts, meaning: $M_{12}$ in a math book corresponds to elements[1][0] here.
 	// This requires additional care when working with explicit indices.
-	// See https://en.wikipedia.org/wiki/Row-_and_column-major_order for further reading.
+	// See http://en.wikipedia.org/wiki/Row-_and_column-major_order for further reading.
 
 	// Warning #2: 2D be aware that unlike 3D code, 2D code uses a left-handed coordinate system: Y-axis points down,
 	// and angle is measure from +X to +Y in a clockwise-fashion.

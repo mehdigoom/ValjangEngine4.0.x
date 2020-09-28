@@ -53,7 +53,7 @@ Error HTTPRequest::_parse_url(const String &p_url) {
 	String url_lower = url.to_lower();
 	if (url_lower.begins_with("http://")) {
 		url = url.substr(7, url.length() - 7);
-	} else if (url_lower.begins_with("https://")) {
+	} else if (url_lower.begins_with("http://")) {
 		url = url.substr(8, url.length() - 8);
 		use_ssl = true;
 		port = 443;

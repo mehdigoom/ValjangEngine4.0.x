@@ -5687,7 +5687,7 @@ void RasterizerStorageGLES2::initialize() {
 	// RenderBuffer internal format must be 16 bits in WebGL,
 	// but depth_texture should default to 32 always
 	// if the implementation doesn't support 32, it should just quietly use 16 instead
-	// https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/
+	// http://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/
 	config.depth_buffer_internalformat = GL_DEPTH_COMPONENT16;
 	config.depth_type = GL_UNSIGNED_INT;
 #else

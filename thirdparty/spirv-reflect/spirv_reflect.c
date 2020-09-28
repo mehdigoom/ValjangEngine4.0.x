@@ -1448,7 +1448,7 @@ static SpvReflectResult ParseType(
       p_type->decoration_flags = 0;
     }
     // Top level types need to pick up decorations from all types below it.
-    // Issue and fix here: https://github.com/chaoticbob/SPIRV-Reflect/issues/64
+    // Issue and fix here: http://github.com/chaoticbob/SPIRV-Reflect/issues/64
     p_type->decoration_flags = ApplyDecorations(&p_node->decorations);
 
     switch (p_node->op) {
@@ -1793,7 +1793,7 @@ static SpvReflectResult ParseDescriptorBindings(Parser* p_parser, SpvReflectShad
       memcpy(&p_descriptor->image, &p_type->traits.image, sizeof(p_descriptor->image));
     }
 
-    // This is a workaround for: https://github.com/KhronosGroup/glslang/issues/1096
+    // This is a workaround for: http://github.com/KhronosGroup/glslang/issues/1096
     {
       const uint32_t resource_mask = SPV_REFLECT_TYPE_FLAG_EXTERNAL_SAMPLED_IMAGE | SPV_REFLECT_TYPE_FLAG_EXTERNAL_IMAGE;
       if ((p_type->type_flags & resource_mask) == resource_mask) {
@@ -1870,7 +1870,7 @@ static SpvReflectResult ParseDescriptorType(SpvReflectShaderModule* p_module)
       break;
 
       case (SPV_REFLECT_TYPE_FLAG_EXTERNAL_SAMPLED_IMAGE | SPV_REFLECT_TYPE_FLAG_EXTERNAL_IMAGE): {
-        // This is a workaround for: https://github.com/KhronosGroup/glslang/issues/1096
+        // This is a workaround for: http://github.com/KhronosGroup/glslang/issues/1096
         if (p_descriptor->image.dim == SpvDimBuffer) {
           switch (p_descriptor->image.sampled) {
             default: assert(false && "unknown texel buffer sampled value"); break;

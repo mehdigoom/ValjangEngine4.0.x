@@ -50,7 +50,7 @@
 	@file xbyak.h
 	@brief Xbyak ; JIT assembler for x86(IA32)/x64 by C++
 	@author herumi
-	@url https://github.com/herumi/xbyak
+	@url http://github.com/herumi/xbyak
 	@note modified new BSD license
 	http://opensource.org/licenses/BSD-3-Clause
 */
@@ -2573,7 +2573,7 @@ public:
 			Intel Architectures Software Developer's Manual Volume 2
 			recommended multi-byte sequence of NOP instruction
 			AMD and Intel seem to agree on the same sequences for up to 9 bytes:
-			https://support.amd.com/TechDocs/55723_SOG_Fam_17h_Processors_3.00.pdf
+			http://support.amd.com/TechDocs/55723_SOG_Fam_17h_Processors_3.00.pdf
 		*/
 		static const uint8 nopTbl[9][9] = {
 			{0x90},

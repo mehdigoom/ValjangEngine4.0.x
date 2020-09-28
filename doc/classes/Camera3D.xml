@@ -173,7 +173,7 @@
 			If [code]true[/code], the ancestor [Viewport] is currently using this camera.
 		</member>
 		<member name="doppler_tracking" type="int" setter="set_doppler_tracking" getter="get_doppler_tracking" enum="Camera3D.DopplerTracking" default="0">
-			If not [constant DOPPLER_TRACKING_DISABLED], this camera will simulate the [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] for objects changed in particular [code]_process[/code] methods. See [enum DopplerTracking] for possible values.
+			If not [constant DOPPLER_TRACKING_DISABLED], this camera will simulate the [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] for objects changed in particular [code]_process[/code] methods. See [enum DopplerTracking] for possible values.
 		</member>
 		<member name="effects" type="CameraEffects" setter="set_effects" getter="get_effects">
 			The [CameraEffects] to use for this camera.
@@ -193,7 +193,7 @@
 			- ~121.63 degrees in a 21:9 viewport
 		</member>
 		<member name="frustum_offset" type="Vector2" setter="set_frustum_offset" getter="get_frustum_offset" default="Vector2( 0, 0 )">
-			The camera's frustum offset. This can be changed from the default to create "tilted frustum" effects such as [url=https://zdoom.org/wiki/Y-shearing]Y-shearing[/url].
+			The camera's frustum offset. This can be changed from the default to create "tilted frustum" effects such as [url=http://zdoom.org/wiki/Y-shearing]Y-shearing[/url].
 		</member>
 		<member name="h_offset" type="float" setter="set_h_offset" getter="get_h_offset" default="0.0">
 			The horizontal (X) offset of the camera viewport.
@@ -231,13 +231,13 @@
 			Preserves the vertical aspect ratio; also known as Hor+ scaling. This is usually the best option for projects running in landscape mode, as wider aspect ratios will automatically benefit from a wider horizontal FOV.
 		</constant>
 		<constant name="DOPPLER_TRACKING_DISABLED" value="0" enum="DopplerTracking">
-			Disables [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] simulation (default).
+			Disables [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] simulation (default).
 		</constant>
 		<constant name="DOPPLER_TRACKING_IDLE_STEP" value="1" enum="DopplerTracking">
-			Simulate [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] by tracking positions of objects that are changed in [code]_process[/code]. Changes in the relative velocity of this camera compared to those objects affect how Audio is perceived (changing the Audio's [code]pitch shift[/code]).
+			Simulate [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] by tracking positions of objects that are changed in [code]_process[/code]. Changes in the relative velocity of this camera compared to those objects affect how Audio is perceived (changing the Audio's [code]pitch shift[/code]).
 		</constant>
 		<constant name="DOPPLER_TRACKING_PHYSICS_STEP" value="2" enum="DopplerTracking">
-			Simulate [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] by tracking positions of objects that are changed in [code]_physics_process[/code]. Changes in the relative velocity of this camera compared to those objects affect how Audio is perceived (changing the Audio's [code]pitch shift[/code]).
+			Simulate [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] by tracking positions of objects that are changed in [code]_physics_process[/code]. Changes in the relative velocity of this camera compared to those objects affect how Audio is perceived (changing the Audio's [code]pitch shift[/code]).
 		</constant>
 	</constants>
 </class>

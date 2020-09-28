@@ -5,7 +5,7 @@
  *
  *          Poly1305 is a one-time message authenticator that can be used to
  *          authenticate messages. Poly1305-AES was created by Daniel
- *          Bernstein https://cr.yp.to/mac/poly1305-20050329.pdf The generic
+ *          Bernstein http://cr.yp.to/mac/poly1305-20050329.pdf The generic
  *          Poly1305 algorithm (not tied to AES) was also standardized in RFC
  *          7539.
  *
@@ -55,7 +55,7 @@
  *
  *  **********
  *
- *  This file is part of Mbed TLS (https://tls.mbed.org)
+ *  This file is part of Mbed TLS (http://tls.mbed.org)
  */
 
 #ifndef MBEDTLS_POLY1305_H

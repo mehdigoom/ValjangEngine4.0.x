@@ -27,7 +27,7 @@
 /* Khronos platform-specific types and definitions.
  *
  * The master copy of khrplatform.h is maintained in the Khronos EGL
- * Registry repository at https://github.com/KhronosGroup/EGL-Registry
+ * Registry repository at http://github.com/KhronosGroup/EGL-Registry
  * The last semantic modification to khrplatform.h was at commit ID:
  *      67a3e0864c2d75ea5287b9f3d2eb74a745936692
  *

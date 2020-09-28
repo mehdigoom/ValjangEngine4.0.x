@@ -1,7 +1,7 @@
 # Italian translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Alessio Corridori <alessiocorridori@hotmail.com>, 2018.
 # Dario Bonfanti <bonfi.96@hotmail.it>, 2016-2017.
 # Dario D'Ambra <legione0@gmail.com>, 2017.
@@ -60,8 +60,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-26 15:41+0000\n"
 "Last-Translator: Mirko <miknsop@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/godot-engine/"
-"godot/it/>\n"
+"Language-Team: Italian <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1152,8 +1152,8 @@ msgid "Change Dictionary Value"
 msgstr "Cambia valore del dizionario"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Grazie dalla comunità di Godot!"
+msgid "Thanks from the Valjang community!"
+msgstr "Grazie dalla comunità di Valjang!"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
@@ -1781,8 +1781,8 @@ msgid "Erase Profile"
 msgstr "Cancella profilo"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
-msgstr "Profilo Caratteristiche Godot"
+msgid "Valjang Feature Profile"
+msgstr "Profilo Caratteristiche Valjang"
 
 #: editor/editor_feature_profile.cpp
 msgid "Import Profile(s)"
@@ -2995,7 +2995,7 @@ msgstr "Comunità"
 
 #: editor/editor_node.cpp
 msgid "About"
-msgstr "Informazioni su Godot"
+msgstr "Informazioni su Valjang"
 
 #: editor/editor_node.cpp
 msgid "Play the project."
@@ -3642,7 +3642,7 @@ msgid "Select Template File"
 msgstr "Seleziona file template"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
+msgid "Valjang Export Templates"
 msgstr "Template di Export"
 
 #: editor/export_template_manager.cpp
@@ -6927,8 +6927,8 @@ msgid "Debug with External Editor"
 msgstr "Debug con Editor Esterno"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
-msgstr "Apri la documentazione online di Godot."
+msgid "Open Valjang online documentation."
+msgstr "Apri la documentazione online di Valjang."
 
 #: editor/plugins/script_editor_plugin.cpp
 msgid "Search the reference documentation."
@@ -9380,11 +9380,11 @@ msgstr "Uniforme vettore."
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
-"Una espressione del Custom Godot Shader Language, con quantità "
+"Una espressione del Custom Valjang Shader Language, con quantità "
 "personalizzabile di porte input ed output. Questa è una iniezione diretta di "
 "codice nella funzione vertex/fragment/light. Non usarla per scrivere le "
 "dichiarazione della funzione all'interno."
@@ -9399,12 +9399,12 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
 msgstr ""
-"Espressione custom per il Godot Shader Language, la quale sarà "
+"Espressione custom per il Valjang Shader Language, la quale sarà "
 "sovraposizionata allo shader risultante. Puoi piazzare varie definizioni di "
 "funzioni all'interno e chiamarla dopo nelle Espressioni. Puoi anche "
 "dichiarare varianti, uniformi e costanti."
@@ -9666,8 +9666,8 @@ msgid "ZIP File"
 msgstr "File ZIP"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
-msgstr "Pacchetto Gioco Godot"
+msgid "Valjang Game Pack"
+msgstr "Pacchetto Gioco Valjang"
 
 #: editor/project_export.cpp
 msgid "Export templates for this platform are missing:"
@@ -9691,22 +9691,22 @@ msgstr "Errore nell'apertura del file package (non è in formato ZIP)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
 msgstr ""
 "File progetto '.zip' non valido; non contiene un file denominato 'project."
-"godot'."
+"Valjang'."
 
 #: editor/project_manager.cpp
 msgid "Please choose an empty folder."
 msgstr "Si prega di scegliere una cartella vuota."
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "Perfavore, scegli un file 'project.godot' o '.zip'."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "Perfavore, scegli un file 'project.Valjang' o '.zip'."
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "Questa cartella contiene già un progetto Godot."
+msgid "This directory already contains a Valjang project."
+msgstr "Questa cartella contiene già un progetto Valjang."
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9738,19 +9738,19 @@ msgstr "Percorso di progetto invalido (cambiato qualcosa?)."
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"Impossibile caricare project.godot nel percorso del progetto (errore %d). "
+"Impossibile caricare project.Valjang nel percorso del progetto (errore %d). "
 "Può essere mancante o corrotto."
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "Impossibile modificare project.godot nel percorso di progetto."
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "Impossibile modificare project.Valjang nel percorso di progetto."
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "Impossibile creare project.godot nel percorso di progetto."
+msgid "Couldn't create project.Valjang in project path."
+msgstr "Impossibile creare project.Valjang nel percorso di progetto."
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9856,23 +9856,23 @@ msgstr "Sei sicuro di voler aprire più di un progetto?"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
 "Il seguente file delle impostazioni del progetto non specifica la versione "
-"di Godot attraverso cui è stato creato.\n"
+"di Valjang attraverso cui è stato creato.\n"
 "\n"
 "%s\n"
 "\n"
 "Se si procede con l'apertura, verrà convertito nel formato di file di "
-"configurazione corrente di Godot.\n"
+"configurazione corrente di Valjang.\n"
 "Attenzione: Non sarà più possibile aprire il progetto con versioni "
 "precedenti del motore."
 
@@ -9961,10 +9961,10 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"Sei sicuro di voler scannerizzare %s cartelle per progetti Godot già "
+"Sei sicuro di voler scannerizzare %s cartelle per progetti Valjang già "
 "esistenti?\n"
 "Per questo potrebbe volerci un pò."
 
@@ -10252,8 +10252,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "Modalità filtro lingue modificata"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "Impostazioni Progetto (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "Impostazioni Progetto (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -12090,11 +12090,11 @@ msgstr "Nome del pacchetto non valido:"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
-"Modulo \"GodotPaymentV3\" non valido incluso nelle impostazione del progetto "
-"\"android/moduli\" (modificato in Godot 3.2.2).\n"
+"Modulo \"ValjangPaymentV3\" non valido incluso nelle impostazione del progetto "
+"\"android/moduli\" (modificato in Valjang 3.2.2).\n"
 
 #: platform/android/export/export.cpp
 msgid "\"Use Custom Build\" must be enabled to use the plugins."
@@ -12135,12 +12135,12 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "Versione build di Android non coerente:\n"
 "   Template installato: %s\n"
-"   Versione Godot: %s\n"
+"   Versione Valjang: %s\n"
 "Perfavore, reinstalla il build template di Android dal menu 'Progetto'."
 
 #: platform/android/export/export.cpp
@@ -12955,8 +12955,8 @@ msgstr "Le constanti non possono essere modificate."
 #~ msgid "Request Docs"
 #~ msgstr "Documentazione richiesta"
 
-#~ msgid "Help improve the Godot documentation by giving feedback."
-#~ msgstr "Aiutate a migliorare la documentazione di Godot fornendo feedback."
+#~ msgid "Help improve the Valjang documentation by giving feedback."
+#~ msgstr "Aiutate a migliorare la documentazione di Valjang fornendo feedback."
 
 #~ msgid "Replaced %d occurrence(s)."
 #~ msgstr "Rimpiazzate %d occorrenze."
@@ -13822,12 +13822,12 @@ msgstr "Le constanti non possono essere modificate."
 #~ msgstr "Impossibile scrivere il file."
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in project path."
-#~ msgstr "Impossibile creare project.godot nel percorso di progetto."
+#~ msgid "Couldn't get project.Valjang in project path."
+#~ msgstr "Impossibile creare project.Valjang nel percorso di progetto."
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in the project path."
-#~ msgstr "Impossibile creare project.godot nel percorso di progetto."
+#~ msgid "Couldn't get project.Valjang in the project path."
+#~ msgstr "Impossibile creare project.Valjang nel percorso di progetto."
 
 #~ msgid "Not found!"
 #~ msgstr "Non trovato!"
@@ -14074,10 +14074,10 @@ msgstr "Le constanti non possono essere modificate."
 #~ msgstr "Importazione font"
 
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
 #~ msgstr ""
-#~ "Questo file è già un file font di Godot, si prega di fornire invece un "
+#~ "Questo file è già un file font di Valjang, si prega di fornire invece un "
 #~ "file di tipo BMfont."
 
 #~ msgid "Failed opening as BMFont file."
@@ -14332,8 +14332,8 @@ msgstr "Le constanti non possono essere modificate."
 #~ msgid "Compress"
 #~ msgstr "Comprimi"
 
-#~ msgid "Add to Project (project.godot)"
-#~ msgstr "Aggiungi a Progetto (project.godot)"
+#~ msgid "Add to Project (project.Valjang)"
+#~ msgstr "Aggiungi a Progetto (project.Valjang)"
 
 #~ msgid "Import Languages:"
 #~ msgstr "Importa Lingue:"
@@ -14410,11 +14410,11 @@ msgstr "Le constanti non possono essere modificate."
 #~ msgid "Invalid project path, the path must exist!"
 #~ msgstr "Percorso di progetto invalido, il percorso deve esistere!"
 
-#~ msgid "Invalid project path, project.godot must not exist."
-#~ msgstr "Percorso di progetto invalido, project.godot non esiste."
+#~ msgid "Invalid project path, project.Valjang must not exist."
+#~ msgstr "Percorso di progetto invalido, project.Valjang non esiste."
 
-#~ msgid "Invalid project path, project.godot must exist."
-#~ msgstr "Percorso di progetto invalido, project.godot deve esistere."
+#~ msgid "Invalid project path, project.Valjang must exist."
+#~ msgstr "Percorso di progetto invalido, project.Valjang deve esistere."
 
 #~ msgid "Project Path (Must Exist):"
 #~ msgstr "Percorso Progetto (Deve Esistere):"

@@ -26,7 +26,7 @@ Files extracted from upstream source:
 
 ## basis_universal
 
-- Upstream: https://github.com/BinomialLLC/basis_universal
+- Upstream: http://github.com/BinomialLLC/basis_universal
 - Version: git (895ee8ee7e04f22267f8d16d46de04d5a01d63ac, 2020)
 - License: Apache 2.0
 
@@ -39,7 +39,7 @@ Files extracted from upstream source:
 
 ## bullet
 
-- Upstream: https://github.com/bulletphysics/bullet3
+- Upstream: http://github.com/bulletphysics/bullet3
 - Version: git pre-2.90 (cd8cf7521cbb8b7808126a6adebd47bb83ea166a, 2020)
 - License: zlib
 
@@ -53,7 +53,7 @@ Files extracted from upstream source:
 
 ## certs
 
-- Upstream: Mozilla, via https://apps.fedoraproject.org/packages/ca-certificates
+- Upstream: Mozilla, via http://apps.fedoraproject.org/packages/ca-certificates
 - Version: 2018.2.26 (2018)
 - License: MPL 2.0
 
@@ -65,7 +65,7 @@ as it's generated on the user's system.)
 
 ## cvtt
 
-- Upstream: https://github.com/elasota/cvtt
+- Upstream: http://github.com/elasota/cvtt
 - Version: 1.0.0-beta4 (2018)
 - License: MIT
 
@@ -75,7 +75,7 @@ Files extracted from upstream source:
 
 
 ## doctest
-- Upstream: https://github.com/onqtam/doctest
+- Upstream: http://github.com/onqtam/doctest
 - Version: 1c8da00 (2.4.0)
 - License: MIT
 
@@ -111,7 +111,7 @@ will limit its functionality to IPv4 only.
 
 ## etc2comp
 
-- Upstream: https://github.com/google/etc2comp
+- Upstream: http://github.com/google/etc2comp
 - Version: git (9cd0f9cae0f32338943699bb418107db61bb66f2, 2017)
 - License: Apache 2.0
 
@@ -129,7 +129,7 @@ comments.
 
 ### Noto Sans
 
-- Upstream: https://github.com/googlei18n/noto-fonts
+- Upstream: http://github.com/googlei18n/noto-fonts
 - Version: 1.06 (2017)
 - License: OFL-1.1
 
@@ -137,20 +137,20 @@ Use UI font variant if available, because it has tight vertical metrics and good
 
 ### Hack Regular
 
-- Upstream: https://github.com/source-foundry/Hack
+- Upstream: http://github.com/source-foundry/Hack
 - Version: 3.003 (2018)
 - License: MIT + Bitstream Vera License
 
 ### DroidSans*.ttf
 
-- Upstream: https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/
+- Upstream: http://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/
 - Version: ? (pre-2014 commit when DroidSansJapanese.ttf was obsoleted)
 - License: Apache 2.0
 
 
 ## freetype
 
-- Upstream: https://www.freetype.org
+- Upstream: http://www.freetype.org
 - Version: 2.10.2 (2020)
 - License: FreeType License (BSD-like)
 
@@ -163,7 +163,7 @@ Files extracted from upstream source:
 
 ## glad
 
-- Upstream: https://github.com/Dav1dde/glad
+- Upstream: http://github.com/Dav1dde/glad
 - Version: 0.1.33 (2019)
 - License: MIT
 
@@ -174,13 +174,13 @@ the GLES version Godot targets.
 
 ## glslang
 
-- Upstream: https://github.com/KhronosGroup/glslang
+- Upstream: http://github.com/KhronosGroup/glslang
 - Version: git (4fc7a33910fb8e40b970d160e1b38ab3f67fe0f3, 2020)
 - License: glslang
 
 Version should be kept in sync with the one of the used Vulkan SDK (see `vulkan`
 section). Check Vulkan-ValidationLayers at the matching SDK tag for the known
-good glslang commit: https://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/scripts/known_good.json
+good glslang commit: http://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/scripts/known_good.json
 
 Files extracted from upstream source:
 
@@ -194,7 +194,7 @@ Patches in the `patches` directory should be re-applied after updates.
 
 ## jpeg-compressor
 
-- Upstream: https://github.com/richgel999/jpeg-compressor
+- Upstream: http://github.com/richgel999/jpeg-compressor
 - Version: 2.00 (aeb7d3b463aa8228b87a28013c15ee50a7e6fcf3, 2020)
 - License: Public domain
 
@@ -205,7 +205,7 @@ Files extracted from upstream source:
 
 ## libogg
 
-- Upstream: https://www.xiph.org/ogg
+- Upstream: http://www.xiph.org/ogg
 - Version: git (c8fca6b4a02d695b1ceea39b330d4406001c03ed, 2019)
 - License: BSD-3-Clause
 
@@ -233,7 +233,7 @@ Files extracted from upstream source:
 
 ## libsimplewebm
 
-- Upstream: https://github.com/zaps166/libsimplewebm
+- Upstream: http://github.com/zaps166/libsimplewebm
 - Version: git (fe57fd3cfe6c0af4c6af110b1f84a90cf191d943, 2019)
 - License: MIT (main), BSD-3-Clause (libwebm)
 
@@ -252,7 +252,7 @@ comments.
 
 ## libtheora
 
-- Upstream: https://www.theora.org
+- Upstream: http://www.theora.org
 - Version: 1.1.1 (2010)
 - License: BSD-3-Clause
 
@@ -268,7 +268,7 @@ on top of the 1.1.1 source (not included in any stable release yet).
 
 ## libvorbis
 
-- Upstream: https://www.xiph.org/vorbis
+- Upstream: http://www.xiph.org/vorbis
 - Version: 1.3.6 (2018)
 - License: BSD-3-Clause
 
@@ -281,7 +281,7 @@ Files extracted from upstream source:
 
 ## libvpx
 
-- Upstream: https://chromium.googlesource.com/webm/libvpx/
+- Upstream: http://chromium.googlesource.com/webm/libvpx/
 - Version: 1.6.0 (2016)
 - License: BSD-3-Clause
 
@@ -298,7 +298,7 @@ from the Android NDK r18.
 
 ## libwebp
 
-- Upstream: https://chromium.googlesource.com/webm/libwebp/
+- Upstream: http://chromium.googlesource.com/webm/libwebp/
 - Version: 1.1.0 (2020)
 - License: BSD-3-Clause
 
@@ -314,7 +314,7 @@ changes are marked with `// -- GODOT --` comments.
 
 ## mbedtls
 
-- Upstream: https://tls.mbed.org/
+- Upstream: http://tls.mbed.org/
 - Version: 2.16.7 (2020)
 - License: Apache 2.0
 
@@ -334,7 +334,7 @@ File extracted from upstream release tarball:
 
 ## miniupnpc
 
-- Upstream: https://github.com/miniupnp/miniupnp/tree/master/miniupnpc
+- Upstream: http://github.com/miniupnp/miniupnp/tree/master/miniupnpc
 - Version: git (44366328661826603982d1e0d7ebb4062c5f2bfc, 2020)
 - License: BSD-3-Clause
 
@@ -370,23 +370,23 @@ Collection of single-file libraries used in Godot components.
 ### core
 
 - `clipper.{cpp,hpp}`
-  * Upstream: https://sourceforge.net/projects/polyclipping
+  * Upstream: http://sourceforge.net/projects/polyclipping
   * Version: 6.4.2 (2017) + Godot changes (added optional exceptions handling)
   * License: BSL-1.0
 - `cubemap_coeffs.h`
-  * Upstream: https://research.activision.com/publications/archives/fast-filtering-of-reflection-probes
+  * Upstream: http://research.activision.com/publications/archives/fast-filtering-of-reflection-probes
     File coeffs_const_8.txt (retrieved April 2020)
   * License: MIT
 - `fastlz.{c,h}`
-  * Upstream: https://github.com/ariya/FastLZ
+  * Upstream: http://github.com/ariya/FastLZ
   * Version: 0.5.0 (4f20f54d46f5a6dd4fae4def134933369b7602d2, 2020)
   * License: MIT
 - `hq2x.{cpp,h}`
-  * Upstream: https://github.com/brunexgeek/hqx
+  * Upstream: http://github.com/brunexgeek/hqx
   * Version: TBD, file structure differs
   * License: Apache 2.0
 - `open-simplex-noise.{c,h}`
-  * Upstream: https://github.com/smcameron/open-simplex-noise-in-c
+  * Upstream: http://github.com/smcameron/open-simplex-noise-in-c
   * Version: git (0d555e7f40527d0870906fe9469a3b1bb4020b7f, 2015) + custom changes
   * License: Unlicense
 - `pcg.{cpp,h}`
@@ -394,20 +394,20 @@ Collection of single-file libraries used in Godot components.
   * Version: minimal C implementation, http://www.pcg-random.org/download.html
   * License: Apache 2.0
 - `r128.h`
-  * Upstream: https://github.com/fahickman/r128
+  * Upstream: http://github.com/fahickman/r128
   * Version: git (423f693617faafd01de21e92818add4208eb8bd1, 2020)
   * License: Public Domain
 - `smaz.{c,h}`
-  * Upstream: https://github.com/antirez/smaz
+  * Upstream: http://github.com/antirez/smaz
   * Version: git (150e125cbae2e8fd20dd332432776ce13395d4d4, 2009)
   * License: BSD-3-Clause
   * Modifications: use `const char*` instead of `char*` for input string
 - `stb_rect_pack.h`
-  * Upstream: https://github.com/nothings/stb
+  * Upstream: http://github.com/nothings/stb
   * Version: 1.00 (2019)
   * License: Public Domain (Unlicense) or MIT
 - `triangulator.{cpp,h}`
-  * Upstream: https://github.com/ivanfratric/polypartition (`src/polypartition.cpp`)
+  * Upstream: http://github.com/ivanfratric/polypartition (`src/polypartition.cpp`)
   * Version: TBD, class was renamed
   * License: MIT
 
@@ -421,29 +421,29 @@ Collection of single-file libraries used in Godot components.
 ### platform
 
 - `ifaddrs-android.{cc,h}`
-  * Upstream: https://chromium.googlesource.com/external/webrtc/stable/talk/+/master/base/ifaddrs-android.h
+  * Upstream: http://chromium.googlesource.com/external/webrtc/stable/talk/+/master/base/ifaddrs-android.h
   * Version: git (5976650443d68ccfadf1dea24999ee459dd2819d, 2013)
   * License: BSD-3-Clause
 
 ### scene
 
 - `easing_equations.cpp`
-  * Upstream: http://robertpenner.com/easing/ via https://github.com/jesusgollonet/ofpennereasing (modified to fit Godot types)
+  * Upstream: http://robertpenner.com/easing/ via http://github.com/jesusgollonet/ofpennereasing (modified to fit Godot types)
   * Version: git (af72c147c3a74e7e872aa28c7e2abfcced04fdce, 2008) + Godot types and style changes
   * License: BSD-3-Clause
 - `mikktspace.{c,h}`
-  * Upstream: https://archive.blender.org/wiki/index.php/Dev:Shading/Tangent_Space_Normal_Maps/
+  * Upstream: http://archive.blender.org/wiki/index.php/Dev:Shading/Tangent_Space_Normal_Maps/
   * Version: 1.0 (2011)
   * License: zlib
 - `stb_vorbis.c`
-  * Upstream: https://github.com/nothings/stb
+  * Upstream: http://github.com/nothings/stb
   * Version: 1.20
   * License: Public Domain (Unlicense) or MIT
 
 
 ## nanosvg
 
-- Upstream: https://github.com/memononen/nanosvg
+- Upstream: http://github.com/memononen/nanosvg
 - Version: git (25241c5a8f8451d41ab1b02ab2d865b01600d949, 2019)
 - License: zlib
 
@@ -455,7 +455,7 @@ Files extracted from the upstream source:
 
 ## oidn
 
-- Upstream: https://github.com/OpenImageDenoise/oidn
+- Upstream: http://github.com/OpenImageDenoise/oidn
 - Version: 1.1.0 (c58c5216db05ceef4cde5a096862f2eeffd14c06, 2019)
 - License: Apache 2.0
 
@@ -486,7 +486,7 @@ scripts/resource_to_cpp.py (used in modules/denoise/resource_to_cpp.py)
 
 ## opus
 
-- Upstream: https://opus-codec.org
+- Upstream: http://opus-codec.org
 - Version: 1.1.5 (opus) and 0.8 (opusfile) (2017)
 - License: BSD-3-Clause
 
@@ -519,7 +519,7 @@ Files extracted from upstream source:
 
 ## pvrtccompressor
 
-- Upstream: https://bitbucket.org/jthlim/pvrtccompressor
+- Upstream: http://bitbucket.org/jthlim/pvrtccompressor
 - Version: hg (cf7177748ee0dcdccfe89716dc11a47d2dc81af5, 2015)
 - License: BSD-3-Clause
 
@@ -531,7 +531,7 @@ Files extracted from upstream source:
 
 ## recastnavigation
 
-- Upstream: https://github.com/recastnavigation/recastnavigation
+- Upstream: http://github.com/recastnavigation/recastnavigation
 - Version: git (57610fa6ef31b39020231906f8c5d40eaa8294ae, 2019)
 - License: zlib
 
@@ -559,7 +559,7 @@ Godot. Please check the file to know what's new.
 
 ## squish
 
-- Upstream: https://sourceforge.net/projects/libsquish
+- Upstream: http://sourceforge.net/projects/libsquish
 - Version: 1.15 (2017)
 - License: MIT
 
@@ -574,7 +574,7 @@ comments and a patch is provided in the squish/ folder.
 
 ## tinyexr
 
-- Upstream: https://github.com/syoyo/tinyexr
+- Upstream: http://github.com/syoyo/tinyexr
 - Version: git (4dbd05a22f51a2d7462311569b8b0cba0bbe2ac5, 2020)
 - License: BSD-3-Clause
 
@@ -585,7 +585,7 @@ Files extracted from upstream source:
 
 ## vhacd
 
-- Upstream: https://github.com/kmammou/v-hacd
+- Upstream: http://github.com/kmammou/v-hacd
 - Version: git (b07958e18e01d504e3af80eeaeb9f033226533d7, 2019)
 - License: BSD-3-Clause
 
@@ -602,7 +602,7 @@ folder.
 
 ## vulkan
 
-- Upstream: https://github.com/KhronosGroup/Vulkan-Loader
+- Upstream: http://github.com/KhronosGroup/Vulkan-Loader
 - Version: sdk-1.2.131.2 (2020)
 - License: Apache 2.0
 
@@ -620,11 +620,11 @@ Files extracted from upstream source:
 - `LICENSE.txt`
 
 `vk_enum_string_helper.h` is taken from the matching `Vulkan-ValidationLayers`
-SDK release: https://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/layers/generated/vk_enum_string_helper.h
+SDK release: http://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/master/layers/generated/vk_enum_string_helper.h
 Includes custom change to disable MSVC pragma, might be upstreamed via:
-https://github.com/KhronosGroup/Vulkan-ValidationLayers/pull/1666
+http://github.com/KhronosGroup/Vulkan-ValidationLayers/pull/1666
 
-`vk_mem_alloc.h` is taken from https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+`vk_mem_alloc.h` is taken from http://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
 Version: 2.3.0 (2019)
 
 Patches in the `patches` directory should be re-applied after updates.
@@ -632,7 +632,7 @@ Patches in the `patches` directory should be re-applied after updates.
 
 ## wslay
 
-- Upstream: https://github.com/tatsuhiro-t/wslay
+- Upstream: http://github.com/tatsuhiro-t/wslay
 - Version: 1.1.1 (2020)
 - License: MIT
 
@@ -645,7 +645,7 @@ File extracted from upstream release tarball:
 
 ## xatlas
 
-- Upstream: https://github.com/jpcy/xatlas
+- Upstream: http://github.com/jpcy/xatlas
 - Version: git (470576d3516f7e6d8b4554e7c941194a935969fd, 2020)
 - License: MIT
 
@@ -668,7 +668,7 @@ Files extracted from upstream source:
 
 ## zstd
 
-- Upstream: https://github.com/facebook/zstd
+- Upstream: http://github.com/facebook/zstd
 - Version: 1.4.4 (2019)
 - License: BSD-3-Clause
 

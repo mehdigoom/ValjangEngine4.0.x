@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 /*
  *  The AES block cipher was designed by Vincent Rijmen and Joan Daemen.
@@ -1638,7 +1638,7 @@ static const unsigned char aes_test_cfb128_ct[3][64] =
 /*
  * AES-OFB test vectors from:
  *
- * https://csrc.nist.gov/publications/detail/sp/800-38a/final
+ * http://csrc.nist.gov/publications/detail/sp/800-38a/final
  */
 static const unsigned char aes_test_ofb_key[3][32] =
 {
@@ -1768,7 +1768,7 @@ static const int aes_test_ctr_len[3] =
  * AES-XTS test vectors from:
  *
  * IEEE P1619/D16 Annex B
- * https://web.archive.org/web/20150629024421/http://grouper.ieee.org/groups/1619/email/pdf00086.pdf
+ * http://web.archive.org/web/20150629024421/http://grouper.ieee.org/groups/1619/email/pdf00086.pdf
  * (Archived from original at http://grouper.ieee.org/groups/1619/email/pdf00086.pdf)
  */
 static const unsigned char aes_test_xts_key[][32] =

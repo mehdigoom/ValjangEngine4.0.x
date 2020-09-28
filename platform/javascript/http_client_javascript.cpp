@@ -46,7 +46,7 @@ Error HTTPClient::connect_to_host(const String &p_host, int p_port, bool p_ssl, 
 	String host_lower = host.to_lower();
 	if (host_lower.begins_with("http://")) {
 		host = host.substr(7, host.length() - 7);
-	} else if (host_lower.begins_with("https://")) {
+	} else if (host_lower.begins_with("http://")) {
 		use_tls = true;
 		host = host.substr(8, host.length() - 8);
 	}
@@ -55,7 +55,7 @@ Error HTTPClient::connect_to_host(const String &p_host, int p_port, bool p_ssl, 
 
 	if (port < 0) {
 		if (use_tls) {
-			port = PORT_HTTPS;
+			port = PORT_http;
 		} else {
 			port = PORT_HTTP;
 		}
@@ -82,7 +82,7 @@ Error HTTPClient::prepare_request(Method p_method, const String &p_url, const Ve
 	ERR_FAIL_COND_V(port < 0, ERR_UNCONFIGURED);
 	ERR_FAIL_COND_V(!p_url.begins_with("/"), ERR_INVALID_PARAMETER);
 
-	String url = (use_tls ? "https://" : "http://") + host + ":" + itos(port) + p_url;
+	String url = (use_tls ? "http://" : "http://") + host + ":" + itos(port) + p_url;
 	godot_xhr_reset(xhr_id);
 	godot_xhr_open(xhr_id, _methods[p_method], url.utf8().get_data(),
 			username.empty() ? nullptr : username.utf8().get_data(),

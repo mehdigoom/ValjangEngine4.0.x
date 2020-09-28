@@ -1,7 +1,7 @@
 # Chinese (Hong Kong) translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # Wesley (zx-wt) <ZX_WT@ymail.com>, 2016-2017, 2020.
 # cnieFIT <dtotncq@gmail.com>, 2019.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-05-01 11:43+0000\n"
 "Last-Translator: zx-wt <ZX_WT@ymail.com>\n"
-"Language-Team: Chinese (Traditional, Hong Kong) <https://hosted.weblate.org/"
-"projects/godot-engine/godot/zh_Hant_HK/>\n"
+"Language-Team: Chinese (Traditional, Hong Kong) <http://hosted.weblate.org/"
+"projects/Valjang-engine/Valjang/zh_Hant_HK/>\n"
 "Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1143,8 +1143,8 @@ msgid "Change Dictionary Value"
 msgstr "動畫變化數值"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Godot社區的感謝！"
+msgid "Thanks from the Valjang community!"
+msgstr "Valjang社區的感謝！"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
@@ -1800,7 +1800,7 @@ msgstr "縮放selection"
 
 #: editor/editor_feature_profile.cpp
 #, fuzzy
-msgid "Godot Feature Profile"
+msgid "Valjang Feature Profile"
 msgstr "管理輸出範本"
 
 #: editor/editor_feature_profile.cpp
@@ -3685,8 +3685,8 @@ msgstr "選取Template檔案"
 
 #: editor/export_template_manager.cpp
 #, fuzzy
-msgid "Godot Export Templates"
-msgstr "Godot輸出範本"
+msgid "Valjang Export Templates"
+msgstr "Valjang輸出範本"
 
 #: editor/export_template_manager.cpp
 #, fuzzy
@@ -7085,7 +7085,7 @@ msgstr "要離開編輯器嗎?"
 
 #: editor/plugins/script_editor_plugin.cpp
 #, fuzzy
-msgid "Open Godot online documentation."
+msgid "Open Valjang online documentation."
 msgstr "開啓最近的"
 
 #: editor/plugins/script_editor_plugin.cpp
@@ -9597,7 +9597,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
@@ -9610,7 +9610,7 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
@@ -9866,7 +9866,7 @@ msgid "ZIP File"
 msgstr "檔案"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
+msgid "Valjang Game Pack"
 msgstr ""
 
 #: editor/project_export.cpp
@@ -9892,7 +9892,7 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
 msgstr ""
 
 #: editor/project_manager.cpp
@@ -9900,11 +9900,11 @@ msgid "Please choose an empty folder."
 msgstr ""
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
 msgstr ""
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
+msgid "This directory already contains a Valjang project."
 msgstr ""
 
 #: editor/project_manager.cpp
@@ -9939,16 +9939,16 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
+msgid "Couldn't edit project.Valjang in project path."
 msgstr ""
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
+msgid "Couldn't create project.Valjang in project path."
 msgstr ""
 
 #: editor/project_manager.cpp
@@ -10051,12 +10051,12 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
@@ -10126,7 +10126,7 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
 
@@ -10419,7 +10419,7 @@ msgid "Changed Locale Filter Mode"
 msgstr ""
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
+msgid "Project Settings (project.Valjang)"
 msgstr ""
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
@@ -12317,8 +12317,8 @@ msgstr "無效名稱"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
 
 #: platform/android/export/export.cpp
@@ -12351,7 +12351,7 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 

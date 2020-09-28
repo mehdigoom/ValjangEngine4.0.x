@@ -776,7 +776,7 @@ Vector<int> Voxelizer::get_giprobe_level_cell_count() const {
 }
 
 // euclidean distance computation based on:
-// https://prideout.net/blog/distance_fields/
+// http://prideout.net/blog/distance_fields/
 
 #define square(m_s) ((m_s) * (m_s))
 #define INF 1e20

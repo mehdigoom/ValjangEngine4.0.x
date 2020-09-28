@@ -602,7 +602,7 @@ void ARKitInterface::process() {
 					ambient_intensity = current_frame.lightEstimate.ambientIntensity;
 
 					///@TODO it's there, but not there.. what to do with this...
-					// https://developer.apple.com/documentation/arkit/arlightestimate?language=objc
+					// http://developer.apple.com/documentation/arkit/arlightestimate?language=objc
 					//				ambient_color_temperature = current_frame.lightEstimate.ambientColorTemperature;
 				}
 

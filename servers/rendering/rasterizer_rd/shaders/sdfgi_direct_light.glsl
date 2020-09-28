@@ -105,7 +105,7 @@ vec2 octahedron_wrap(vec2 v) {
 }
 
 vec2 octahedron_encode(vec3 n) {
-	// https://twitter.com/Stubbesaurus/status/937994790553227264
+	// http://twitter.com/Stubbesaurus/status/937994790553227264
 	n /= (abs(n.x) + abs(n.y) + abs(n.z));
 	n.xy = n.z >= 0.0 ? n.xy : octahedron_wrap(n.xy);
 	n.xy = n.xy * 0.5 + 0.5;

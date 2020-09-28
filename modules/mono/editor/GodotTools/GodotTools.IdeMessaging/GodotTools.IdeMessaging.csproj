@@ -9,7 +9,7 @@
     <Authors>Valjang Engine contributors</Authors>
     <Company />
     <PackageTags>godot</PackageTags>
-    <RepositoryUrl>https://github.com/mehdigoom/ValjangEngine4.0.x/tree/master/modules/mono/editor/GodotTools/GodotTools.IdeMessaging</RepositoryUrl>
+    <RepositoryUrl>http://github.com/mehdigoom/ValjangEngine4.0.x/tree/master/modules/mono/editor/GodotTools/GodotTools.IdeMessaging</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>
 This library enables communication with the Valjang Engine editor (the version with .NET support).

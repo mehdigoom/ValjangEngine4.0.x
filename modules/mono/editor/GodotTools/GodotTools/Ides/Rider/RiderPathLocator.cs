@@ -20,7 +20,7 @@ namespace GodotTools.Ides.Rider
 {
     /// <summary>
     /// This code is a modified version of the JetBrains resharper-unity plugin listed under Apache License 2.0 license:
-    /// https://github.com/JetBrains/resharper-unity/blob/master/unity/JetBrains.Rider.Unity.Editor/EditorPlugin/RiderPathLocator.cs
+    /// http://github.com/JetBrains/resharper-unity/blob/master/unity/JetBrains.Rider.Unity.Editor/EditorPlugin/RiderPathLocator.cs
     /// </summary>
     public static class RiderPathLocator
     {
@@ -256,7 +256,7 @@ namespace GodotTools.Ides.Rider
               {
                   try
                   {
-                      // use history.json - last entry stands for the active build https://jetbrains.slack.com/archives/C07KNP99D/p1547807024066500?thread_ts=1547731708.057700&cid=C07KNP99D
+                      // use history.json - last entry stands for the active build http://jetbrains.slack.com/archives/C07KNP99D/p1547807024066500?thread_ts=1547731708.057700&cid=C07KNP99D
                       var historyFile = Path.Combine(channelDir, ".history.json");
                       if (File.Exists(historyFile))
                       {

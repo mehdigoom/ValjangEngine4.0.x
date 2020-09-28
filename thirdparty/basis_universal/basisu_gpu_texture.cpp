@@ -266,7 +266,7 @@ namespace basisu
 
 	// ATC isn't officially documented, so I'm assuming these references:
 	// http://www.guildsoftware.com/papers/2012.Converting.DXTC.to.ATC.pdf
-	// https://github.com/Triang3l/S3TConv/blob/master/s3tconv_atitc.c
+	// http://github.com/Triang3l/S3TConv/blob/master/s3tconv_atitc.c
 	// The paper incorrectly says the ATC lerp factors are 1/3 and 2/3, but they are actually 3/8 and 5/8.
 	void unpack_atc(const void* pBlock_bits, color_rgba* pPixels)
 	{

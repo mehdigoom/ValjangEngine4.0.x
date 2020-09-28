@@ -18,7 +18,7 @@
   /*
    * The algorithm is based on akito's autohint patch, archived at
    *
-   * https://web.archive.org/web/20051219160454/http://www.kde.gr.jp:80/~akito/patch/freetype2/2.1.7/
+   * http://web.archive.org/web/20051219160454/http://www.kde.gr.jp:80/~akito/patch/freetype2/2.1.7/
    *
    */
 

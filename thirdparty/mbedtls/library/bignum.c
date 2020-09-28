@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 /*
@@ -55,10 +55,10 @@
  *
  *  [2] Multi-Precision Math
  *      Tom St Denis
- *      https://github.com/libtom/libtommath/blob/develop/tommath.pdf
+ *      http://github.com/libtom/libtommath/blob/develop/tommath.pdf
  *
  *  [3] GNU Multi-Precision Arithmetic Library
- *      https://gmplib.org/manual/index.html
+ *      http://gmplib.org/manual/index.html
  *
  */
 

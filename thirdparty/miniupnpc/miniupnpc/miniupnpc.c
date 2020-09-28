@@ -74,7 +74,7 @@
 #define SERVICEPREFIX2 'u'
 
 /* check if an ip address is a private (LAN) address
- * see https://tools.ietf.org/html/rfc1918 */
+ * see http://tools.ietf.org/html/rfc1918 */
 static int is_rfc1918addr(const char * addr)
 {
 	/* 192.168.0.0     -   192.168.255.255 (192.168/16 prefix) */

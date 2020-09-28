@@ -20,7 +20,7 @@
     Commandline:
         --profile="compatibility" --api="gl=3.3" --generator="c" --spec="gl" --extensions="GL_ARB_debug_output,GL_ARB_framebuffer_object,GL_EXT_framebuffer_blit,GL_EXT_framebuffer_multisample,GL_EXT_framebuffer_object"
     Online:
-        https://glad.dav1d.de/#profile=compatibility&language=c&specification=gl&loader=on&api=gl%3D3.3&extensions=GL_ARB_debug_output&extensions=GL_ARB_framebuffer_object&extensions=GL_EXT_framebuffer_blit&extensions=GL_EXT_framebuffer_multisample&extensions=GL_EXT_framebuffer_object
+        http://glad.dav1d.de/#profile=compatibility&language=c&specification=gl&loader=on&api=gl%3D3.3&extensions=GL_ARB_debug_output&extensions=GL_ARB_framebuffer_object&extensions=GL_EXT_framebuffer_blit&extensions=GL_EXT_framebuffer_multisample&extensions=GL_EXT_framebuffer_object
 */
 
 

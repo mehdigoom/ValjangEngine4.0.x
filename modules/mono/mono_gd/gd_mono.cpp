@@ -368,7 +368,7 @@ void GDMono::initialize() {
 #endif
 
 #if !defined(NO_MONO_THREADS_SUSPEND_WORKAROUND)
-	// FIXME: Temporary workaround. See: https://github.com/mehdigoom/ValjangEngine4.0.x/issues/29812
+	// FIXME: Temporary workaround. See: http://github.com/mehdigoom/ValjangEngine4.0.x/issues/29812
 	if (!OS::get_singleton()->has_environment("MONO_THREADS_SUSPEND")) {
 		OS::get_singleton()->set_environment("MONO_THREADS_SUSPEND", "preemptive");
 	}

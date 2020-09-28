@@ -6,7 +6,7 @@
 	<description>
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/tutorials/shading/visual_shaders.html</link>
+		<link>http://docs.valjang.fr/tutorials/shading/visual_shaders.html</link>
 	</tutorials>
 	<methods>
 		<method name="get_default_input_values" qualifiers="const">

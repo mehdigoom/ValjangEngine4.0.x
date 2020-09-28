@@ -13,8 +13,8 @@
 // responsibility to update it.
 //
 // From:
-// https://software.intel.com/sites/default/files/m/d/4/1/d/8/UsingIntelAVXToImplementIDCT-r1_5.pdf
-// https://software.intel.com/file/29048
+// http://software.intel.com/sites/default/files/m/d/4/1/d/8/UsingIntelAVXToImplementIDCT-r1_5.pdf
+// http://software.intel.com/file/29048
 //
 // Requires SSE
 //

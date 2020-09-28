@@ -46,7 +46,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 #ifndef MBEDTLS_SSL_H
 #define MBEDTLS_SSL_H
@@ -644,7 +644,7 @@ typedef struct mbedtls_ssl_flight_item mbedtls_ssl_flight_item;
  *
  * \note            For ECDSA signatures, the output format is the DER encoding
  *                  `Ecdsa-Sig-Value` defined in
- *                  [RFC 4492 section 5.4](https://tools.ietf.org/html/rfc4492#section-5.4).
+ *                  [RFC 4492 section 5.4](http://tools.ietf.org/html/rfc4492#section-5.4).
  *
  * \param ssl             The SSL connection instance. It should not be
  *                        modified other than via
@@ -1508,7 +1508,7 @@ void mbedtls_ssl_conf_read_timeout( mbedtls_ssl_config *conf, uint32_t timeout )
  *                 here, except if using an event-driven style.
  *
  * \note           See also the "DTLS tutorial" article in our knowledge base.
- *                 https://tls.mbed.org/kb/how-to/dtls-tutorial
+ *                 http://tls.mbed.org/kb/how-to/dtls-tutorial
  */
 void mbedtls_ssl_set_timer_cb( mbedtls_ssl_context *ssl,
                                void *p_timer,

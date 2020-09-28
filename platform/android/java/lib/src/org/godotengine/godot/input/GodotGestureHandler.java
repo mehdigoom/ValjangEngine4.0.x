@@ -39,7 +39,7 @@ import android.view.MotionEvent;
 
 /**
  * Handles gesture input related events for the {@link GodotRenderView} view.
- * https://developer.android.com/reference/android/view/GestureDetector.SimpleOnGestureListener
+ * http://developer.android.com/reference/android/view/GestureDetector.SimpleOnGestureListener
  */
 public class GodotGestureHandler extends GestureDetector.SimpleOnGestureListener {
 	private final GodotRenderView mRenderView;

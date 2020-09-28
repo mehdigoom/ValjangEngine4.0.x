@@ -46,7 +46,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 #ifndef MBEDTLS_ECJPAKE_H
 #define MBEDTLS_ECJPAKE_H
@@ -55,7 +55,7 @@
  * J-PAKE is a password-authenticated key exchange that allows deriving a
  * strong shared secret from a (potentially low entropy) pre-shared
  * passphrase, with forward secrecy and mutual authentication.
- * https://en.wikipedia.org/wiki/Password_Authenticated_Key_Exchange_by_Juggling
+ * http://en.wikipedia.org/wiki/Password_Authenticated_Key_Exchange_by_Juggling
  *
  * This file implements the Elliptic Curve variant of J-PAKE,
  * as defined in Chapter 7.4 of the Thread v1.0 Specification,

@@ -29,7 +29,7 @@
    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    You can contact the author at :
-   - xxHash source repository : https://github.com/Cyan4973/xxHash
+   - xxHash source repository : http://github.com/Cyan4973/xxHash
 */
 
 /* Notice extracted from xxHash homepage :

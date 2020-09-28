@@ -47,7 +47,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 /*
@@ -77,7 +77,7 @@
  *
  * [7] Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer
  *     Security (TLS), RFC 4492.
- *     <https://tools.ietf.org/search/rfc4492>
+ *     <http://tools.ietf.org/search/rfc4492>
  *
  * [8] <http://www.hyperelliptic.org/EFD/g1p/auto-shortw-jacobian.html>
  *

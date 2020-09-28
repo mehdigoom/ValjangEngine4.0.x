@@ -19,7 +19,7 @@ HEADER = """\
 msgid ""
 msgstr ""
 "Project-Id-Version: Valjang Engine class reference\\n"
-"Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\\n"
+"Report-Msgid-Bugs-To: http://github.com/mehdigoom/ValjangEngine4.0.x\\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"
 "Content-Transfer-Encoding: 8-bit\\n"
@@ -40,7 +40,7 @@ BASE_STRINGS = [
     "Method Descriptions",
 ]
 
-## <xml-line-number-hack from="https://stackoverflow.com/a/36430270/10846399">
+## <xml-line-number-hack from="http://stackoverflow.com/a/36430270/10846399">
 import sys
 
 sys.modules["_elementtree"] = None

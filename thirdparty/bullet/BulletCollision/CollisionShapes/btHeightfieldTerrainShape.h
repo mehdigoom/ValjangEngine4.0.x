@@ -160,7 +160,7 @@ public:
 
 	void setUseDiamondSubdivision(bool useDiamondSubdivision = true) { m_useDiamondSubdivision = useDiamondSubdivision; }
 
-	///could help compatibility with Ogre heightfields. See https://code.google.com/p/bullet/issues/detail?id=625
+	///could help compatibility with Ogre heightfields. See http://code.google.com/p/bullet/issues/detail?id=625
 	void setUseZigzagSubdivision(bool useZigzagSubdivision = true) { m_useZigzagSubdivision = useZigzagSubdivision; }
 
 	void setFlipTriangleWinding(bool flipTriangleWinding)

@@ -152,7 +152,7 @@ private:
 	enum Port {
 
 		PORT_HTTP = 80,
-		PORT_HTTPS = 443,
+		PORT_http = 443,
 
 	};
 

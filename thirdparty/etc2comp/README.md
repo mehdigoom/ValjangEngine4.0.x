@@ -1,7 +1,7 @@
 # Etc2Comp - Texture to ETC2 compressor
 
 Etc2Comp is a command line tool that converts textures (e.g. bitmaps)
-into the [ETC2](https://en.wikipedia.org/wiki/Ericsson_Texture_Compression)
+into the [ETC2](http://en.wikipedia.org/wiki/Ericsson_Texture_Compression)
 format. The tool is built with a focus on encoding performance
 to reduce the amount of time required to compile asset heavy applications as
 well as reduce overall application size.
@@ -14,7 +14,7 @@ library published as-is. Please see the CONTRIBUTORS.md file for information
 about questions or issues.
 
 ## Setup
-This project uses [CMake](https://cmake.org/) to generate platform-specific
+This project uses [CMake](http://cmake.org/) to generate platform-specific
 build files:
  - Linux: make files
  - OS X: Xcode workspace files
@@ -35,7 +35,7 @@ of how to use the library.
 Start by downloading and installing the following components if they are not
 already installed on your development machine.
  - *Xcode* version 5.1.1, or greater
- - [CMake](https://cmake.org/download/) version 3.2.3, or greater
+ - [CMake](http://cmake.org/download/) version 3.2.3, or greater
 
 To build the Etc2Comp binary:
  1. Open a *Terminal* window and navigate to the project directory.

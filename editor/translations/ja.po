@@ -1,7 +1,7 @@
 # Japanese translation of the Valjang Engine editor
 # Copyright (c) 2007-2020 Valjang.
 # Copyright (c) 2014-2020 Valjang Engine contributors (cf. AUTHORS.md).
-# This file is distributed under the same license as the Godot source code.
+# This file is distributed under the same license as the Valjang source code.
 # akirakido <achts.y@gmail.com>, 2016-2017, 2018, 2019.
 # D_first <dntk.daisei@gmail.com>, 2017, 2018.
 # Daisuke Saito <d.saito@coriginate.com>, 2017, 2018.
@@ -38,8 +38,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2020-07-28 09:51+0000\n"
 "Last-Translator: Wataru Onuki <bettawat@yahoo.co.jp>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/godot-engine/"
-"godot/ja/>\n"
+"Language-Team: Japanese <http://hosted.weblate.org/projects/Valjang-engine/"
+"Valjang/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1129,12 +1129,12 @@ msgid "Change Dictionary Value"
 msgstr "Dictionary 値の変更"
 
 #: editor/editor_about.cpp
-msgid "Thanks from the Godot community!"
-msgstr "Godot コミュニティより感謝を！"
+msgid "Thanks from the Valjang community!"
+msgstr "Valjang コミュニティより感謝を！"
 
 #: editor/editor_about.cpp
 msgid "Valjang Engine contributors"
-msgstr "Godot エンジンに貢献した人々"
+msgstr "Valjang エンジンに貢献した人々"
 
 #: editor/editor_about.cpp
 msgid "Project Founders"
@@ -1757,8 +1757,8 @@ msgid "Erase Profile"
 msgstr "プロファイルを消去"
 
 #: editor/editor_feature_profile.cpp
-msgid "Godot Feature Profile"
-msgstr "Godot機能プロファイル"
+msgid "Valjang Feature Profile"
+msgstr "Valjang機能プロファイル"
 
 #: editor/editor_feature_profile.cpp
 msgid "Import Profile(s)"
@@ -3595,8 +3595,8 @@ msgid "Select Template File"
 msgstr "テンプレートファイルを選択"
 
 #: editor/export_template_manager.cpp
-msgid "Godot Export Templates"
-msgstr "Godot エクスポート テンプレート"
+msgid "Valjang Export Templates"
+msgstr "Valjang エクスポート テンプレート"
 
 #: editor/export_template_manager.cpp
 msgid "Export Template Manager"
@@ -6855,8 +6855,8 @@ msgid "Debug with External Editor"
 msgstr "外部エディタでデバッグ"
 
 #: editor/plugins/script_editor_plugin.cpp
-msgid "Open Godot online documentation."
-msgstr "Godotのオンラインドキュメントを開く。"
+msgid "Open Valjang online documentation."
+msgstr "Valjangのオンラインドキュメントを開く。"
 
 #: editor/plugins/script_editor_plugin.cpp
 msgid "Search the reference documentation."
@@ -9292,11 +9292,11 @@ msgstr "ベクトルuniform。"
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, with custom amount of input and "
+"Custom Valjang Shader Language expression, with custom amount of input and "
 "output ports. This is a direct injection of code into the vertex/fragment/"
 "light function, do not use it to write the function declarations inside."
 msgstr ""
-"カスタムのGodotシェーダー言語式。カスタムの量の入出力ポートを持ちます。 これ"
+"カスタムのValjangシェーダー言語式。カスタムの量の入出力ポートを持ちます。 これ"
 "はvertex / fragment / light関数へのコードの直接注入です。内部で関数宣言を書く"
 "ためにそれを使用しないでください。"
 
@@ -9310,12 +9310,12 @@ msgstr ""
 
 #: editor/plugins/visual_shader_editor_plugin.cpp
 msgid ""
-"Custom Godot Shader Language expression, which is placed on top of the "
+"Custom Valjang Shader Language expression, which is placed on top of the "
 "resulted shader. You can place various function definitions inside and call "
 "it later in the Expressions. You can also declare varyings, uniforms and "
 "constants."
 msgstr ""
-"カスタムGodotシェーダー言語の表現は、シェーディング結果の最後に位置します。"
+"カスタムValjangシェーダー言語の表現は、シェーディング結果の最後に位置します。"
 "様々な関数をその中で定義し、表現の中で呼び出すことができます。またvarying変"
 "数、uniform変数、定数を宣言することができます。"
 
@@ -9576,8 +9576,8 @@ msgid "ZIP File"
 msgstr "ZIPファイル"
 
 #: editor/project_export.cpp
-msgid "Godot Game Pack"
-msgstr "Godotゲームパック"
+msgid "Valjang Game Pack"
+msgstr "Valjangゲームパック"
 
 #: editor/project_export.cpp
 msgid "Export templates for this platform are missing:"
@@ -9602,9 +9602,9 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Invalid \".zip\" project file; it doesn't contain a \"project.godot\" file."
+"Invalid \".zip\" project file; it doesn't contain a \"project.Valjang\" file."
 msgstr ""
-"無効な\".zip\"プロジェクトファイルです。\"project.godot\"ファイルが含まれてい"
+"無効な\".zip\"プロジェクトファイルです。\"project.Valjang\"ファイルが含まれてい"
 "ません。"
 
 #: editor/project_manager.cpp
@@ -9612,12 +9612,12 @@ msgid "Please choose an empty folder."
 msgstr "空のフォルダを選択してください。"
 
 #: editor/project_manager.cpp
-msgid "Please choose a \"project.godot\" or \".zip\" file."
-msgstr "\"project.godot\"または\".zip\"ファイルを選択してください。"
+msgid "Please choose a \"project.Valjang\" or \".zip\" file."
+msgstr "\"project.Valjang\"または\".zip\"ファイルを選択してください。"
 
 #: editor/project_manager.cpp
-msgid "This directory already contains a Godot project."
-msgstr "このディレクトリにはすでにGodotプロジェクトが含まれています。"
+msgid "This directory already contains a Valjang project."
+msgstr "このディレクトリにはすでにValjangプロジェクトが含まれています。"
 
 #: editor/project_manager.cpp
 msgid "New Game Project"
@@ -9649,19 +9649,19 @@ msgstr "無効なプロジェクトパスです (なにか変更がありまし�
 
 #: editor/project_manager.cpp
 msgid ""
-"Couldn't load project.godot in project path (error %d). It may be missing or "
+"Couldn't load project.Valjang in project path (error %d). It may be missing or "
 "corrupted."
 msgstr ""
-"プロジェクトパスの project.godot を読み込めませんでした。 (エラー %d)。見つか"
+"プロジェクトパスの project.Valjang を読み込めませんでした。 (エラー %d)。見つか"
 "らないか破損している可能性があります。"
 
 #: editor/project_manager.cpp
-msgid "Couldn't edit project.godot in project path."
-msgstr "プロジェクトパスの project.godot を編集できませんでした。"
+msgid "Couldn't edit project.Valjang in project path."
+msgstr "プロジェクトパスの project.Valjang を編集できませんでした。"
 
 #: editor/project_manager.cpp
-msgid "Couldn't create project.godot in project path."
-msgstr "project.godot をプロジェクトパスに生成できませんでした。"
+msgid "Couldn't create project.Valjang in project path."
+msgstr "project.Valjang をプロジェクトパスに生成できませんでした。"
 
 #: editor/project_manager.cpp
 msgid "Rename Project"
@@ -9766,22 +9766,22 @@ msgstr "複数のプロジェクトを開いてもよろしいですか?"
 
 #: editor/project_manager.cpp
 msgid ""
-"The following project settings file does not specify the version of Godot "
+"The following project settings file does not specify the version of Valjang "
 "through which it was created.\n"
 "\n"
 "%s\n"
 "\n"
-"If you proceed with opening it, it will be converted to Godot's current "
+"If you proceed with opening it, it will be converted to Valjang's current "
 "configuration file format.\n"
 "Warning: You won't be able to open the project with previous versions of the "
 "engine anymore."
 msgstr ""
-"次のプロジェクト設定ファイルには、作成に使用されたGodotのバージョンが指定され"
+"次のプロジェクト設定ファイルには、作成に使用されたValjangのバージョンが指定され"
 "ていません。\n"
 "\n"
 "%s\n"
 "\n"
-"ファイルを開くと、Godotの現在の設定ファイル形式に変換されます。\n"
+"ファイルを開くと、Valjangの現在の設定ファイル形式に変換されます。\n"
 "警告: 以前のバージョンのエンジンではプロジェクトを開けなくなります。"
 
 #: editor/project_manager.cpp
@@ -9868,10 +9868,10 @@ msgstr ""
 
 #: editor/project_manager.cpp
 msgid ""
-"Are you sure to scan %s folders for existing Godot projects?\n"
+"Are you sure to scan %s folders for existing Valjang projects?\n"
 "This could take a while."
 msgstr ""
-"既存のGodotプロジェクトの%sフォルダをスキャンしますか?\n"
+"既存のValjangプロジェクトの%sフォルダをスキャンしますか?\n"
 "これにはしばらく時間がかかります。"
 
 #: editor/project_manager.cpp
@@ -10158,8 +10158,8 @@ msgid "Changed Locale Filter Mode"
 msgstr "ロケールフィルタモードの変更"
 
 #: editor/project_settings_editor.cpp
-msgid "Project Settings (project.godot)"
-msgstr "プロジェクト設定 (project.godot)"
+msgid "Project Settings (project.Valjang)"
+msgstr "プロジェクト設定 (project.Valjang)"
 
 #: editor/project_settings_editor.cpp editor/settings_config_dialog.cpp
 msgid "General"
@@ -11986,11 +11986,11 @@ msgstr "無効なパッケージ名:"
 
 #: platform/android/export/export.cpp
 msgid ""
-"Invalid \"GodotPaymentV3\" module included in the \"android/modules\" "
-"project setting (changed in Godot 3.2.2).\n"
+"Invalid \"ValjangPaymentV3\" module included in the \"android/modules\" "
+"project setting (changed in Valjang 3.2.2).\n"
 msgstr ""
-"「android/modules」に含まれる「GodotPaymentV3」モジュールのプロジェクト設定が"
-"無効です (Godot 3.2.2 にて変更)。\n"
+"「android/modules」に含まれる「ValjangPaymentV3」モジュールのプロジェクト設定が"
+"無効です (Valjang 3.2.2 にて変更)。\n"
 
 #: platform/android/export/export.cpp
 msgid "\"Use Custom Build\" must be enabled to use the plugins."
@@ -12032,12 +12032,12 @@ msgstr ""
 msgid ""
 "Android build version mismatch:\n"
 "   Template installed: %s\n"
-"   Godot Version: %s\n"
+"   Valjang Version: %s\n"
 "Please reinstall Android build template from 'Project' menu."
 msgstr ""
 "Androidビルド バージョンの不一致:\n"
 "  インストールされたテンプレート: %s\n"
-"  Godot バージョン: %s\n"
+"  Valjang バージョン: %s\n"
 "「プロジェクト 」メニューからAndroidビルドテンプレートを再インストールしてく"
 "ださい。"
 
@@ -12832,9 +12832,9 @@ msgstr "定数は変更できません。"
 #~ msgid "Request Docs"
 #~ msgstr "ドキュメントを要求"
 
-#~ msgid "Help improve the Godot documentation by giving feedback."
+#~ msgid "Help improve the Valjang documentation by giving feedback."
 #~ msgstr ""
-#~ "フィードバックを提供して、Godotのドキュメントの改善に役立ててください。"
+#~ "フィードバックを提供して、Valjangのドキュメントの改善に役立ててください。"
 
 #~ msgid "Replaced %d occurrence(s)."
 #~ msgstr "%d 箇所を置換しました。"
@@ -13734,12 +13734,12 @@ msgstr "定数は変更できません。"
 #~ msgstr "ファイルに書き込みできませんでした."
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in project path."
-#~ msgstr "project.godotをプロジェクトパスに生成できませんでした"
+#~ msgid "Couldn't get project.Valjang in project path."
+#~ msgstr "project.Valjangをプロジェクトパスに生成できませんでした"
 
 #, fuzzy
-#~ msgid "Couldn't get project.godot in the project path."
-#~ msgstr "project.godotをプロジェクトパスに生成できませんでした"
+#~ msgid "Couldn't get project.Valjang in the project path."
+#~ msgstr "project.Valjangをプロジェクトパスに生成できませんでした"
 
 #~ msgid "Not found!"
 #~ msgstr "見つかりません!"
@@ -14002,10 +14002,10 @@ msgstr "定数は変更できません。"
 
 #, fuzzy
 #~ msgid ""
-#~ "This file is already a Godot font file, please supply a BMFont type file "
+#~ "This file is already a Valjang font file, please supply a BMFont type file "
 #~ "instead."
 #~ msgstr ""
-#~ "このファイルはもうGodotのフォントファイルです. BMFont type のファイルを代"
+#~ "このファイルはもうValjangのフォントファイルです. BMFont type のファイルを代"
 #~ "わりに利用してください."
 
 #, fuzzy
@@ -14320,8 +14320,8 @@ msgstr "定数は変更できません。"
 #~ msgstr "最初の行を無視"
 
 #, fuzzy
-#~ msgid "Add to Project (project.godot)"
-#~ msgstr "プロジェクトに追加 (project.godot)"
+#~ msgid "Add to Project (project.Valjang)"
+#~ msgstr "プロジェクトに追加 (project.Valjang)"
 
 #, fuzzy
 #~ msgid "Import Languages:"
@@ -14408,13 +14408,13 @@ msgstr "定数は変更できません。"
 #~ msgstr "パスが不正です.パスが存在しないといけません."
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must not exist."
-#~ msgstr "プロジェクトのパスが不正です.project.godotは存在しません."
+#~ msgid "Invalid project path, project.Valjang must not exist."
+#~ msgstr "プロジェクトのパスが不正です.project.Valjangは存在しません."
 
 #, fuzzy
-#~ msgid "Invalid project path, project.godot must exist."
+#~ msgid "Invalid project path, project.Valjang must exist."
 #~ msgstr ""
-#~ "プロジェクトのパスが不正です.project.godotは存在する必要があります。"
+#~ "プロジェクトのパスが不正です.project.Valjangは存在する必要があります。"
 
 #, fuzzy
 #~ msgid "Project Path (Must Exist):"

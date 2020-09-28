@@ -644,7 +644,7 @@ FT_BEGIN_HEADER
    *    fields are already in use by other platforms (e.g. Newton).  For
    *    details, please see
    *
-   *    https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bloc.html
+   *    http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bloc.html
    *
    *  hori ::
    *    The line metrics for horizontal layouts.
@@ -670,7 +670,7 @@ FT_BEGIN_HEADER
    *  flags ::
    *    Is this a vertical or horizontal strike?  For details, please see
    *
-   *    https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bloc.html
+   *    http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bloc.html
    */
   typedef struct  TT_SBit_StrikeRec_
   {

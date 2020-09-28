@@ -398,7 +398,7 @@ if selected_platform in platform_list:
 
     if methods.using_gcc(env):
         # GCC 8 before 8.4 has a regression in the support of guaranteed copy elision
-        # which causes a build failure: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=86521
+        # which causes a build failure: http://gcc.gnu.org/bugzilla/show_bug.cgi?id=86521
         if cc_version_major == 8 and cc_version_minor < 4:
             print(
                 "Detected GCC 8 version < 8.4, which is not supported due to a "
@@ -417,7 +417,7 @@ if selected_platform in platform_list:
             Exit(255)
     elif methods.using_clang(env):
         # Apple LLVM versions differ from upstream LLVM version \o/, compare
-        # in https://en.wikipedia.org/wiki/Xcode#Toolchain_versions
+        # in http://en.wikipedia.org/wiki/Xcode#Toolchain_versions
         if env["platform"] == "osx" or env["platform"] == "iphone":
             vanilla = methods.is_vanilla_clang(env)
             if vanilla and cc_version_major < 6:

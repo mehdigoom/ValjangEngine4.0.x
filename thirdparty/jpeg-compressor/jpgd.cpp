@@ -2952,7 +2952,7 @@ namespace jpgd {
 			m_ac_coeffs[i] = coeff_buf_open(m_max_mcus_per_row * m_comp_h_samp[i], m_max_mcus_per_col * m_comp_v_samp[i], 8, 8);
 		}
 
-		// See https://libjpeg-turbo.org/pmwiki/uploads/About/TwoIssueswiththeJPEGStandard.pdf
+		// See http://libjpeg-turbo.org/pmwiki/uploads/About/TwoIssueswiththeJPEGStandard.pdf
 		uint32_t total_scans = 0;
 		const uint32_t MAX_SCANS_TO_PROCESS = 1000;
 

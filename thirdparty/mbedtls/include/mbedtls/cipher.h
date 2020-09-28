@@ -50,7 +50,7 @@
  *
  *  **********
  *
- *  This file is part of Mbed TLS (https://tls.mbed.org)
+ *  This file is part of Mbed TLS (http://tls.mbed.org)
  */
 
 #ifndef MBEDTLS_CIPHER_H

@@ -26,7 +26,7 @@ Call internalStepSimulation multiple times, to achieve 240Hz (4 steps of 60Hz).
 3b. 5 Newton steps (multiple step). Conjugent Gradient solves linear system. Deformable Damping: Then velocities of deformable bodies v_{n+1} are solved in
         M(v_{n+1} - v_{n+1}^*) = damping_force * dt / mass,
    by a conjugate gradient solver, where the damping force is implicit and depends on v_{n+1}.
-   Make sure contact constraints are not violated in step b by performing velocity projections as in the paper by Baraff and Witkin https://www.cs.cmu.edu/~baraff/papers/sig98.pdf. Dynamic frictions are treated as a force and added to the rhs of the CG solve, whereas static frictions are treated as constraints similar to contact.
+   Make sure contact constraints are not violated in step b by performing velocity projections as in the paper by Baraff and Witkin http://www.cs.cmu.edu/~baraff/papers/sig98.pdf. Dynamic frictions are treated as a force and added to the rhs of the CG solve, whereas static frictions are treated as constraints similar to contact.
 4. Position is updated via x_{n+1} = x_n + dt * v_{n+1}.
 
 

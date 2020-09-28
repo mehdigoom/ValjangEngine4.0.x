@@ -97,7 +97,7 @@ namespace {
 
     // Initially, we did reinterpret_cast, breaking strict aliasing rules.
     // This actually caused trouble on Android, so let's be safe this time.
-    // https://github.com/assimp/assimp/issues/24
+    // http://github.com/assimp/assimp/issues/24
     template <typename T>
     T SafeParse(const char* data, const char* end) {
         // Actual size validation happens during Tokenization so

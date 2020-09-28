@@ -234,12 +234,12 @@ class ClassStatus:
         )
 
         if self.name.startswith("Total"):
-            output["url"] = color("url", "https://docs.valjang.fr/classes/")
+            output["url"] = color("url", "http://docs.valjang.fr/classes/")
             if flags["s"]:
                 output["comment"] = color("part_good", "ALL OK")
         else:
             output["url"] = color(
-                "url", "https://docs.valjang.fr/classes/class_{name}.html".format(name=self.name.lower())
+                "url", "http://docs.valjang.fr/classes/class_{name}.html".format(name=self.name.lower())
             )
 
             if flags["s"] and not flags["g"] and self.is_ok():

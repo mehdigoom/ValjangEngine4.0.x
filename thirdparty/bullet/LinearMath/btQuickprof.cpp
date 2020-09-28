@@ -171,7 +171,7 @@ unsigned long long int btClock::getTimeMilliseconds()
 unsigned long long int btClock::getTimeMicroseconds()
 {
 #ifdef BT_USE_WINDOWS_TIMERS
-	//see https://msdn.microsoft.com/en-us/library/windows/desktop/dn553408(v=vs.85).aspx
+	//see http://msdn.microsoft.com/en-us/library/windows/desktop/dn553408(v=vs.85).aspx
 	LARGE_INTEGER currentTime, elapsedTime;
 
 	QueryPerformanceCounter(&currentTime);
@@ -205,7 +205,7 @@ unsigned long long int btClock::getTimeMicroseconds()
 unsigned long long int btClock::getTimeNanoseconds()
 {
 #ifdef BT_USE_WINDOWS_TIMERS
-	//see https://msdn.microsoft.com/en-us/library/windows/desktop/dn553408(v=vs.85).aspx
+	//see http://msdn.microsoft.com/en-us/library/windows/desktop/dn553408(v=vs.85).aspx
 	LARGE_INTEGER currentTime, elapsedTime;
 
 	QueryPerformanceCounter(&currentTime);
@@ -723,7 +723,7 @@ void btLeaveProfileZoneDefault()
 #endif
 
 // __thread is broken on Andorid clang until r12b. See
-// https://github.com/android-ndk/ndk/issues/8
+// http://github.com/android-ndk/ndk/issues/8
 #if defined(__ANDROID__) && defined(__clang__)
   #if __has_include(<android/ndk-version.h>)
     #include <android/ndk-version.h>

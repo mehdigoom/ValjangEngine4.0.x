@@ -695,7 +695,7 @@ class EditorExportPlatformUWP : public EditorExportPlatform {
 			return true;
 		}
 
-		// Colors from https://msdn.microsoft.com/en-us/library/windows/apps/dn934817.aspx
+		// Colors from http://msdn.microsoft.com/en-us/library/windows/apps/dn934817.aspx
 		static const char *valid_colors[] = {
 			"aliceBlue", "antiqueWhite", "aqua", "aquamarine", "azure", "beige",
 			"bisque", "black", "blanchedAlmond", "blue", "blueViolet", "brown",
@@ -926,7 +926,7 @@ class EditorExportPlatformUWP : public EditorExportPlatform {
 		// -- Unconditional uncompress to mimic AAPT plus some other
 
 		static const char *unconditional_compress_ext[] = {
-			// From https://github.com/android/platform_frameworks_base/blob/master/tools/aapt/Package.cpp
+			// From http://github.com/android/platform_frameworks_base/blob/master/tools/aapt/Package.cpp
 			// These formats are already compressed, or don't compress well:
 			".jpg", ".jpeg", ".png", ".gif",
 			".wav", ".mp2", ".mp3", ".ogg", ".aac",

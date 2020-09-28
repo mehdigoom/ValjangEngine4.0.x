@@ -43,7 +43,7 @@
 			<argument index="1" name="deviation" type="float" default="1.0">
 			</argument>
 			<description>
-				Generates a [url=https://en.wikipedia.org/wiki/Normal_distribution]normally-distributed[/url] pseudo-random number, using Box-Muller transform with the specified [code]mean[/code] and a standard [code]deviation[/code]. This is also called Gaussian distribution.
+				Generates a [url=http://en.wikipedia.org/wiki/Normal_distribution]normally-distributed[/url] pseudo-random number, using Box-Muller transform with the specified [code]mean[/code] and a standard [code]deviation[/code]. This is also called Gaussian distribution.
 			</description>
 		</method>
 		<method name="randi">

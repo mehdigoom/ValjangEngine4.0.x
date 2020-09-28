@@ -37,7 +37,7 @@ subject to the following restrictions:
 /// getNumHardwareThreads()
 ///
 ///
-/// https://stackoverflow.com/questions/150355/programmatically-find-the-number-of-cores-on-a-machine
+/// http://stackoverflow.com/questions/150355/programmatically-find-the-number-of-cores-on-a-machine
 ///
 #if __cplusplus >= 201103L
 

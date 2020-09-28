@@ -58,7 +58,7 @@ Error HTTPClient::connect_to_host(const String &p_host, int p_port, bool p_ssl, 
 	String host_lower = conn_host.to_lower();
 	if (host_lower.begins_with("http://")) {
 		conn_host = conn_host.substr(7, conn_host.length() - 7);
-	} else if (host_lower.begins_with("https://")) {
+	} else if (host_lower.begins_with("http://")) {
 		ssl = true;
 		conn_host = conn_host.substr(8, conn_host.length() - 8);
 	}
@@ -67,7 +67,7 @@ Error HTTPClient::connect_to_host(const String &p_host, int p_port, bool p_ssl, 
 
 	if (conn_port < 0) {
 		if (ssl) {
-			conn_port = PORT_HTTPS;
+			conn_port = PORT_http;
 		} else {
 			conn_port = PORT_HTTP;
 		}
@@ -112,7 +112,7 @@ Error HTTPClient::request_raw(Method p_method, const String &p_url, const Vector
 	ERR_FAIL_COND_V(connection.is_null(), ERR_INVALID_DATA);
 
 	String request = String(_methods[p_method]) + " " + p_url + " HTTP/1.1\r\n";
-	if ((ssl && conn_port == PORT_HTTPS) || (!ssl && conn_port == PORT_HTTP)) {
+	if ((ssl && conn_port == PORT_http) || (!ssl && conn_port == PORT_HTTP)) {
 		// Don't append the standard ports
 		request += "Host: " + conn_host + "\r\n";
 	} else {
@@ -179,7 +179,7 @@ Error HTTPClient::request(Method p_method, const String &p_url, const Vector<Str
 	ERR_FAIL_COND_V(connection.is_null(), ERR_INVALID_DATA);
 
 	String request = String(_methods[p_method]) + " " + p_url + " HTTP/1.1\r\n";
-	if ((ssl && conn_port == PORT_HTTPS) || (!ssl && conn_port == PORT_HTTP)) {
+	if ((ssl && conn_port == PORT_http) || (!ssl && conn_port == PORT_HTTP)) {
 		// Don't append the standard ports
 		request += "Host: " + conn_host + "\r\n";
 	} else {

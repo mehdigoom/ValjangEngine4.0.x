@@ -1084,7 +1084,7 @@ void btGeneric6DofSpring2Constraint::setServoTarget(int index, btScalar targetOr
 	else
 	{
 		//wrap between -PI and PI, see also
-		//https://stackoverflow.com/questions/4633177/c-how-to-wrap-a-float-to-the-interval-pi-pi
+		//http://stackoverflow.com/questions/4633177/c-how-to-wrap-a-float-to-the-interval-pi-pi
 
 		btScalar target = targetOrg + SIMD_PI;
 		if (1)

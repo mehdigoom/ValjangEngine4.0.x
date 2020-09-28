@@ -1192,7 +1192,7 @@ void DisplayServerX11::_set_wm_maximized(WindowID p_window, bool p_enabled) {
 	if (p_enabled && window_is_maximize_allowed(p_window)) {
 		// Wait for effective resizing (so the GLX context is too).
 		// Give up after 0.5s, it's not going to happen on this WM.
-		// https://github.com/mehdigoom/ValjangEngine4.0.x/issues/19978
+		// http://github.com/mehdigoom/ValjangEngine4.0.x/issues/19978
 		for (int attempt = 0; window_get_mode(p_window) != WINDOW_MODE_MAXIMIZED && attempt < 50; attempt++) {
 			usleep(10000);
 		}
@@ -2493,7 +2493,7 @@ void DisplayServerX11::process_events() {
 							values++;
 						}
 
-						// https://bugs.freedesktop.org/show_bug.cgi?id=71609
+						// http://bugs.freedesktop.org/show_bug.cgi?id=71609
 						// http://lists.libsdl.org/pipermail/commits-libsdl.org/2015-June/000282.html
 						if (raw_event->time == xi.last_relative_time && rel_x == xi.relative_motion.x && rel_y == xi.relative_motion.y) {
 							break; // Flush duplicate to avoid overly fast motion

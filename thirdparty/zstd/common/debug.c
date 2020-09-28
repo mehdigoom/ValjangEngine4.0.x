@@ -29,7 +29,7 @@
    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    You can contact the author at :
-   - Source repository : https://github.com/Cyan4973/FiniteStateEntropy
+   - Source repository : http://github.com/Cyan4973/FiniteStateEntropy
 ****************************************************************** */
 
 

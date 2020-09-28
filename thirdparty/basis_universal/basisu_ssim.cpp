@@ -317,7 +317,7 @@ namespace basisu
 		return avg;
 	}
 		
-	// Reference: https://ece.uwaterloo.ca/~z70wang/research/ssim/index.html
+	// Reference: http://ece.uwaterloo.ca/~z70wang/research/ssim/index.html
 	vec4F compute_ssim(const imagef &a, const imagef &b)
 	{
 		imagef axb, a_sq, b_sq, mu1, mu2, mu1_sq, mu2_sq, mu1_mu2, s1_sq, s2_sq, s12, smap, t1, t2, t3;

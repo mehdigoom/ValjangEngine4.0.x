@@ -20,7 +20,7 @@
  * The SVG parser is based on Anti-Grain Geometry 2.4 SVG example
  * Copyright (C) 2002-2004 Maxim Shemanarev (McSeem) (http://www.antigrain.com/)
  *
- * Arc calculation code based on canvg (https://code.google.com/p/canvg/)
+ * Arc calculation code based on canvg (http://code.google.com/p/canvg/)
  *
  * Bounding box calculation based on http://blog.hackers-cafe.net/2009/06/how-to-calculate-bezier-curves-bounding.html
  *
@@ -2066,7 +2066,7 @@ static float nsvg__vecang(float ux, float uy, float vx, float vy)
 
 static void nsvg__pathArcTo(NSVGparser* p, float* cpx, float* cpy, float* args, int rel)
 {
-	// Ported from canvg (https://code.google.com/p/canvg/)
+	// Ported from canvg (http://code.google.com/p/canvg/)
 	float rx, ry, rotx;
 	float x1, y1, x2, y2, cx, cy, dx, dy, d;
 	float x1p, y1p, cxp, cyp, s, sa, sb;

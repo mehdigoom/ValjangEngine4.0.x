@@ -43,7 +43,7 @@ void Quat::set_euler_xyz(const Vector3 &p_euler) {
 	real_t half_a3 = p_euler.z * 0.5;
 
 	// R = X(a1).Y(a2).Z(a3) convention for Euler angles.
-	// Conversion to quaternion as listed in https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf (page A-2)
+	// Conversion to quaternion as listed in http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf (page A-2)
 	// a3 is the angle of the first rotation, following the notation in this reference.
 
 	real_t cos_a1 = Math::cos(half_a1);
@@ -78,7 +78,7 @@ void Quat::set_euler_yxz(const Vector3 &p_euler) {
 	real_t half_a3 = p_euler.z * 0.5;
 
 	// R = Y(a1).X(a2).Z(a3) convention for Euler angles.
-	// Conversion to quaternion as listed in https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf (page A-6)
+	// Conversion to quaternion as listed in http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf (page A-6)
 	// a3 is the angle of the first rotation, following the notation in this reference.
 
 	real_t cos_a1 = Math::cos(half_a1);

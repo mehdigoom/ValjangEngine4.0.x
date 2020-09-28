@@ -1,6 +1,6 @@
 rm -rf ../../thirdparty/assimp
 cd ../../thirdparty/
-git clone https://github.com/assimp/assimp.git
+git clone http://github.com/assimp/assimp.git
 cd assimp
 rm -rf code/3DSExporter.h
 rm -rf code/3DSLoader.h

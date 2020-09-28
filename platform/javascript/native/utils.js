@@ -37,7 +37,7 @@ Module['copyToFS'] = function(path, buffer) {
 	try {
 		FS.stat(dir);
 	} catch (e) {
-		if (e.errno !== ERRNO_CODES.ENOENT) { // 'ENOENT', see https://github.com/emscripten-core/emscripten/blob/master/system/lib/libc/musl/arch/emscripten/bits/errno.h
+		if (e.errno !== ERRNO_CODES.ENOENT) { // 'ENOENT', see http://github.com/emscripten-core/emscripten/blob/master/system/lib/libc/musl/arch/emscripten/bits/errno.h
 			throw e;
 		}
 		FS.mkdirTree(dir);

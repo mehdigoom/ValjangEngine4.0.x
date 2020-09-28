@@ -421,7 +421,7 @@ void Basis::get_rotation_axis_angle_local(Vector3 &p_axis, real_t &p_angle) cons
 // around the z-axis by a and so on.
 Vector3 Basis::get_euler_xyz() const {
 	// Euler angles in XYZ convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cy*cz          -cy*sz           sy
 	//        cz*sx*sy+cx*sz  cx*cz-sx*sy*sz -cy*sx
@@ -480,7 +480,7 @@ void Basis::set_euler_xyz(const Vector3 &p_euler) {
 
 Vector3 Basis::get_euler_xzy() const {
 	// Euler angles in XZY convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cz*cy             -sz             cz*sy
 	//        sx*sy+cx*cy*sz    cx*cz           cx*sz*sy-cy*sx
@@ -528,7 +528,7 @@ void Basis::set_euler_xzy(const Vector3 &p_euler) {
 
 Vector3 Basis::get_euler_yzx() const {
 	// Euler angles in YZX convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cy*cz             sy*sx-cy*cx*sz     cx*sy+cy*sz*sx
 	//        sz                cz*cx              -cz*sx
@@ -579,7 +579,7 @@ void Basis::set_euler_yzx(const Vector3 &p_euler) {
 // as the x, y, and z components of a Vector3 respectively.
 Vector3 Basis::get_euler_yxz() const {
 	// Euler angles in YXZ convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cy*cz+sy*sx*sz    cz*sy*sx-cy*sz        cx*sy
 	//        cx*sz             cx*cz                 -sx
@@ -641,7 +641,7 @@ void Basis::set_euler_yxz(const Vector3 &p_euler) {
 
 Vector3 Basis::get_euler_zxy() const {
 	// Euler angles in ZXY convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cz*cy-sz*sx*sy    -cx*sz                cz*sy+cy*sz*sx
 	//        cy*sz+cz*sx*sy    cz*cx                 sz*sy-cz*cy*sx
@@ -688,7 +688,7 @@ void Basis::set_euler_zxy(const Vector3 &p_euler) {
 
 Vector3 Basis::get_euler_zyx() const {
 	// Euler angles in ZYX convention.
-	// See https://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
+	// See http://en.wikipedia.org/wiki/Euler_angles#Rotation_matrix
 	//
 	// rot =  cz*cy             cz*sy*sx-cx*sz        sz*sx+cz*cx*cy
 	//        cy*sz             cz*cx+sz*sy*sx        cx*sz*sy-cz*sx
@@ -968,7 +968,7 @@ void Basis::set_quat(const Quat &p_quat) {
 }
 
 void Basis::set_axis_angle(const Vector3 &p_axis, real_t p_phi) {
-// Rotation matrix from axis and angle, see https://en.wikipedia.org/wiki/Rotation_matrix#Rotation_matrix_from_axis_angle
+// Rotation matrix from axis and angle, see http://en.wikipedia.org/wiki/Rotation_matrix#Rotation_matrix_from_axis_angle
 #ifdef MATH_CHECKS
 	ERR_FAIL_COND_MSG(!p_axis.is_normalized(), "The axis Vector3 must be normalized.");
 #endif

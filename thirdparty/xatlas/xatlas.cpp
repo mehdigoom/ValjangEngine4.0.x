@@ -23,13 +23,13 @@ SOFTWARE.
 */
 /*
 thekla_atlas
-https://github.com/Thekla/thekla_atlas
+http://github.com/Thekla/thekla_atlas
 MIT License
 Copyright (c) 2013 Thekla, Inc
 Copyright NVIDIA Corporation 2006 -- Ignacio Castano <icastano@nvidia.com>
 
 Fast-BVH
-https://github.com/brandonpelfrey/Fast-BVH
+http://github.com/brandonpelfrey/Fast-BVH
 MIT License
 Copyright (c) 2012 Brandon Pelfrey
 */
@@ -944,7 +944,7 @@ static bool pointInTriangle(const Vector3 &p, const Vector3 &a, const Vector3 &b
 }
 
 #if XA_CLOSE_HOLES_CHECK_EDGE_INTERSECTION
-// https://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm
+// http://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm
 static bool rayIntersectsTriangle(const Vector3 &rayOrigin, const Vector3 &rayDir, const Vector3 *tri, float *t)
 {
 	*t = 0.0f;
@@ -1663,7 +1663,7 @@ private:
 	// Fit a plane to a collection of points.
 	// Fast, and accurate to within a few degrees.
 	// Returns None if the points do not span a plane.
-	// https://www.ilikebigbits.com/2015_03_04_plane_from_points.html
+	// http://www.ilikebigbits.com/2015_03_04_plane_from_points.html
 	static bool computeLeastSquaresNormal(const Vector3 *points, uint32_t pointsCount, Vector3 *normal)
 	{
 		XA_DEBUG_ASSERT(pointsCount >= 3);

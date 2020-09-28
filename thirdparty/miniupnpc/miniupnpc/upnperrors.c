@@ -4,7 +4,7 @@
  * Author : Thomas BERNARD
  * copyright (c) 2007-2019 Thomas Bernard
  * All Right reserved.
- * http://miniupnp.free.fr/ or https://miniupnp.tuxfamily.org/
+ * http://miniupnp.free.fr/ or http://miniupnp.tuxfamily.org/
  * This software is subjet to the conditions detailed in the
  * provided LICENCE file. */
 #include <string.h>

@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 #if !defined(MBEDTLS_CONFIG_FILE)
@@ -819,7 +819,7 @@ static int pk_parse_key_pkcs1_der( mbedtls_rsa_context *rsa,
     * recalculating them which both reduces the overhead of loading
     * RSA private keys into memory and also avoids side channels which
     * can arise when computing those values, since all of D, P, and Q
-    * are secret. See https://eprint.iacr.org/2020/055 for a
+    * are secret. See http://eprint.iacr.org/2020/055 for a
     * description of one such attack.
     */
 

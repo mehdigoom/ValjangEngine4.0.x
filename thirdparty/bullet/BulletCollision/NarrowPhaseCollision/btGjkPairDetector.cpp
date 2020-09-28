@@ -731,7 +731,7 @@ void btGjkPairDetector::getClosestPointsNonVirtual(const ClosestPointInput &inpu
 	//See also "Real-time Collision Detection with Implicit Objects" by Leif Olvang
 	//Todo: integrate the simplex penetration check directly inside the Bullet btVoronoiSimplexSolver
 	//and remove this temporary code from libCCD
-	//this fixes issue https://github.com/bulletphysics/bullet3/issues/1703
+	//this fixes issue http://github.com/bulletphysics/bullet3/issues/1703
 	//note, for large differences in shapes, use double precision build!
 	{
 		btScalar squaredDistance = BT_LARGE_FLOAT;

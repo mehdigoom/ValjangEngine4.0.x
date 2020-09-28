@@ -13,7 +13,7 @@
 
 /**
  * Implementation taken from folly/CpuId.h
- * https://github.com/facebook/folly/blob/master/folly/CpuId.h
+ * http://github.com/facebook/folly/blob/master/folly/CpuId.h
  */
 
 #include <string.h>

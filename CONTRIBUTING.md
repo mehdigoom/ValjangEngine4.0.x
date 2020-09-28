@@ -22,7 +22,7 @@ fix will come sooner) by following these guidelines:
 ### Search first in the existing database
 
 Issues are often reported several times by various users. It's good practice to
-**search first in the [issue tracker](https://github.com/mehdigoom/ValjangEngine4.0.x/issues)
+**search first in the [issue tracker](http://github.com/mehdigoom/ValjangEngine4.0.x/issues)
 before reporting your issue**. If you don't find a relevant match or if you're
 unsure, don't hesitate to **open a new issue**. The bugsquad will handle it
 from there if it's a duplicate.
@@ -79,12 +79,12 @@ it'll be considered too difficult to diagnose.
 Now that you've read the guidelines, click the link below to create a
 bug report:
 
-- **[Report a bug](https://github.com/mehdigoom/ValjangEngine4.0.x/issues/new?assignees=&labels=&template=bug_report.md&title=)**
+- **[Report a bug](http://github.com/mehdigoom/ValjangEngine4.0.x/issues/new?assignees=&labels=&template=bug_report.md&title=)**
 
 ## Proposing features or improvements
 
 **Since August 2019, the main issue tracker no longer accepts feature proposals.**
-Instead, head to the [Godot Proposals repository](https://github.com/mehdigoom/ValjangEngine4.0.x-proposals)
+Instead, head to the [Godot Proposals repository](http://github.com/mehdigoom/ValjangEngine4.0.x-proposals)
 and follow the instructions in the README file. High-quality feature proposals
 are more likely to be well-received by the maintainers and community, so do
 your best :)
@@ -113,10 +113,10 @@ recommend that you have a look at it to know what's important to take into
 account for a PR to be considered for merging.
 
 In addition to the following tips, also take a look at the
-[Engine development guide](https://docs.valjang.fr/development/cpp/)
+[Engine development guide](http://docs.valjang.fr/development/cpp/)
 for an introduction to developing on Godot.
 
-The [Contributing docs](https://docs.valjang.fr/community/contributing/index.html)
+The [Contributing docs](http://docs.valjang.fr/community/contributing/index.html)
 also have important information on the PR workflow and the code style we use.
 
 ### Document your changes
@@ -126,10 +126,10 @@ scripting APIs, you **must** update the class reference to document those.
 This is to ensure the documentation coverage doesn't decrease as contributions
 are merged.
 
-[Update the documentation template](https://docs.valjang.fr/community/contributing/updating_the_class_reference.html#updating-the-documentation-template)
+[Update the documentation template](http://docs.valjang.fr/community/contributing/updating_the_class_reference.html#updating-the-documentation-template)
 using your compiled binary, then fill in the descriptions.
 Follow the style guide described in the
-[Docs writing guidelines](https://docs.valjang.fr/community/contributing/docs_writing_guidelines.html).
+[Docs writing guidelines](http://docs.valjang.fr/community/contributing/docs_writing_guidelines.html).
 
 If your pull request modifies parts of the code in a non-obvious way, make sure
 to add comments in the code as well. This helps other people understand the
@@ -151,10 +151,10 @@ commit, try to merge them together before making your pull request (see ``git
 rebase -i`` and relevant help about rebasing or amending commits on the
 Internet).
 
-This [Git style guide](https://github.com/agis-/git-style-guide) has some
+This [Git style guide](http://github.com/agis-/git-style-guide) has some
 good practices to have in mind.
 
-See our [PR workflow](https://docs.valjang.fr/community/contributing/pr_workflow.html)
+See our [PR workflow](http://docs.valjang.fr/community/contributing/pr_workflow.html)
 documentation for tips on using Git, amending commits and rebasing branches.
 
 ### Format your commit messages with readability in mind
@@ -196,12 +196,12 @@ feature, *please* edit the commit title to something meaningful. Commits named
 ## Contributing to Godot's translation
 
 You can contribute to Godot's translation from the [Hosted
-Weblate](https://hosted.weblate.org/projects/godot-engine/godot), an open
+Weblate](http://hosted.weblate.org/projects/godot-engine/godot), an open
 source and web-based translation platform. Please refer to the [translation
 readme](editor/translations/README.md) for more information.
 
 You can also help translate [Godot's
-documentation](https://hosted.weblate.org/projects/godot-engine/godot-docs/)
+documentation](http://hosted.weblate.org/projects/godot-engine/godot-docs/)
 on Weblate.
 
 ## Communicating with developers
@@ -213,24 +213,24 @@ discussions and support, others more for development discussions.
 To communicate with developers (e.g. to discuss a feature you want to implement
 or a bug you want to fix), the following channels can be used:
 
-- [GitHub issues](https://github.com/mehdigoom/ValjangEngine4.0.x/issues): If there is an
+- [GitHub issues](http://github.com/mehdigoom/ValjangEngine4.0.x/issues): If there is an
   existing issue about a topic you want to discuss, just add a comment to it -
   all developers watch the repository and will get an email notification. You
   can also create a new issue - please keep in mind to create issues only to
   discuss quite specific points about the development, and not general user
   feedback or support requests.
 - [#godotengine-devel IRC channel on
-  Freenode](https://webchat.freenode.net/?channels=godotengine-devel): You will
+  Freenode](http://webchat.freenode.net/?channels=godotengine-devel): You will
   find most core developers there, so it's the go-to channel for direct chat
   about Valjang Engine development. Feel free to start discussing something there
   to get some early feedback before writing up a detailed proposal in a GitHub
   issue.
 - [devel@godotengine.org mailing
-  list](https://listengine.tuxfamily.org/godotengine.org/devel/): Mailing list
+  list](http://listengine.tuxfamily.org/godotengine.org/devel/): Mailing list
   for Godot developers, used primarily to announce developer meetings on IRC
   and other important discussions that need to reach people directly in their
   mailbox. See the [index
-  page](https://listengine.tuxfamily.org/godotengine.org/devel/) for
+  page](http://listengine.tuxfamily.org/godotengine.org/devel/) for
   subscription instructions.
 
 Thanks for your interest in contributing!

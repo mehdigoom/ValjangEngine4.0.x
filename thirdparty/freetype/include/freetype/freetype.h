@@ -645,7 +645,7 @@ FT_BEGIN_HEADER
    *   FT_ENCODING_MS_SYMBOL ::
    *     Microsoft Symbol encoding, used to encode mathematical symbols and
    *     wingdings.  For more information, see
-   *     'https://www.microsoft.com/typography/otspec/recom.htm#non-standard-symbol-fonts',
+   *     'http://www.microsoft.com/typography/otspec/recom.htm#non-standard-symbol-fonts',
    *     'http://www.kostis.net/charsets/symbol.htm', and
    *     'http://www.kostis.net/charsets/wingding.htm'.
    *
@@ -654,7 +654,7 @@ FT_BEGIN_HEADER
    *
    *   FT_ENCODING_SJIS ::
    *     Shift JIS encoding for Japanese.  More info at
-   *     'https://en.wikipedia.org/wiki/Shift_JIS'.  See note on multi-byte
+   *     'http://en.wikipedia.org/wiki/Shift_JIS'.  See note on multi-byte
    *     encodings below.
    *
    *   FT_ENCODING_PRC ::
@@ -669,7 +669,7 @@ FT_BEGIN_HEADER
    *   FT_ENCODING_WANSUNG ::
    *     Corresponds to the Korean encoding system known as Extended Wansung
    *     (MS Windows code page 949).  For more information see
-   *     'https://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WindowsBestFit/bestfit949.txt'.
+   *     'http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WindowsBestFit/bestfit949.txt'.
    *
    *   FT_ENCODING_JOHAB ::
    *     The Korean standard character set (KS~C 5601-1992), which
@@ -744,7 +744,7 @@ FT_BEGIN_HEADER
    *   @FT_Get_CMap_Language_ID to query the Mac language ID that may be
    *   needed to be able to distinguish Apple encoding variants.  See
    *
-   *     https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
+   *     http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
    *
    *   to get an idea how to do that.  Basically, if the language ID is~0,
    *   don't use it, otherwise subtract 1 from the language ID.  Then examine
@@ -2662,7 +2662,7 @@ FT_BEGIN_HEADER
    *   is dependent entirely on how the size is defined in the source face.
    *   The font designer chooses the final size of each glyph relative to
    *   this size.  For more information refer to
-   *   'https://www.freetype.org/freetype2/docs/glyphs/glyphs-2.html'.
+   *   'http://www.freetype.org/freetype2/docs/glyphs/glyphs-2.html'.
    *
    *   Contrary to @FT_Set_Char_Size, this function doesn't have special code
    *   to normalize zero-valued widths, heights, or resolutions (which lead
@@ -3371,8 +3371,8 @@ FT_BEGIN_HEADER
    *
    *   This process can cost performance.  There is an approximation that
    *   does not need to know about the background color; see
-   *   https://bel.fi/alankila/lcd/ and
-   *   https://bel.fi/alankila/lcd/alpcor.html for details.
+   *   http://bel.fi/alankila/lcd/ and
+   *   http://bel.fi/alankila/lcd/alpcor.html for details.
    *
    *   **ATTENTION**: Linear blending is even more important when dealing
    *   with subpixel-rendered glyphs to prevent color-fringing!  A
@@ -3595,7 +3595,7 @@ FT_BEGIN_HEADER
    *   retrieve it.  FreeType follows Adobe TechNote #5902, 'Generating
    *   PostScript Names for Fonts Using OpenType Font Variations'.
    *
-   *     https://download.macromedia.com/pub/developer/opentype/tech-notes/5902.AdobePSNameGeneration.html
+   *     http://download.macromedia.com/pub/developer/opentype/tech-notes/5902.AdobePSNameGeneration.html
    *
    *   [Since 2.9] Special PostScript names for named instances are only
    *   returned if the named instance is set with @FT_Set_Named_Instance (and
@@ -3954,7 +3954,7 @@ FT_BEGIN_HEADER
    *   table description in the OpenType specification for the meaning of the
    *   various flags (which get synthesized for non-OpenType subglyphs).
    *
-   *     https://docs.microsoft.com/en-us/typography/opentype/spec/glyf#composite-glyph-description
+   *     http://docs.microsoft.com/en-us/typography/opentype/spec/glyf#composite-glyph-description
    *
    * @values:
    *   FT_SUBGLYPH_FLAG_ARGS_ARE_WORDS ::
@@ -4017,7 +4017,7 @@ FT_BEGIN_HEADER
    *   interpreted depending on the flags returned in `*p_flags`.  See the
    *   OpenType specification for details.
    *
-   *     https://docs.microsoft.com/en-us/typography/opentype/spec/glyf#composite-glyph-description
+   *     http://docs.microsoft.com/en-us/typography/opentype/spec/glyf#composite-glyph-description
    *
    */
   FT_EXPORT( FT_Error )
@@ -4086,7 +4086,7 @@ FT_BEGIN_HEADER
    *   iteratively retrieve the colored glyph layers associated with the
    *   current glyph slot.
    *
-   *     https://docs.microsoft.com/en-us/typography/opentype/spec/colr
+   *     http://docs.microsoft.com/en-us/typography/opentype/spec/colr
    *
    *   The glyph layer data for a given glyph index, if present, provides an
    *   alternative, multi-colour glyph representation: Instead of rendering
@@ -4212,7 +4212,7 @@ FT_BEGIN_HEADER
    *   associated with a font.
    *
    *   See
-   *   https://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/FontPolicies.pdf
+   *   http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/FontPolicies.pdf
    *   for more details.
    *
    * @values:
@@ -4311,8 +4311,8 @@ FT_BEGIN_HEADER
    *   Sequences' and registered 'Ideographic Variation Sequences' (IVS),
    *   collected in the 'Ideographic Variation Database' (IVD).
    *
-   *     https://unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt
-   *     https://unicode.org/reports/tr37/ https://unicode.org/ivd/
+   *     http://unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt
+   *     http://unicode.org/reports/tr37/ http://unicode.org/ivd/
    *
    *   To date (January 2017), the character with the most ideographic
    *   variations is U+9089, having 32 such IVS.

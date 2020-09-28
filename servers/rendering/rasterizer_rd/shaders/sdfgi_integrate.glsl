@@ -94,7 +94,7 @@ float hashf3(vec3 co) {
 }
 
 vec3 octahedron_encode(vec2 f) {
-	// https://twitter.com/Stubbesaurus/status/937994790553227264
+	// http://twitter.com/Stubbesaurus/status/937994790553227264
 	f = f * 2.0 - 1.0;
 	vec3 n = vec3(f.x, f.y, 1.0f - abs(f.x) - abs(f.y));
 	float t = clamp(-n.z, 0.0, 1.0);

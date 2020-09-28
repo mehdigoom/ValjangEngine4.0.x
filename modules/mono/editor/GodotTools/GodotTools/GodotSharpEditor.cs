@@ -451,7 +451,7 @@ namespace GodotTools
                     "Bugs and usability issues will be addressed gradually over future releases, " +
                     "potentially including compatibility breaking changes as new features are implemented for a better overall C# experience.\n\n" +
                     "If you experience issues with this Mono build, please report them on Godot's issue tracker with details about your system, MSBuild version, IDE, etc.:\n\n" +
-                    "        https://github.com/mehdigoom/ValjangEngine4.0.x/issues\n\n" +
+                    "        http://github.com/mehdigoom/ValjangEngine4.0.x/issues\n\n" +
                     "Your critical feedback at this stage will play a great role in shaping the C# support in future releases, so thank you!";
 
                 EditorDef("mono/editor/show_info_on_start", true);

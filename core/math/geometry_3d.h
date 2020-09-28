@@ -947,7 +947,7 @@ public:
 	}
 
 	_FORCE_INLINE_ static Vector3 octahedron_map_decode(const Vector2 &p_uv) {
-		// https://twitter.com/Stubbesaurus/status/937994790553227264
+		// http://twitter.com/Stubbesaurus/status/937994790553227264
 		Vector2 f = p_uv * 2.0 - Vector2(1.0, 1.0);
 		Vector3 n = Vector3(f.x, f.y, 1.0f - Math::abs(f.x) - Math::abs(f.y));
 		float t = CLAMP(-n.z, 0.0, 1.0);

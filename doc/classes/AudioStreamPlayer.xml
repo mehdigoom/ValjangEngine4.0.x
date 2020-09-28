@@ -7,7 +7,7 @@
 		Plays an audio stream non-positionally.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/tutorials/audio/audio_streams.html</link>
+		<link>http://docs.valjang.fr/tutorials/audio/audio_streams.html</link>
 	</tutorials>
 	<methods>
 		<method name="get_playback_position">

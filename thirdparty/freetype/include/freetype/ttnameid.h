@@ -297,7 +297,7 @@ FT_BEGIN_HEADER
    *
    *   The canonical source for Apple's IDs is
    *
-   *     https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6name.html
+   *     http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6name.html
    */
 
 #define TT_MAC_LANGID_ENGLISH                       0
@@ -437,7 +437,7 @@ FT_BEGIN_HEADER
    *
    *   The canonical source for Microsoft's IDs is
    *
-   *     https://docs.microsoft.com/en-us/windows/desktop/Intl/language-identifier-constants-and-strings ,
+   *     http://docs.microsoft.com/en-us/windows/desktop/Intl/language-identifier-constants-and-strings ,
    *
    *   however, we only provide macros for language identifiers present in
    *   the OpenType specification: Microsoft has abandoned the concept of

@@ -1,6 +1,6 @@
 /**
  *  Adapted from Penner Easing equations' C++ port.
- *  Source: https://github.com/jesusgollonet/ofpennereasing
+ *  Source: http://github.com/jesusgollonet/ofpennereasing
  *  License: BSD-3-clause
  */
 

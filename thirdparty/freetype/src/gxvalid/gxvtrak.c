@@ -49,7 +49,7 @@
 
     /*
      * referred track table format specification:
-     * https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6trak.html
+     * http://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6trak.html
      * last update was 1996.
      * ----------------------------------------------
      * [MINIMUM HEADER]: GXV_TRAK_SIZE_MIN

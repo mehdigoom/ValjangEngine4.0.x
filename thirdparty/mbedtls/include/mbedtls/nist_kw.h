@@ -3,7 +3,7 @@
  *
  * \brief This file provides an API for key wrapping (KW) and key wrapping with
  *        padding (KWP) as defined in NIST SP 800-38F.
- *        https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38F.pdf
+ *        http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38F.pdf
  *
  *        Key wrapping specifies a deterministic authenticated-encryption mode
  *        of operation, according to <em>NIST SP 800-38F: Recommendation for
@@ -11,8 +11,8 @@
  *        purpose is to protect cryptographic keys.
  *
  *        Its equivalent is RFC 3394 for KW, and RFC 5649 for KWP.
- *        https://tools.ietf.org/html/rfc3394
- *        https://tools.ietf.org/html/rfc5649
+ *        http://tools.ietf.org/html/rfc3394
+ *        http://tools.ietf.org/html/rfc5649
  *
  */
 /*
@@ -58,7 +58,7 @@
  *
  *  **********
  *
- *  This file is part of Mbed TLS (https://tls.mbed.org)
+ *  This file is part of Mbed TLS (http://tls.mbed.org)
  */
 
 #ifndef MBEDTLS_NIST_KW_H

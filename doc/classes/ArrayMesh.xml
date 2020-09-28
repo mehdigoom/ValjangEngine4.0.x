@@ -23,10 +23,10 @@
 		[/codeblock]
 		The [MeshInstance3D] is ready to be added to the [SceneTree] to be shown.
 		See also [ImmediateGeometry3D], [MeshDataTool] and [SurfaceTool] for procedural geometry generation.
-		[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-OpenGL/Face-culling]winding order[/url] for front faces of triangle primitive modes.
+		[b]Note:[/b] Godot uses clockwise [url=http://learnopengl.com/Advanced-OpenGL/Face-culling]winding order[/url] for front faces of triangle primitive modes.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/tutorials/content/procedural_geometry/arraymesh.html</link>
+		<link>http://docs.valjang.fr/tutorials/content/procedural_geometry/arraymesh.html</link>
 	</tutorials>
 	<methods>
 		<method name="add_blend_shape">

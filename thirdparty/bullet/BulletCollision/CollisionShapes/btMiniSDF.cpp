@@ -1,7 +1,7 @@
 #include "btMiniSDF.h"
 
 //
-//Based on code from DiscreGrid, https://github.com/InteractiveComputerGraphics/Discregrid
+//Based on code from DiscreGrid, http://github.com/InteractiveComputerGraphics/Discregrid
 //example:
 //GenerateSDF.exe -r "32 32 32" -d "-1.6 -1.6 -.6 1.6 1.6 .6" concave_box.obj
 //The MIT License (MIT)

@@ -22,7 +22,7 @@
    *
    * `CPAL' table specification:
    *
-   *   https://www.microsoft.com/typography/otspec/cpal.htm
+   *   http://www.microsoft.com/typography/otspec/cpal.htm
    *
    */
 

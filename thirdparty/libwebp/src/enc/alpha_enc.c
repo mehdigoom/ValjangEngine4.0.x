@@ -84,7 +84,7 @@ static int EncodeLossless(const uint8_t* const data, int width, int height,
 
   // TODO(urvang): Temporary fix to avoid generating images that trigger
   // a decoder bug related to alpha with color cache.
-  // See: https://code.google.com/p/webp/issues/detail?id=239
+  // See: http://code.google.com/p/webp/issues/detail?id=239
   // Need to re-enable this later.
   ok = (VP8LEncodeStream(&config, &picture, bw, 0 /*use_cache*/) == VP8_ENC_OK);
   WebPPictureFree(&picture);

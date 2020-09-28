@@ -43,7 +43,7 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 /*
@@ -2230,8 +2230,8 @@ final_norm:
      * inversion (used for coordinate normalization) may leak the full value
      * of its input via side-channels [2].
      *
-     * [1] https://eprint.iacr.org/2003/191
-     * [2] https://eprint.iacr.org/2020/055
+     * [1] http://eprint.iacr.org/2003/191
+     * [2] http://eprint.iacr.org/2020/055
      *
      * Avoid the leak by randomizing coordinates before we normalize them.
      */
@@ -2671,8 +2671,8 @@ static int ecp_mul_mxz( mbedtls_ecp_group *grp, mbedtls_ecp_point *R,
      * inversion (used for coordinate normalization) may leak the full value
      * of its input via side-channels [2].
      *
-     * [1] https://eprint.iacr.org/2003/191
-     * [2] https://eprint.iacr.org/2020/055
+     * [1] http://eprint.iacr.org/2003/191
+     * [2] http://eprint.iacr.org/2020/055
      *
      * Avoid the leak by randomizing coordinates before we normalize them.
      */
@@ -3246,7 +3246,7 @@ cleanup:
 /*
  * There are no test vectors from NIST for the One-Step KDF in SP 800-56C,
  * but unofficial ones can be found at:
- * https://github.com/patrickfav/singlestep-kdf/wiki/NIST-SP-800-56C-Rev1:-Non-Official-Test-Vectors
+ * http://github.com/patrickfav/singlestep-kdf/wiki/NIST-SP-800-56C-Rev1:-Non-Official-Test-Vectors
  *
  * We only use the ones with empty fixedInfo, and for brevity's sake, only
  * 40-bytes output (with SHA-256 that's more than one block, and with SHA-512

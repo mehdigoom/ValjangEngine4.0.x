@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Valjang Engine class reference\n"
-"Report-Msgid-Bugs-To: https://github.com/mehdigoom/ValjangEngine4.0.x\n"
+"Report-Msgid-Bugs-To: http://github.com/mehdigoom/ValjangEngine4.0.x\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -3427,7 +3427,7 @@ msgstr ""
 #: doc/classes/Rect2i.xml:11 doc/classes/Transform.xml:10
 #: doc/classes/Vector2.xml:12 doc/classes/Vector2i.xml:12
 #: doc/classes/Vector3.xml:12 doc/classes/Vector3i.xml:12
-msgid "https://docs.valjang.fr/tutorials/math/index.html"
+msgid "http://docs.valjang.fr/tutorials/math/index.html"
 msgstr ""
 
 #: doc/classes/AABB.xml:21
@@ -3932,7 +3932,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Animation.xml:20 doc/classes/AnimationPlayer.xml:13
-msgid "https://docs.valjang.fr/tutorials/animation/index.html"
+msgid "http://docs.valjang.fr/tutorials/animation/index.html"
 msgstr ""
 
 #: doc/classes/Animation.xml:31
@@ -4374,7 +4374,7 @@ msgstr ""
 #: doc/classes/AnimationNodeTimeSeek.xml:10
 #: doc/classes/AnimationNodeTransition.xml:10 doc/classes/AnimationTree.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/animation/animation_tree."
+"http://docs.valjang.fr/tutorials/animation/animation_tree."
 "html"
 msgstr ""
 
@@ -5072,7 +5072,7 @@ msgstr ""
 msgid ""
 "Turn on auto advance when this condition is set. The provided name will "
 "become a boolean parameter on the [AnimationTree] that can be controlled "
-"from code (see [url=https://docs.valjang.fr/tutorials/"
+"from code (see [url=http://docs.valjang.fr/tutorials/"
 "animation/animation_tree.html#controlling-from-code][/url]). For example, if "
 "[member AnimationTree.tree_root] is an [AnimationNodeStateMachine] and "
 "[member advance_condition] is set to [code]\"idle\"[/code]:\n"
@@ -5192,7 +5192,7 @@ msgstr ""
 
 #: doc/classes/AnimationPlayer.xml:12
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "animations.html"
 msgstr ""
 
@@ -5459,7 +5459,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/AnimationTree.xml:11
-msgid "https://github.com/godotengine/tps-demo"
+msgid "http://github.com/godotengine/tps-demo"
 msgstr ""
 
 #: doc/classes/AnimationTree.xml:20
@@ -5534,7 +5534,7 @@ msgstr ""
 
 #: doc/classes/Area2D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/physics/using_area_2d.html"
+"http://docs.valjang.fr/tutorials/physics/using_area_2d.html"
 msgstr ""
 
 #: doc/classes/Area2D.xml:19
@@ -6221,14 +6221,14 @@ msgid ""
 "The [MeshInstance3D] is ready to be added to the [SceneTree] to be shown.\n"
 "See also [ImmediateGeometry3D], [MeshDataTool] and [SurfaceTool] for "
 "procedural geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] Godot uses clockwise [url=http://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
 
 #: doc/classes/ArrayMesh.xml:29
 msgid ""
-"https://docs.valjang.fr/tutorials/content/procedural_geometry/"
+"http://docs.valjang.fr/tutorials/content/procedural_geometry/"
 "arraymesh.html"
 msgstr ""
 
@@ -7429,7 +7429,7 @@ msgstr ""
 
 #: doc/classes/AudioEffectRecord.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/audio/"
+"http://docs.valjang.fr/tutorials/audio/"
 "recording_with_microphone.html"
 msgstr ""
 
@@ -7533,7 +7533,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/AudioServer.xml:10
-msgid "https://docs.valjang.fr/tutorials/audio/audio_buses.html"
+msgid "http://docs.valjang.fr/tutorials/audio/audio_buses.html"
 msgstr ""
 
 #: doc/classes/AudioServer.xml:19
@@ -7762,7 +7762,7 @@ msgstr ""
 #: doc/classes/AudioStreamPlayer2D.xml:10
 #: doc/classes/AudioStreamPlayer3D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/audio/audio_streams.html"
+"http://docs.valjang.fr/tutorials/audio/audio_streams.html"
 msgstr ""
 
 #: doc/classes/AudioStream.xml:17
@@ -7772,7 +7772,7 @@ msgstr ""
 #: doc/classes/AudioStreamGenerator.xml:8
 #: doc/classes/AudioStreamGeneratorPlayback.xml:8
 msgid ""
-"https://github.com/mehdigoom/ValjangEngine4.0.x-demo-projects/tree/master/audio/"
+"http://github.com/mehdigoom/ValjangEngine4.0.x-demo-projects/tree/master/audio/"
 "generator"
 msgstr ""
 
@@ -8369,7 +8369,7 @@ msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/spatial_material.html"
+"http://docs.valjang.fr/tutorials/3d/spatial_material.html"
 msgstr ""
 
 #: doc/classes/BaseMaterial3D.xml:19
@@ -9463,7 +9463,7 @@ msgstr ""
 
 #: doc/classes/Basis.xml:11 doc/classes/Transform.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/using_transforms.html"
+"http://docs.valjang.fr/tutorials/3d/using_transforms.html"
 msgstr ""
 
 #: doc/classes/Basis.xml:20
@@ -9666,7 +9666,7 @@ msgstr ""
 
 #: doc/classes/BitmapFont.xml:4
 msgid ""
-"Renders text using fonts under the [url=https://www.angelcode.com/products/"
+"Renders text using fonts under the [url=http://www.angelcode.com/products/"
 "bmfont/]BMFont[/url] format.\n"
 "Handles files with the [code].fnt[/code] extension."
 msgstr ""
@@ -10482,7 +10482,7 @@ msgstr ""
 #: doc/classes/Camera3D.xml:176
 msgid ""
 "If not [constant DOPPLER_TRACKING_DISABLED], this camera will simulate the "
-"[url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] for "
+"[url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/url] for "
 "objects changed in particular [code]_process[/code] methods. See [enum "
 "DopplerTracking] for possible values."
 msgstr ""
@@ -10517,7 +10517,7 @@ msgstr ""
 #: doc/classes/Camera3D.xml:196
 msgid ""
 "The camera's frustum offset. This can be changed from the default to create "
-"\"tilted frustum\" effects such as [url=https://zdoom.org/wiki/Y-shearing]Y-"
+"\"tilted frustum\" effects such as [url=http://zdoom.org/wiki/Y-shearing]Y-"
 "shearing[/url]."
 msgstr ""
 
@@ -10589,13 +10589,13 @@ msgstr ""
 
 #: doc/classes/Camera3D.xml:234
 msgid ""
-"Disables [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
+"Disables [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
 "url] simulation (default)."
 msgstr ""
 
 #: doc/classes/Camera3D.xml:237
 msgid ""
-"Simulate [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
+"Simulate [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
 "url] by tracking positions of objects that are changed in [code]_process[/"
 "code]. Changes in the relative velocity of this camera compared to those "
 "objects affect how Audio is perceived (changing the Audio's [code]pitch "
@@ -10604,7 +10604,7 @@ msgstr ""
 
 #: doc/classes/Camera3D.xml:240
 msgid ""
-"Simulate [url=https://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
+"Simulate [url=http://en.wikipedia.org/wiki/Doppler_effect]Doppler effect[/"
 "url] by tracking positions of objects that are changed in "
 "[code]_physics_process[/code]. Changes in the relative velocity of this "
 "camera compared to those objects affect how Audio is perceived (changing the "
@@ -10742,7 +10742,7 @@ msgid "The RGBA camera image."
 msgstr ""
 
 #: doc/classes/CameraServer.xml:77
-msgid "The [url=https://en.wikipedia.org/wiki/YCbCr]YCbCr[/url] camera image."
+msgid "The [url=http://en.wikipedia.org/wiki/YCbCr]YCbCr[/url] camera image."
 msgstr ""
 
 #: doc/classes/CameraServer.xml:80
@@ -10813,13 +10813,13 @@ msgstr ""
 
 #: doc/classes/CanvasItem.xml:15 doc/classes/CanvasLayer.xml:10
 #: doc/classes/InputEvent.xml:11 doc/classes/Viewport.xml:15
-msgid "https://docs.valjang.fr/tutorials/2d/2d_transforms.html"
+msgid "http://docs.valjang.fr/tutorials/2d/2d_transforms.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:16 doc/classes/Control.xml:19
 #: doc/classes/Node2D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/2d/custom_drawing_in_2d.html"
+"http://docs.valjang.fr/tutorials/2d/custom_drawing_in_2d.html"
 msgstr ""
 
 #: doc/classes/CanvasItem.xml:23
@@ -11332,7 +11332,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:11
-msgid "https://docs.valjang.fr/tutorials/2d/canvas_layers.html"
+msgid "http://docs.valjang.fr/tutorials/2d/canvas_layers.html"
 msgstr ""
 
 #: doc/classes/CanvasLayer.xml:18
@@ -11461,13 +11461,13 @@ msgstr ""
 #: doc/classes/CharFXTransform.xml:10 doc/classes/RichTextEffect.xml:16
 #: doc/classes/RichTextLabel.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/gui/bbcode_in_richtextlabel."
+"http://docs.valjang.fr/tutorials/gui/bbcode_in_richtextlabel."
 "html"
 msgstr ""
 
 #: doc/classes/CharFXTransform.xml:11 doc/classes/RichTextEffect.xml:17
 msgid ""
-"https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project"
+"http://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project"
 msgstr ""
 
 #: doc/classes/CharFXTransform.xml:17 doc/classes/CharFXTransform.xml:45
@@ -12242,7 +12242,7 @@ msgstr ""
 #: doc/classes/RigidBody3D.xml:13 doc/classes/Shape2D.xml:10
 #: doc/classes/Shape3D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/physics/"
+"http://docs.valjang.fr/tutorials/physics/"
 "physics_introduction.html"
 msgstr ""
 
@@ -12306,7 +12306,7 @@ msgid ""
 "accept values greater than 1.\n"
 "You can also create a color from standardized color names by using [method "
 "@GDScript.ColorN] or directly using the color constants defined here. The "
-"standardized color set is based on the [url=https://en.wikipedia.org/wiki/"
+"standardized color set is based on the [url=http://en.wikipedia.org/wiki/"
 "X11_color_names]X11 color names[/url].\n"
 "If you want to supply values in a range of 0 to 255, you should use [method "
 "@GDScript.Color8].\n"
@@ -13696,7 +13696,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Control.xml:18
-msgid "https://docs.valjang.fr/tutorials/gui/index.html"
+msgid "http://docs.valjang.fr/tutorials/gui/index.html"
 msgstr ""
 
 #: doc/classes/Control.xml:26
@@ -14996,7 +14996,7 @@ msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:11 doc/classes/GPUParticles2D.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/2d/particle_systems_2d.html"
+"http://docs.valjang.fr/tutorials/2d/particle_systems_2d.html"
 msgstr ""
 
 #: doc/classes/CPUParticles2D.xml:20
@@ -16144,7 +16144,7 @@ msgstr ""
 
 #: modules/mono/doc_classes/CSharpScript.xml:11
 msgid ""
-"https://docs.valjang.fr/getting_started/scripting/c_sharp/"
+"http://docs.valjang.fr/getting_started/scripting/c_sharp/"
 "index.html"
 msgstr ""
 
@@ -16953,7 +16953,7 @@ msgstr ""
 
 #: doc/classes/Dictionary.xml:76
 msgid ""
-"https://docs.valjang.fr/getting_started/scripting/gdscript/"
+"http://docs.valjang.fr/getting_started/scripting/gdscript/"
 "gdscript_basics.html#dictionary"
 msgstr ""
 
@@ -17051,7 +17051,7 @@ msgstr ""
 #: doc/classes/DirectionalLight3D.xml:10 doc/classes/Light3D.xml:10
 #: doc/classes/OmniLight3D.xml:10 doc/classes/SpotLight3D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/lights_and_shadows.html"
+"http://docs.valjang.fr/tutorials/3d/lights_and_shadows.html"
 msgstr ""
 
 #: doc/classes/DirectionalLight3D.xml:16
@@ -17179,7 +17179,7 @@ msgstr ""
 
 #: doc/classes/Directory.xml:27 doc/classes/File.xml:25
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "filesystem.html"
 msgstr ""
 
@@ -17456,7 +17456,7 @@ msgid ""
 "used for referencing the font file paths. DynamicFont also supports defining "
 "one or more fallbacks fonts, which will be used when displaying a character "
 "not supported by the main font.\n"
-"DynamicFont uses the [url=https://www.freetype.org/]FreeType[/url] library "
+"DynamicFont uses the [url=http://www.freetype.org/]FreeType[/url] library "
 "for rasterization.\n"
 "[codeblock]\n"
 "var dynamic_font = DynamicFont.new()\n"
@@ -17467,7 +17467,7 @@ msgid ""
 "[b]Note:[/b] DynamicFont doesn't support features such as right-to-left "
 "typesetting, ligatures, text shaping, variable fonts and optional font "
 "features yet. If you wish to \"bake\" an optional font feature into a TTF "
-"font file, you can use [url=https://fontforge.org/]FontForge[/url] to do so. "
+"font file, you can use [url=http://fontforge.org/]FontForge[/url] to do so. "
 "In FontForge, use [b]File > Generate Fonts[/b], click [b]Options[/b], choose "
 "the desired features then generate the font."
 msgstr ""
@@ -18066,7 +18066,7 @@ msgstr ""
 
 #: doc/classes/EditorImportPlugin.xml:52
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/editor/"
+"http://docs.valjang.fr/tutorials/plugins/editor/"
 "import_plugins.html"
 msgstr ""
 
@@ -18408,7 +18408,7 @@ msgstr ""
 
 #: doc/classes/EditorNode3DGizmoPlugin.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/editor/"
+"http://docs.valjang.fr/tutorials/plugins/editor/"
 "spatial_gizmos.html"
 msgstr ""
 
@@ -18532,7 +18532,7 @@ msgstr ""
 
 #: doc/classes/EditorPlugin.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/editor/index.html"
+"http://docs.valjang.fr/tutorials/plugins/editor/index.html"
 msgstr ""
 
 #: doc/classes/EditorPlugin.xml:21
@@ -19139,7 +19139,7 @@ msgstr ""
 
 #: doc/classes/EditorScenePostImport.xml:29
 msgid ""
-"https://docs.valjang.fr/getting_started/workflow/assets/"
+"http://docs.valjang.fr/getting_started/workflow/assets/"
 "importing_scenes.html#custom-script"
 msgstr ""
 
@@ -19650,13 +19650,13 @@ msgstr ""
 
 #: doc/classes/Environment.xml:14 doc/classes/WorldEnvironment.xml:12
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/"
+"http://docs.valjang.fr/tutorials/3d/"
 "environment_and_post_processing.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:15
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/high_dynamic_range.html"
+"http://docs.valjang.fr/tutorials/3d/high_dynamic_range.html"
 msgstr ""
 
 #: doc/classes/Environment.xml:24
@@ -20576,18 +20576,18 @@ msgstr ""
 
 #: doc/classes/File.xml:467
 msgid ""
-"Uses the [url=https://en.wikipedia.org/wiki/DEFLATE]DEFLATE[/url] "
+"Uses the [url=http://en.wikipedia.org/wiki/DEFLATE]DEFLATE[/url] "
 "compression method."
 msgstr ""
 
 #: doc/classes/File.xml:470
 msgid ""
-"Uses the [url=https://facebook.github.io/zstd/]Zstandard[/url] compression "
+"Uses the [url=http://facebook.github.io/zstd/]Zstandard[/url] compression "
 "method."
 msgstr ""
 
 #: doc/classes/File.xml:473
-msgid "Uses the [url=https://www.gzip.org/]gzip[/url] compression method."
+msgid "Uses the [url=http://www.gzip.org/]gzip[/url] compression method."
 msgstr ""
 
 #: doc/classes/FileDialog.xml:4
@@ -20913,13 +20913,13 @@ msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-c-"
+"http://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-c-"
 "example.html"
 msgstr ""
 
 #: modules/gdnative/doc_classes/GDNativeLibrary.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-"
+"http://docs.valjang.fr/tutorials/plugins/gdnative/gdnative-"
 "cpp-example.html"
 msgstr ""
 
@@ -20994,7 +20994,7 @@ msgstr ""
 
 #: modules/gdscript/doc_classes/GDScript.xml:11
 msgid ""
-"https://docs.valjang.fr/getting_started/scripting/gdscript/"
+"http://docs.valjang.fr/getting_started/scripting/gdscript/"
 "index.html"
 msgstr ""
 
@@ -21948,7 +21948,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/GIProbe.xml:11
-msgid "https://docs.valjang.fr/tutorials/3d/gi_probes.html"
+msgid "http://docs.valjang.fr/tutorials/3d/gi_probes.html"
 msgstr ""
 
 #: doc/classes/GIProbe.xml:22
@@ -22118,7 +22118,7 @@ msgstr ""
 
 #: doc/classes/GPUParticles3D.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/vertex_animation/"
+"http://docs.valjang.fr/tutorials/3d/vertex_animation/"
 "controlling_thousands_of_fish.html"
 msgstr ""
 
@@ -22835,7 +22835,7 @@ msgid ""
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:13
-msgid "https://docs.valjang.fr/tutorials/3d/using_gridmaps.html"
+msgid "http://docs.valjang.fr/tutorials/3d/using_gridmaps.html"
 msgstr ""
 
 #: modules/gridmap/doc_classes/GridMap.xml:20
@@ -23319,21 +23319,21 @@ msgid ""
 "indicate success, 3xx redirection (i.e. \"try again, but over here\"), 4xx "
 "something was wrong with the request, and 5xx something went wrong on the "
 "server's side.\n"
-"For more information on HTTP, see https://developer.mozilla.org/en-US/docs/"
-"Web/HTTP (or read RFC 2616 to get it straight from the source: https://tools."
+"For more information on HTTP, see http://developer.mozilla.org/en-US/docs/"
+"Web/HTTP (or read RFC 2616 to get it straight from the source: http://tools."
 "ietf.org/html/rfc2616)."
 msgstr ""
 
 #: doc/classes/HTTPClient.xml:13
 msgid ""
-"https://docs.valjang.fr/tutorials/networking/"
+"http://docs.valjang.fr/tutorials/networking/"
 "http_client_class.html"
 msgstr ""
 
 #: doc/classes/HTTPClient.xml:14 doc/classes/HTTPRequest.xml:62
 #: doc/classes/StreamPeerSSL.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/networking/ssl_certificates."
+"http://docs.valjang.fr/tutorials/networking/ssl_certificates."
 "html"
 msgstr ""
 
@@ -23347,7 +23347,7 @@ msgid ""
 "The host should not have http:// prepended but will strip the protocol "
 "identifier if provided.\n"
 "If no [code]port[/code] is specified (or [code]-1[/code] is used), it is "
-"automatically set to 80 for HTTP and 443 for HTTPS (if [code]use_ssl[/code] "
+"automatically set to 80 for HTTP and 443 for http (if [code]use_ssl[/code] "
 "is enabled).\n"
 "[code]verify_host[/code] will check the SSL identity of the host if set to "
 "[code]true[/code]."
@@ -24043,7 +24043,7 @@ msgid ""
 "\n"
 "    # Perform the HTTP request. The URL below returns some JSON as of "
 "writing.\n"
-"    var error = http_request.request(\"https://httpbin.org/get\")\n"
+"    var error = http_request.request(\"http://httpbin.org/get\")\n"
 "    if error != OK:\n"
 "        push_error(\"An error occurred in the HTTP request.\")\n"
 "\n"
@@ -24067,7 +24067,7 @@ msgid ""
 "\n"
 "    # Perform the HTTP request. The URL below returns a PNG image as of "
 "writing.\n"
-"    var error = http_request.request(\"https://via.placeholder.com/512\")\n"
+"    var error = http_request.request(\"http://via.placeholder.com/512\")\n"
 "    if error != OK:\n"
 "        push_error(\"An error occurred in the HTTP request.\")\n"
 "\n"
@@ -24091,7 +24091,7 @@ msgstr ""
 
 #: doc/classes/HTTPRequest.xml:61
 msgid ""
-"https://docs.valjang.fr/tutorials/networking/"
+"http://docs.valjang.fr/tutorials/networking/"
 "http_request_class.html"
 msgstr ""
 
@@ -24407,7 +24407,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:346
 msgid ""
-"Loads an image from file [code]path[/code]. See [url=https://docs."
+"Loads an image from file [code]path[/code]. See [url=http://docs."
 "godotengine.org/en/latest/getting_started/workflow/assets/importing_images."
 "html#supported-image-formats]Supported image formats[/url] for a list of "
 "supported image formats and limitations."
@@ -24613,7 +24613,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:559
 msgid ""
-"The [url=https://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
+"The [url=http://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
 "texture format that uses Block Compression 1, and is the smallest variation "
 "of S3TC, only providing 1 bit of alpha and color data being premultiplied "
 "with alpha.\n"
@@ -24623,7 +24623,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:563
 msgid ""
-"The [url=https://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
+"The [url=http://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
 "texture format that uses Block Compression 2, and color data is interpreted "
 "as not having been premultiplied by alpha. Well suited for images with sharp "
 "alpha transitions between translucent and opaque areas.\n"
@@ -24633,7 +24633,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:567
 msgid ""
-"The [url=https://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
+"The [url=http://en.wikipedia.org/wiki/S3_Texture_Compression]S3TC[/url] "
 "texture format also known as Block Compression 3 or BC3 that contains 64 "
 "bits of alpha channel data followed by 64 bits of DXT1-encoded color data. "
 "Color data is not premultiplied by alpha, same as DXT3. DXT5 generally "
@@ -24644,7 +24644,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:571
 msgid ""
-"Texture format that uses [url=https://www.khronos.org/opengl/wiki/"
+"Texture format that uses [url=http://www.khronos.org/opengl/wiki/"
 "Red_Green_Texture_Compression]Red Green Texture Compression[/url], "
 "normalizing the red channel data using the same compression algorithm that "
 "DXT5 uses for the alpha channel."
@@ -24652,7 +24652,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:574
 msgid ""
-"Texture format that uses [url=https://www.khronos.org/opengl/wiki/"
+"Texture format that uses [url=http://www.khronos.org/opengl/wiki/"
 "Red_Green_Texture_Compression]Red Green Texture Compression[/url], "
 "normalizing the red and green channel data using the same compression "
 "algorithm that DXT5 uses for the alpha channel."
@@ -24660,7 +24660,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:577
 msgid ""
-"Texture format that uses [url=https://www.khronos.org/opengl/wiki/"
+"Texture format that uses [url=http://www.khronos.org/opengl/wiki/"
 "BPTC_Texture_Compression]BPTC[/url] compression with unsigned normalized "
 "RGBA components.\n"
 "[b]Note:[/b] When creating an [ImageTexture], an sRGB to linear color space "
@@ -24669,14 +24669,14 @@ msgstr ""
 
 #: doc/classes/Image.xml:581
 msgid ""
-"Texture format that uses [url=https://www.khronos.org/opengl/wiki/"
+"Texture format that uses [url=http://www.khronos.org/opengl/wiki/"
 "BPTC_Texture_Compression]BPTC[/url] compression with signed floating-point "
 "RGB components."
 msgstr ""
 
 #: doc/classes/Image.xml:584
 msgid ""
-"Texture format that uses [url=https://www.khronos.org/opengl/wiki/"
+"Texture format that uses [url=http://www.khronos.org/opengl/wiki/"
 "BPTC_Texture_Compression]BPTC[/url] compression with unsigned floating-point "
 "RGB components."
 msgstr ""
@@ -24684,7 +24684,7 @@ msgstr ""
 #: doc/classes/Image.xml:587
 msgid ""
 "Texture format used on PowerVR-supported mobile platforms, uses 2-bit color "
-"depth with no alpha. More information can be found [url=https://en.wikipedia."
+"depth with no alpha. More information can be found [url=http://en.wikipedia."
 "org/wiki/PVRTC]here[/url].\n"
 "[b]Note:[/b] When creating an [ImageTexture], an sRGB to linear color space "
 "conversion is performed."
@@ -24692,25 +24692,25 @@ msgstr ""
 
 #: doc/classes/Image.xml:591
 msgid ""
-"Same as [url=https://en.wikipedia.org/wiki/PVRTC]PVRTC2[/url], but with an "
+"Same as [url=http://en.wikipedia.org/wiki/PVRTC]PVRTC2[/url], but with an "
 "alpha component."
 msgstr ""
 
 #: doc/classes/Image.xml:594
 msgid ""
-"Similar to [url=https://en.wikipedia.org/wiki/PVRTC]PVRTC2[/url], but with 4-"
+"Similar to [url=http://en.wikipedia.org/wiki/PVRTC]PVRTC2[/url], but with 4-"
 "bit color depth and no alpha."
 msgstr ""
 
 #: doc/classes/Image.xml:597
 msgid ""
-"Same as [url=https://en.wikipedia.org/wiki/PVRTC]PVRTC4[/url], but with an "
+"Same as [url=http://en.wikipedia.org/wiki/PVRTC]PVRTC4[/url], but with an "
 "alpha component."
 msgstr ""
 
 #: doc/classes/Image.xml:600
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC1]Ericsson Texture Compression format 1[/"
 "url], also referred to as \"ETC1\", and is part of the OpenGL ES graphics "
 "standard. This format cannot store an alpha channel."
@@ -24718,7 +24718,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:603
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]R11_EAC[/code] variant), which provides one channel of "
 "unsigned data."
@@ -24726,7 +24726,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:606
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]SIGNED_R11_EAC[/code] variant), which provides one "
 "channel of signed data."
@@ -24734,7 +24734,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:609
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]RG11_EAC[/code] variant), which provides two channels "
 "of unsigned data."
@@ -24742,7 +24742,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:612
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]SIGNED_RG11_EAC[/code] variant), which provides two "
 "channels of signed data."
@@ -24750,7 +24750,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:615
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]RGB8[/code] variant), which is a follow-up of ETC1 and "
 "compresses RGB888 data.\n"
@@ -24760,7 +24760,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:619
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]RGBA8[/code]variant), which compresses RGBA8888 data "
 "with full alpha support.\n"
@@ -24770,7 +24770,7 @@ msgstr ""
 
 #: doc/classes/Image.xml:623
 msgid ""
-"[url=https://en.wikipedia.org/wiki/"
+"[url=http://en.wikipedia.org/wiki/"
 "Ericsson_Texture_Compression#ETC2_and_EAC]Ericsson Texture Compression "
 "format 2[/url] ([code]RGB8_PUNCHTHROUGH_ALPHA1[/code] variant), which "
 "compresses RGBA data to make alpha either fully transparent or fully "
@@ -24916,7 +24916,7 @@ msgid ""
 "data that change every frame. It will be slow when handling large amounts of "
 "mesh data. If mesh data doesn't change often, use [ArrayMesh], "
 "[MeshDataTool] or [SurfaceTool] instead.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] Godot uses clockwise [url=http://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -24980,7 +24980,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Input.xml:10
-msgid "https://docs.valjang.fr/tutorials/inputs/index.html"
+msgid "http://docs.valjang.fr/tutorials/inputs/index.html"
 msgstr ""
 
 #: doc/classes/Input.xml:21
@@ -25400,7 +25400,7 @@ msgstr ""
 #: doc/classes/InputEventMouse.xml:10 doc/classes/InputEventScreenDrag.xml:10
 #: doc/classes/InputEventScreenTouch.xml:11
 #: doc/classes/InputEventWithModifiers.xml:10
-msgid "https://docs.valjang.fr/tutorials/inputs/inputevent.html"
+msgid "http://docs.valjang.fr/tutorials/inputs/inputevent.html"
 msgstr ""
 
 #: doc/classes/InputEvent.xml:20
@@ -25498,7 +25498,7 @@ msgstr ""
 
 #: doc/classes/InputEventAction.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/inputs/inputevent."
+"http://docs.valjang.fr/tutorials/inputs/inputevent."
 "html#actions"
 msgstr ""
 
@@ -25687,7 +25687,7 @@ msgstr ""
 #: doc/classes/InputEventMouseButton.xml:10
 #: doc/classes/InputEventMouseMotion.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/inputs/"
+"http://docs.valjang.fr/tutorials/inputs/"
 "mouse_and_input_coordinates.html"
 msgstr ""
 
@@ -25848,7 +25848,7 @@ msgstr ""
 
 #: doc/classes/InputMap.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/inputs/inputevent."
+"http://docs.valjang.fr/tutorials/inputs/inputevent."
 "html#inputmap"
 msgstr ""
 
@@ -26544,7 +26544,7 @@ msgstr ""
 
 #: doc/classes/JavaScript.xml:10
 msgid ""
-"https://docs.valjang.fr/getting_started/workflow/export/"
+"http://docs.valjang.fr/getting_started/workflow/export/"
 "exporting_for_web.html#calling-javascript-from-script"
 msgstr ""
 
@@ -26722,13 +26722,13 @@ msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:12 doc/classes/KinematicBody3D.xml:12
 msgid ""
-"https://docs.valjang.fr/tutorials/physics/"
+"http://docs.valjang.fr/tutorials/physics/"
 "kinematic_character_2d.html"
 msgstr ""
 
 #: doc/classes/KinematicBody2D.xml:13
 msgid ""
-"https://docs.valjang.fr/tutorials/physics/"
+"http://docs.valjang.fr/tutorials/physics/"
 "using_kinematic_body_2d.html"
 msgstr ""
 
@@ -27298,7 +27298,7 @@ msgstr ""
 
 #: doc/classes/Light2D.xml:11 doc/classes/LightOccluder2D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/2d/2d_lights_and_shadows."
+"http://docs.valjang.fr/tutorials/2d/2d_lights_and_shadows."
 "html"
 msgstr ""
 
@@ -28870,7 +28870,7 @@ msgid ""
 "[/codeblock]\n"
 "See also [ArrayMesh], [ImmediateGeometry3D] and [SurfaceTool] for procedural "
 "geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] Godot uses clockwise [url=http://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -29054,7 +29054,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:10
-msgid "https://docs.valjang.fr/tutorials/2d/2d_meshes.html"
+msgid "http://docs.valjang.fr/tutorials/2d/2d_meshes.html"
 msgstr ""
 
 #: doc/classes/MeshInstance2D.xml:16
@@ -29354,13 +29354,13 @@ msgstr ""
 
 #: doc/classes/MultiMesh.xml:13 doc/classes/MultiMeshInstance3D.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/vertex_animation/"
+"http://docs.valjang.fr/tutorials/3d/vertex_animation/"
 "animating_thousands_of_fish.html"
 msgstr ""
 
 #: doc/classes/MultiMesh.xml:14 doc/classes/MultiMeshInstance3D.xml:13
 msgid ""
-"https://docs.valjang.fr/tutorials/optimization/"
+"http://docs.valjang.fr/tutorials/optimization/"
 "using_multimesh.html"
 msgstr ""
 
@@ -29478,7 +29478,7 @@ msgstr ""
 
 #: doc/classes/MultiMeshInstance3D.xml:12
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/"
+"http://docs.valjang.fr/tutorials/3d/"
 "using_multi_mesh_instance.html"
 msgstr ""
 
@@ -29697,7 +29697,7 @@ msgstr ""
 #: doc/classes/Mutex.xml:10 doc/classes/Semaphore.xml:10
 #: doc/classes/Thread.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/threads/"
+"http://docs.valjang.fr/tutorials/threads/"
 "using_multiple_threads.html"
 msgstr ""
 
@@ -30445,7 +30445,7 @@ msgstr ""
 #: modules/enet/doc_classes/NetworkedMultiplayerENet.xml:10
 #: doc/classes/NetworkedMultiplayerPeer.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/networking/"
+"http://docs.valjang.fr/tutorials/networking/"
 "high_level_multiplayer.html"
 msgstr ""
 
@@ -30628,13 +30628,13 @@ msgstr ""
 
 #: modules/enet/doc_classes/NetworkedMultiplayerENet.xml:163
 msgid ""
-"[url=https://www.zlib.net/]Zlib[/url] compression. This option uses less "
+"[url=http://www.zlib.net/]Zlib[/url] compression. This option uses less "
 "bandwidth compared to [constant COMPRESS_FASTLZ], at the expense of using "
 "more CPU resources."
 msgstr ""
 
 #: modules/enet/doc_classes/NetworkedMultiplayerENet.xml:166
-msgid "[url=https://facebook.github.io/zstd/]Zstandard[/url] compression."
+msgid "[url=http://facebook.github.io/zstd/]Zstandard[/url] compression."
 msgstr ""
 
 #: doc/classes/NetworkedMultiplayerPeer.xml:4
@@ -30894,7 +30894,7 @@ msgstr ""
 
 #: doc/classes/Node.xml:20
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "scenes_and_nodes.html"
 msgstr ""
 
@@ -31045,8 +31045,8 @@ msgid ""
 "children, use [method add_sibling] instead of this method.\n"
 "[b]Note:[/b] If you want a child to be persisted to a [PackedScene], you "
 "must set [member owner] in addition to calling [method add_child]. This is "
-"typically relevant for [url=https://godot.readthedocs.io/en/latest/tutorials/"
-"misc/running_code_in_the_editor.html]tool scripts[/url] and [url=https://"
+"typically relevant for [url=http://godot.readthedocs.io/en/latest/tutorials/"
+"misc/running_code_in_the_editor.html]tool scripts[/url] and [url=http://"
 "godot.readthedocs.io/en/latest/tutorials/plugins/editor/index.html]editor "
 "plugins[/url]. If [method add_child] is called without setting [member "
 "owner], the newly added [Node] will not be visible in the scene tree, though "
@@ -31998,7 +31998,7 @@ msgstr ""
 
 #: doc/classes/Node3D.xml:12
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/introduction_to_3d.html"
+"http://docs.valjang.fr/tutorials/3d/introduction_to_3d.html"
 msgstr ""
 
 #: doc/classes/Node3D.xml:26
@@ -33544,7 +33544,7 @@ msgid ""
 "Returns [code]true[/code] if the feature for the given feature tag is "
 "supported in the currently running instance, depending on platform, build "
 "etc. Can be used to check whether you're currently running a debug build, on "
-"a certain platform or arch, etc. Refer to the [url=https://docs.godotengine."
+"a certain platform or arch, etc. Refer to the [url=http://docs.godotengine."
 "org/en/latest/getting_started/workflow/export/feature_tags.html]Feature "
 "Tags[/url] documentation for more details.\n"
 "[b]Note:[/b] Tag names are case-sensitive."
@@ -33646,7 +33646,7 @@ msgid ""
 "web browser on the official Godot website.\n"
 "- [code]OS.shell_open(\"mailto:example@example.com\")[/code] opens the "
 "default email client with the \"To\" field set to [code]example@example.com[/"
-"code]. See [url=https://blog.escapecreative.com/customizing-mailto-"
+"code]. See [url=http://blog.escapecreative.com/customizing-mailto-"
 "links/]Customizing [code]mailto:[/code] Links[/url] for a list of fields "
 "that can be added.\n"
 "Use [method ProjectSettings.globalize_path] to convert a [code]res://[/code] "
@@ -34504,7 +34504,7 @@ msgid ""
 "Using an HDR panorama is strongly recommended for accurate, high-quality "
 "reflections. Godot supports the Radiance HDR ([code].hdr[/code]) and OpenEXR "
 "([code].exr[/code]) image formats for this purpose.\n"
-"You can use [url=https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/"
+"You can use [url=http://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/"
 "cubemap_to_panorama.html]this tool[/url] to convert a cube map to an "
 "equirectangular sky map."
 msgstr ""
@@ -35535,7 +35535,7 @@ msgstr ""
 #: doc/classes/RayCast3D.xml:14 doc/classes/World2D.xml:10
 #: doc/classes/World3D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/physics/ray-casting.html"
+"http://docs.valjang.fr/tutorials/physics/ray-casting.html"
 msgstr ""
 
 #: doc/classes/PhysicsDirectBodyState2D.xml:19 doc/classes/RigidBody2D.xml:31
@@ -38759,7 +38759,7 @@ msgstr ""
 
 #: doc/classes/ProjectSettings.xml:272
 msgid ""
-"Enables [url=https://github.com/facebook/zstd/releases/tag/v1.3.2]long-"
+"Enables [url=http://github.com/facebook/zstd/releases/tag/v1.3.2]long-"
 "distance matching[/url] in Zstandard."
 msgstr ""
 
@@ -39724,7 +39724,7 @@ msgstr ""
 #: doc/classes/ProjectSettings.xml:856
 msgid ""
 "The CA certificates bundle to use for SSL connections. If this is set to a "
-"non-empty value, this will [i]override[/i] Godot's default [url=https://"
+"non-empty value, this will [i]override[/i] Godot's default [url=http://"
 "github.com/godotengine/godot/blob/master/thirdparty/certs/ca-certificates."
 "crt]Mozilla certificate bundle[/url]. If left empty, the default certificate "
 "bundle will be used.\n"
@@ -39867,7 +39867,7 @@ msgstr ""
 #: doc/classes/ProjectSettings.xml:939
 msgid ""
 "Sets which physics engine to use for 3D physics.\n"
-"\"DEFAULT\" is currently the [url=https://bulletphysics.org]Bullet[/url] "
+"\"DEFAULT\" is currently the [url=http://bulletphysics.org]Bullet[/url] "
 "physics engine. The \"GodotPhysics3D\" engine is still supported as an "
 "alternative."
 msgstr ""
@@ -39922,7 +39922,7 @@ msgstr ""
 msgid ""
 "Some NVIDIA GPU drivers have a bug which produces flickering issues for the "
 "[code]draw_rect[/code] method, especially as used in [TileMap]. Refer to "
-"[url=https://github.com/mehdigoom/ValjangEngine4.0.x/issues/9913]GitHub issue 9913[/"
+"[url=http://github.com/mehdigoom/ValjangEngine4.0.x/issues/9913]GitHub issue 9913[/"
 "url] for details.\n"
 "If [code]true[/code], this option enables a \"safe\" code path for such "
 "NVIDIA GPUs at the cost of performance. This option only impacts the GLES2 "
@@ -40365,7 +40365,7 @@ msgstr ""
 
 #: doc/classes/Quat.xml:12
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/using_transforms."
+"http://docs.valjang.fr/tutorials/3d/using_transforms."
 "html#interpolating-with-quaternions"
 msgstr ""
 
@@ -40518,7 +40518,7 @@ msgstr ""
 
 #: doc/classes/RandomNumberGenerator.xml:46
 msgid ""
-"Generates a [url=https://en.wikipedia.org/wiki/Normal_distribution]normally-"
+"Generates a [url=http://en.wikipedia.org/wiki/Normal_distribution]normally-"
 "distributed[/url] pseudo-random number, using Box-Muller transform with the "
 "specified [code]mean[/code] and a standard [code]deviation[/code]. This is "
 "also called Gaussian distribution."
@@ -41136,7 +41136,7 @@ msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/3d/reflection_probes.html"
+"http://docs.valjang.fr/tutorials/3d/reflection_probes.html"
 msgstr ""
 
 #: doc/classes/ReflectionProbe.xml:17
@@ -41289,10 +41289,10 @@ msgid ""
 "    print(result.get_string(\"digit\"))\n"
 "# Would print 01 03 0 3f 42\n"
 "[/codeblock]\n"
-"[b]Note:[/b] Godot's regex implementation is based on the [url=https://www."
+"[b]Note:[/b] Godot's regex implementation is based on the [url=http://www."
 "pcre.org/]PCRE2[/url] library. You can view the full pattern reference "
-"[url=https://www.pcre.org/current/doc/html/pcre2pattern.html]here[/url].\n"
-"[b]Tip:[/b] You can use [url=https://regexr.com/]Regexr[/url] to test "
+"[url=http://www.pcre.org/current/doc/html/pcre2pattern.html]here[/url].\n"
+"[b]Tip:[/b] You can use [url=http://regexr.com/]Regexr[/url] to test "
 "regular expressions online."
 msgstr ""
 
@@ -41520,7 +41520,7 @@ msgstr ""
 
 #: doc/classes/RenderingServer.xml:18
 msgid ""
-"https://docs.valjang.fr/tutorials/optimization/using_servers."
+"http://docs.valjang.fr/tutorials/optimization/using_servers."
 "html"
 msgstr ""
 
@@ -43859,7 +43859,7 @@ msgstr ""
 
 #: doc/classes/Resource.xml:10
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "resources.html"
 msgstr ""
 
@@ -45333,13 +45333,13 @@ msgstr ""
 
 #: doc/classes/SceneTree.xml:12
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "scene_tree.html"
 msgstr ""
 
 #: doc/classes/SceneTree.xml:13
 msgid ""
-"https://docs.valjang.fr/tutorials/viewports/"
+"http://docs.valjang.fr/tutorials/viewports/"
 "multiple_resolutions.html"
 msgstr ""
 
@@ -45680,7 +45680,7 @@ msgstr ""
 
 #: doc/classes/Script.xml:11
 msgid ""
-"https://docs.valjang.fr/getting_started/step_by_step/"
+"http://docs.valjang.fr/getting_started/step_by_step/"
 "scripting.html"
 msgstr ""
 
@@ -45962,12 +45962,12 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Shader.xml:10 doc/classes/ShaderMaterial.xml:10
-msgid "https://docs.valjang.fr/tutorials/shading/index.html"
+msgid "http://docs.valjang.fr/tutorials/shading/index.html"
 msgstr ""
 
 #: doc/classes/Shader.xml:11
 msgid ""
-"https://docs.valjang.fr/tutorials/shading/your_first_shader/"
+"http://docs.valjang.fr/tutorials/shading/your_first_shader/"
 "what_are_shaders.html"
 msgstr ""
 
@@ -46229,7 +46229,7 @@ msgstr ""
 
 #: doc/classes/Skeleton2D.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/animation/2d_skeletons.html"
+"http://docs.valjang.fr/tutorials/animation/2d_skeletons.html"
 msgstr ""
 
 #: doc/classes/Skeleton2D.xml:19
@@ -46606,7 +46606,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:10
-msgid "https://docs.valjang.fr/tutorials/physics/soft_body.html"
+msgid "http://docs.valjang.fr/tutorials/physics/soft_body.html"
 msgstr ""
 
 #: doc/classes/SoftBody3D.xml:83
@@ -47005,7 +47005,7 @@ msgid ""
 "A node that displays a 2D texture in a 3D environment. The texture displayed "
 "can be a region from a larger atlas texture, or a frame from a sprite sheet "
 "animation.\n"
-"[b]Note:[/b] There are [url=https://github.com/mehdigoom/ValjangEngine4.0.x/"
+"[b]Note:[/b] There are [url=http://github.com/mehdigoom/ValjangEngine4.0.x/"
 "issues/20855]known performance issues[/url] when using [Sprite3D]. Consider "
 "using a [MeshInstance3D] with a [QuadMesh] as the mesh instead. You can "
 "still have billboarding by enabling billboard properties in the QuadMesh's "
@@ -47556,7 +47556,7 @@ msgstr ""
 
 #: doc/classes/String.xml:10
 msgid ""
-"https://docs.valjang.fr/getting_started/scripting/gdscript/"
+"http://docs.valjang.fr/getting_started/scripting/gdscript/"
 "gdscript_format_string.html"
 msgstr ""
 
@@ -47831,7 +47831,7 @@ msgid ""
 "Escapes (encodes) a string to URL friendly format. Also referred to as 'URL "
 "encode'.\n"
 "[codeblock]\n"
-"print(\"https://example.org/?escaped=\" + \"Valjang Engine:'docs'\"."
+"print(\"http://example.org/?escaped=\" + \"Valjang Engine:'docs'\"."
 "http_escape())\n"
 "[/codeblock]"
 msgstr ""
@@ -47841,7 +47841,7 @@ msgid ""
 "Unescapes (decodes) a string in URL encoded format. Also referred to as 'URL "
 "decode'.\n"
 "[codeblock]\n"
-"print(\"https://example.org/?escaped=\" + \"Godot%20Engine%3A%27docs%27\"."
+"print(\"http://example.org/?escaped=\" + \"Godot%20Engine%3A%27docs%27\"."
 "http_unescape())\n"
 "[/codeblock]"
 msgstr ""
@@ -48855,7 +48855,7 @@ msgid ""
 "vertex, you cannot add color to any of the subsequent vertices.\n"
 "See also [ArrayMesh], [ImmediateGeometry3D] and [MeshDataTool] for "
 "procedural geometry generation.\n"
-"[b]Note:[/b] Godot uses clockwise [url=https://learnopengl.com/Advanced-"
+"[b]Note:[/b] Godot uses clockwise [url=http://learnopengl.com/Advanced-"
 "OpenGL/Face-culling]winding order[/url] for front faces of triangle "
 "primitive modes."
 msgstr ""
@@ -50243,7 +50243,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Theme.xml:11
-msgid "https://docs.valjang.fr/tutorials/gui/gui_skinning.html"
+msgid "http://docs.valjang.fr/tutorials/gui/gui_skinning.html"
 msgstr ""
 
 #: doc/classes/Theme.xml:18
@@ -50494,7 +50494,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/TileMap.xml:10
-msgid "https://docs.valjang.fr/tutorials/2d/using_tilemaps.html"
+msgid "http://docs.valjang.fr/tutorials/2d/using_tilemaps.html"
 msgstr ""
 
 #: doc/classes/TileMap.xml:17
@@ -51505,12 +51505,12 @@ msgstr ""
 
 #: doc/classes/Translation.xml:10 doc/classes/TranslationServer.xml:10
 msgid ""
-"https://docs.valjang.fr/tutorials/i18n/"
+"http://docs.valjang.fr/tutorials/i18n/"
 "internationalizing_games.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:11 doc/classes/TranslationServer.xml:11
-msgid "https://docs.valjang.fr/tutorials/i18n/locales.html"
+msgid "http://docs.valjang.fr/tutorials/i18n/locales.html"
 msgstr ""
 
 #: doc/classes/Translation.xml:22
@@ -52423,14 +52423,14 @@ msgid ""
 "where it would only apply to that particular component.\n"
 "Many of the methods accept [code]trans_type[/code] and [code]ease_type[/"
 "code]. The first accepts an [enum TransitionType] constant, and refers to "
-"the way the timing of the animation is handled (see [url=https://easings."
+"the way the timing of the animation is handled (see [url=http://easings."
 "net/]easings.net[/url] for some examples). The second accepts an [enum "
 "EaseType] constant, and controls where the [code]trans_type[/code] is "
 "applied to the interpolation (in the beginning, the end, or both). If you "
 "don't know which transition and easing to pick, you can try different [enum "
 "TransitionType] constants with [constant EASE_IN_OUT], and use the one that "
 "looks best.\n"
-"[url=https://raw.githubusercontent.com/godotengine/godot-docs/master/img/"
+"[url=http://raw.githubusercontent.com/godotengine/godot-docs/master/img/"
 "tween_cheatsheet.png]Tween easing and transition types cheatsheet[/url]"
 msgstr ""
 
@@ -53386,7 +53386,7 @@ msgstr ""
 
 #: doc/classes/Variant.xml:53
 msgid ""
-"https://docs.valjang.fr/development/cpp/variant_class.html"
+"http://docs.valjang.fr/development/cpp/variant_class.html"
 msgstr ""
 
 #: doc/classes/VBoxContainer.xml:4
@@ -54049,8 +54049,8 @@ msgstr ""
 #: doc/classes/VideoPlayer.xml:7
 msgid ""
 "Control node for playing video streams using [VideoStream] resources.\n"
-"Supported video formats are [url=https://www.webmproject.org/]WebM[/url] "
-"([VideoStreamWebm]), [url=https://www.theora.org/]Ogg Theora[/url] "
+"Supported video formats are [url=http://www.webmproject.org/]WebM[/url] "
+"([VideoStreamWebm]), [url=http://www.theora.org/]Ogg Theora[/url] "
 "([VideoStreamTheora]), and any format exposed via a GDNative plugin using "
 "[VideoStreamGDNative]."
 msgstr ""
@@ -54149,8 +54149,8 @@ msgstr ""
 #: modules/gdnative/doc_classes/VideoStreamGDNative.xml:7
 msgid ""
 "[VideoStream] resource for for video formats implemented via GDNative.\n"
-"It can be used via [url=https://github.com/KidRigger/godot-"
-"videodecoder]godot-videodecoder[/url] which uses the [url=https://ffmpeg."
+"It can be used via [url=http://github.com/KidRigger/godot-"
+"videodecoder]godot-videodecoder[/url] which uses the [url=http://ffmpeg."
 "org]FFmpeg[/url] library."
 msgstr ""
 
@@ -54171,7 +54171,7 @@ msgstr ""
 
 #: modules/theora/doc_classes/VideoStreamTheora.xml:7
 msgid ""
-"[VideoStream] resource handling the [url=https://www.theora.org/]Ogg Theora[/"
+"[VideoStream] resource handling the [url=http://www.theora.org/]Ogg Theora[/"
 "url] video format with [code].ogv[/code] extension."
 msgstr ""
 
@@ -54192,7 +54192,7 @@ msgstr ""
 
 #: modules/webm/doc_classes/VideoStreamWebm.xml:7
 msgid ""
-"[VideoStream] resource handling the [url=https://www.webmproject.org/]WebM[/"
+"[VideoStream] resource handling the [url=http://www.webmproject.org/]WebM[/"
 "url] video format with [code].webm[/code] extension."
 msgstr ""
 
@@ -54228,7 +54228,7 @@ msgid ""
 msgstr ""
 
 #: doc/classes/Viewport.xml:16
-msgid "https://docs.valjang.fr/tutorials/viewports/index.html"
+msgid "http://docs.valjang.fr/tutorials/viewports/index.html"
 msgstr ""
 
 #: doc/classes/Viewport.xml:23
@@ -54881,7 +54881,7 @@ msgstr ""
 
 #: modules/visual_script/doc_classes/VisualScript.xml:12
 msgid ""
-"https://docs.valjang.fr/getting_started/scripting/"
+"http://docs.valjang.fr/getting_started/scripting/"
 "visual_script/index.html"
 msgstr ""
 
@@ -56109,7 +56109,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:9
 msgid ""
-"https://docs.valjang.fr/tutorials/shading/visual_shaders.html"
+"http://docs.valjang.fr/tutorials/shading/visual_shaders.html"
 msgstr ""
 
 #: doc/classes/VisualShaderNode.xml:16
@@ -56564,7 +56564,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeCustom.xml:16
 msgid ""
-"https://docs.valjang.fr/tutorials/plugins/editor/"
+"http://docs.valjang.fr/tutorials/plugins/editor/"
 "visual_shader_plugins.html"
 msgstr ""
 
@@ -57274,7 +57274,7 @@ msgstr ""
 
 #: doc/classes/VisualShaderNodeInput.xml:10
 msgid ""
-"https://docs.valjang.fr/en/stable/tutorials/shading/shading_reference/"
+"http://docs.valjang.fr/en/stable/tutorials/shading/shading_reference/"
 "index.html"
 msgstr ""
 
@@ -59061,7 +59061,7 @@ msgstr ""
 
 #: doc/classes/XMLParser.xml:4
 msgid ""
-"Low-level class for creating parsers for [url=https://en.wikipedia.org/wiki/"
+"Low-level class for creating parsers for [url=http://en.wikipedia.org/wiki/"
 "XML]XML[/url] files."
 msgstr ""
 
@@ -59281,7 +59281,7 @@ msgstr ""
 #: doc/classes/XRCamera3D.xml:11 doc/classes/XRController3D.xml:12
 #: doc/classes/XRInterface.xml:11 doc/classes/XROrigin3D.xml:13
 #: doc/classes/XRPositionalTracker.xml:12 doc/classes/XRServer.xml:10
-msgid "https://docs.valjang.fr/tutorials/vr/index.html"
+msgid "http://docs.valjang.fr/tutorials/vr/index.html"
 msgstr ""
 
 #: doc/classes/XRController3D.xml:4

@@ -48,7 +48,7 @@
    * coverage of the outline on each pixel cell by straight segments.
    *
    * It is based on ideas that I initially found in Raph Levien's
-   * excellent LibArt graphics library (see https://www.levien.com/libart
+   * excellent LibArt graphics library (see http://www.levien.com/libart
    * for more information, though the web pages do not tell anything
    * about the renderer; you'll have to dive into the source code to
    * understand how it works).
@@ -368,7 +368,7 @@ typedef ptrdiff_t  FT_PtrDist;
   /* optimize a division and modulo operation on the same parameters   */
   /* into a single call to `__aeabi_idivmod'.  See                     */
   /*                                                                   */
-  /*  https://gcc.gnu.org/bugzilla/show_bug.cgi?id=43721               */
+  /*  http://gcc.gnu.org/bugzilla/show_bug.cgi?id=43721               */
 #undef FT_DIV_MOD
 #define FT_DIV_MOD( type, dividend, divisor, quotient, remainder ) \
   FT_BEGIN_STMNT                                                   \

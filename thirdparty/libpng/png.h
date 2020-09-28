@@ -260,7 +260,7 @@
  *
  * See libpng.txt or libpng.3 for more information.  The PNG specification
  * is available as a W3C Recommendation and as an ISO/IEC Standard; see
- * <https://www.w3.org/TR/2003/REC-PNG-20031110/>
+ * <http://www.w3.org/TR/2003/REC-PNG-20031110/>
  */
 
 #ifndef PNG_H
@@ -2756,7 +2756,7 @@ typedef struct
  *
  * When the simplified API needs to convert between sRGB and linear colorspaces,
  * the actual sRGB transfer curve defined in the sRGB specification (see the
- * article at <https://en.wikipedia.org/wiki/SRGB>) is used, not the gamma=1/2.2
+ * article at <http://en.wikipedia.org/wiki/SRGB>) is used, not the gamma=1/2.2
  * approximation used elsewhere in libpng.
  *
  * When an alpha channel is present it is expected to denote pixel coverage

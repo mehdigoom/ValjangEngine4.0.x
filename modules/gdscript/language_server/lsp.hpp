@@ -717,7 +717,7 @@ static const String Markdown = "markdown";
  * kind flag. Currently the protocol supports `plaintext` and `markdown` as markup kinds.
  *
  * If the kind is `markdown` then the value can contain fenced code blocks like in GitHub issues.
- * See https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting
+ * See http://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting
  *
  * Here is an example how such a string can be constructed using JavaScript / TypeScript:
  * ```typescript

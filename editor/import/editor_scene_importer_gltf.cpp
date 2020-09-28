@@ -678,7 +678,7 @@ int EditorSceneImporterGLTF::_get_component_type_size(const int component_type) 
 
 Vector<double> EditorSceneImporterGLTF::_decode_accessor(GLTFState &state, const GLTFAccessorIndex p_accessor, const bool p_for_vertex) {
 	//spec, for reference:
-	//https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#data-alignment
+	//http://github.com/KhronosGroup/glTF/tree/master/specification/2.0#data-alignment
 
 	ERR_FAIL_INDEX_V(p_accessor, state.accessors.size(), Vector<double>());
 
@@ -1930,7 +1930,7 @@ Error EditorSceneImporterGLTF::_reparent_non_joint_skeleton_subtrees(GLTFState &
 	// can remove this code.
 
 	// skinD depicted here explains this issue:
-	// https://github.com/KhronosGroup/glTF-Asset-Generator/blob/master/Output/Positive/Animation_Skin
+	// http://github.com/KhronosGroup/glTF-Asset-Generator/blob/master/Output/Positive/Animation_Skin
 
 	for (int i = 0; i < non_joints.size(); ++i) {
 		const GLTFNodeIndex node_i = non_joints[i];
@@ -2595,7 +2595,7 @@ Light3D *EditorSceneImporterGLTF::_generate_light(GLTFState &state, Node *scene_
 		light->set_param(SpotLight3D::PARAM_SPOT_ANGLE, Math::rad2deg(l.outer_cone_angle));
 		light->set_color(l.color);
 
-		// Line of best fit derived from guessing, see https://www.desmos.com/calculator/biiflubp8b
+		// Line of best fit derived from guessing, see http://www.desmos.com/calculator/biiflubp8b
 		// The points in desmos are not exact, except for (1, infinity).
 		float angle_ratio = l.inner_cone_angle / l.outer_cone_angle;
 		float angle_attenuation = 0.2 / (1 - angle_ratio) - 0.1;

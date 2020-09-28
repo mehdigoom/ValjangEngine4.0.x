@@ -43,13 +43,13 @@
  *
  *  **********
  *
- *  This file is part of mbed TLS (https://tls.mbed.org)
+ *  This file is part of mbed TLS (http://tls.mbed.org)
  */
 
 /*
  * This implementation is based on the following standards:
  * [1] http://210.104.33.10/ARIA/doc/ARIA-specification-e.pdf
- * [2] https://tools.ietf.org/html/rfc5794
+ * [2] http://tools.ietf.org/html/rfc5794
  */
 
 #if !defined(MBEDTLS_CONFIG_FILE)

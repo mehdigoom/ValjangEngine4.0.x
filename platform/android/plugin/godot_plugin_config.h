@@ -65,7 +65,7 @@ The `dependencies` section and fields are optional and defined as follow:
 - **remote**: contains a list of remote binary gradle dependencies for the plugin.
 - **custom_maven_repos**: contains a list of urls specifying custom maven repos required for the plugin's dependencies.
 
- See https://github.com/mehdigoom/ValjangEngine4.0.x/issues/38157#issuecomment-618773871
+ See http://github.com/mehdigoom/ValjangEngine4.0.x/issues/38157#issuecomment-618773871
  */
 struct PluginConfig {
 	// Set to true when the config file is properly loaded.

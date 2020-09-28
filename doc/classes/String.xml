@@ -7,7 +7,7 @@
 		This is the built-in string class (and the one used by GDScript). It supports Unicode and provides all necessary means for string handling. Strings are reference-counted and use a copy-on-write approach, so passing them around is cheap in resources.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/getting_started/scripting/gdscript/gdscript_format_string.html</link>
+		<link>http://docs.valjang.fr/getting_started/scripting/gdscript/gdscript_format_string.html</link>
 	</tutorials>
 	<methods>
 		<method name="String">
@@ -495,7 +495,7 @@
 			<description>
 				Escapes (encodes) a string to URL friendly format. Also referred to as 'URL encode'.
 				[codeblock]
-				print("https://example.org/?escaped=" + "Valjang Engine:'docs'".http_escape())
+				print("http://example.org/?escaped=" + "Valjang Engine:'docs'".http_escape())
 				[/codeblock]
 			</description>
 		</method>
@@ -505,7 +505,7 @@
 			<description>
 				Unescapes (decodes) a string in URL encoded format. Also referred to as 'URL decode'.
 				[codeblock]
-				print("https://example.org/?escaped=" + "Godot%20Engine%3A%27docs%27".http_unescape())
+				print("http://example.org/?escaped=" + "Godot%20Engine%3A%27docs%27".http_unescape())
 				[/codeblock]
 			</description>
 		</method>

@@ -1698,7 +1698,7 @@
    *
    * Apple's TrueType specification at
    *
-   *   https://developer.apple.com/fonts/TrueType-Reference-Manual/RM02/Chap2.html#order
+   *   http://developer.apple.com/fonts/TrueType-Reference-Manual/RM02/Chap2.html#order
    *
    * gives the following order of operations in instructions that move
    * points.

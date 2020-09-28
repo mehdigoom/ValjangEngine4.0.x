@@ -8,7 +8,7 @@
 		See also [GPUParticles2D], which provides the same functionality with hardware acceleration, but may not run on older devices.
 	</description>
 	<tutorials>
-		<link>https://docs.valjang.fr/tutorials/2d/particle_systems_2d.html</link>
+		<link>http://docs.valjang.fr/tutorials/2d/particle_systems_2d.html</link>
 	</tutorials>
 	<methods>
 		<method name="convert_from_particles">

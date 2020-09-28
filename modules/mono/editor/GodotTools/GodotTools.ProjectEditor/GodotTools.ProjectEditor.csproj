@@ -14,7 +14,7 @@
   <ItemGroup>
     <!--
     The Microsoft.Build.Runtime package is too problematic so we create a MSBuild.exe stub. The workaround described
-    here doesn't work with Microsoft.NETFramework.ReferenceAssemblies: https://github.com/microsoft/msbuild/issues/3486
+    here doesn't work with Microsoft.NETFramework.ReferenceAssemblies: http://github.com/microsoft/msbuild/issues/3486
     We need a MSBuild.exe file as there's an issue in Microsoft.Build where it executes platform dependent code when
     searching for MSBuild.exe before the fallback to not using it. A stub is fine as it should never be executed.
     -->
