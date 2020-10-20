@@ -2403,7 +2403,7 @@ ProjectManager::ProjectManager() {
 
 	String cp;
 	cp += 0xA9;
-	DisplayServer::get_singleton()->window_set_title(VERSION_NAME + String(" - ") + TTR("Project Manager") + " - " + cp + " 2007-2020 Valjang & Godot Contributors");
+	DisplayServer::get_singleton()->window_set_title(VERSION_NAME + String(" - ") + TTR("Project Manager") + " - " + cp + " 2007-2020 Valjang");
 
 	Control *center_box = memnew(Control);
 	center_box->set_v_size_flags(Control::SIZE_EXPAND_FILL);
